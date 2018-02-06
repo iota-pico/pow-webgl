@@ -13,7 +13,7 @@ The libraries are written in TypeScript so are all strongly typed. The modules a
 ## Installation
 
 ```shell
-npm install @iota-pico/data
+npm install @iota-pico/pow-webgl
 ```
 
 ## POW WebGL
