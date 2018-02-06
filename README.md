@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iotaeco/iota-pico-data/master/LICENSE) [![Build Status](https://travis-ci.org/iotaeco/iota-pico-data.svg?branch=master)](https://travis-ci.org/iotaeco/iota-pico-data) [![NSP Status](https://nodesecurity.io/orgs/iotaeco/projects/7c87b8c0-6bbd-4a10-b219-51de27a4977b/badge)](https://nodesecurity.io/orgs/iotaeco/projects/7c87b8c0-6bbd-4a10-b219-51de27a4977b)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iotaeco/iota-pico-pow-webgl/master/LICENSE) [![Build Status](https://travis-ci.org/iotaeco/iota-pico-pow-webgl.svg?branch=master)](https://travis-ci.org/iotaeco/iota-pico-pow-webgl) [![NSP Status](https://nodesecurity.io/orgs/iotaeco/projects/1fcb4e52-e85f-4bc9-9a9a-7523694cd3d5/badge)](https://nodesecurity.io/orgs/iotaeco/projects/1fcb4e52-e85f-4bc9-9a9a-7523694cd3d5)
 
 # IOTA Pico Framework Data
 
@@ -16,9 +16,9 @@ The libraries are written in TypeScript so are all strongly typed. The modules a
 npm install @iota-pico/data
 ```
 
-## Data
+## POW WebGL
 
-The library contains data structures and helpers for manipulating data used by IOTA.
+The library contains the Ccurl proof of work algorithm for WebGL platforms.
 
 ## Platform Abstraction Layers (PALs)
 
