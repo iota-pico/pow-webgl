@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iotaeco/iota-pico-pow-webgl/master/LICENSE) [![Build Status](https://travis-ci.org/iotaeco/iota-pico-pow-webgl.svg?branch=master)](https://travis-ci.org/iotaeco/iota-pico-pow-webgl) [![NSP Status](https://nodesecurity.io/orgs/iotaeco/projects/1fcb4e52-e85f-4bc9-9a9a-7523694cd3d5/badge)](https://nodesecurity.io/orgs/iotaeco/projects/1fcb4e52-e85f-4bc9-9a9a-7523694cd3d5)
 
-# IOTA Pico Framework Data
+# IOTA Pico Framework Proof Of Work WebGL
 
 ## Introduction
 
