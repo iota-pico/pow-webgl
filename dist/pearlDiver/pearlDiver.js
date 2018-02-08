@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 const coreError_1 = require("@iota-pico/core/dist/error/coreError");
-const curl_1 = require("@iota-pico/crypto/dist/tritHashers/curl");
+const tritsHasherFactory_1 = require("@iota-pico/crypto/dist/factories/tritsHasherFactory");
 const trits_1 = require("@iota-pico/data/dist/data/trits");
 const add_1 = __importDefault(require("../shaders/add"));
 const checkCol_1 = __importDefault(require("../shaders/checkCol"));
@@ -25,9 +25,15 @@ class PearlDiver {
     /* @internal */
     constructor() {
         this._webGLWorker = new webGLWorker_1.WebGLWorker();
-        /* false positive */
-        /* tslint:disable restrict-plus-operands */
-        this._webGLWorker.initialize(curl_1.Curl.STATE_LENGTH + 1, PearlDiver.TEXEL_SIZE);
+        const curl = tritsHasherFactory_1.TritsHasherFactory.instance().create("curl");
+        const curlConstants = curl.getConstants();
+        this._hashLength = curlConstants.HASH_LENGTH;
+        this._stateLength = curlConstants.STATE_LENGTH;
+        this._numberRounds = curlConstants.NUMBER_OF_ROUNDS;
+        this._transactionLength = this._hashLength * 33;
+        this._nonceLength = this._hashLength / 3;
+        this._nonceStart = this._hashLength - this._nonceLength;
+        this._webGLWorker.initialize(this._stateLength + 1, PearlDiver.TEXEL_SIZE);
         this._offset = 0;
         this._currentBuffer = this._webGLWorker.getIpt().data;
         this._webGLWorker.addProgram("init", headers_1.default + add_1.default + init_1.default, "gr_offset");
@@ -86,14 +92,14 @@ class PearlDiver {
     }
     /* @internal */
     prepare(transactionTrytes) {
-        const curl = new curl_1.Curl();
+        const curl = tritsHasherFactory_1.TritsHasherFactory.instance().create("curl");
         curl.initialize();
         const transactionTrits = trits_1.Trits.fromTrytes(transactionTrytes);
-        curl.absorb(transactionTrits, 0, PearlDiver.TRANSACTION_LENGTH - curl_1.Curl.HASH_LENGTH);
+        curl.absorb(transactionTrits, 0, this._transactionLength - this._hashLength);
         const tritData = transactionTrits.toValue();
         const curlState = curl.getState();
         tritData
-            .slice(PearlDiver.TRANSACTION_LENGTH - curl_1.Curl.HASH_LENGTH, PearlDiver.TRANSACTION_LENGTH)
+            .slice(this._transactionLength - this._hashLength, this._transactionLength)
             .forEach((value, index) => {
             curlState[index] = value;
         });
@@ -101,7 +107,7 @@ class PearlDiver {
     }
     /* @internal */
     async search(states, minWeight) {
-        if (minWeight >= curl_1.Curl.HASH_LENGTH || minWeight <= 0) {
+        if (minWeight >= this._hashLength || minWeight <= 0) {
             return Promise.reject(new coreError_1.CoreError("Bad Min-Weight Magnitude", { minWeight }));
         }
         // promise will complete when the search has completed
@@ -120,8 +126,8 @@ class PearlDiver {
     /* @internal */
     searchToPair(state) {
         const states = {
-            low: new Int32Array(curl_1.Curl.STATE_LENGTH),
-            high: new Int32Array(curl_1.Curl.STATE_LENGTH)
+            low: new Int32Array(this._stateLength),
+            high: new Int32Array(this._stateLength)
         };
         state.forEach((trit, index) => {
             switch (trit) {
@@ -138,7 +144,7 @@ class PearlDiver {
                     states.high[index] = PearlDiver.LOW_BITS;
             }
         });
-        this.searchOffset(states, PearlDiver.NONCE_START);
+        this.searchOffset(states, this._nonceStart);
         return states;
     }
     /* @internal */
@@ -172,7 +178,7 @@ class PearlDiver {
     }
     /* @internal */
     webGLWriteBuffers(states) {
-        for (let i = 0; i < curl_1.Curl.STATE_LENGTH; i++) {
+        for (let i = 0; i < this._stateLength; i++) {
             this._currentBuffer[i * PearlDiver.TEXEL_SIZE] = states.low[i];
             this._currentBuffer[i * PearlDiver.TEXEL_SIZE + 1] = states.high[i];
             this._currentBuffer[i * PearlDiver.TEXEL_SIZE + 2] = states.low[i];
@@ -182,10 +188,10 @@ class PearlDiver {
     /* @internal */
     webGLSearch(searchObject) {
         this._webGLWorker.runProgram("increment", 1);
-        this._webGLWorker.runProgram("twist", curl_1.Curl.NUMBER_OF_ROUNDS);
+        this._webGLWorker.runProgram("twist", this._numberRounds);
         this._webGLWorker.runProgram("check", 1, { name: "minWeightMagnitude", value: searchObject.minWeightMagnitude });
         this._webGLWorker.runProgram("col_check", 1);
-        if (this._webGLWorker.readData(curl_1.Curl.STATE_LENGTH, 0, 1, 1)[2] === -1) {
+        if (this._webGLWorker.readData(this._stateLength, 0, 1, 1)[2] === -1) {
             if (this._state === pearlDiverState_1.PearlDiverState.interrupted) {
                 return this.saveSearch(searchObject);
             }
@@ -195,7 +201,7 @@ class PearlDiver {
             this._webGLWorker.runProgram("finalize", 1);
             const nonce = this._webGLWorker.readData(0, 0, this._webGLWorker.getDimensions().x, 1)
                 .reduce(this.pack(4), [])
-                .slice(0, curl_1.Curl.HASH_LENGTH)
+                .slice(0, this._hashLength)
                 .map(x => x[3]);
             searchObject.callback(trits_1.Trits.fromValue(nonce).toTrytes());
             this.searchDoNext();
@@ -205,7 +211,7 @@ class PearlDiver {
     saveSearch(searchObject) {
         this._currentBuffer
             .reduce(this.pack(4), [])
-            .slice(0, curl_1.Curl.STATE_LENGTH)
+            .slice(0, this._stateLength)
             .reduce((a, v) => a.map((c, i) => c.push(v[i])) && a, [[], []])
             .reduce((a, v, i) => (i % 2 ? a.set("high", v) : a.set("low", v)) && a, new Map())
             .forEach((v, k) => k === "low" ? searchObject.states.low = v : searchObject.states.high = v);
@@ -217,13 +223,7 @@ class PearlDiver {
     }
 }
 /* @internal */
-PearlDiver.TRANSACTION_LENGTH = curl_1.Curl.HASH_LENGTH * 33;
-/* @internal */
 PearlDiver.TEXEL_SIZE = 4;
-/* @internal */
-PearlDiver.NONCE_LENGTH = curl_1.Curl.HASH_LENGTH / 3;
-/* @internal */
-PearlDiver.NONCE_START = curl_1.Curl.HASH_LENGTH - PearlDiver.NONCE_LENGTH;
 /* @internal */
 PearlDiver.LOW_BITS = 0; // 00000000
 /* @internal */

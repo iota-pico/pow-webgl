@@ -24,6 +24,10 @@ module.exports = function (config) {
                 included: false
             },
             {
+                pattern: './node_modules/crypto-js/crypto-js.js',
+                included: false
+            },
+            {
                 pattern: './dist/**/*',
                 included: false
             },
@@ -45,6 +49,11 @@ module.exports = function (config) {
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
-        singleRun: true
+        singleRun: true,
+        client: {
+            mocha: {
+                timeout: 10000
+            }
+        }
     });
 };

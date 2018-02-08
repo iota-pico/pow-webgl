@@ -39,7 +39,7 @@
 
 **Τ PearlDiverSearchObject**:  *`object`* 
 
-*Defined in pearlDiver/pearlDiverSearchObject.ts:7*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
 
 
 
@@ -64,11 +64,11 @@ PearlDiverSearchObject to maintain information during search.
 
 
  callback : function
-► **callback**(result: *`Trytes`*): `void`
+► **callback**(nonce: *`Trytes`*): `void`
 
 
 
-*Defined in pearlDiver/pearlDiverSearchObject.ts:10*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
 
 
 
@@ -76,7 +76,7 @@ PearlDiverSearchObject to maintain information during search.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
-| result | `Trytes`   |  - |
+| nonce | `Trytes`   |  - |
 
 
 
@@ -98,7 +98,7 @@ ___
 
 **Τ PearlDiverSearchStates**:  *`object`* 
 
-*Defined in pearlDiver/pearlDiverSearchStates.ts:5*
+*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
 
 
 

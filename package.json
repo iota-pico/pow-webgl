@@ -45,7 +45,8 @@
     "dependencies": {
         "@iota-pico/core": "^0.5.3",
         "@iota-pico/crypto": "^0.5.3",
-        "@iota-pico/data": "^0.5.3"
+        "@iota-pico/data": "^0.5.3",
+        "crypto-js": "^3.1.9-1"
     },
     "devDependencies": {
         "@types/chai": "^4.1.1",
@@ -59,7 +60,6 @@
         "npm-run-all": "^4.1.2",
         "nsp": "^3.1.0",
         "rimraf": "^2.6.2",
-        "serve": "^6.4.9",
         "systemjs": "^0.20.19",
         "ts-node": "^4.1.0",
         "tslint": "^5.9.1",

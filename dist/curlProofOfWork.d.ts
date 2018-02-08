@@ -8,7 +8,7 @@ export declare class CurlProofOfWork implements ICurlProofOfWork {
      * Allow the proof of work to perform any initialization.
      * Will throw an exception if the implementation is not supported.
      */
-    initialize(): void;
+    initialize(): Promise<void>;
     /**
      * Perform a proof of work on the data.
      * @param trytes The trytes to perform the pow on.

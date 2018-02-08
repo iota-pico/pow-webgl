@@ -26,11 +26,11 @@ CurlProofOfWork implementation using WebGL.
 
 ###  initialize
 
-► **initialize**(): `void`
+► **initialize**(): `Promise`.<`void`>
 
 
 
-*Defined in curlProofOfWork.ts:13*
+*Defined in [curlProofOfWork.ts:15](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/curlProofOfWork.ts#L15)*
 
 
 
@@ -39,7 +39,7 @@ Allow the proof of work to perform any initialization. Will throw an exception i
 
 
 
-**Returns:** `void`
+**Returns:** `Promise`.<`void`>
 
 
 
@@ -55,7 +55,7 @@ ___
 
 
 
-*Defined in curlProofOfWork.ts:23*
+*Defined in [curlProofOfWork.ts:32](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/curlProofOfWork.ts#L32)*
 
 
 

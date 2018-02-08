@@ -16,7 +16,8 @@
         "strictNullChecks": false,
         "types": [],
         "esModuleInterop": true,
-        "stripInternal": true
+        "stripInternal": true,
+        "experimentalDecorators": true
     },
     "include": [
         "src/**/*"

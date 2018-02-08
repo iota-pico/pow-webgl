@@ -7,5 +7,5 @@ import { PearlDiverSearchStates } from "./pearlDiverSearchStates";
 export type PearlDiverSearchObject = {
     states: PearlDiverSearchStates;
     minWeightMagnitude: number;
-    callback(result: Trytes): void;
+    callback(nonce: Trytes): void;
 };
