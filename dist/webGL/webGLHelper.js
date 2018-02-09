@@ -10,13 +10,23 @@ class WebGLHelper {
      * @returns The context if successfuly or throws an error if it cannot be created.
      */
     static createContext() {
-        const canvas = document.createElement("canvas");
-        const attr = { alpha: false, antialias: false };
-        const gl = canvas.getContext("webgl2", attr) || canvas.getContext("experimental-webgl2", attr);
-        if (!gl) {
-            throw new coreError_1.CoreError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
+        if (typeof window !== "undefined" && window.document) {
+            const canvas = window.document.createElement("canvas");
+            if (canvas) {
+                const attr = { alpha: false, antialias: false };
+                const gl = canvas.getContext("webgl2", attr) || canvas.getContext("experimental-webgl2", attr);
+                if (!gl) {
+                    throw new coreError_1.CoreError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
+                }
+                return gl;
+            }
+            else {
+                throw new coreError_1.CoreError("The <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
+            }
         }
-        return gl;
+        else {
+            throw new coreError_1.CoreError("window.document is not available, you must be running in an environment with WebGL.");
+        }
     }
     /**
      * Create a new WebGL buffer.

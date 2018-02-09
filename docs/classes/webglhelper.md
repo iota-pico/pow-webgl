@@ -31,7 +31,7 @@ Helper functions for use with WebGL.
 
 
 
-*Defined in [webGL/webGLHelper.ts:33](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L33)*
+*Defined in [webGL/webGLHelper.ts:42](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L42)*
 
 
 
@@ -69,7 +69,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L12)*
+*Defined in [webGL/webGLHelper.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L12)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:94](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L94)*
+*Defined in [webGL/webGLHelper.ts:103](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L103)*
 
 
 
@@ -134,7 +134,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:79](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L79)*
+*Defined in [webGL/webGLHelper.ts:88](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L88)*
 
 
 
@@ -171,7 +171,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:49](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L49)*
+*Defined in [webGL/webGLHelper.ts:58](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L58)*
 
 
 
@@ -208,7 +208,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:130](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L130)*
+*Defined in [webGL/webGLHelper.ts:139](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L139)*
 
 
 
@@ -243,7 +243,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:68](https://github.com/iotaeco/iota-pico-pow-webgl/blob/2a14279/src/webGL/webGLHelper.ts#L68)*
+*Defined in [webGL/webGLHelper.ts:77](https://github.com/iotaeco/iota-pico-pow-webgl/blob/4df9416/src/webGL/webGLHelper.ts#L77)*
 
 
 

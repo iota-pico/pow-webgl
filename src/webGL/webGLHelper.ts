@@ -10,16 +10,25 @@ export class WebGLHelper {
      * @returns The context if successfuly or throws an error if it cannot be created.
      */
     public static createContext(): WebGLRenderingContextExt {
-        const canvas = document.createElement("canvas");
-        const attr = { alpha: false, antialias: false };
+        if (typeof window !== "undefined" && window.document) {
+            const canvas = window.document.createElement("canvas");
 
-        const gl = canvas.getContext("webgl2", attr) || canvas.getContext("experimental-webgl2", attr);
+            if (canvas) {
+                const attr = { alpha: false, antialias: false };
 
-        if (!gl) {
-            throw new CoreError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
+                const gl = canvas.getContext("webgl2", attr) || canvas.getContext("experimental-webgl2", attr);
+
+                if (!gl) {
+                    throw new CoreError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
+                }
+
+                return <WebGLRenderingContextExt>gl;
+            } else {
+                throw new CoreError("The <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
+            }
+        } else {
+            throw new CoreError("window.document is not available, you must be running in an environment with WebGL.");
         }
-
-        return <WebGLRenderingContextExt>gl;
     }
 
     /**
