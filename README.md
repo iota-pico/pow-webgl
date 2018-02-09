@@ -18,7 +18,7 @@ npm install @iota-pico/pow-webgl
 
 ## POW WebGL
 
-The library contains the Ccurl proof of work algorithm for WebGL platforms.
+The library contains the Curl proof of work algorithm for WebGL platforms.
 
 ## Platform Abstraction Layers (PALs)
 

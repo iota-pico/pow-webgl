@@ -96,7 +96,7 @@ class PearlDiver {
         curl.initialize();
         const transactionTrits = trits_1.Trits.fromTrytes(transactionTrytes);
         curl.absorb(transactionTrits, 0, this._transactionLength - this._hashLength);
-        const tritData = transactionTrits.toValue();
+        const tritData = transactionTrits.toTritsArray();
         const curlState = curl.getState();
         tritData
             .slice(this._transactionLength - this._hashLength, this._transactionLength)
@@ -203,7 +203,7 @@ class PearlDiver {
                 .reduce(this.pack(4), [])
                 .slice(0, this._hashLength)
                 .map(x => x[3]);
-            searchObject.callback(trits_1.Trits.fromValue(nonce).toTrytes());
+            searchObject.callback(trits_1.Trits.fromTritsArray(nonce).toTrytes());
             this.searchDoNext();
         }
     }
