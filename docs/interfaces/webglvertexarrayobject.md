@@ -25,7 +25,7 @@
 
 **●  WebGLObject**:  *`object`* 
 
-*Defined in D:/Workarea/iotaeco/iota-pico-pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12071*
+*Defined in D:/Workarea/iotaeco/iota-pico-pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:12433*
 
 
 #### Type declaration
@@ -37,7 +37,7 @@
 
 
 
-*Defined in D:/Workarea/iotaeco/iota-pico-pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12072*
+*Defined in D:/Workarea/iotaeco/iota-pico-pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:12434*
 
 
 
