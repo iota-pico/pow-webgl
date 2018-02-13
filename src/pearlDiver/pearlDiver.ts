@@ -95,7 +95,7 @@ export class PearlDiver {
     }
 
     /**
-     * Intialize the PearlDiver main instance.
+     * Initialize the PearlDiver main instance.
      */
     public static initialize(): void {
         if (!PearlDiver.instance) {
