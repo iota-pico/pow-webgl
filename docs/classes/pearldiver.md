@@ -33,7 +33,7 @@ PearlDiver. Converted from [https://github.com/iotaledger/curl.lib.js/blob/maste
 
 **●  instance**:  *[PearlDiver](pearldiver.md)* 
 
-*Defined in [pearlDiver/pearlDiver.ts:23](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L23)*
+*Defined in [pearlDiver/pearlDiver.ts:23](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L23)*
 
 
 
@@ -51,7 +51,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:128](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L128)*
+*Defined in [pearlDiver/pearlDiver.ts:128](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L128)*
 
 
 
@@ -76,7 +76,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:144](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L144)*
+*Defined in [pearlDiver/pearlDiver.ts:144](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L144)*
 
 
 
@@ -101,7 +101,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:137](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L137)*
+*Defined in [pearlDiver/pearlDiver.ts:137](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L137)*
 
 
 
@@ -126,7 +126,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:112](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L112)*
+*Defined in [pearlDiver/pearlDiver.ts:112](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L112)*
 
 
 
@@ -162,7 +162,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:121](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L121)*
+*Defined in [pearlDiver/pearlDiver.ts:121](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L121)*
 
 
 
@@ -195,11 +195,11 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:100](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/pearlDiver/pearlDiver.ts#L100)*
+*Defined in [pearlDiver/pearlDiver.ts:100](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/pearlDiver/pearlDiver.ts#L100)*
 
 
 
-Intialize the PearlDiver main instance.
+Initialize the PearlDiver main instance.
 
 
 

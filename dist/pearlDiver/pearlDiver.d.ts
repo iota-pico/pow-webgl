@@ -6,7 +6,7 @@ import { Trytes } from "@iota-pico/data/dist/data/trytes";
 export declare class PearlDiver {
     static instance: PearlDiver;
     /**
-     * Intialize the PearlDiver main instance.
+     * Initialize the PearlDiver main instance.
      */
     static initialize(): void;
     /**
