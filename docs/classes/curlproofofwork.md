@@ -30,7 +30,7 @@ CurlProofOfWork implementation using WebGL.
 
 
 
-*Defined in [curlProofOfWork.ts:15](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/curlProofOfWork.ts#L15)*
+*Defined in [curlProofOfWork.ts:15](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d351a73/src/curlProofOfWork.ts#L15)*
 
 
 
@@ -55,7 +55,7 @@ ___
 
 
 
-*Defined in [curlProofOfWork.ts:32](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d6f77e3/src/curlProofOfWork.ts#L32)*
+*Defined in [curlProofOfWork.ts:32](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d351a73/src/curlProofOfWork.ts#L32)*
 
 
 
