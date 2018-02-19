@@ -1,4 +1,3 @@
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Shaders transform.
@@ -26,3 +25,4 @@ void main() {
   commit(my_vec);
 }
 `;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHJhbnNmb3JtLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL3NoYWRlcnMvdHJhbnNmb3JtLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTs7R0FFRztBQUNILGtCQUFlOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0NBc0JkLENBQUMifQ==

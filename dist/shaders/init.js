@@ -1,4 +1,3 @@
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Shaders init.
@@ -19,3 +18,4 @@ void main() {
   commit(offset());
 }
 `;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5pdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zaGFkZXJzL2luaXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOztHQUVHO0FBQ0gsa0JBQWU7Ozs7Ozs7Ozs7Ozs7OztDQWVkLENBQUMifQ==

@@ -3,7 +3,7 @@
  */
 import { Trytes } from "@iota-pico/data/dist/data/trytes";
 import chai from "chai";
-import { CurlProofOfWork } from "../../dist/curlProofOfWork";
+import { CurlProofOfWork } from "../../src/curlProofOfWork";
 
 describe("CurlProofOfWork", () => {
     it("can be created", () => {

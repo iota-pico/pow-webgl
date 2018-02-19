@@ -1,4 +1,3 @@
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Shaders add.
@@ -12,3 +11,4 @@ exports.default = `
 #define HIGH_BITS 0xFFFFFFFF
 #define LOW_BITS 0x00000000
 `;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGVhZGVycy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zaGFkZXJzL2hlYWRlcnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOztHQUVHO0FBQ0gsa0JBQWU7Ozs7Ozs7O0NBUWQsQ0FBQyJ9
