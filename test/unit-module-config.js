@@ -3,7 +3,7 @@ SystemJS.config({
     "paths": {
         "@iota-pico": "node_modules/@iota-pico",
         "chai": "node_modules/chai/chai",
-        "crypto-js": "node_modules/crypto-js/crypto-js"
+        "big-integer": "node_modules/big-integer/BigInteger"
     },
     "packages": {
         "": {

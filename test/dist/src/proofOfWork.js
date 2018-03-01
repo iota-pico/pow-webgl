@@ -34,21 +34,21 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var coreError_1 = require("@iota-pico/core/dist/error/coreError");
 var numberHelper_1 = require("@iota-pico/core/dist/helpers/numberHelper");
+var cryptoError_1 = require("@iota-pico/crypto/dist/error/cryptoError");
 var trytes_1 = require("@iota-pico/data/dist/data/trytes");
 var pearlDiver_1 = require("./pearlDiver/pearlDiver");
 /**
- * CurlProofOfWork implementation using WebGL.
+ * ProofOfWork implementation using WebGL.
  */
-var CurlProofOfWork = /** @class */ (function () {
-    function CurlProofOfWork() {
+var ProofOfWork = /** @class */ (function () {
+    function ProofOfWork() {
     }
     /**
      * Allow the proof of work to perform any initialization.
      * Will throw an exception if the implementation is not supported.
      */
-    CurlProofOfWork.prototype.initialize = function () {
+    ProofOfWork.prototype.initialize = function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, new Promise(function (resolve, reject) {
@@ -69,29 +69,29 @@ var CurlProofOfWork = /** @class */ (function () {
      * @param minWeightMagnitude The minimum weight magnitude.
      * @returns The trytes produced by the proof of work.
      */
-    CurlProofOfWork.prototype.pow = function (trytes, minWeightMagnitude) {
+    ProofOfWork.prototype.pow = function (trytes, minWeightMagnitude) {
         return __awaiter(this, void 0, void 0, function () {
             var nonce, trytesString, nonceString;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
                         if (trytes === undefined || trytes === null) {
-                            throw new coreError_1.CoreError("Trytes can not be null or undefined");
+                            throw new cryptoError_1.CryptoError("Trytes can not be null or undefined");
                         }
                         if (!numberHelper_1.NumberHelper.isInteger(minWeightMagnitude)) {
-                            throw new coreError_1.CoreError("The minWeightMagnitude value is not an integer");
+                            throw new cryptoError_1.CryptoError("The minWeightMagnitude value is not an integer");
                         }
                         return [4 /*yield*/, pearlDiver_1.PearlDiver.instance.searchWithTrytes(trytes, minWeightMagnitude)];
                     case 1:
                         nonce = _a.sent();
                         trytesString = trytes.toString();
                         nonceString = nonce.toString();
-                        return [2 /*return*/, trytes_1.Trytes.create(trytesString.substr(0, trytesString.length - nonceString.length).concat(nonceString))];
+                        return [2 /*return*/, trytes_1.Trytes.fromString(trytesString.substr(0, trytesString.length - nonceString.length).concat(nonceString))];
                 }
             });
         });
     };
-    return CurlProofOfWork;
+    return ProofOfWork;
 }());
-exports.CurlProofOfWork = CurlProofOfWork;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VybFByb29mT2ZXb3JrLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL2N1cmxQcm9vZk9mV29yay50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxrRUFBaUU7QUFDakUsMEVBQXlFO0FBRXpFLDJEQUEwRDtBQUMxRCxzREFBcUQ7QUFFckQ7O0dBRUc7QUFDSDtJQUFBO0lBbUNBLENBQUM7SUFsQ0c7OztPQUdHO0lBQ1Usb0NBQVUsR0FBdkI7OztnQkFDSSxzQkFBTyxJQUFJLE9BQU8sQ0FBTyxVQUFDLE9BQU8sRUFBRSxNQUFNO3dCQUNyQyxJQUFJLENBQUM7NEJBQ0QsdUJBQVUsQ0FBQyxVQUFVLEVBQUUsQ0FBQzs0QkFDeEIsT0FBTyxFQUFFLENBQUM7d0JBQ2QsQ0FBQzt3QkFBQyxLQUFLLENBQUMsQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDOzRCQUNYLE1BQU0sQ0FBQyxHQUFHLENBQUMsQ0FBQzt3QkFDaEIsQ0FBQztvQkFDTCxDQUFDLENBQUMsRUFBQzs7O0tBQ047SUFFRDs7Ozs7T0FLRztJQUNVLDZCQUFHLEdBQWhCLFVBQWlCLE1BQWMsRUFBRSxrQkFBMEI7Ozs7Ozt3QkFDdkQsRUFBRSxDQUFDLENBQUMsTUFBTSxLQUFLLFNBQVMsSUFBSSxNQUFNLEtBQUssSUFBSSxDQUFDLENBQUMsQ0FBQzs0QkFDMUMsTUFBTSxJQUFJLHFCQUFTLENBQUMscUNBQXFDLENBQUMsQ0FBQzt3QkFDL0QsQ0FBQzt3QkFDRCxFQUFFLENBQUMsQ0FBQyxDQUFDLDJCQUFZLENBQUMsU0FBUyxDQUFDLGtCQUFrQixDQUFDLENBQUMsQ0FBQyxDQUFDOzRCQUM5QyxNQUFNLElBQUkscUJBQVMsQ0FBQyxnREFBZ0QsQ0FBQyxDQUFDO3dCQUMxRSxDQUFDO3dCQUNhLHFCQUFNLHVCQUFVLENBQUMsUUFBUSxDQUFDLGdCQUFnQixDQUFDLE1BQU0sRUFBRSxrQkFBa0IsQ0FBQyxFQUFBOzt3QkFBOUUsS0FBSyxHQUFHLFNBQXNFO3dCQUU5RSxZQUFZLEdBQUcsTUFBTSxDQUFDLFFBQVEsRUFBRSxDQUFDO3dCQUNqQyxXQUFXLEdBQUcsS0FBSyxDQUFDLFFBQVEsRUFBRSxDQUFDO3dCQUNyQyxzQkFBTyxlQUFNLENBQUMsTUFBTSxDQUFDLFlBQVksQ0FBQyxNQUFNLENBQUMsQ0FBQyxFQUFFLFlBQVksQ0FBQyxNQUFNLEdBQUcsV0FBVyxDQUFDLE1BQU0sQ0FBQyxDQUFDLE1BQU0sQ0FBQyxXQUFXLENBQUMsQ0FBQyxFQUFDOzs7O0tBQzlHO0lBQ0wsc0JBQUM7QUFBRCxDQUFDLEFBbkNELElBbUNDO0FBbkNZLDBDQUFlIn0=
+exports.ProofOfWork = ProofOfWork;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHJvb2ZPZldvcmsuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvcHJvb2ZPZldvcmsudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsMEVBQXlFO0FBQ3pFLHdFQUF1RTtBQUV2RSwyREFBMEQ7QUFDMUQsc0RBQXFEO0FBRXJEOztHQUVHO0FBQ0g7SUFBQTtJQW1DQSxDQUFDO0lBbENHOzs7T0FHRztJQUNVLGdDQUFVLEdBQXZCOzs7Z0JBQ0ksc0JBQU8sSUFBSSxPQUFPLENBQU8sVUFBQyxPQUFPLEVBQUUsTUFBTTt3QkFDckMsSUFBSSxDQUFDOzRCQUNELHVCQUFVLENBQUMsVUFBVSxFQUFFLENBQUM7NEJBQ3hCLE9BQU8sRUFBRSxDQUFDO3dCQUNkLENBQUM7d0JBQUMsS0FBSyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQzs0QkFDWCxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUM7d0JBQ2hCLENBQUM7b0JBQ0wsQ0FBQyxDQUFDLEVBQUM7OztLQUNOO0lBRUQ7Ozs7O09BS0c7SUFDVSx5QkFBRyxHQUFoQixVQUFpQixNQUFjLEVBQUUsa0JBQTBCOzs7Ozs7d0JBQ3ZELEVBQUUsQ0FBQyxDQUFDLE1BQU0sS0FBSyxTQUFTLElBQUksTUFBTSxLQUFLLElBQUksQ0FBQyxDQUFDLENBQUM7NEJBQzFDLE1BQU0sSUFBSSx5QkFBVyxDQUFDLHFDQUFxQyxDQUFDLENBQUM7d0JBQ2pFLENBQUM7d0JBQ0QsRUFBRSxDQUFDLENBQUMsQ0FBQywyQkFBWSxDQUFDLFNBQVMsQ0FBQyxrQkFBa0IsQ0FBQyxDQUFDLENBQUMsQ0FBQzs0QkFDOUMsTUFBTSxJQUFJLHlCQUFXLENBQUMsZ0RBQWdELENBQUMsQ0FBQzt3QkFDNUUsQ0FBQzt3QkFDYSxxQkFBTSx1QkFBVSxDQUFDLFFBQVEsQ0FBQyxnQkFBZ0IsQ0FBQyxNQUFNLEVBQUUsa0JBQWtCLENBQUMsRUFBQTs7d0JBQTlFLEtBQUssR0FBRyxTQUFzRTt3QkFFOUUsWUFBWSxHQUFHLE1BQU0sQ0FBQyxRQUFRLEVBQUUsQ0FBQzt3QkFDakMsV0FBVyxHQUFHLEtBQUssQ0FBQyxRQUFRLEVBQUUsQ0FBQzt3QkFDckMsc0JBQU8sZUFBTSxDQUFDLFVBQVUsQ0FBQyxZQUFZLENBQUMsTUFBTSxDQUFDLENBQUMsRUFBRSxZQUFZLENBQUMsTUFBTSxHQUFHLFdBQVcsQ0FBQyxNQUFNLENBQUMsQ0FBQyxNQUFNLENBQUMsV0FBVyxDQUFDLENBQUMsRUFBQzs7OztLQUNsSDtJQUNMLGtCQUFDO0FBQUQsQ0FBQyxBQW5DRCxJQW1DQztBQW5DWSxrQ0FBVyJ9

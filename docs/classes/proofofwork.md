@@ -1,22 +1,22 @@
-[@iota-pico/pow-webgl](../README.md) > [CurlProofOfWork](../classes/curlproofofwork.md)
+[@iota-pico/pow-webgl](../README.md) > [ProofOfWork](../classes/proofofwork.md)
 
 
 
-# Class: CurlProofOfWork
+# Class: ProofOfWork
 
 
-CurlProofOfWork implementation using WebGL.
+ProofOfWork implementation using WebGL.
 
 ## Implements
 
-* `ICurlProofOfWork`
+* `IProofOfWork`
 
 ## Index
 
 ### Methods
 
-* [initialize](curlproofofwork.md#initialize)
-* [pow](curlproofofwork.md#pow)
+* [initialize](proofofwork.md#initialize)
+* [pow](proofofwork.md#pow)
 
 
 
@@ -30,7 +30,7 @@ CurlProofOfWork implementation using WebGL.
 
 
 
-*Defined in [curlProofOfWork.ts:15](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d351a73/src/curlProofOfWork.ts#L15)*
+*Defined in proofOfWork.ts:15*
 
 
 
@@ -55,7 +55,7 @@ ___
 
 
 
-*Defined in [curlProofOfWork.ts:32](https://github.com/iotaeco/iota-pico-pow-webgl/blob/d351a73/src/curlProofOfWork.ts#L32)*
+*Defined in proofOfWork.ts:32*
 
 
 

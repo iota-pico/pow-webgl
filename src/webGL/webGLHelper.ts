@@ -1,4 +1,4 @@
-import { CoreError } from "@iota-pico/core/dist/error/coreError";
+import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
 import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
 
 /**
@@ -19,15 +19,15 @@ export class WebGLHelper {
                 const gl = canvas.getContext("webgl2", attr) || canvas.getContext("experimental-webgl2", attr);
 
                 if (!gl) {
-                    throw new CoreError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
+                    throw new CryptoError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
                 }
 
                 return <WebGLRenderingContextExt>gl;
             } else {
-                throw new CoreError("The <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
+                throw new CryptoError("The <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
             }
         } else {
-            throw new CoreError("window.document is not available, you must be running in an environment with WebGL.");
+            throw new CryptoError("window.document is not available, you must be running in an environment with WebGL.");
         }
     }
 
@@ -145,7 +145,7 @@ export class WebGLHelper {
         const frameBufferStatus = gl.checkFramebufferStatus(gl.FRAMEBUFFER);
 
         if (frameBufferStatus !== gl.FRAMEBUFFER_COMPLETE) {
-            throw new CoreError("Error attaching float texture to framebuffer. Your device is probably incompatible.");
+            throw new CryptoError("Error attaching float texture to framebuffer. Your device is probably incompatible.");
         }
     }
 }

@@ -1,4 +1,4 @@
-import { CoreError } from "@iota-pico/core/dist/error/coreError";
+import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
 import stdlib from "./stdlib";
 import vertexShaderCode from "./vertexShaderCode";
 import { WebGLHelper } from "./webGLHelper";
@@ -120,11 +120,11 @@ export class WebGLWorker {
         const info = this._programs.get(name);
         const program = info.program;
         if (!program) {
-            throw new CoreError("Run program does not exist", { name });
+            throw new CryptoError("Run program does not exist", { name });
         }
 
         if (!this._context.getProgramParameter(program, this._context.LINK_STATUS)) {
-            throw new CoreError("Failed to link GLSL program code");
+            throw new CryptoError("Failed to link GLSL program code");
         }
 
         const uniformVars = info.uniformVars;
@@ -196,7 +196,7 @@ export class WebGLWorker {
 
         // This should not fail.
         if (!this._context.getShaderParameter(this._vertexShader, this._context.COMPILE_STATUS)) {
-            throw new CoreError(
+            throw new CryptoError(
                 `Could not build internal vertex shader (fatal).
 
 --- CODE DUMP ---${vertexShaderCode}

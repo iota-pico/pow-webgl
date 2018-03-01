@@ -1,5 +1,5 @@
-import { CoreError } from "@iota-pico/core/dist/error/coreError";
-import { TritsHasherFactory } from "@iota-pico/crypto/dist/factories/tritsHasherFactory";
+import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
+import { SpongeFactory } from "@iota-pico/crypto/dist/factories/spongeFactory";
 import { Trits } from "@iota-pico/data/dist/data/trits";
 import { Trytes } from "@iota-pico/data/dist/data/trytes";
 import add from "../shaders/add";
@@ -72,7 +72,7 @@ export class PearlDiver {
     /* @internal */
     private constructor() {
         this._webGLWorker = new WebGLWorker();
-        const curl = TritsHasherFactory.instance().create("curl");
+        const curl = SpongeFactory.instance().create("curl");
         const curlConstants = curl.getConstants();
         this._hashLength = curlConstants.HASH_LENGTH;
         this._stateLength = curlConstants.STATE_LENGTH;
@@ -147,7 +147,7 @@ export class PearlDiver {
 
     /* @internal */
     private prepare(transactionTrytes: Trytes): PearlDiverSearchStates {
-        const curl = TritsHasherFactory.instance().create("curl");
+        const curl = SpongeFactory.instance().create("curl");
         curl.initialize();
         const transactionTrits = Trits.fromTrytes(transactionTrytes).toArray();
         curl.absorb(transactionTrits, 0, this._transactionLength - this._hashLength);
@@ -163,7 +163,7 @@ export class PearlDiver {
     /* @internal */
     private async search(states: PearlDiverSearchStates, minWeight: number): Promise<Trytes> {
         if (minWeight >= this._hashLength || minWeight <= 0) {
-            return Promise.reject(new CoreError("Bad Min-Weight Magnitude", { minWeight }));
+            return Promise.reject(new CryptoError("Bad Min-Weight Magnitude", { minWeight }));
         }
 
         // promise will complete when the search has completed
@@ -181,7 +181,7 @@ export class PearlDiver {
     }
 
     /* @internal */
-    private searchToPair(state: number[]): PearlDiverSearchStates {
+    private searchToPair(state: Int8Array): PearlDiverSearchStates {
         const states = {
             low: new Int32Array(this._stateLength),
             high: new Int32Array(this._stateLength)
@@ -265,7 +265,7 @@ export class PearlDiver {
                 .slice(0, this._hashLength)
                 .map(x => x[3]);
 
-            searchObject.callback(Trits.fromArray(nonce).toTrytes());
+            searchObject.callback(Trits.fromNumberArray(nonce).toTrytes());
             this.searchDoNext();
         }
     }

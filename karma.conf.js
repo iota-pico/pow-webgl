@@ -24,7 +24,7 @@ module.exports = function (config) {
                 included: false
             },
             {
-                pattern: './node_modules/crypto-js/crypto-js.js',
+                pattern: './node_modules/big-integer/BigInteger.js',
                 included: false
             },
             {
