@@ -35,6 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var numberHelper_1 = require("@iota-pico/core/dist/helpers/numberHelper");
+var objectHelper_1 = require("@iota-pico/core/dist/helpers/objectHelper");
 var cryptoError_1 = require("@iota-pico/crypto/dist/error/cryptoError");
 var trytes_1 = require("@iota-pico/data/dist/data/trytes");
 var pearlDiver_1 = require("./pearlDiver/pearlDiver");
@@ -50,10 +51,12 @@ var ProofOfWork = /** @class */ (function () {
      */
     ProofOfWork.prototype.initialize = function () {
         return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
             return __generator(this, function (_a) {
                 return [2 /*return*/, new Promise(function (resolve, reject) {
                         try {
                             pearlDiver_1.PearlDiver.initialize();
+                            _this._isInitialized = true;
                             resolve();
                         }
                         catch (err) {
@@ -75,8 +78,11 @@ var ProofOfWork = /** @class */ (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        if (trytes === undefined || trytes === null) {
-                            throw new cryptoError_1.CryptoError("Trytes can not be null or undefined");
+                        if (!this._isInitialized) {
+                            throw new cryptoError_1.CryptoError("WebGL is no initialized, have you called initialize");
+                        }
+                        if (!objectHelper_1.ObjectHelper.isType(trytes, trytes_1.Trytes)) {
+                            throw new cryptoError_1.CryptoError("The trytes must be an object of type Trytes");
                         }
                         if (!numberHelper_1.NumberHelper.isInteger(minWeightMagnitude)) {
                             throw new cryptoError_1.CryptoError("The minWeightMagnitude value is not an integer");
@@ -94,4 +100,4 @@ var ProofOfWork = /** @class */ (function () {
     return ProofOfWork;
 }());
 exports.ProofOfWork = ProofOfWork;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHJvb2ZPZldvcmsuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvcHJvb2ZPZldvcmsudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsMEVBQXlFO0FBQ3pFLHdFQUF1RTtBQUV2RSwyREFBMEQ7QUFDMUQsc0RBQXFEO0FBRXJEOztHQUVHO0FBQ0g7SUFBQTtJQW1DQSxDQUFDO0lBbENHOzs7T0FHRztJQUNVLGdDQUFVLEdBQXZCOzs7Z0JBQ0ksc0JBQU8sSUFBSSxPQUFPLENBQU8sVUFBQyxPQUFPLEVBQUUsTUFBTTt3QkFDckMsSUFBSSxDQUFDOzRCQUNELHVCQUFVLENBQUMsVUFBVSxFQUFFLENBQUM7NEJBQ3hCLE9BQU8sRUFBRSxDQUFDO3dCQUNkLENBQUM7d0JBQUMsS0FBSyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQzs0QkFDWCxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUM7d0JBQ2hCLENBQUM7b0JBQ0wsQ0FBQyxDQUFDLEVBQUM7OztLQUNOO0lBRUQ7Ozs7O09BS0c7SUFDVSx5QkFBRyxHQUFoQixVQUFpQixNQUFjLEVBQUUsa0JBQTBCOzs7Ozs7d0JBQ3ZELEVBQUUsQ0FBQyxDQUFDLE1BQU0sS0FBSyxTQUFTLElBQUksTUFBTSxLQUFLLElBQUksQ0FBQyxDQUFDLENBQUM7NEJBQzFDLE1BQU0sSUFBSSx5QkFBVyxDQUFDLHFDQUFxQyxDQUFDLENBQUM7d0JBQ2pFLENBQUM7d0JBQ0QsRUFBRSxDQUFDLENBQUMsQ0FBQywyQkFBWSxDQUFDLFNBQVMsQ0FBQyxrQkFBa0IsQ0FBQyxDQUFDLENBQUMsQ0FBQzs0QkFDOUMsTUFBTSxJQUFJLHlCQUFXLENBQUMsZ0RBQWdELENBQUMsQ0FBQzt3QkFDNUUsQ0FBQzt3QkFDYSxxQkFBTSx1QkFBVSxDQUFDLFFBQVEsQ0FBQyxnQkFBZ0IsQ0FBQyxNQUFNLEVBQUUsa0JBQWtCLENBQUMsRUFBQTs7d0JBQTlFLEtBQUssR0FBRyxTQUFzRTt3QkFFOUUsWUFBWSxHQUFHLE1BQU0sQ0FBQyxRQUFRLEVBQUUsQ0FBQzt3QkFDakMsV0FBVyxHQUFHLEtBQUssQ0FBQyxRQUFRLEVBQUUsQ0FBQzt3QkFDckMsc0JBQU8sZUFBTSxDQUFDLFVBQVUsQ0FBQyxZQUFZLENBQUMsTUFBTSxDQUFDLENBQUMsRUFBRSxZQUFZLENBQUMsTUFBTSxHQUFHLFdBQVcsQ0FBQyxNQUFNLENBQUMsQ0FBQyxNQUFNLENBQUMsV0FBVyxDQUFDLENBQUMsRUFBQzs7OztLQUNsSDtJQUNMLGtCQUFDO0FBQUQsQ0FBQyxBQW5DRCxJQW1DQztBQW5DWSxrQ0FBVyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHJvb2ZPZldvcmsuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvcHJvb2ZPZldvcmsudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsMEVBQXlFO0FBQ3pFLDBFQUF5RTtBQUN6RSx3RUFBdUU7QUFFdkUsMkRBQTBEO0FBQzFELHNEQUFxRDtBQUVyRDs7R0FFRztBQUNIO0lBQUE7SUEyQ0EsQ0FBQztJQXZDRzs7O09BR0c7SUFDVSxnQ0FBVSxHQUF2Qjs7OztnQkFDSSxzQkFBTyxJQUFJLE9BQU8sQ0FBTyxVQUFDLE9BQU8sRUFBRSxNQUFNO3dCQUNyQyxJQUFJLENBQUM7NEJBQ0QsdUJBQVUsQ0FBQyxVQUFVLEVBQUUsQ0FBQzs0QkFDeEIsS0FBSSxDQUFDLGNBQWMsR0FBRyxJQUFJLENBQUM7NEJBQzNCLE9BQU8sRUFBRSxDQUFDO3dCQUNkLENBQUM7d0JBQUMsS0FBSyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQzs0QkFDWCxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUM7d0JBQ2hCLENBQUM7b0JBQ0wsQ0FBQyxDQUFDLEVBQUM7OztLQUNOO0lBRUQ7Ozs7O09BS0c7SUFDVSx5QkFBRyxHQUFoQixVQUFpQixNQUFjLEVBQUUsa0JBQTBCOzs7Ozs7d0JBQ3ZELEVBQUUsQ0FBQyxDQUFDLENBQUMsSUFBSSxDQUFDLGNBQWMsQ0FBQyxDQUFDLENBQUM7NEJBQ3ZCLE1BQU0sSUFBSSx5QkFBVyxDQUFDLHFEQUFxRCxDQUFDLENBQUM7d0JBQ2pGLENBQUM7d0JBQ0QsRUFBRSxDQUFDLENBQUMsQ0FBQywyQkFBWSxDQUFDLE1BQU0sQ0FBQyxNQUFNLEVBQUUsZUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDOzRCQUN2QyxNQUFNLElBQUkseUJBQVcsQ0FBQyw2Q0FBNkMsQ0FBQyxDQUFDO3dCQUN6RSxDQUFDO3dCQUNELEVBQUUsQ0FBQyxDQUFDLENBQUMsMkJBQVksQ0FBQyxTQUFTLENBQUMsa0JBQWtCLENBQUMsQ0FBQyxDQUFDLENBQUM7NEJBQzlDLE1BQU0sSUFBSSx5QkFBVyxDQUFDLGdEQUFnRCxDQUFDLENBQUM7d0JBQzVFLENBQUM7d0JBRWEscUJBQU0sdUJBQVUsQ0FBQyxRQUFRLENBQUMsZ0JBQWdCLENBQUMsTUFBTSxFQUFFLGtCQUFrQixDQUFDLEVBQUE7O3dCQUE5RSxLQUFLLEdBQUcsU0FBc0U7d0JBRTlFLFlBQVksR0FBRyxNQUFNLENBQUMsUUFBUSxFQUFFLENBQUM7d0JBQ2pDLFdBQVcsR0FBRyxLQUFLLENBQUMsUUFBUSxFQUFFLENBQUM7d0JBQ3JDLHNCQUFPLGVBQU0sQ0FBQyxVQUFVLENBQUMsWUFBWSxDQUFDLE1BQU0sQ0FBQyxDQUFDLEVBQUUsWUFBWSxDQUFDLE1BQU0sR0FBRyxXQUFXLENBQUMsTUFBTSxDQUFDLENBQUMsTUFBTSxDQUFDLFdBQVcsQ0FBQyxDQUFDLEVBQUM7Ozs7S0FDbEg7SUFDTCxrQkFBQztBQUFELENBQUMsQUEzQ0QsSUEyQ0M7QUEzQ1ksa0NBQVcifQ==

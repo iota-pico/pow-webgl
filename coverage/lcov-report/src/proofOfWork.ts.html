@@ -20,14 +20,14 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">86.96% </span>
+        <span class="strong">85.19% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>20/23</span>
+        <span class='fraction'>23/27</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">66.67% </span>
+        <span class="strong">50% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>4/6</span>
+        <span class='fraction'>3/6</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -35,9 +35,9 @@
         <span class='fraction'>4/4</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">85.71% </span>
+        <span class="strong">84% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>18/21</span>
+        <span class='fraction'>21/25</span>
       </div>
     </div>
   </div>
@@ -88,7 +88,17 @@
 43
 44
 45
-46</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
@@ -102,6 +112,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
@@ -125,6 +139,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -134,6 +152,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { NumberHelper } from "@iota-pico/core/dist/helpers/numberHelper";
+import { ObjectHelper } from "@iota-pico/core/dist/helpers/objectHelper";
 import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
 import { IProofOfWork } from "@iota-pico/crypto/dist/interfaces/IProofOfWork";
 import { Trytes } from "@iota-pico/data/dist/data/trytes";
@@ -143,6 +162,9 @@ import { PearlDiver } from "./pearlDiver/pearlDiver";
  * ProofOfWork implementation using WebGL.
  */
 export class ProofOfWork implements IProofOfWork {
+    /* @internal */
+    private _isInitialized: boolean;
+&nbsp;
     /**
      * Allow the proof of work to perform any initialization.
      * Will throw an exception if the implementation is not supported.
@@ -151,6 +173,7 @@ export class ProofOfWork implements IProofOfWork {
         return new Promise&lt;void&gt;((resolve, reject) =&gt; {
             try {
                 PearlDiver.initialize();
+                this._isInitialized = true;
                 resolve();
             } catch (err) {
 <span class="cstat-no" title="statement not covered" >                reject(err);</span>
@@ -165,12 +188,16 @@ export class ProofOfWork implements IProofOfWork {
      * @returns The trytes produced by the proof of work.
      */
     public async pow(trytes: Trytes, minWeightMagnitude: number): Promise&lt;Trytes&gt; {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (trytes === undefined || trytes === null) {
-<span class="cstat-no" title="statement not covered" >            throw new CryptoError("Trytes can not be null or undefined");</span>
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (!this._isInitialized) {
+<span class="cstat-no" title="statement not covered" >            throw new CryptoError("WebGL is no initialized, have you called initialize");</span>
+        }
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (!ObjectHelper.isType(trytes, Trytes)) {
+<span class="cstat-no" title="statement not covered" >            throw new CryptoError("The trytes must be an object of type Trytes");</span>
         }
         <span class="missing-if-branch" title="if path not taken" >I</span>if (!NumberHelper.isInteger(minWeightMagnitude)) {
 <span class="cstat-no" title="statement not covered" >            throw new CryptoError("The minWeightMagnitude value is not an integer");</span>
         }
+&nbsp;
         const nonce = await PearlDiver.instance.searchWithTrytes(trytes, minWeightMagnitude);
 &nbsp;
         const trytesString = trytes.toString();
@@ -184,7 +211,7 @@ export class ProofOfWork implements IProofOfWork {
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Mar 01 2018 09:03:25 GMT+0300 (Turkey Standard Time)
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Mar 02 2018 10:17:03 GMT+0300 (Turkey Standard Time)
 </div>
 </div>
 <script src="../prettify.js"></script>

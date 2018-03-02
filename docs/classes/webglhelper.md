@@ -31,7 +31,7 @@ Helper functions for use with WebGL.
 
 
 
-*Defined in [webGL/webGLHelper.ts:42](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L42)*
+*Defined in [webGL/webGLHelper.ts:42](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L42)*
 
 
 
@@ -69,7 +69,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L12)*
+*Defined in [webGL/webGLHelper.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L12)*
 
 
 
@@ -96,7 +96,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:103](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L103)*
+*Defined in [webGL/webGLHelper.ts:103](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L103)*
 
 
 
@@ -134,7 +134,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:88](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L88)*
+*Defined in [webGL/webGLHelper.ts:88](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L88)*
 
 
 
@@ -171,7 +171,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:58](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L58)*
+*Defined in [webGL/webGLHelper.ts:58](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L58)*
 
 
 
@@ -208,7 +208,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:139](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L139)*
+*Defined in [webGL/webGLHelper.ts:139](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L139)*
 
 
 
@@ -243,7 +243,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:77](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce04d8/src/webGL/webGLHelper.ts#L77)*
+*Defined in [webGL/webGLHelper.ts:77](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLHelper.ts#L77)*
 
 
 

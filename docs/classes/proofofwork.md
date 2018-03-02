@@ -30,7 +30,7 @@ ProofOfWork implementation using WebGL.
 
 
 
-*Defined in proofOfWork.ts:15*
+*Defined in [proofOfWork.ts:19](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/proofOfWork.ts#L19)*
 
 
 
@@ -55,7 +55,7 @@ ___
 
 
 
-*Defined in proofOfWork.ts:32*
+*Defined in [proofOfWork.ts:37](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/proofOfWork.ts#L37)*
 
 
 
