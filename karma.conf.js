@@ -24,6 +24,10 @@ module.exports = function (config) {
                 included: false
             },
             {
+                pattern: './node_modules/sinon/pkg/sinon.js',
+                included: false
+            },
+            {
                 pattern: './node_modules/big-integer/BigInteger.js',
                 included: false
             },
@@ -51,7 +55,7 @@ module.exports = function (config) {
             }
         },
         preprocessors: {
-            'test/dist/**/*.js': ['coverage', 'sourcemap']
+            './test/dist/src/**/*.js': ['coverage', 'sourcemap']
         },
         reporters: ["story", "coverage", 'remap-coverage'],
         coverageReporter: {

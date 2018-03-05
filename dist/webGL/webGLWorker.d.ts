@@ -1,13 +1,15 @@
+import { IWebGLPlatform } from "../IWebGLPlatform";
 /**
  * WebGLWorker.
  */
 export declare class WebGLWorker {
     /**
      * Initialize the web GL Worker.
+     * @param webGLPlatform The webGL platform.
      * @param stateLength The length of the state.
      * @param texelSize The texel size.
      */
-    initialize(stateLength: number, texelSize: number): void;
+    initialize(webGLPlatform: IWebGLPlatform, stateLength: number, texelSize: number): void;
     /**
      * Get the dimensions from the worker.
      * @returns The dimensions.
@@ -45,10 +47,10 @@ export declare class WebGLWorker {
      * Read data from the worker.
      * @param x The x position to read from.
      * @param y The y position to read from.
-     * @param N The width position to read from.
-     * @param M The height position to read from.
+     * @param n The width position to read from.
+     * @param m The height position to read from.
      */
-    readData(x: number, y: number, N: number, M: number): Int32Array;
+    readData(x: number, y: number, n: number, m: number): Int32Array;
     /**
      * Write data to the worker.
      * @param data The data to write.

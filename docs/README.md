@@ -20,6 +20,7 @@
 
 ### Interfaces
 
+* [IWebGLPlatform](interfaces/iwebglplatform.md)
 * [WebGLRenderingContextExt](interfaces/webglrenderingcontextext.md)
 * [WebGLVertexArrayObject](interfaces/webglvertexarrayobject.md)
 
@@ -39,7 +40,7 @@
 
 **Τ PearlDiverSearchObject**:  *`object`* 
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
 
 
 
@@ -68,7 +69,7 @@ PearlDiverSearchObject to maintain information during search.
 
 
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
 
 
 
@@ -98,7 +99,7 @@ ___
 
 **Τ PearlDiverSearchStates**:  *`object`* 
 
-*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
+*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
 
 
 

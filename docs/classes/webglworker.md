@@ -31,7 +31,7 @@ WebGLWorker.
 
 
 
-*Defined in [webGL/webGLWorker.ts:97](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L97)*
+*Defined in [webGL/webGLWorker.ts:99](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L99)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:79](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L79)*
+*Defined in [webGL/webGLWorker.ts:81](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L81)*
 
 
 
@@ -93,7 +93,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:87](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L87)*
+*Defined in [webGL/webGLWorker.ts:89](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L89)*
 
 
 
@@ -116,11 +116,11 @@ ___
 
 ###  initialize
 
-► **initialize**(stateLength: *`number`*, texelSize: *`number`*): `void`
+► **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*, stateLength: *`number`*, texelSize: *`number`*): `void`
 
 
 
-*Defined in [webGL/webGLWorker.ts:39](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L39)*
+*Defined in [webGL/webGLWorker.ts:41](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L41)*
 
 
 
@@ -131,6 +131,7 @@ Initialize the web GL Worker.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
+| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  The webGL platform. |
 | stateLength | `number`   |  The length of the state. |
 | texelSize | `number`   |  The texel size. |
 
@@ -150,11 +151,11 @@ ___
 
 ###  readData
 
-► **readData**(x: *`number`*, y: *`number`*, N: *`number`*, M: *`number`*): `Int32Array`
+► **readData**(x: *`number`*, y: *`number`*, n: *`number`*, m: *`number`*): `Int32Array`
 
 
 
-*Defined in [webGL/webGLWorker.ts:163](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L163)*
+*Defined in [webGL/webGLWorker.ts:162](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L162)*
 
 
 
@@ -167,8 +168,8 @@ Read data from the worker.
 | ------ | ------ | ------ |
 | x | `number`   |  The x position to read from. |
 | y | `number`   |  The y position to read from. |
-| N | `number`   |  The width position to read from. |
-| M | `number`   |  The height position to read from. |
+| n | `number`   |  The width position to read from. |
+| m | `number`   |  The height position to read from. |
 
 
 
@@ -190,7 +191,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:119](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L119)*
+*Defined in [webGL/webGLWorker.ts:121](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L121)*
 
 
 
@@ -225,7 +226,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:174](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/webGL/webGLWorker.ts#L174)*
+*Defined in [webGL/webGLWorker.ts:173](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L173)*
 
 
 

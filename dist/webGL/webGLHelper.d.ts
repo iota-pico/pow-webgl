@@ -1,3 +1,4 @@
+import { IWebGLPlatform } from "../IWebGLPlatform";
 import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
 /**
  * Helper functions for use with WebGL.
@@ -7,7 +8,7 @@ export declare class WebGLHelper {
      * Create a WebGL Context.
      * @returns The context if successfuly or throws an error if it cannot be created.
      */
-    static createContext(): WebGLRenderingContextExt;
+    static createContext(webGLPlatform: IWebGLPlatform): WebGLRenderingContextExt;
     /**
      * Create a new WebGL buffer.
      * @param gl The WebGL rendering context.
@@ -28,29 +29,6 @@ export declare class WebGLHelper {
         x: number;
         y: number;
     }): WebGLTexture;
-    /**
-     * Get a shader source from the dom element.
-     * @param id The id of the dom element.
-     * @returns The shader source from the dom element.
-     */
-    static getShaderSource(id: string): string;
-    /**
-     * Create a shader.
-     * @param gl The WebGL rendering context.
-     * @param source The source for the shader.
-     * @param type Either gl.VERTEX_SHADER or gl.FRAGMENT_SHADER.
-     * @returns The shader.
-     */
-    static createShader(gl: WebGLRenderingContextExt, source: string, type: number): WebGLShader;
-    /**
-     * Create a program on the WebGL context.
-     * @param gl The WebGL rendering context.
-     * @param vertexShaderSource The source for the vertex shader.
-     * @param fragmentShaderSource The source for the fragment shader.
-     * @param debugLog Output the information to a debug log.
-     * @returns A WebGL Program.
-     */
-    static createProgram(gl: WebGLRenderingContextExt, vertexShaderSource: string, fragmentShaderSource: string, debugLog?: (message: string) => void): WebGLProgram;
     /**
      * Set the texure into the framebuffer.
      * @param gl The WebGL rendering context.

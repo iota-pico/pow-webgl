@@ -16,11 +16,8 @@ PearlDiver. Converted from [https://github.com/iotaledger/curl.lib.js/blob/maste
 
 ### Methods
 
-* [interrupt](pearldiver.md#interrupt)
-* [remove](pearldiver.md#remove)
-* [resume](pearldiver.md#resume)
 * [searchWithTrytes](pearldiver.md#searchwithtrytes)
-* [setOffset](pearldiver.md#setoffset)
+* [closedown](pearldiver.md#closedown)
 * [initialize](pearldiver.md#initialize)
 
 
@@ -33,7 +30,7 @@ PearlDiver. Converted from [https://github.com/iotaledger/curl.lib.js/blob/maste
 
 **●  instance**:  *[PearlDiver](pearldiver.md)* 
 
-*Defined in [pearlDiver/pearlDiver.ts:23](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L23)*
+*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiver.ts#L24)*
 
 
 
@@ -43,81 +40,6 @@ ___
 
 
 ## Methods
-<a id="interrupt"></a>
-
-###  interrupt
-
-► **interrupt**(): `void`
-
-
-
-*Defined in [pearlDiver/pearlDiver.ts:128](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L128)*
-
-
-
-Interrupts the currently running proof-of-work function.
-
-
-
-
-**Returns:** `void`
-
-
-
-
-
-___
-
-<a id="remove"></a>
-
-###  remove
-
-► **remove**(): `void`
-
-
-
-*Defined in [pearlDiver/pearlDiver.ts:144](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L144)*
-
-
-
-Removes the proof-of-work job that you had previously queued.
-
-
-
-
-**Returns:** `void`
-
-
-
-
-
-___
-
-<a id="resume"></a>
-
-###  resume
-
-► **resume**(): `void`
-
-
-
-*Defined in [pearlDiver/pearlDiver.ts:137](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L137)*
-
-
-
-Continues the proof-of-work that you just interrupted.
-
-
-
-
-**Returns:** `void`
-
-
-
-
-
-___
-
 <a id="searchwithtrytes"></a>
 
 ###  searchWithTrytes
@@ -126,7 +48,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:112](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L112)*
+*Defined in [pearlDiver/pearlDiver.ts:119](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiver.ts#L119)*
 
 
 
@@ -154,27 +76,19 @@ Promise which resolves to the trytes from the search.
 
 ___
 
-<a id="setoffset"></a>
+<a id="closedown"></a>
 
-###  setOffset
+### «Static» closedown
 
-► **setOffset**(offset: *`number`*): `void`
-
-
-
-*Defined in [pearlDiver/pearlDiver.ts:121](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L121)*
+► **closedown**(): `void`
 
 
 
-Sets an offset to start pow search from
+*Defined in [pearlDiver/pearlDiver.ts:107](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiver.ts#L107)*
 
 
-**Parameters:**
 
-| Param | Type | Description |
-| ------ | ------ | ------ |
-| offset | `number`   |  The offset to start the search from. |
-
+Closedown the PearlDiver main instance.
 
 
 
@@ -191,15 +105,23 @@ ___
 
 ### «Static» initialize
 
-► **initialize**(): `void`
+► **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): `void`
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:100](https://github.com/iotaeco/iota-pico-pow-webgl/blob/39f1e3a/src/pearlDiver/pearlDiver.ts#L100)*
+*Defined in [pearlDiver/pearlDiver.ts:98](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/pearlDiver/pearlDiver.ts#L98)*
 
 
 
 Initialize the PearlDiver main instance.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  - |
+
 
 
 

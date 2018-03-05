@@ -1,7 +1,8 @@
-import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
+import { ObjectHelper } from "@iota-pico/core/dist/helpers/objectHelper";
 import { SpongeFactory } from "@iota-pico/crypto/dist/factories/spongeFactory";
 import { Trits } from "@iota-pico/data/dist/data/trits";
 import { Trytes } from "@iota-pico/data/dist/data/trytes";
+import { IWebGLPlatform } from "../IWebGLPlatform";
 import add from "../shaders/add";
 import checkCol from "../shaders/checkCol";
 import checkDo from "../shaders/checkDo";
@@ -53,8 +54,6 @@ export class PearlDiver {
     /* @internal */
     private readonly _currentBuffer: Int32Array;
     /* @internal */
-    private _offset: number;
-    /* @internal */
     private _state: PearlDiverState;
     /* @internal */
     private readonly _hashLength: number;
@@ -70,7 +69,7 @@ export class PearlDiver {
     private readonly _nonceStart: number;
 
     /* @internal */
-    private constructor() {
+    private constructor(webGLPlatform: IWebGLPlatform) {
         this._webGLWorker = new WebGLWorker();
         const curl = SpongeFactory.instance().create("curl");
         const curlConstants = curl.getConstants();
@@ -81,8 +80,7 @@ export class PearlDiver {
         this._nonceLength = this._hashLength / 3;
         this._nonceStart = this._hashLength - this._nonceLength;
 
-        this._webGLWorker.initialize(this._stateLength + 1, PearlDiver.TEXEL_SIZE);
-        this._offset = 0;
+        this._webGLWorker.initialize(webGLPlatform, this._stateLength + 1, PearlDiver.TEXEL_SIZE);
         this._currentBuffer = this._webGLWorker.getIpt().data;
         this._webGLWorker.addProgram("init", headers + add + init, "gr_offset");
         this._webGLWorker.addProgram("increment", headers + add + increment);
@@ -97,9 +95,18 @@ export class PearlDiver {
     /**
      * Initialize the PearlDiver main instance.
      */
-    public static initialize(): void {
+    public static initialize(webGLPlatform: IWebGLPlatform): void {
         if (!PearlDiver.instance) {
-            PearlDiver.instance = new PearlDiver();
+            PearlDiver.instance = new PearlDiver(webGLPlatform);
+        }
+    }
+
+    /**
+     * Closedown the PearlDiver main instance.
+     */
+    public static closedown(): void {
+        if (PearlDiver.instance) {
+            PearlDiver.instance = undefined;
         }
     }
 
@@ -112,37 +119,6 @@ export class PearlDiver {
     public async searchWithTrytes(trytes: Trytes, minWeightMagnitude: number): Promise<Trytes> {
         const searchStates = this.prepare(trytes);
         return this.search(searchStates, minWeightMagnitude);
-    }
-
-    /**
-     * Sets an offset to start pow search from
-     * @param offset The offset to start the search from.
-     */
-    public setOffset(offset: number): void {
-        this._offset = offset;
-    }
-
-    /**
-     * Interrupts the currently running proof-of-work function.
-     */
-    public interrupt(): void {
-        if (this._state === PearlDiverState.searching) {
-            this._state = PearlDiverState.interrupted;
-        }
-    }
-
-    /**
-     * Continues the proof-of-work that you just interrupted.
-     */
-    public resume(): void {
-        this.searchDoNext();
-    }
-
-    /**
-     * Removes the proof-of-work job that you had previously queued.
-     */
-    public remove(): void {
-        this._queue.pop();
     }
 
     /* @internal */
@@ -162,10 +138,6 @@ export class PearlDiver {
 
     /* @internal */
     private async search(states: PearlDiverSearchStates, minWeight: number): Promise<Trytes> {
-        if (minWeight >= this._hashLength || minWeight <= 0) {
-            return Promise.reject(new CryptoError("Bad Min-Weight Magnitude", { minWeight }));
-        }
-
         // promise will complete when the search has completed
         // tslint:disable-next-line:promise-must-complete
         return new Promise<Trytes>((resolve, reject) => {
@@ -220,11 +192,11 @@ export class PearlDiver {
     /* @internal */
     private searchDoNext(): void {
         const next = this._queue.shift();
-        if (this._state !== PearlDiverState.searching) {
+        if (ObjectHelper.isEmpty(next)) {
+            this._state = PearlDiverState.ready;
+        } else {
             this._state = PearlDiverState.searching;
             this.webGLFindNonce(next);
-        } else {
-            this._state = PearlDiverState.ready;
         }
     }
 
@@ -232,7 +204,7 @@ export class PearlDiver {
     private webGLFindNonce(searchObject: PearlDiverSearchObject): void {
         this.webGLWriteBuffers(searchObject.states);
         this._webGLWorker.writeData(this._currentBuffer);
-        this._webGLWorker.runProgram("init", 1, { name: "gr_offset", value: this._offset });
+        this._webGLWorker.runProgram("init", 1, { name: "gr_offset", value: 0 });
         setTimeout(() => this.webGLSearch(searchObject), 1);
     }
 
@@ -253,33 +225,14 @@ export class PearlDiver {
         this._webGLWorker.runProgram("check", 1, { name: "minWeightMagnitude", value: searchObject.minWeightMagnitude });
         this._webGLWorker.runProgram("col_check", 1);
 
-        if (this._webGLWorker.readData(this._stateLength, 0, 1, 1)[2] === -1) {
-            if (this._state === PearlDiverState.interrupted) {
-                return this.saveSearch(searchObject);
-            }
-            setTimeout(() => this.webGLSearch(searchObject), 1);
-        } else {
-            this._webGLWorker.runProgram("finalize", 1);
-            const nonce = this._webGLWorker.readData(0, 0, this._webGLWorker.getDimensions().x, 1)
-                .reduce(this.pack(4), [])
-                .slice(0, this._hashLength)
-                .map(x => x[3]);
-
-            searchObject.callback(Trits.fromNumberArray(nonce).toTrytes());
-            this.searchDoNext();
-        }
-    }
-
-    /* @internal */
-    private saveSearch(searchObject: PearlDiverSearchObject): void {
-        this._currentBuffer
+        this._webGLWorker.runProgram("finalize", 1);
+        const nonce = this._webGLWorker.readData(0, 0, this._webGLWorker.getDimensions().x, 1)
             .reduce(this.pack(4), [])
-            .slice(0, this._stateLength)
-            .reduce((a: number[][], v: number[]) => a.map((c: number[], i: number) => c.push(v[i])) && a, [[], []])
-            .reduce((a: Map<string, number[]>, v: number[], i: number) => (i % 2 ? a.set("high", v) : a.set("low", v)) && a, new Map())
-            .forEach((v: Int32Array, k: string) => k === "low" ? searchObject.states.low = v : searchObject.states.high = v);
+            .slice(0, this._hashLength)
+            .map(x => x[3]);
 
-        this._queue.unshift(searchObject);
+        searchObject.callback(Trits.fromNumberArray(nonce).toTrytes());
+        this.searchDoNext();
     }
 
     /* @internal */
