@@ -31,7 +31,7 @@ WebGLWorker.
 
 
 
-*Defined in [webGL/webGLWorker.ts:99](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L99)*
+*Defined in [webGL/webGLWorker.ts:99](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L99)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:81](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L81)*
+*Defined in [webGL/webGLWorker.ts:81](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L81)*
 
 
 
@@ -93,7 +93,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:89](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L89)*
+*Defined in [webGL/webGLWorker.ts:89](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L89)*
 
 
 
@@ -120,7 +120,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:41](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L41)*
+*Defined in [webGL/webGLWorker.ts:41](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L41)*
 
 
 
@@ -155,7 +155,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:162](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L162)*
+*Defined in [webGL/webGLWorker.ts:162](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L162)*
 
 
 
@@ -191,7 +191,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:121](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L121)*
+*Defined in [webGL/webGLWorker.ts:121](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L121)*
 
 
 
@@ -226,7 +226,7 @@ ___
 
 
 
-*Defined in [webGL/webGLWorker.ts:173](https://github.com/iotaeco/iota-pico-pow-webgl/blob/b0ff453/src/webGL/webGLWorker.ts#L173)*
+*Defined in [webGL/webGLWorker.ts:173](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLWorker.ts#L173)*
 
 
 
