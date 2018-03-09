@@ -2956,7 +2956,7 @@ ___
 
 **●  RGBA32I**:  *`number`* 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:8](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLRenderingContextExt.ts#L8)*
+*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLRenderingContextExt.ts#L10)*
 
 
 
@@ -2986,7 +2986,7 @@ ___
 
 **●  RGBA_INTEGER**:  *`number`* 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLRenderingContextExt.ts#L7)*
+*Defined in [webGL/webGLRenderingContextExt.ts:9](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLRenderingContextExt.ts#L9)*
 
 
 
@@ -7211,7 +7211,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLRenderingContextExt.ts#L11)*
+*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLRenderingContextExt.ts#L13)*
 
 
 
@@ -8014,7 +8014,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLRenderingContextExt.ts#L10)*
+*Defined in [webGL/webGLRenderingContextExt.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLRenderingContextExt.ts#L12)*
 
 
 
@@ -8260,7 +8260,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLRenderingContextExt.ts#L12)*
+*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLRenderingContextExt.ts#L14)*
 
 
 
@@ -10292,7 +10292,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLRenderingContextExt.ts#L13)*
+*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLRenderingContextExt.ts#L15)*
 
 
 

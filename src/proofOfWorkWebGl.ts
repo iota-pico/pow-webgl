@@ -12,7 +12,7 @@ import { WebGLRenderingContextExt } from "./webGL/webGLRenderingContextExt";
 /**
  * ProofOfWork implementation using WebGL.
  */
-export class ProofOfWork implements IProofOfWork {
+export class ProofOfWorkWebGl implements IProofOfWork {
     /* @internal */
     private readonly _webGLPlatform: IWebGLPlatform;
 
@@ -21,6 +21,7 @@ export class ProofOfWork implements IProofOfWork {
 
     /**
      * Create a new instance of ProofOfWork.
+     * @param webGLPlatform Provides platform specific functions, optional mostly used for testing.
      */
     constructor(webGLPlatform?: IWebGLPlatform) {
         if (ObjectHelper.isEmpty(webGLPlatform)) {

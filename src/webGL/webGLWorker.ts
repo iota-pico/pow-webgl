@@ -3,7 +3,8 @@ import { IWebGLPlatform } from "../IWebGLPlatform";
 import stdlib from "./stdlib";
 import vertexShaderCode from "./vertexShaderCode";
 import { WebGLHelper } from "./webGLHelper";
-import { WebGLRenderingContextExt, WebGLVertexArrayObject } from "./webGLRenderingContextExt";
+import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
+import { WebGLVertexArrayObject } from "./webGLVertexArrayObject";
 
 /**
  * WebGLWorker.

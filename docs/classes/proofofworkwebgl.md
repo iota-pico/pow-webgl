@@ -1,8 +1,8 @@
-[@iota-pico/pow-webgl](../README.md) > [ProofOfWork](../classes/proofofwork.md)
+[@iota-pico/pow-webgl](../README.md) > [ProofOfWorkWebGl](../classes/proofofworkwebgl.md)
 
 
 
-# Class: ProofOfWork
+# Class: ProofOfWorkWebGl
 
 
 ProofOfWork implementation using WebGL.
@@ -15,14 +15,14 @@ ProofOfWork implementation using WebGL.
 
 ### Constructors
 
-* [constructor](proofofwork.md#constructor)
+* [constructor](proofofworkwebgl.md#constructor)
 
 
 ### Methods
 
-* [initialize](proofofwork.md#initialize)
-* [performsSingle](proofofwork.md#performssingle)
-* [pow](proofofwork.md#pow)
+* [initialize](proofofworkwebgl.md#initialize)
+* [performsSingle](proofofworkwebgl.md#performssingle)
+* [pow](proofofworkwebgl.md#pow)
 
 
 
@@ -31,10 +31,10 @@ ProofOfWork implementation using WebGL.
 <a id="constructor"></a>
 
 
-### ⊕ **new ProofOfWork**(webGLPlatform?: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): [ProofOfWork](proofofwork.md)
+### ⊕ **new ProofOfWorkWebGl**(webGLPlatform?: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): [ProofOfWorkWebGl](proofofworkwebgl.md)
 
 
-*Defined in [proofOfWork.ts:20](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/proofOfWork.ts#L20)*
+*Defined in proofOfWorkWebGl.ts:20*
 
 
 
@@ -45,13 +45,13 @@ Create a new instance of ProofOfWork.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
-| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  - |
+| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  Provides platform specific functions, optional mostly used for testing. |
 
 
 
 
 
-**Returns:** [ProofOfWork](proofofwork.md)
+**Returns:** [ProofOfWorkWebGl](proofofworkwebgl.md)
 
 ---
 
@@ -65,7 +65,7 @@ Create a new instance of ProofOfWork.
 
 
 
-*Defined in [proofOfWork.ts:46](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/proofOfWork.ts#L46)*
+*Defined in proofOfWorkWebGl.ts:47*
 
 
 
@@ -90,7 +90,7 @@ ___
 
 
 
-*Defined in [proofOfWork.ts:62](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/proofOfWork.ts#L62)*
+*Defined in proofOfWorkWebGl.ts:63*
 
 
 
@@ -117,7 +117,7 @@ ___
 
 
 
-*Defined in [proofOfWork.ts:74](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/proofOfWork.ts#L74)*
+*Defined in proofOfWorkWebGl.ts:75*
 
 
 

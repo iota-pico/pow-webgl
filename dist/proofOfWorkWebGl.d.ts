@@ -5,9 +5,10 @@ import { IWebGLPlatform } from "./IWebGLPlatform";
 /**
  * ProofOfWork implementation using WebGL.
  */
-export declare class ProofOfWork implements IProofOfWork {
+export declare class ProofOfWorkWebGl implements IProofOfWork {
     /**
      * Create a new instance of ProofOfWork.
+     * @param webGLPlatform Provides platform specific functions, optional mostly used for testing.
      */
     constructor(webGLPlatform?: IWebGLPlatform);
     /**

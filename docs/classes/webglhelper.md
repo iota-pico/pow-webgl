@@ -28,7 +28,7 @@ Helper functions for use with WebGL.
 
 
 
-*Defined in [webGL/webGLHelper.ts:50](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLHelper.ts#L50)*
+*Defined in [webGL/webGLHelper.ts:50](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLHelper.ts#L50)*
 
 
 
@@ -66,7 +66,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:14](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLHelper.ts#L14)*
+*Defined in [webGL/webGLHelper.ts:14](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLHelper.ts#L14)*
 
 
 
@@ -101,7 +101,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:66](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLHelper.ts#L66)*
+*Defined in [webGL/webGLHelper.ts:66](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLHelper.ts#L66)*
 
 
 
@@ -138,7 +138,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:86](https://github.com/iotaeco/iota-pico-pow-webgl/blob/dce988e/src/webGL/webGLHelper.ts#L86)*
+*Defined in [webGL/webGLHelper.ts:86](https://github.com/iotaeco/iota-pico-pow-webgl/blob/9cdf8ae/src/webGL/webGLHelper.ts#L86)*
 
 
 
