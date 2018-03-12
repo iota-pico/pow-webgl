@@ -5,7 +5,9 @@
 # Interface: WebGLVertexArrayObject
 
 
-Extension to the current definition of WebGLRenderingContext.
+Interface used by the current WebGLRenderingContextExt definition.
+*__interface__*: 
+
 
 ## Hierarchy
 
