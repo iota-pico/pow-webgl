@@ -34,7 +34,7 @@ ProofOfWork implementation using WebGL.
 ### ⊕ **new ProofOfWorkWebGl**(webGLPlatform?: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): [ProofOfWorkWebGl](proofofworkwebgl.md)
 
 
-*Defined in [proofOfWorkWebGl.ts:20](https://github.com/iotaeco/iota-pico-pow-webgl/blob/72598aa/src/proofOfWorkWebGl.ts#L20)*
+*Defined in [proofOfWorkWebGl.ts:20](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/proofOfWorkWebGl.ts#L20)*
 
 
 
@@ -65,7 +65,7 @@ Create a new instance of ProofOfWork.
 
 
 
-*Defined in [proofOfWorkWebGl.ts:47](https://github.com/iotaeco/iota-pico-pow-webgl/blob/72598aa/src/proofOfWorkWebGl.ts#L47)*
+*Defined in [proofOfWorkWebGl.ts:47](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/proofOfWorkWebGl.ts#L47)*
 
 
 
@@ -90,7 +90,7 @@ ___
 
 
 
-*Defined in [proofOfWorkWebGl.ts:63](https://github.com/iotaeco/iota-pico-pow-webgl/blob/72598aa/src/proofOfWorkWebGl.ts#L63)*
+*Defined in [proofOfWorkWebGl.ts:63](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/proofOfWorkWebGl.ts#L63)*
 
 
 
@@ -117,7 +117,7 @@ ___
 
 
 
-*Defined in [proofOfWorkWebGl.ts:75](https://github.com/iotaeco/iota-pico-pow-webgl/blob/72598aa/src/proofOfWorkWebGl.ts#L75)*
+*Defined in [proofOfWorkWebGl.ts:75](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/proofOfWorkWebGl.ts#L75)*
 
 
 

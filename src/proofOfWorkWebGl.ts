@@ -83,9 +83,11 @@ export class ProofOfWorkWebGl implements IProofOfWork {
             throw new CryptoError("The minWeightMagnitude must be > 0");
         }
 
-        const nonce = await PearlDiver.instance.searchWithTrytes(trytes[0], minWeightMagnitude);
+        const singleTrytes = trytes[0];
 
-        const trytesString = trytes.toString();
+        const nonce = await PearlDiver.instance.searchWithTrytes(singleTrytes, minWeightMagnitude);
+
+        const trytesString = singleTrytes.toString();
         const nonceString = nonce.toString();
         return [ Trytes.fromString(trytesString.substr(0, trytesString.length - nonceString.length).concat(nonceString)) ];
     }

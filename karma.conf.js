@@ -51,7 +51,7 @@ module.exports = function (config) {
         singleRun: true,
         client: {
             mocha: {
-                timeout: 20000
+                timeout: 60000
             }
         },
         preprocessors: {
@@ -66,6 +66,6 @@ module.exports = function (config) {
             html: './coverage/lcov-report',
             lcovonly: './coverage/lcov.info'
         },
-        browserNoActivityTimeout: 20000
+        browserNoActivityTimeout: 60000
     });
 };

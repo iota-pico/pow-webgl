@@ -72,10 +72,9 @@ export class PearlDiver {
     private constructor(webGLPlatform: IWebGLPlatform) {
         this._webGLWorker = new WebGLWorker();
         const curl = SpongeFactory.instance().create("curl");
-        const curlConstants = curl.getConstants();
-        this._hashLength = curlConstants.HASH_LENGTH;
-        this._stateLength = curlConstants.STATE_LENGTH;
-        this._numberRounds = curlConstants.NUMBER_OF_ROUNDS;
+        this._hashLength = curl.getConstant("HASH_LENGTH");
+        this._stateLength = curl.getConstant("STATE_LENGTH");
+        this._numberRounds = curl.getConstant("NUMBER_OF_ROUNDS");
         this._transactionLength = this._hashLength * 33;
         this._nonceLength = this._hashLength / 3;
         this._nonceStart = this._hashLength - this._nonceLength;
@@ -225,14 +224,18 @@ export class PearlDiver {
         this._webGLWorker.runProgram("check", 1, { name: "minWeightMagnitude", value: searchObject.minWeightMagnitude });
         this._webGLWorker.runProgram("col_check", 1);
 
-        this._webGLWorker.runProgram("finalize", 1);
-        const nonce = this._webGLWorker.readData(0, 0, this._webGLWorker.getDimensions().x, 1)
-            .reduce(this.pack(4), [])
-            .slice(0, this._hashLength)
-            .map(x => x[3]);
+        if (this._webGLWorker.readData(this._stateLength, 0, 1, 1)[2] === -1) {
+            setTimeout(() => this.webGLSearch(searchObject), 10);
+        } else {
+            this._webGLWorker.runProgram("finalize", 1);
+            const nonce = this._webGLWorker.readData(0, 0, this._webGLWorker.getDimensions().x, 1)
+                .reduce(this.pack(4), [])
+                .slice(0, this._hashLength)
+                .map(x => x[3]);
 
-        searchObject.callback(Trits.fromNumberArray(nonce).toTrytes());
-        this.searchDoNext();
+            searchObject.callback(Trits.fromNumberArray(nonce).toTrytes());
+            this.searchDoNext();
+        }
     }
 
     /* @internal */
