@@ -6,6 +6,8 @@
 
 
 Extension to the current definition of WebGLRenderingContext.
+*__interface__*: 
+
 
 ## Hierarchy
 
@@ -2956,7 +2958,7 @@ ___
 
 **●  RGBA32I**:  *`number`* 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:8](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLRenderingContextExt.ts#L8)*
+*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLRenderingContextExt.ts#L11)*
 
 
 
@@ -2986,7 +2988,7 @@ ___
 
 **●  RGBA_INTEGER**:  *`number`* 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLRenderingContextExt.ts#L7)*
+*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLRenderingContextExt.ts#L10)*
 
 
 
@@ -7211,7 +7213,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLRenderingContextExt.ts#L11)*
+*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLRenderingContextExt.ts#L14)*
 
 
 
@@ -8014,7 +8016,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLRenderingContextExt.ts#L10)*
+*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLRenderingContextExt.ts#L13)*
 
 
 
@@ -8260,7 +8262,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLRenderingContextExt.ts#L12)*
+*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLRenderingContextExt.ts#L15)*
 
 
 
@@ -10292,7 +10294,7 @@ ___
 
 
 
-*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLRenderingContextExt.ts#L13)*
+*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLRenderingContextExt.ts#L16)*
 
 
 

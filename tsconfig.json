@@ -17,7 +17,8 @@
         "types": [],
         "esModuleInterop": true,
         "stripInternal": true,
-        "experimentalDecorators": true
+        "inlineSourceMap": true,
+        "noImplicitUseStrict": true
     },
     "include": [
         "src/**/*"

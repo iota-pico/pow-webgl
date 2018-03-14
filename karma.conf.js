@@ -1,7 +1,7 @@
 module.exports = function (config) {
     config.set({
         basePath: '',
-        frameworks: ['mocha'],
+        frameworks: ['mocha', "karma-typescript"],
         files: [
             {
                 pattern: './node_modules/systemjs/dist/system.src.js',
@@ -24,11 +24,11 @@ module.exports = function (config) {
                 included: false
             },
             {
-                pattern: './node_modules/crypto-js/crypto-js.js',
+                pattern: './node_modules/sinon/pkg/sinon.js',
                 included: false
             },
             {
-                pattern: './dist/**/*',
+                pattern: './node_modules/big-integer/BigInteger.js',
                 included: false
             },
             {
@@ -40,20 +40,32 @@ module.exports = function (config) {
                 included: true
             },
             {
-                pattern: './test/dist/**/*',
+                pattern: './test/dist/**/*.js',
                 included: false
             }
         ],
         browsers: ['ChromeHeadless'],
-        reporters: ['story'],
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
         singleRun: true,
         client: {
             mocha: {
-                timeout: 10000
+                timeout: 60000
             }
-        }
+        },
+        preprocessors: {
+            './test/dist/src/**/*.js': ['coverage', 'sourcemap']
+        },
+        reporters: ["story", "coverage", 'remap-coverage'],
+        coverageReporter: {
+            type: 'in-memory'
+        },
+        remapCoverageReporter: {
+            text: null,
+            html: './coverage/lcov-report',
+            lcovonly: './coverage/lcov.info'
+        },
+        browserNoActivityTimeout: 60000
     });
 };

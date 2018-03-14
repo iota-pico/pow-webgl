@@ -1,5 +1,8 @@
+import { WebGLVertexArrayObject } from "./webGLVertexArrayObject";
+
 /**
  * Extension to the current definition of WebGLRenderingContext.
+ * @interface
  */
 
 // tslint:disable-next-line:interface-name
@@ -11,8 +14,4 @@ export interface WebGLRenderingContextExt extends WebGLRenderingContext {
     bindVertexArray(vertexAray: WebGLVertexArrayObject): void;
     deleteVertexArray(vertexArray: WebGLVertexArrayObject): void;
     isVertexArray(vertexArray: WebGLVertexArrayObject): boolean;
-}
-
-// tslint:disable-next-line:interface-name
-export interface WebGLVertexArrayObject extends WebGLObject {
 }

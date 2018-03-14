@@ -13,11 +13,8 @@ Helper functions for use with WebGL.
 
 * [createBuffer](webglhelper.md#createbuffer)
 * [createContext](webglhelper.md#createcontext)
-* [createProgram](webglhelper.md#createprogram)
-* [createShader](webglhelper.md#createshader)
 * [createTexture](webglhelper.md#createtexture)
 * [frameBufferSetTexture](webglhelper.md#framebuffersettexture)
-* [getShaderSource](webglhelper.md#getshadersource)
 
 
 
@@ -31,7 +28,7 @@ Helper functions for use with WebGL.
 
 
 
-*Defined in [webGL/webGLHelper.ts:42](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L42)*
+*Defined in [webGL/webGLHelper.ts:50](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLHelper.ts#L50)*
 
 
 
@@ -65,96 +62,29 @@ ___
 
 ### «Static» createContext
 
-► **createContext**(): [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)
+► **createContext**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)
 
 
 
-*Defined in [webGL/webGLHelper.ts:12](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L12)*
+*Defined in [webGL/webGLHelper.ts:14](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLHelper.ts#L14)*
 
 
 
 Create a WebGL Context.
 
 
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  - |
+
+
+
 
 
 **Returns:** [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)
 The context if successfuly or throws an error if it cannot be created.
-
-
-
-
-
-
-___
-
-<a id="createprogram"></a>
-
-### «Static» createProgram
-
-► **createProgram**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, vertexShaderSource: *`string`*, fragmentShaderSource: *`string`*, debugLog?: *`function`*): `WebGLProgram`
-
-
-
-*Defined in [webGL/webGLHelper.ts:103](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L103)*
-
-
-
-Create a program on the WebGL context.
-
-
-**Parameters:**
-
-| Param | Type | Description |
-| ------ | ------ | ------ |
-| gl | [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)   |  The WebGL rendering context. |
-| vertexShaderSource | `string`   |  The source for the vertex shader. |
-| fragmentShaderSource | `string`   |  The source for the fragment shader. |
-| debugLog | `function`   |  Output the information to a debug log. |
-
-
-
-
-
-**Returns:** `WebGLProgram`
-A WebGL Program.
-
-
-
-
-
-
-___
-
-<a id="createshader"></a>
-
-### «Static» createShader
-
-► **createShader**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, source: *`string`*, type: *`number`*): `WebGLShader`
-
-
-
-*Defined in [webGL/webGLHelper.ts:88](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L88)*
-
-
-
-Create a shader.
-
-
-**Parameters:**
-
-| Param | Type | Description |
-| ------ | ------ | ------ |
-| gl | [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)   |  The WebGL rendering context. |
-| source | `string`   |  The source for the shader. |
-| type | `number`   |  Either gl.VERTEX_SHADER or gl.FRAGMENT_SHADER. |
-
-
-
-
-
-**Returns:** `WebGLShader`
-The shader.
 
 
 
@@ -171,7 +101,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:58](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L58)*
+*Defined in [webGL/webGLHelper.ts:66](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLHelper.ts#L66)*
 
 
 
@@ -208,7 +138,7 @@ ___
 
 
 
-*Defined in [webGL/webGLHelper.ts:139](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L139)*
+*Defined in [webGL/webGLHelper.ts:86](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/webGL/webGLHelper.ts#L86)*
 
 
 
@@ -228,41 +158,6 @@ Set the texure into the framebuffer.
 
 
 **Returns:** `void`
-
-
-
-
-
-___
-
-<a id="getshadersource"></a>
-
-### «Static» getShaderSource
-
-► **getShaderSource**(id: *`string`*): `string`
-
-
-
-*Defined in [webGL/webGLHelper.ts:77](https://github.com/iotaeco/iota-pico-pow-webgl/blob/47e092e/src/webGL/webGLHelper.ts#L77)*
-
-
-
-Get a shader source from the dom element.
-
-
-**Parameters:**
-
-| Param | Type | Description |
-| ------ | ------ | ------ |
-| id | `string`   |  The id of the dom element. |
-
-
-
-
-
-**Returns:** `string`
-The shader source from the dom element.
-
 
 
 

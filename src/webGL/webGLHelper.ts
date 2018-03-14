@@ -1,4 +1,6 @@
-import { CoreError } from "@iota-pico/core/dist/error/coreError";
+import { ObjectHelper } from "@iota-pico/core/dist/helpers/objectHelper";
+import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
+import { IWebGLPlatform } from "../IWebGLPlatform";
 import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
 
 /**
@@ -9,25 +11,31 @@ export class WebGLHelper {
      * Create a WebGL Context.
      * @returns The context if successfuly or throws an error if it cannot be created.
      */
-    public static createContext(): WebGLRenderingContextExt {
-        if (typeof window !== "undefined" && window.document) {
-            const canvas = window.document.createElement("canvas");
+    public static createContext(webGLPlatform: IWebGLPlatform): WebGLRenderingContextExt {
+        const window = webGLPlatform.getWindow();
 
-            if (canvas) {
-                const attr = { alpha: false, antialias: false };
+        if (!ObjectHelper.isEmpty(window) && typeof window !== "undefined") {
+            const document = webGLPlatform.getDocument(window);
 
-                const gl = canvas.getContext("webgl2", attr) || canvas.getContext("experimental-webgl2", attr);
+            if (!ObjectHelper.isEmpty(document)) {
+                const canvas = webGLPlatform.getCanvas(document);
 
-                if (!gl) {
-                    throw new CoreError("Unable to initialize WebGL.", { userAgent: window.navigator.userAgent });
+                if (!ObjectHelper.isEmpty(canvas)) {
+                    const gl = webGLPlatform.getWebGL(canvas);
+
+                    if (ObjectHelper.isEmpty(gl)) {
+                        throw new CryptoError("Can not create a WebGL context on a <canvas> element.", { userAgent: window.navigator.userAgent });
+                    }
+
+                    return gl;
+                } else {
+                    throw new CryptoError("The HTML5 <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
                 }
-
-                return <WebGLRenderingContextExt>gl;
             } else {
-                throw new CoreError("The <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
+                throw new CryptoError("window.document is not available, you must be running in an environment with WebGL.");
             }
         } else {
-            throw new CoreError("window.document is not available, you must be running in an environment with WebGL.");
+            throw new CryptoError("window is not available, you must be running in an environment with WebGL.");
         }
     }
 
@@ -55,7 +63,7 @@ export class WebGLHelper {
      * @param dimensions The dimensions to create the texture.
      * @returns The texture.
      */
-    public static createTexture(gl: WebGLRenderingContextExt, pixelData: ArrayBufferView, dimensions: { x: number; y: number}): WebGLTexture {
+    public static createTexture(gl: WebGLRenderingContextExt, pixelData: ArrayBufferView, dimensions: { x: number; y: number }): WebGLTexture {
         const texture = gl.createTexture();
 
         gl.bindTexture(gl.TEXTURE_2D, texture);
@@ -67,67 +75,6 @@ export class WebGLHelper {
         gl.bindTexture(gl.TEXTURE_2D, null);
 
         return texture;
-    }
-
-    /**
-     * Get a shader source from the dom element.
-     * @param id The id of the dom element.
-     * @returns The shader source from the dom element.
-     */
-    public static getShaderSource(id: string): string {
-        return document.getElementById(id).textContent.replace(/^\s+|\s+$/g, "");
-    }
-
-    /**
-     * Create a shader.
-     * @param gl The WebGL rendering context.
-     * @param source The source for the shader.
-     * @param type Either gl.VERTEX_SHADER or gl.FRAGMENT_SHADER.
-     * @returns The shader.
-     */
-    public static createShader(gl: WebGLRenderingContextExt, source: string, type: number): WebGLShader {
-        const shader = gl.createShader(type);
-        gl.shaderSource(shader, source);
-        gl.compileShader(shader);
-        return shader;
-    }
-
-    /**
-     * Create a program on the WebGL context.
-     * @param gl The WebGL rendering context.
-     * @param vertexShaderSource The source for the vertex shader.
-     * @param fragmentShaderSource The source for the fragment shader.
-     * @param debugLog Output the information to a debug log.
-     * @returns A WebGL Program.
-     */
-    public static createProgram(gl: WebGLRenderingContextExt, vertexShaderSource: string, fragmentShaderSource: string, debugLog?: (message: string) => void): WebGLProgram {
-        const program = gl.createProgram();
-        const vshader = WebGLHelper.createShader(gl, vertexShaderSource, gl.VERTEX_SHADER);
-        const fshader = WebGLHelper.createShader(gl, fragmentShaderSource, gl.FRAGMENT_SHADER);
-        gl.attachShader(program, vshader);
-        gl.deleteShader(vshader);
-        gl.attachShader(program, fshader);
-        gl.deleteShader(fshader);
-        gl.linkProgram(program);
-
-        if (debugLog) {
-            let log = gl.getProgramInfoLog(program);
-            if (log) {
-                debugLog(log);
-            }
-
-            log = gl.getShaderInfoLog(vshader);
-            if (log) {
-                debugLog(log);
-            }
-
-            log = gl.getShaderInfoLog(fshader);
-            if (log) {
-                debugLog(log);
-            }
-        }
-
-        return program;
     }
 
     /**
@@ -145,7 +92,7 @@ export class WebGLHelper {
         const frameBufferStatus = gl.checkFramebufferStatus(gl.FRAMEBUFFER);
 
         if (frameBufferStatus !== gl.FRAMEBUFFER_COMPLETE) {
-            throw new CoreError("Error attaching float texture to framebuffer. Your device is probably incompatible.");
+            throw new CryptoError("Error attaching float texture to framebuffer. Your device is probably incompatible.");
         }
     }
 }

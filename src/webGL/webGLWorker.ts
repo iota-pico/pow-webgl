@@ -1,8 +1,10 @@
-import { CoreError } from "@iota-pico/core/dist/error/coreError";
+import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
+import { IWebGLPlatform } from "../IWebGLPlatform";
 import stdlib from "./stdlib";
 import vertexShaderCode from "./vertexShaderCode";
 import { WebGLHelper } from "./webGLHelper";
-import { WebGLRenderingContextExt, WebGLVertexArrayObject } from "./webGLRenderingContextExt";
+import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
+import { WebGLVertexArrayObject } from "./webGLVertexArrayObject";
 
 /**
  * WebGLWorker.
@@ -33,11 +35,12 @@ export class WebGLWorker {
 
     /**
      * Initialize the web GL Worker.
+     * @param webGLPlatform The webGL platform.
      * @param stateLength The length of the state.
      * @param texelSize The texel size.
      */
-    public initialize(stateLength: number, texelSize: number): void {
-        this._context = WebGLHelper.createContext();
+    public initialize(webGLPlatform: IWebGLPlatform, stateLength: number, texelSize: number): void {
+        this._context = WebGLHelper.createContext(webGLPlatform);
         this._dimensions = { x: stateLength, y: 0 };
 
         const maxImageSize = Math.pow(this._context.MAX_TEXTURE_SIZE, 2) * 0.5;
@@ -119,19 +122,16 @@ export class WebGLWorker {
     public runProgram(name: string, count: number, ...uniforms: { name: string; value: any}[]): void {
         const info = this._programs.get(name);
         const program = info.program;
-        if (!program) {
-            throw new CoreError("Run program does not exist", { name });
-        }
 
         if (!this._context.getProgramParameter(program, this._context.LINK_STATUS)) {
-            throw new CoreError("Failed to link GLSL program code");
+            throw new CryptoError("Failed to link GLSL program code");
         }
 
         const uniformVars = info.uniformVars;
         const uTexture = this._context.getUniformLocation(program, "u_texture");
         this._context.useProgram(program);
 
-        let localCount = count || 0;
+        let localCount = count;
         while (localCount-- > 0) {
             this._context.bindTexture(this._context.TEXTURE_2D, this._texture0);
             this._context.activeTexture(this._context.TEXTURE0);
@@ -157,12 +157,12 @@ export class WebGLWorker {
      * Read data from the worker.
      * @param x The x position to read from.
      * @param y The y position to read from.
-     * @param N The width position to read from.
-     * @param M The height position to read from.
+     * @param n The width position to read from.
+     * @param m The height position to read from.
      */
-    public readData(x: number, y: number, N: number, M: number): Int32Array {
+    public readData(x: number, y: number, n: number, m: number): Int32Array {
         this._context.bindFramebuffer(this._context.FRAMEBUFFER, this._frameBuffer);
-        this._context.readPixels(x || 0, y || 0, N || this._dimensions.x, M || this._dimensions.y, this._context.RGBA_INTEGER, this._context.INT, this._ipt.data);
+        this._context.readPixels(x, y, n, m, this._context.RGBA_INTEGER, this._context.INT, this._ipt.data);
         this._context.bindFramebuffer(this._context.FRAMEBUFFER, null);
         return this._ipt.data.subarray(0, this._ipt.length);
     }
@@ -196,8 +196,8 @@ export class WebGLWorker {
 
         // This should not fail.
         if (!this._context.getShaderParameter(this._vertexShader, this._context.COMPILE_STATUS)) {
-            throw new CoreError(
-                `Could not build internal vertex shader (fatal).
+            throw new CryptoError(
+                `Could not build vertex shader.
 
 --- CODE DUMP ---${vertexShaderCode}
 
@@ -218,16 +218,16 @@ ${this._context.getShaderInfoLog(this._vertexShader)}`
         // Use this output to debug the shader
         // Keep in mind that WebGL GLSL is **much** stricter than e.g. OpenGL GLSL
         if (!this._context.getShaderParameter(fragmentShader, this._context.COMPILE_STATUS)) {
-            const LOC = code.split("\n");
-            let dbgMsg = "Could not build shader (fatal).\n\n------------------ KERNEL CODE DUMP ------------------\n";
+            const codeLines = code.split("\n");
+            let dbgMsg = "Could not build fragment shader.\n\n------------------ KERNEL CODE DUMP ------------------\n";
 
-            for (let nl = 0; nl < LOC.length; nl++) {
-                dbgMsg += `${stdlib.split("\n").length + nl}> ${LOC[nl]}\n`;
+            for (let nl = 0; nl < codeLines.length; nl++) {
+                dbgMsg += `${stdlib.split("\n").length + nl}> ${codeLines[nl]}\n`;
             }
 
             dbgMsg += `\n--------------------- ERROR  LOG ---------------------\n${this._context.getShaderInfoLog(fragmentShader)}`;
 
-            throw new Error(dbgMsg);
+            throw new CryptoError(dbgMsg);
         }
         return fragmentShader;
     }

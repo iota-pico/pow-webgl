@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.0
+
+* Added code coverage to testing
+
 ## v0.6.1
 
 * Version bump
