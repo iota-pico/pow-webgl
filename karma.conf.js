@@ -1,15 +1,3 @@
-var isTravis = "TRAVIS" in process.env && "CI" in process.env;
-
-var customLaunchers = {
-    ChromeHeadlessGL: {
-        base: 'ChromeHeadless'
-    }
-};
-
-if (isTravis) {
-    customLaunchers.ChromeHeadlessGL.flags = ['--disable-gpu', '--use-gl=osmesa'];
-}
-
 module.exports = function (config) {
     config.set({
         basePath: '',
@@ -56,8 +44,7 @@ module.exports = function (config) {
                 included: false
             }
         ],
-        browsers: ['ChromeHeadlessGL'],
-        customLaunchers,
+        browsers: ['ChromeHeadless'],
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
@@ -65,7 +52,10 @@ module.exports = function (config) {
         client: {
             mocha: {
                 timeout: 60000
-            }
+            },
+            args: [
+                process.env            
+            ]
         },
         preprocessors: {
             './test/dist/src/**/*.js': ['coverage', 'sourcemap']

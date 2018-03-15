@@ -2,10 +2,6 @@ sudo: required
 language: node_js
 node_js:
   - "node"
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install libosmesa6
-  - sudo ln -s /usr/lib/x86_64-linux-gnu/libOSMesa.so.6 /opt/google/chrome/libosmesa.so
 install:
   - cd ../../
   - git clone --branch=$TRAVIS_BRANCH https://github.com/iotaeco/iota-pico-core.git iotaeco/iota-pico-core
