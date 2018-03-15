@@ -52,7 +52,10 @@ module.exports = function (config) {
         client: {
             mocha: {
                 timeout: 60000
-            }
+            },
+            args: [
+                process.env            
+            ]
         },
         preprocessors: {
             './test/dist/src/**/*.js': ['coverage', 'sourcemap']
