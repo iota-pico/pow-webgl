@@ -30,7 +30,7 @@ PearlDiver. Converted from [https://github.com/iotaledger/curl.lib.js/blob/maste
 
 **●  instance**:  *[PearlDiver](pearldiver.md)* 
 
-*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/pearlDiver/pearlDiver.ts#L24)*
+*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iotaeco/iota-pico-pow-webgl/blob/80efa31/src/pearlDiver/pearlDiver.ts#L24)*
 
 
 
@@ -48,7 +48,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:118](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/pearlDiver/pearlDiver.ts#L118)*
+*Defined in [pearlDiver/pearlDiver.ts:118](https://github.com/iotaeco/iota-pico-pow-webgl/blob/80efa31/src/pearlDiver/pearlDiver.ts#L118)*
 
 
 
@@ -84,7 +84,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:106](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/pearlDiver/pearlDiver.ts#L106)*
+*Defined in [pearlDiver/pearlDiver.ts:106](https://github.com/iotaeco/iota-pico-pow-webgl/blob/80efa31/src/pearlDiver/pearlDiver.ts#L106)*
 
 
 
@@ -109,7 +109,7 @@ ___
 
 
 
-*Defined in [pearlDiver/pearlDiver.ts:97](https://github.com/iotaeco/iota-pico-pow-webgl/blob/3d877b6/src/pearlDiver/pearlDiver.ts#L97)*
+*Defined in [pearlDiver/pearlDiver.ts:97](https://github.com/iotaeco/iota-pico-pow-webgl/blob/80efa31/src/pearlDiver/pearlDiver.ts#L97)*
 
 
 
