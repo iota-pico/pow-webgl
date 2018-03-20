@@ -17,7 +17,7 @@ IWebGLPlatform interface.
 
 
 
-*Defined in [IWebGLPlatform.ts:9](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/IWebGLPlatform.ts#L9)*
+*Defined in [IWebGLPlatform.ts:9](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/IWebGLPlatform.ts#L9)*
 
 
 
@@ -47,7 +47,7 @@ ___
 
 
 
-*Defined in [IWebGLPlatform.ts:8](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/IWebGLPlatform.ts#L8)*
+*Defined in [IWebGLPlatform.ts:8](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/IWebGLPlatform.ts#L8)*
 
 
 
@@ -77,7 +77,7 @@ ___
 
 
 
-*Defined in [IWebGLPlatform.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/IWebGLPlatform.ts#L10)*
+*Defined in [IWebGLPlatform.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/IWebGLPlatform.ts#L10)*
 
 
 
@@ -107,7 +107,7 @@ ___
 
 
 
-*Defined in [IWebGLPlatform.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/IWebGLPlatform.ts#L7)*
+*Defined in [IWebGLPlatform.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/IWebGLPlatform.ts#L7)*
 
 
 
