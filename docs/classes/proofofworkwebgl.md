@@ -54,7 +54,7 @@ ProofOfWork implementation using WebGL.
 
 *Overrides ProofOfWorkBase.__constructor*
 
-*Defined in [proofOfWorkWebGl.ts:19](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/proofOfWorkWebGl.ts#L19)*
+*Defined in [proofOfWorkWebGl.ts:19](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/proofOfWorkWebGl.ts#L19)*
 
 
 
@@ -109,7 +109,7 @@ ___
 
 *Overrides ProofOfWorkBase.initialize*
 
-*Defined in [proofOfWorkWebGl.ts:49](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/proofOfWorkWebGl.ts#L49)*
+*Defined in [proofOfWorkWebGl.ts:49](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/proofOfWorkWebGl.ts#L49)*
 
 
 
@@ -176,7 +176,7 @@ ___
 
 *Overrides ProofOfWorkBase.singlePow*
 
-*Defined in [proofOfWorkWebGl.ts:68](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/proofOfWorkWebGl.ts#L68)*
+*Defined in [proofOfWorkWebGl.ts:68](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/proofOfWorkWebGl.ts#L68)*
 
 
 
