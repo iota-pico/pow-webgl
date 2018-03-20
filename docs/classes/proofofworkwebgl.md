@@ -7,6 +7,19 @@
 
 ProofOfWork implementation using WebGL.
 
+## Hierarchy
+
+
+ `ProofOfWorkBase`
+
+**↳ ProofOfWorkWebGl**
+
+
+
+
+
+
+
 ## Implements
 
 * `IProofOfWork`
@@ -18,11 +31,16 @@ ProofOfWork implementation using WebGL.
 * [constructor](proofofworkwebgl.md#constructor)
 
 
+### Properties
+
+* [MAX_TIMESTAMP_VALUE](proofofworkwebgl.md#max_timestamp_value)
+
+
 ### Methods
 
 * [initialize](proofofworkwebgl.md#initialize)
-* [performsSingle](proofofworkwebgl.md#performssingle)
 * [pow](proofofworkwebgl.md#pow)
+* [singlePow](proofofworkwebgl.md#singlepow)
 
 
 
@@ -31,10 +49,12 @@ ProofOfWork implementation using WebGL.
 <a id="constructor"></a>
 
 
-### ⊕ **new ProofOfWorkWebGl**(webGLPlatform?: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): [ProofOfWorkWebGl](proofofworkwebgl.md)
+### ⊕ **new ProofOfWorkWebGl**(webGLPlatform?: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*, timeService?: *`ITimeService`*): [ProofOfWorkWebGl](proofofworkwebgl.md)
 
 
-*Defined in [proofOfWorkWebGl.ts:20](https://github.com/iotaeco/iota-pico-pow-webgl/blob/ed51bf0/src/proofOfWorkWebGl.ts#L20)*
+*Overrides ProofOfWorkBase.__constructor*
+
+*Defined in [proofOfWorkWebGl.ts:19](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/proofOfWorkWebGl.ts#L19)*
 
 
 
@@ -46,6 +66,7 @@ Create a new instance of ProofOfWork.
 | Param | Type | Description |
 | ------ | ------ | ------ |
 | webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  Provides platform specific functions, optional mostly used for testing. |
+| timeService | `ITimeService`   |  Service to get the time for attachments. |
 
 
 
@@ -54,6 +75,27 @@ Create a new instance of ProofOfWork.
 **Returns:** [ProofOfWorkWebGl](proofofworkwebgl.md)
 
 ---
+
+
+## Properties
+<a id="max_timestamp_value"></a>
+
+### «Static» MAX_TIMESTAMP_VALUE
+
+**●  MAX_TIMESTAMP_VALUE**:  *`number`* 
+
+*Inherited from ProofOfWorkBase.MAX_TIMESTAMP_VALUE*
+
+*Defined in D:/Workarea/iotaeco/iota-pico-pow-webgl/node_modules/@iota-pico/crypto/dist/proofOfWork/proofOfWorkBase.d.ts:12*
+
+
+
+The maximum timestamp value used in proof of work.
+
+
+
+
+___
 
 
 ## Methods
@@ -65,7 +107,9 @@ Create a new instance of ProofOfWork.
 
 
 
-*Defined in [proofOfWorkWebGl.ts:47](https://github.com/iotaeco/iota-pico-pow-webgl/blob/ed51bf0/src/proofOfWorkWebGl.ts#L47)*
+*Overrides ProofOfWorkBase.initialize*
+
+*Defined in [proofOfWorkWebGl.ts:49](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/proofOfWorkWebGl.ts#L49)*
 
 
 
@@ -82,33 +126,6 @@ Allow the proof of work to perform any initialization. Will throw an exception i
 
 ___
 
-<a id="performssingle"></a>
-
-###  performsSingle
-
-► **performsSingle**(): `boolean`
-
-
-
-*Defined in [proofOfWorkWebGl.ts:63](https://github.com/iotaeco/iota-pico-pow-webgl/blob/ed51bf0/src/proofOfWorkWebGl.ts#L63)*
-
-
-
-Performs single conversion per pow call.
-
-
-
-
-**Returns:** `boolean`
-True if pow only does one conversion.
-
-
-
-
-
-
-___
-
 <a id="pow"></a>
 
 ###  pow
@@ -117,7 +134,9 @@ ___
 
 
 
-*Defined in [proofOfWorkWebGl.ts:75](https://github.com/iotaeco/iota-pico-pow-webgl/blob/ed51bf0/src/proofOfWorkWebGl.ts#L75)*
+*Inherited from ProofOfWorkBase.pow*
+
+*Defined in D:/Workarea/iotaeco/iota-pico-pow-webgl/node_modules/@iota-pico/crypto/dist/proofOfWork/proofOfWorkBase.d.ts:31*
 
 
 
@@ -138,6 +157,44 @@ Perform a proof of work on the data.
 
 
 **Returns:** `Promise`.<`Trytes`[]>
+The trytes produced by the proof of work.
+
+
+
+
+
+
+___
+
+<a id="singlepow"></a>
+
+###  singlePow
+
+► **singlePow**(trytes: *`Trytes`*, minWeightMagnitude: *`number`*): `Promise`.<`Trytes`>
+
+
+
+*Overrides ProofOfWorkBase.singlePow*
+
+*Defined in [proofOfWorkWebGl.ts:68](https://github.com/iotaeco/iota-pico-pow-webgl/blob/304c812/src/proofOfWorkWebGl.ts#L68)*
+
+
+
+Perform a proof of work on a single item.
+
+
+**Parameters:**
+
+| Param | Type | Description |
+| ------ | ------ | ------ |
+| trytes | `Trytes`   |  The trytes to perform the pow on. |
+| minWeightMagnitude | `number`   |  The minimum weight magnitude. |
+
+
+
+
+
+**Returns:** `Promise`.<`Trytes`>
 The trytes produced by the proof of work.
 
 
