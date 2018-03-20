@@ -40,7 +40,7 @@
 
 **Τ PearlDiverSearchObject**:  *`object`* 
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
 
 
 
@@ -69,7 +69,7 @@ PearlDiverSearchObject to maintain information during search.
 
 
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
 
 
 
@@ -99,7 +99,7 @@ ___
 
 **Τ PearlDiverSearchStates**:  *`object`* 
 
-*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iotaeco/iota-pico-pow-webgl/blob/300e5ad/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
+*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
 
 
 
