@@ -55,7 +55,7 @@ class WebGLWorker {
     }
     /**
      * Get the IPT from the worker.
-     * @return The ipt.
+     * @returns The ipt.
      */
     getIpt() {
         return this._ipt;
