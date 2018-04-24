@@ -1,9 +1,6 @@
 [@iota-pico/pow-webgl](../README.md) > [PearlDiverState](../enums/pearldiverstate.md)
 
-
-
 # Enumeration: PearlDiverState
-
 
 PearlDiver State.
 
@@ -15,21 +12,17 @@ PearlDiver State.
 * [ready](pearldiverstate.md#ready)
 * [searching](pearldiverstate.md#searching)
 
-
-
 ---
+
 ## Enumeration members
+
 <a id="interrupted"></a>
 
 ###  interrupted
 
 ** interrupted**:    =  -1
 
-*Defined in [pearlDiver/pearlDiverState.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/pearlDiver/pearlDiverState.ts#L7)*
-
-
-
-
+*Defined in [pearlDiver/pearlDiverState.ts:7](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiverState.ts#L7)*
 
 ___
 
@@ -39,11 +32,7 @@ ___
 
 ** ready**:    = 0
 
-*Defined in [pearlDiver/pearlDiverState.ts:5](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/pearlDiver/pearlDiverState.ts#L5)*
-
-
-
-
+*Defined in [pearlDiver/pearlDiverState.ts:5](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiverState.ts#L5)*
 
 ___
 
@@ -53,12 +42,7 @@ ___
 
 ** searching**:    = 1
 
-*Defined in [pearlDiver/pearlDiverState.ts:6](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/pearlDiver/pearlDiverState.ts#L6)*
-
-
-
-
+*Defined in [pearlDiver/pearlDiverState.ts:6](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiverState.ts#L6)*
 
 ___
-
 

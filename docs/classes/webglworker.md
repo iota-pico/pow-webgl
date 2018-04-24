@@ -1,11 +1,12 @@
 [@iota-pico/pow-webgl](../README.md) > [WebGLWorker](../classes/webglworker.md)
 
-
-
 # Class: WebGLWorker
 
-
 WebGLWorker.
+
+## Hierarchy
+
+**WebGLWorker**
 
 ## Index
 
@@ -19,24 +20,19 @@ WebGLWorker.
 * [runProgram](webglworker.md#runprogram)
 * [writeData](webglworker.md#writedata)
 
-
-
 ---
+
 ## Methods
+
 <a id="addprogram"></a>
 
 ###  addProgram
 
-► **addProgram**(name: *`string`*, code: *`string`*, ...uniforms: *`string`[]*): `void`
+▸ **addProgram**(name: *`string`*, code: *`string`*, ...uniforms: *`string`[]*): `void`
 
-
-
-*Defined in [webGL/webGLWorker.ts:100](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L100)*
-
-
+*Defined in [webGL/webGLWorker.ts:100](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L100)*
 
 Add a program to the worker.
-
 
 **Parameters:**
 
@@ -46,15 +42,7 @@ Add a program to the worker.
 | code | `string`   |  The code for the program. |
 | uniforms | `string`[]   |  Additional uniform locations. |
 
-
-
-
-
 **Returns:** `void`
-
-
-
-
 
 ___
 
@@ -62,26 +50,14 @@ ___
 
 ###  getDimensions
 
-► **getDimensions**(): `object`
+▸ **getDimensions**(): `object`
 
-
-
-*Defined in [webGL/webGLWorker.ts:82](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L82)*
-
-
+*Defined in [webGL/webGLWorker.ts:82](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L82)*
 
 Get the dimensions from the worker.
 
-
-
-
 **Returns:** `object`
 The dimensions.
-
-
-
-
-
 
 ___
 
@@ -89,26 +65,14 @@ ___
 
 ###  getIpt
 
-► **getIpt**(): `object`
+▸ **getIpt**(): `object`
 
-
-
-*Defined in [webGL/webGLWorker.ts:90](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L90)*
-
-
+*Defined in [webGL/webGLWorker.ts:90](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L90)*
 
 Get the IPT from the worker.
 
-
-
-
 **Returns:** `object`
 The ipt.
-
-
-
-
-
 
 ___
 
@@ -116,16 +80,11 @@ ___
 
 ###  initialize
 
-► **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*, stateLength: *`number`*, texelSize: *`number`*): `void`
+▸ **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*, stateLength: *`number`*, texelSize: *`number`*): `void`
 
-
-
-*Defined in [webGL/webGLWorker.ts:42](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L42)*
-
-
+*Defined in [webGL/webGLWorker.ts:42](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L42)*
 
 Initialize the web GL Worker.
-
 
 **Parameters:**
 
@@ -135,15 +94,7 @@ Initialize the web GL Worker.
 | stateLength | `number`   |  The length of the state. |
 | texelSize | `number`   |  The texel size. |
 
-
-
-
-
 **Returns:** `void`
-
-
-
-
 
 ___
 
@@ -151,16 +102,11 @@ ___
 
 ###  readData
 
-► **readData**(x: *`number`*, y: *`number`*, n: *`number`*, m: *`number`*): `Int32Array`
+▸ **readData**(x: *`number`*, y: *`number`*, n: *`number`*, m: *`number`*): `Int32Array`
 
-
-
-*Defined in [webGL/webGLWorker.ts:163](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L163)*
-
-
+*Defined in [webGL/webGLWorker.ts:163](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L163)*
 
 Read data from the worker.
-
 
 **Parameters:**
 
@@ -171,15 +117,7 @@ Read data from the worker.
 | n | `number`   |  The width position to read from. |
 | m | `number`   |  The height position to read from. |
 
-
-
-
-
 **Returns:** `Int32Array`
-
-
-
-
 
 ___
 
@@ -187,16 +125,11 @@ ___
 
 ###  runProgram
 
-► **runProgram**(name: *`string`*, count: *`number`*, ...uniforms: *`object`[]*): `void`
+▸ **runProgram**(name: *`string`*, count: *`number`*, ...uniforms: *`object`[]*): `void`
 
-
-
-*Defined in [webGL/webGLWorker.ts:122](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L122)*
-
-
+*Defined in [webGL/webGLWorker.ts:122](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L122)*
 
 Run the program in the web worker.
-
 
 **Parameters:**
 
@@ -206,15 +139,7 @@ Run the program in the web worker.
 | count | `number`   |  The number of times to run it. |
 | uniforms | `object`[]   |  Additional uniform locations to use. |
 
-
-
-
-
 **Returns:** `void`
-
-
-
-
 
 ___
 
@@ -222,16 +147,11 @@ ___
 
 ###  writeData
 
-► **writeData**(data: *`ArrayBufferView`*): `void`
+▸ **writeData**(data: *`ArrayBufferView`*): `void`
 
-
-
-*Defined in [webGL/webGLWorker.ts:174](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/webGL/webGLWorker.ts#L174)*
-
-
+*Defined in [webGL/webGLWorker.ts:174](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/webGL/webGLWorker.ts#L174)*
 
 Write data to the worker.
-
 
 **Parameters:**
 
@@ -239,16 +159,7 @@ Write data to the worker.
 | ------ | ------ | ------ |
 | data | `ArrayBufferView`   |  The data to write. |
 
-
-
-
-
 **Returns:** `void`
 
-
-
-
-
 ___
-
 
