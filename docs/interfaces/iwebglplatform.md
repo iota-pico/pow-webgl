@@ -27,7 +27,7 @@ IWebGLPlatform interface.
 
 ▸ **getCanvas**(document: *`Document`*): `HTMLCanvasElement`
 
-*Defined in [IWebGLPlatform.ts:9](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/IWebGLPlatform.ts#L9)*
+*Defined in [IWebGLPlatform.ts:9](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L9)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **getDocument**(window: *`Window`*): `Document`
 
-*Defined in [IWebGLPlatform.ts:8](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/IWebGLPlatform.ts#L8)*
+*Defined in [IWebGLPlatform.ts:8](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L8)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **getWebGL**(canvas: *`HTMLCanvasElement`*): [WebGLRenderingContextExt](webglrenderingcontextext.md)
 
-*Defined in [IWebGLPlatform.ts:10](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/IWebGLPlatform.ts#L10)*
+*Defined in [IWebGLPlatform.ts:10](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L10)*
 
 **Parameters:**
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **getWindow**(): `Window`
 
-*Defined in [IWebGLPlatform.ts:7](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/IWebGLPlatform.ts#L7)*
+*Defined in [IWebGLPlatform.ts:7](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L7)*
 
 **Returns:** `Window`
 

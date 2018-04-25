@@ -30,7 +30,7 @@ PearlDiver. Converted from [https://github.com/iotaledger/curl.lib.js/blob/maste
 
 **●  instance**:  *[PearlDiver](pearldiver.md)* 
 
-*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiver.ts#L24)*
+*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiver.ts#L24)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 ▸ **searchWithTrytes**(trytes: *`Trytes`*, minWeightMagnitude: *`number`*): `Promise`.<`Trytes`>
 
-*Defined in [pearlDiver/pearlDiver.ts:118](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiver.ts#L118)*
+*Defined in [pearlDiver/pearlDiver.ts:118](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiver.ts#L118)*
 
 Perform a search using trytes.
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **closedown**(): `void`
 
-*Defined in [pearlDiver/pearlDiver.ts:106](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiver.ts#L106)*
+*Defined in [pearlDiver/pearlDiver.ts:106](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiver.ts#L106)*
 
 Closedown the PearlDiver main instance.
 
@@ -78,7 +78,7 @@ ___
 
 ▸ **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): `void`
 
-*Defined in [pearlDiver/pearlDiver.ts:97](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/pearlDiver/pearlDiver.ts#L97)*
+*Defined in [pearlDiver/pearlDiver.ts:97](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiver.ts#L97)*
 
 Initialize the PearlDiver main instance.
 

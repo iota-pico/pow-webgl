@@ -40,7 +40,7 @@ ProofOfWork implementation using WebGL.
 
 *Overrides ProofOfWorkBase.__constructor*
 
-*Defined in [proofOfWorkWebGl.ts:19](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/proofOfWorkWebGl.ts#L19)*
+*Defined in [proofOfWorkWebGl.ts:19](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/proofOfWorkWebGl.ts#L19)*
 
 Create a new instance of ProofOfWork.
 
@@ -81,7 +81,7 @@ ___
 
 *Overrides ProofOfWorkBase.initialize*
 
-*Defined in [proofOfWorkWebGl.ts:49](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/proofOfWorkWebGl.ts#L49)*
+*Defined in [proofOfWorkWebGl.ts:49](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/proofOfWorkWebGl.ts#L49)*
 
 Allow the proof of work to perform any initialization. Will throw an exception if the implementation is not supported.
 
@@ -123,7 +123,7 @@ ___
 
 *Overrides ProofOfWorkBase.singlePow*
 
-*Defined in [proofOfWorkWebGl.ts:68](https://github.com/iota-pico/pow-webgl/blob/8ad7827/src/proofOfWorkWebGl.ts#L68)*
+*Defined in [proofOfWorkWebGl.ts:68](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/proofOfWorkWebGl.ts#L68)*
 
 Perform a proof of work on a single item.
 
