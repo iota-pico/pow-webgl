@@ -20,7 +20,7 @@ export declare class WebGLWorker {
     };
     /**
      * Get the IPT from the worker.
-     * @return The ipt.
+     * @returns The ipt.
      */
     getIpt(): {
         data: Int32Array;

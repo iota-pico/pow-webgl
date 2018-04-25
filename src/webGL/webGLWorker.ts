@@ -85,7 +85,7 @@ export class WebGLWorker {
 
     /**
      * Get the IPT from the worker.
-     * @return The ipt.
+     * @returns The ipt.
      */
     public getIpt(): { data: Int32Array; length: number } {
         return this._ipt;

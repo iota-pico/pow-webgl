@@ -1,25 +1,33 @@
 [@iota-pico/pow-webgl](../README.md) > [IWebGLPlatform](../interfaces/iwebglplatform.md)
 
-
-
 # Interface: IWebGLPlatform
-
 
 IWebGLPlatform interface.
 
+## Hierarchy
+
+**IWebGLPlatform**
+
+## Index
+
+### Methods
+
+* [getCanvas](iwebglplatform.md#getcanvas)
+* [getDocument](iwebglplatform.md#getdocument)
+* [getWebGL](iwebglplatform.md#getwebgl)
+* [getWindow](iwebglplatform.md#getwindow)
+
+---
 
 ## Methods
+
 <a id="getcanvas"></a>
 
 ###  getCanvas
 
-► **getCanvas**(document: *`Document`*): `HTMLCanvasElement`
+▸ **getCanvas**(document: *`Document`*): `HTMLCanvasElement`
 
-
-
-*Defined in [IWebGLPlatform.ts:9](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/IWebGLPlatform.ts#L9)*
-
-
+*Defined in [IWebGLPlatform.ts:9](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L9)*
 
 **Parameters:**
 
@@ -27,15 +35,7 @@ IWebGLPlatform interface.
 | ------ | ------ | ------ |
 | document | `Document`   |  - |
 
-
-
-
-
 **Returns:** `HTMLCanvasElement`
-
-
-
-
 
 ___
 
@@ -43,13 +43,9 @@ ___
 
 ###  getDocument
 
-► **getDocument**(window: *`Window`*): `Document`
+▸ **getDocument**(window: *`Window`*): `Document`
 
-
-
-*Defined in [IWebGLPlatform.ts:8](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/IWebGLPlatform.ts#L8)*
-
-
+*Defined in [IWebGLPlatform.ts:8](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L8)*
 
 **Parameters:**
 
@@ -57,15 +53,7 @@ ___
 | ------ | ------ | ------ |
 | window | `Window`   |  - |
 
-
-
-
-
 **Returns:** `Document`
-
-
-
-
 
 ___
 
@@ -73,13 +61,9 @@ ___
 
 ###  getWebGL
 
-► **getWebGL**(canvas: *`HTMLCanvasElement`*): [WebGLRenderingContextExt](webglrenderingcontextext.md)
+▸ **getWebGL**(canvas: *`HTMLCanvasElement`*): [WebGLRenderingContextExt](webglrenderingcontextext.md)
 
-
-
-*Defined in [IWebGLPlatform.ts:10](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/IWebGLPlatform.ts#L10)*
-
-
+*Defined in [IWebGLPlatform.ts:10](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L10)*
 
 **Parameters:**
 
@@ -87,15 +71,7 @@ ___
 | ------ | ------ | ------ |
 | canvas | `HTMLCanvasElement`   |  - |
 
-
-
-
-
 **Returns:** [WebGLRenderingContextExt](webglrenderingcontextext.md)
-
-
-
-
 
 ___
 
@@ -103,22 +79,11 @@ ___
 
 ###  getWindow
 
-► **getWindow**(): `Window`
+▸ **getWindow**(): `Window`
 
-
-
-*Defined in [IWebGLPlatform.ts:7](https://github.com/iotaeco/iota-pico-pow-webgl/blob/debb33c/src/IWebGLPlatform.ts#L7)*
-
-
-
-
+*Defined in [IWebGLPlatform.ts:7](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/IWebGLPlatform.ts#L7)*
 
 **Returns:** `Window`
 
-
-
-
-
 ___
-
 

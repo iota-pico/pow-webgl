@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.9.3
+
+* Repo rename
+* Updated webpack major ver
+
 ## v0.9.2
 
 * Can now perform multi-pass pow as well as single pass
