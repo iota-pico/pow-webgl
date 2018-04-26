@@ -27,7 +27,7 @@ Helper functions for use with WebGL.
 
 ▸ **createBuffer**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, data: *`WebGLBuffer`*, arrayType?: *`any`*, target?: *`number`*): `WebGLBuffer`
 
-*Defined in [webGL/webGLHelper.ts:50](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/webGL/webGLHelper.ts#L50)*
+*Defined in [webGL/webGLHelper.ts:51](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/webGL/webGLHelper.ts#L51)*
 
 Create a new WebGL buffer.
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **createContext**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)
 
-*Defined in [webGL/webGLHelper.ts:14](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/webGL/webGLHelper.ts#L14)*
+*Defined in [webGL/webGLHelper.ts:15](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/webGL/webGLHelper.ts#L15)*
 
 Create a WebGL Context.
 
@@ -59,7 +59,7 @@ Create a WebGL Context.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
-| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  - |
+| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  The platform to create the context with. |
 
 **Returns:** [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)
 The context if successfuly or throws an error if it cannot be created.
@@ -72,7 +72,7 @@ ___
 
 ▸ **createTexture**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, pixelData: *`ArrayBufferView`*, dimensions: *`object`*): `WebGLTexture`
 
-*Defined in [webGL/webGLHelper.ts:66](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/webGL/webGLHelper.ts#L66)*
+*Defined in [webGL/webGLHelper.ts:67](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/webGL/webGLHelper.ts#L67)*
 
 Transfer data onto clamped texture and turn off any filtering
 
@@ -95,7 +95,7 @@ ___
 
 ▸ **frameBufferSetTexture**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, frameBuffer: *`WebGLFramebuffer`*, texture: *`WebGLTexture`*): `void`
 
-*Defined in [webGL/webGLHelper.ts:86](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/webGL/webGLHelper.ts#L86)*
+*Defined in [webGL/webGLHelper.ts:87](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/webGL/webGLHelper.ts#L87)*
 
 Set the texure into the framebuffer.
 

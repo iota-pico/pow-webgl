@@ -35,7 +35,7 @@
 
 **Τ PearlDiverSearchObject**:  *`object`* 
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
 
 PearlDiverSearchObject to maintain information during search.
 
@@ -48,7 +48,7 @@ PearlDiverSearchObject to maintain information during search.
  callback : function
 ▸ **callback**(nonce: *`Trytes`*): `void`
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ ___
 
 **Τ PearlDiverSearchStates**:  *`object`* 
 
-*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iota-pico/pow-webgl/blob/f1201de/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
+*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
 
 PearDiverSearchStates for storing states during search. Converted from [https://github.com/iotaledger/curl.lib.js/blob/master/src/pearldiver.js](https://github.com/iotaledger/curl.lib.js/blob/master/src/pearldiver.js)
 

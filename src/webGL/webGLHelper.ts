@@ -9,6 +9,7 @@ import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
 export class WebGLHelper {
     /**
      * Create a WebGL Context.
+     * @param webGLPlatform The platform to create the context with.
      * @returns The context if successfuly or throws an error if it cannot be created.
      */
     public static createContext(webGLPlatform: IWebGLPlatform): WebGLRenderingContextExt {

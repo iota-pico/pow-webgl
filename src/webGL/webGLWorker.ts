@@ -159,6 +159,7 @@ export class WebGLWorker {
      * @param y The y position to read from.
      * @param n The width position to read from.
      * @param m The height position to read from.
+     * @returns The data at the requested position.
      */
     public readData(x: number, y: number, n: number, m: number): Int32Array {
         this._context.bindFramebuffer(this._context.FRAMEBUFFER, this._frameBuffer);

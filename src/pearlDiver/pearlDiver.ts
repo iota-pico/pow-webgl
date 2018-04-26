@@ -93,6 +93,7 @@ export class PearlDiver {
 
     /**
      * Initialize the PearlDiver main instance.
+     * @param webGLPlatform The platform so initialize the pearl diver with.
      */
     public static initialize(webGLPlatform: IWebGLPlatform): void {
         if (!PearlDiver.instance) {
