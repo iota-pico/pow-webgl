@@ -49,6 +49,7 @@ export declare class WebGLWorker {
      * @param y The y position to read from.
      * @param n The width position to read from.
      * @param m The height position to read from.
+     * @returns The data at the requested position.
      */
     readData(x: number, y: number, n: number, m: number): Int32Array;
     /**

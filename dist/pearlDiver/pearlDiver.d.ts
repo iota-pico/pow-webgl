@@ -8,6 +8,7 @@ export declare class PearlDiver {
     static instance: PearlDiver;
     /**
      * Initialize the PearlDiver main instance.
+     * @param webGLPlatform The platform so initialize the pearl diver with.
      */
     static initialize(webGLPlatform: IWebGLPlatform): void;
     /**

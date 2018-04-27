@@ -3,6 +3,6 @@
  * @interface
  */
 
-// tslint:disable-next-line:interface-name
+// tslint:disable-next-line:interface-name no-empty-interface
 export interface WebGLVertexArrayObject extends WebGLObject {
 }

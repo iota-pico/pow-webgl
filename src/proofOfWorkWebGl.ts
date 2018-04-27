@@ -45,6 +45,7 @@ export class ProofOfWorkWebGl extends ProofOfWorkBase {
     /**
      * Allow the proof of work to perform any initialization.
      * Will throw an exception if the implementation is not supported.
+     * @returns Promise.
      */
     public async initialize(): Promise<void> {
         await super.initialize();
