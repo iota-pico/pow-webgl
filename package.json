@@ -1,6 +1,6 @@
 {
     "name": "@iota-pico/pow-webgl",
-    "version": "0.9.3",
+    "version": "0.9.5",
     "description": "IOTA Pico Framework Proof Of Work WebGL",
     "typings": "dist/index.d.ts",
     "main": "dist/index.js",
@@ -48,9 +48,9 @@
         "dist": "npm-run-all build test pkg docs"
     },
     "dependencies": {
-        "@iota-pico/core": "^0.9.3",
-        "@iota-pico/crypto": "^0.9.3",
-        "@iota-pico/data": "^0.9.3"
+        "@iota-pico/core": "^0.9.5",
+        "@iota-pico/crypto": "^0.9.5",
+        "@iota-pico/data": "^0.9.5"
     },
     "devDependencies": {
         "@babel/core": "^7.0.0-beta.42",
@@ -85,12 +85,12 @@
         "sinon": "^4.5.0",
         "systemjs": "^0.21.3",
         "ts-loader": "^4.2.0",
-        "ts-node": "^5.0.1",
+        "ts-node": "^6.0.1",
         "tslint": "^5.9.1",
         "tslint-eslint-rules": "^5.1.0",
         "tslint-microsoft-contrib": "^5.0.3",
         "typedoc": "^0.11.1",
-        "typedoc-plugin-markdown": "^1.1.4",
+        "typedoc-plugin-markdown": "^1.1.6",
         "typescript": "^2.8.3",
         "uglifyjs-webpack-plugin": "^1.2.5",
         "webpack": "^4.6.0",

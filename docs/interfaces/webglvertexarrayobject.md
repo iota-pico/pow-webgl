@@ -25,7 +25,7 @@ Interface used by the current WebGLRenderingContextExt definition.
 
 ###  WebGLObject
 
-**●  WebGLObject**:  *`object`* 
+**● WebGLObject**: *`object`*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12433*
 

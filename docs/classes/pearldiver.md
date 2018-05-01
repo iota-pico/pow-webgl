@@ -28,9 +28,9 @@ PearlDiver. Converted from [https://github.com/iotaledger/curl.lib.js/blob/maste
 
 ### `<Static>` instance
 
-**●  instance**:  *[PearlDiver](pearldiver.md)* 
+**● instance**: *[PearlDiver](pearldiver.md)*
 
-*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiver.ts#L24)*
+*Defined in [pearlDiver/pearlDiver.ts:24](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiver.ts#L24)*
 
 ___
 
@@ -40,9 +40,9 @@ ___
 
 ###  searchWithTrytes
 
-▸ **searchWithTrytes**(trytes: *`Trytes`*, minWeightMagnitude: *`number`*): `Promise`.<`Trytes`>
+▸ **searchWithTrytes**(trytes: *`Trytes`*, minWeightMagnitude: *`number`*): `Promise`<`Trytes`>
 
-*Defined in [pearlDiver/pearlDiver.ts:119](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiver.ts#L119)*
+*Defined in [pearlDiver/pearlDiver.ts:119](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiver.ts#L119)*
 
 Perform a search using trytes.
 
@@ -50,35 +50,33 @@ Perform a search using trytes.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
-| trytes | `Trytes`   |  The trytes to perform the search on. |
-| minWeightMagnitude | `number`   |  The minimum weight magnitude. |
+| trytes | `Trytes` |  The trytes to perform the search on. |
+| minWeightMagnitude | `number` |  The minimum weight magnitude. |
 
-**Returns:** `Promise`.<`Trytes`>
+**Returns:** `Promise`<`Trytes`>
 Promise which resolves to the trytes from the search.
 
 ___
-
 <a id="closedown"></a>
 
 ### `<Static>` closedown
 
 ▸ **closedown**(): `void`
 
-*Defined in [pearlDiver/pearlDiver.ts:107](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiver.ts#L107)*
+*Defined in [pearlDiver/pearlDiver.ts:107](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiver.ts#L107)*
 
 Closedown the PearlDiver main instance.
 
 **Returns:** `void`
 
 ___
-
 <a id="initialize"></a>
 
 ### `<Static>` initialize
 
 ▸ **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*): `void`
 
-*Defined in [pearlDiver/pearlDiver.ts:98](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiver.ts#L98)*
+*Defined in [pearlDiver/pearlDiver.ts:98](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiver.ts#L98)*
 
 Initialize the PearlDiver main instance.
 
@@ -86,7 +84,7 @@ Initialize the PearlDiver main instance.
 
 | Param | Type | Description |
 | ------ | ------ | ------ |
-| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md)   |  The platform so initialize the pearl diver with. |
+| webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md) |  The platform so initialize the pearl diver with. |
 
 **Returns:** `void`
 

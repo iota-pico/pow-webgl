@@ -23,7 +23,7 @@ install:
 script:
   - npm run build || travis_terminate 1
   - npm run docs || travis_terminate 1
-#  - npm run security || travis_terminate 1
+  - npm run security || travis_terminate 1
   - npm run test-publish || travis_terminate 1
 cache:
   directories:

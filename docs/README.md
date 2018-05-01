@@ -33,9 +33,9 @@
 
 ###  PearlDiverSearchObject
 
-**Τ PearlDiverSearchObject**:  *`object`* 
+**ΤPearlDiverSearchObject**: *`object`*
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiverSearchObject.ts#L7)*
 
 PearlDiverSearchObject to maintain information during search.
 
@@ -48,25 +48,24 @@ PearlDiverSearchObject to maintain information during search.
  callback : function
 ▸ **callback**(nonce: *`Trytes`*): `void`
 
-*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
+*Defined in [pearlDiver/pearlDiverSearchObject.ts:10](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiverSearchObject.ts#L10)*
 
 **Parameters:**
 
-| Param | Type | Description |
-| ------ | ------ | ------ |
-| nonce | `Trytes`   |  - |
+| Param | Type |
+| ------ | ------ |
+| nonce | `Trytes` | 
 
 **Returns:** `void`
 
 ___
-
 <a id="pearldiversearchstates"></a>
 
 ###  PearlDiverSearchStates
 
-**Τ PearlDiverSearchStates**:  *`object`* 
+**ΤPearlDiverSearchStates**: *`object`*
 
-*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
+*Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiverSearchStates.ts#L5)*
 
 PearDiverSearchStates for storing states during search. Converted from [https://github.com/iotaledger/curl.lib.js/blob/master/src/pearldiver.js](https://github.com/iotaledger/curl.lib.js/blob/master/src/pearldiver.js)
 
