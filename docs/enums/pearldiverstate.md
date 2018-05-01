@@ -20,29 +20,27 @@ PearlDiver State.
 
 ###  interrupted
 
-** interrupted**:    =  -1
+**interrupted**:  =  -1
 
-*Defined in [pearlDiver/pearlDiverState.ts:7](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverState.ts#L7)*
+*Defined in [pearlDiver/pearlDiverState.ts:7](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiverState.ts#L7)*
 
 ___
-
 <a id="ready"></a>
 
 ###  ready
 
-** ready**:    = 0
+**ready**:  = 0
 
-*Defined in [pearlDiver/pearlDiverState.ts:5](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverState.ts#L5)*
+*Defined in [pearlDiver/pearlDiverState.ts:5](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiverState.ts#L5)*
 
 ___
-
 <a id="searching"></a>
 
 ###  searching
 
-** searching**:    = 1
+**searching**:  = 1
 
-*Defined in [pearlDiver/pearlDiverState.ts:6](https://github.com/iota-pico/pow-webgl/blob/88851ef/src/pearlDiver/pearlDiverState.ts#L6)*
+*Defined in [pearlDiver/pearlDiverState.ts:6](https://github.com/iota-pico/pow-webgl/blob/b158547/src/pearlDiver/pearlDiverState.ts#L6)*
 
 ___
 
