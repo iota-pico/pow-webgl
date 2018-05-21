@@ -30,7 +30,7 @@ WebGLWorker.
 
 ▸ **addProgram**(name: *`string`*, code: *`string`*, ...uniforms: *`string`[]*): `void`
 
-*Defined in [webGL/webGLWorker.ts:100](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L100)*
+*Defined in [webGL/webGLWorker.ts:100](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L100)*
 
 Add a program to the worker.
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **getDimensions**(): `object`
 
-*Defined in [webGL/webGLWorker.ts:82](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L82)*
+*Defined in [webGL/webGLWorker.ts:82](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L82)*
 
 Get the dimensions from the worker.
 
@@ -65,7 +65,7 @@ ___
 
 ▸ **getIpt**(): `object`
 
-*Defined in [webGL/webGLWorker.ts:90](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L90)*
+*Defined in [webGL/webGLWorker.ts:90](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L90)*
 
 Get the IPT from the worker.
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **initialize**(webGLPlatform: *[IWebGLPlatform](../interfaces/iwebglplatform.md)*, stateLength: *`number`*, texelSize: *`number`*): `void`
 
-*Defined in [webGL/webGLWorker.ts:42](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L42)*
+*Defined in [webGL/webGLWorker.ts:42](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L42)*
 
 Initialize the web GL Worker.
 
@@ -100,7 +100,7 @@ ___
 
 ▸ **readData**(x: *`number`*, y: *`number`*, n: *`number`*, m: *`number`*): `Int32Array`
 
-*Defined in [webGL/webGLWorker.ts:164](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L164)*
+*Defined in [webGL/webGLWorker.ts:164](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L164)*
 
 Read data from the worker.
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **runProgram**(name: *`string`*, count: *`number`*, ...uniforms: *`object`[]*): `void`
 
-*Defined in [webGL/webGLWorker.ts:122](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L122)*
+*Defined in [webGL/webGLWorker.ts:122](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L122)*
 
 Run the program in the web worker.
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **writeData**(data: *`ArrayBufferView`*): `void`
 
-*Defined in [webGL/webGLWorker.ts:175](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLWorker.ts#L175)*
+*Defined in [webGL/webGLWorker.ts:175](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLWorker.ts#L175)*
 
 Write data to the worker.
 
