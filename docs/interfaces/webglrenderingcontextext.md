@@ -2485,7 +2485,7 @@ ___
 
 **● RGBA32I**: *`number`*
 
-*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLRenderingContextExt.ts#L11)*
+*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L11)*
 
 ___
 <a id="rgba4"></a>
@@ -2505,7 +2505,7 @@ ___
 
 **● RGBA_INTEGER**: *`number`*
 
-*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLRenderingContextExt.ts#L10)*
+*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L10)*
 
 ___
 <a id="sampler_2d"></a>
@@ -4415,7 +4415,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| texture | `number` | 
+| texture | `number` |
 
 **Returns:** `void`
 
@@ -4424,7 +4424,7 @@ ___
 
 ###  attachShader
 
-▸ **attachShader**(program: *`WebGLProgram` |`null`*, shader: *`WebGLShader` |`null`*): `void`
+▸ **attachShader**(program: * `WebGLProgram` &#124; `null`*, shader: * `WebGLShader` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.attachShader*
 
@@ -4434,12 +4434,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| shader | `WebGLShader` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
+| shader |  `WebGLShader` &#124; `null`|
 
 **Returns:** `void`
 
@@ -4448,7 +4444,7 @@ ___
 
 ###  bindAttribLocation
 
-▸ **bindAttribLocation**(program: *`WebGLProgram` |`null`*, index: *`number`*, name: *`string`*): `void`
+▸ **bindAttribLocation**(program: * `WebGLProgram` &#124; `null`*, index: *`number`*, name: *`string`*): `void`
 
 *Inherited from WebGLRenderingContext.bindAttribLocation*
 
@@ -4458,11 +4454,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| index | `number` | 
-| name | `string` | 
+| program |  `WebGLProgram` &#124; `null`|
+| index | `number` |
+| name | `string` |
 
 **Returns:** `void`
 
@@ -4471,7 +4465,7 @@ ___
 
 ###  bindBuffer
 
-▸ **bindBuffer**(target: *`number`*, buffer: *`WebGLBuffer` |`null`*): `void`
+▸ **bindBuffer**(target: *`number`*, buffer: * `WebGLBuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.bindBuffer*
 
@@ -4481,10 +4475,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| buffer | `WebGLBuffer` |
-`null`
- | 
+| target | `number` |
+| buffer |  `WebGLBuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -4493,7 +4485,7 @@ ___
 
 ###  bindFramebuffer
 
-▸ **bindFramebuffer**(target: *`number`*, framebuffer: *`WebGLFramebuffer` |`null`*): `void`
+▸ **bindFramebuffer**(target: *`number`*, framebuffer: * `WebGLFramebuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.bindFramebuffer*
 
@@ -4503,10 +4495,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| framebuffer | `WebGLFramebuffer` |
-`null`
- | 
+| target | `number` |
+| framebuffer |  `WebGLFramebuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -4515,7 +4505,7 @@ ___
 
 ###  bindRenderbuffer
 
-▸ **bindRenderbuffer**(target: *`number`*, renderbuffer: *`WebGLRenderbuffer` |`null`*): `void`
+▸ **bindRenderbuffer**(target: *`number`*, renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.bindRenderbuffer*
 
@@ -4525,10 +4515,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| renderbuffer | `WebGLRenderbuffer` |
-`null`
- | 
+| target | `number` |
+| renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -4537,7 +4525,7 @@ ___
 
 ###  bindTexture
 
-▸ **bindTexture**(target: *`number`*, texture: *`WebGLTexture` |`null`*): `void`
+▸ **bindTexture**(target: *`number`*, texture: * `WebGLTexture` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.bindTexture*
 
@@ -4547,10 +4535,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| texture | `WebGLTexture` |
-`null`
- | 
+| target | `number` |
+| texture |  `WebGLTexture` &#124; `null`|
 
 **Returns:** `void`
 
@@ -4561,13 +4547,13 @@ ___
 
 ▸ **bindVertexArray**(vertexAray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `void`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLRenderingContextExt.ts#L14)*
+*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L14)*
 
 **Parameters:**
 
 | Param | Type |
 | ------ | ------ |
-| vertexAray | [WebGLVertexArrayObject](webglvertexarrayobject.md) | 
+| vertexAray | [WebGLVertexArrayObject](webglvertexarrayobject.md) |
 
 **Returns:** `void`
 
@@ -4586,10 +4572,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| red | `number` | 
-| green | `number` | 
-| blue | `number` | 
-| alpha | `number` | 
+| red | `number` |
+| green | `number` |
+| blue | `number` |
+| alpha | `number` |
 
 **Returns:** `void`
 
@@ -4608,7 +4594,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mode | `number` | 
+| mode | `number` |
 
 **Returns:** `void`
 
@@ -4627,8 +4613,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| modeRGB | `number` | 
-| modeAlpha | `number` | 
+| modeRGB | `number` |
+| modeAlpha | `number` |
 
 **Returns:** `void`
 
@@ -4647,8 +4633,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| sfactor | `number` | 
-| dfactor | `number` | 
+| sfactor | `number` |
+| dfactor | `number` |
 
 **Returns:** `void`
 
@@ -4667,10 +4653,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| srcRGB | `number` | 
-| dstRGB | `number` | 
-| srcAlpha | `number` | 
-| dstAlpha | `number` | 
+| srcRGB | `number` |
+| dstRGB | `number` |
+| srcAlpha | `number` |
+| dstAlpha | `number` |
 
 **Returns:** `void`
 
@@ -4679,7 +4665,7 @@ ___
 
 ###  bufferData
 
-▸ **bufferData**(target: *`number`*, size: *`number` |`ArrayBufferView` |`ArrayBuffer`*, usage: *`number`*): `void`
+▸ **bufferData**(target: *`number`*, size: * `number` &#124; `ArrayBufferView` &#124; `ArrayBuffer`*, usage: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.bufferData*
 
@@ -4689,12 +4675,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| size | `number` |
-`ArrayBufferView` |
-`ArrayBuffer`
- | 
-| usage | `number` | 
+| target | `number` |
+| size |  `number` &#124; `ArrayBufferView` &#124; `ArrayBuffer`|
+| usage | `number` |
 
 **Returns:** `void`
 
@@ -4703,7 +4686,7 @@ ___
 
 ###  bufferSubData
 
-▸ **bufferSubData**(target: *`number`*, offset: *`number`*, data: *`ArrayBufferView` |`ArrayBuffer`*): `void`
+▸ **bufferSubData**(target: *`number`*, offset: *`number`*, data: * `ArrayBufferView` &#124; `ArrayBuffer`*): `void`
 
 *Inherited from WebGLRenderingContext.bufferSubData*
 
@@ -4713,11 +4696,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| offset | `number` | 
-| data | `ArrayBufferView` |
-`ArrayBuffer`
- | 
+| target | `number` |
+| offset | `number` |
+| data |  `ArrayBufferView` &#124; `ArrayBuffer`|
 
 **Returns:** `void`
 
@@ -4736,7 +4717,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
+| target | `number` |
 
 **Returns:** `number`
 
@@ -4755,7 +4736,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mask | `number` | 
+| mask | `number` |
 
 **Returns:** `void`
 
@@ -4774,10 +4755,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| red | `number` | 
-| green | `number` | 
-| blue | `number` | 
-| alpha | `number` | 
+| red | `number` |
+| green | `number` |
+| blue | `number` |
+| alpha | `number` |
 
 **Returns:** `void`
 
@@ -4796,7 +4777,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| depth | `number` | 
+| depth | `number` |
 
 **Returns:** `void`
 
@@ -4815,7 +4796,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| s | `number` | 
+| s | `number` |
 
 **Returns:** `void`
 
@@ -4834,10 +4815,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| red | `boolean` | 
-| green | `boolean` | 
-| blue | `boolean` | 
-| alpha | `boolean` | 
+| red | `boolean` |
+| green | `boolean` |
+| blue | `boolean` |
+| alpha | `boolean` |
 
 **Returns:** `void`
 
@@ -4846,7 +4827,7 @@ ___
 
 ###  compileShader
 
-▸ **compileShader**(shader: *`WebGLShader` |`null`*): `void`
+▸ **compileShader**(shader: * `WebGLShader` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.compileShader*
 
@@ -4856,9 +4837,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
+| shader |  `WebGLShader` &#124; `null`|
 
 **Returns:** `void`
 
@@ -4877,13 +4856,13 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| internalformat | `number` | 
-| width | `number` | 
-| height | `number` | 
-| border | `number` | 
-| data | `ArrayBufferView` | 
+| target | `number` |
+| level | `number` |
+| internalformat | `number` |
+| width | `number` |
+| height | `number` |
+| border | `number` |
+| data | `ArrayBufferView` |
 
 **Returns:** `void`
 
@@ -4902,14 +4881,14 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| xoffset | `number` | 
-| yoffset | `number` | 
-| width | `number` | 
-| height | `number` | 
-| format | `number` | 
-| data | `ArrayBufferView` | 
+| target | `number` |
+| level | `number` |
+| xoffset | `number` |
+| yoffset | `number` |
+| width | `number` |
+| height | `number` |
+| format | `number` |
+| data | `ArrayBufferView` |
 
 **Returns:** `void`
 
@@ -4928,14 +4907,14 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| internalformat | `number` | 
-| x | `number` | 
-| y | `number` | 
-| width | `number` | 
-| height | `number` | 
-| border | `number` | 
+| target | `number` |
+| level | `number` |
+| internalformat | `number` |
+| x | `number` |
+| y | `number` |
+| width | `number` |
+| height | `number` |
+| border | `number` |
 
 **Returns:** `void`
 
@@ -4954,14 +4933,14 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| xoffset | `number` | 
-| yoffset | `number` | 
-| x | `number` | 
-| y | `number` | 
-| width | `number` | 
-| height | `number` | 
+| target | `number` |
+| level | `number` |
+| xoffset | `number` |
+| yoffset | `number` |
+| x | `number` |
+| y | `number` |
+| width | `number` |
+| height | `number` |
 
 **Returns:** `void`
 
@@ -4970,63 +4949,59 @@ ___
 
 ###  createBuffer
 
-▸ **createBuffer**(): `WebGLBuffer` |`null`
+▸ **createBuffer**():  `WebGLBuffer` &#124; `null`
 
 *Inherited from WebGLRenderingContext.createBuffer*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12483*
 
-**Returns:** `WebGLBuffer` |
-`null`
+**Returns:**  `WebGLBuffer` &#124; `null`
 
 ___
 <a id="createframebuffer"></a>
 
 ###  createFramebuffer
 
-▸ **createFramebuffer**(): `WebGLFramebuffer` |`null`
+▸ **createFramebuffer**():  `WebGLFramebuffer` &#124; `null`
 
 *Inherited from WebGLRenderingContext.createFramebuffer*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12484*
 
-**Returns:** `WebGLFramebuffer` |
-`null`
+**Returns:**  `WebGLFramebuffer` &#124; `null`
 
 ___
 <a id="createprogram"></a>
 
 ###  createProgram
 
-▸ **createProgram**(): `WebGLProgram` |`null`
+▸ **createProgram**():  `WebGLProgram` &#124; `null`
 
 *Inherited from WebGLRenderingContext.createProgram*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12485*
 
-**Returns:** `WebGLProgram` |
-`null`
+**Returns:**  `WebGLProgram` &#124; `null`
 
 ___
 <a id="createrenderbuffer"></a>
 
 ###  createRenderbuffer
 
-▸ **createRenderbuffer**(): `WebGLRenderbuffer` |`null`
+▸ **createRenderbuffer**():  `WebGLRenderbuffer` &#124; `null`
 
 *Inherited from WebGLRenderingContext.createRenderbuffer*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12486*
 
-**Returns:** `WebGLRenderbuffer` |
-`null`
+**Returns:**  `WebGLRenderbuffer` &#124; `null`
 
 ___
 <a id="createshader"></a>
 
 ###  createShader
 
-▸ **createShader**(type: *`number`*): `WebGLShader` |`null`
+▸ **createShader**(type: *`number`*):  `WebGLShader` &#124; `null`
 
 *Inherited from WebGLRenderingContext.createShader*
 
@@ -5036,24 +5011,22 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| type | `number` | 
+| type | `number` |
 
-**Returns:** `WebGLShader` |
-`null`
+**Returns:**  `WebGLShader` &#124; `null`
 
 ___
 <a id="createtexture"></a>
 
 ###  createTexture
 
-▸ **createTexture**(): `WebGLTexture` |`null`
+▸ **createTexture**():  `WebGLTexture` &#124; `null`
 
 *Inherited from WebGLRenderingContext.createTexture*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12488*
 
-**Returns:** `WebGLTexture` |
-`null`
+**Returns:**  `WebGLTexture` &#124; `null`
 
 ___
 <a id="createvertexarray"></a>
@@ -5062,7 +5035,7 @@ ___
 
 ▸ **createVertexArray**(): [WebGLVertexArrayObject](webglvertexarrayobject.md)
 
-*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLRenderingContextExt.ts#L13)*
+*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L13)*
 
 **Returns:** [WebGLVertexArrayObject](webglvertexarrayobject.md)
 
@@ -5081,7 +5054,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mode | `number` | 
+| mode | `number` |
 
 **Returns:** `void`
 
@@ -5090,7 +5063,7 @@ ___
 
 ###  deleteBuffer
 
-▸ **deleteBuffer**(buffer: *`WebGLBuffer` |`null`*): `void`
+▸ **deleteBuffer**(buffer: * `WebGLBuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.deleteBuffer*
 
@@ -5100,9 +5073,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| buffer | `WebGLBuffer` |
-`null`
- | 
+| buffer |  `WebGLBuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5111,7 +5082,7 @@ ___
 
 ###  deleteFramebuffer
 
-▸ **deleteFramebuffer**(framebuffer: *`WebGLFramebuffer` |`null`*): `void`
+▸ **deleteFramebuffer**(framebuffer: * `WebGLFramebuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.deleteFramebuffer*
 
@@ -5121,9 +5092,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| framebuffer | `WebGLFramebuffer` |
-`null`
- | 
+| framebuffer |  `WebGLFramebuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5132,7 +5101,7 @@ ___
 
 ###  deleteProgram
 
-▸ **deleteProgram**(program: *`WebGLProgram` |`null`*): `void`
+▸ **deleteProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.deleteProgram*
 
@@ -5142,9 +5111,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5153,7 +5120,7 @@ ___
 
 ###  deleteRenderbuffer
 
-▸ **deleteRenderbuffer**(renderbuffer: *`WebGLRenderbuffer` |`null`*): `void`
+▸ **deleteRenderbuffer**(renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.deleteRenderbuffer*
 
@@ -5163,9 +5130,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| renderbuffer | `WebGLRenderbuffer` |
-`null`
- | 
+| renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5174,7 +5139,7 @@ ___
 
 ###  deleteShader
 
-▸ **deleteShader**(shader: *`WebGLShader` |`null`*): `void`
+▸ **deleteShader**(shader: * `WebGLShader` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.deleteShader*
 
@@ -5184,9 +5149,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
+| shader |  `WebGLShader` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5195,7 +5158,7 @@ ___
 
 ###  deleteTexture
 
-▸ **deleteTexture**(texture: *`WebGLTexture` |`null`*): `void`
+▸ **deleteTexture**(texture: * `WebGLTexture` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.deleteTexture*
 
@@ -5205,9 +5168,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| texture | `WebGLTexture` |
-`null`
- | 
+| texture |  `WebGLTexture` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5218,13 +5179,13 @@ ___
 
 ▸ **deleteVertexArray**(vertexArray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `void`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLRenderingContextExt.ts#L15)*
+*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L15)*
 
 **Parameters:**
 
 | Param | Type |
 | ------ | ------ |
-| vertexArray | [WebGLVertexArrayObject](webglvertexarrayobject.md) | 
+| vertexArray | [WebGLVertexArrayObject](webglvertexarrayobject.md) |
 
 **Returns:** `void`
 
@@ -5243,7 +5204,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| func | `number` | 
+| func | `number` |
 
 **Returns:** `void`
 
@@ -5262,7 +5223,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| flag | `boolean` | 
+| flag | `boolean` |
 
 **Returns:** `void`
 
@@ -5281,8 +5242,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| zNear | `number` | 
-| zFar | `number` | 
+| zNear | `number` |
+| zFar | `number` |
 
 **Returns:** `void`
 
@@ -5291,7 +5252,7 @@ ___
 
 ###  detachShader
 
-▸ **detachShader**(program: *`WebGLProgram` |`null`*, shader: *`WebGLShader` |`null`*): `void`
+▸ **detachShader**(program: * `WebGLProgram` &#124; `null`*, shader: * `WebGLShader` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.detachShader*
 
@@ -5301,12 +5262,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| shader | `WebGLShader` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
+| shader |  `WebGLShader` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5325,7 +5282,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| cap | `number` | 
+| cap | `number` |
 
 **Returns:** `void`
 
@@ -5344,7 +5301,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| index | `number` | 
+| index | `number` |
 
 **Returns:** `void`
 
@@ -5363,9 +5320,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mode | `number` | 
-| first | `number` | 
-| count | `number` | 
+| mode | `number` |
+| first | `number` |
+| count | `number` |
 
 **Returns:** `void`
 
@@ -5384,10 +5341,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mode | `number` | 
-| count | `number` | 
-| type | `number` | 
-| offset | `number` | 
+| mode | `number` |
+| count | `number` |
+| type | `number` |
+| offset | `number` |
 
 **Returns:** `void`
 
@@ -5406,7 +5363,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| cap | `number` | 
+| cap | `number` |
 
 **Returns:** `void`
 
@@ -5425,7 +5382,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| index | `number` | 
+| index | `number` |
 
 **Returns:** `void`
 
@@ -5460,7 +5417,7 @@ ___
 
 ###  framebufferRenderbuffer
 
-▸ **framebufferRenderbuffer**(target: *`number`*, attachment: *`number`*, renderbuffertarget: *`number`*, renderbuffer: *`WebGLRenderbuffer` |`null`*): `void`
+▸ **framebufferRenderbuffer**(target: *`number`*, attachment: *`number`*, renderbuffertarget: *`number`*, renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.framebufferRenderbuffer*
 
@@ -5470,12 +5427,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| attachment | `number` | 
-| renderbuffertarget | `number` | 
-| renderbuffer | `WebGLRenderbuffer` |
-`null`
- | 
+| target | `number` |
+| attachment | `number` |
+| renderbuffertarget | `number` |
+| renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
 **Returns:** `void`
 
@@ -5484,7 +5439,7 @@ ___
 
 ###  framebufferTexture2D
 
-▸ **framebufferTexture2D**(target: *`number`*, attachment: *`number`*, textarget: *`number`*, texture: *`WebGLTexture` |`null`*, level: *`number`*): `void`
+▸ **framebufferTexture2D**(target: *`number`*, attachment: *`number`*, textarget: *`number`*, texture: * `WebGLTexture` &#124; `null`*, level: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.framebufferTexture2D*
 
@@ -5494,13 +5449,11 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| attachment | `number` | 
-| textarget | `number` | 
-| texture | `WebGLTexture` |
-`null`
- | 
-| level | `number` | 
+| target | `number` |
+| attachment | `number` |
+| textarget | `number` |
+| texture |  `WebGLTexture` &#124; `null`|
+| level | `number` |
 
 **Returns:** `void`
 
@@ -5519,7 +5472,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mode | `number` | 
+| mode | `number` |
 
 **Returns:** `void`
 
@@ -5538,7 +5491,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
+| target | `number` |
 
 **Returns:** `void`
 
@@ -5547,7 +5500,7 @@ ___
 
 ###  getActiveAttrib
 
-▸ **getActiveAttrib**(program: *`WebGLProgram` |`null`*, index: *`number`*): `WebGLActiveInfo` |`null`
+▸ **getActiveAttrib**(program: * `WebGLProgram` &#124; `null`*, index: *`number`*):  `WebGLActiveInfo` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getActiveAttrib*
 
@@ -5557,20 +5510,17 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| index | `number` | 
+| program |  `WebGLProgram` &#124; `null`|
+| index | `number` |
 
-**Returns:** `WebGLActiveInfo` |
-`null`
+**Returns:**  `WebGLActiveInfo` &#124; `null`
 
 ___
 <a id="getactiveuniform"></a>
 
 ###  getActiveUniform
 
-▸ **getActiveUniform**(program: *`WebGLProgram` |`null`*, index: *`number`*): `WebGLActiveInfo` |`null`
+▸ **getActiveUniform**(program: * `WebGLProgram` &#124; `null`*, index: *`number`*):  `WebGLActiveInfo` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getActiveUniform*
 
@@ -5580,20 +5530,17 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| index | `number` | 
+| program |  `WebGLProgram` &#124; `null`|
+| index | `number` |
 
-**Returns:** `WebGLActiveInfo` |
-`null`
+**Returns:**  `WebGLActiveInfo` &#124; `null`
 
 ___
 <a id="getattachedshaders"></a>
 
 ###  getAttachedShaders
 
-▸ **getAttachedShaders**(program: *`WebGLProgram` |`null`*): `WebGLShader`[] |`null`
+▸ **getAttachedShaders**(program: * `WebGLProgram` &#124; `null`*):  `WebGLShader`[] &#124; `null`
 
 *Inherited from WebGLRenderingContext.getAttachedShaders*
 
@@ -5603,19 +5550,16 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
-**Returns:** `WebGLShader`[] |
-`null`
+**Returns:**  `WebGLShader`[] &#124; `null`
 
 ___
 <a id="getattriblocation"></a>
 
 ###  getAttribLocation
 
-▸ **getAttribLocation**(program: *`WebGLProgram` |`null`*, name: *`string`*): `number`
+▸ **getAttribLocation**(program: * `WebGLProgram` &#124; `null`*, name: *`string`*): `number`
 
 *Inherited from WebGLRenderingContext.getAttribLocation*
 
@@ -5625,10 +5569,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| name | `string` | 
+| program |  `WebGLProgram` &#124; `null`|
+| name | `string` |
 
 **Returns:** `number`
 
@@ -5647,8 +5589,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| pname | `number` | 
+| target | `number` |
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -5683,49 +5625,49 @@ ___
 
 ###  getExtension
 
-▸ **getExtension**(extensionName: *"EXT_blend_minmax"*): `EXT_blend_minmax` |`null`
+▸ **getExtension**(extensionName: *"EXT_blend_minmax"*):  `EXT_blend_minmax` &#124; `null`
 
-▸ **getExtension**(extensionName: *"EXT_texture_filter_anisotropic"*): `EXT_texture_filter_anisotropic` |`null`
+▸ **getExtension**(extensionName: *"EXT_texture_filter_anisotropic"*):  `EXT_texture_filter_anisotropic` &#124; `null`
 
-▸ **getExtension**(extensionName: *"EXT_frag_depth"*): `EXT_frag_depth` |`null`
+▸ **getExtension**(extensionName: *"EXT_frag_depth"*):  `EXT_frag_depth` &#124; `null`
 
-▸ **getExtension**(extensionName: *"EXT_shader_texture_lod"*): `EXT_shader_texture_lod` |`null`
+▸ **getExtension**(extensionName: *"EXT_shader_texture_lod"*):  `EXT_shader_texture_lod` &#124; `null`
 
-▸ **getExtension**(extensionName: *"EXT_sRGB"*): `EXT_sRGB` |`null`
+▸ **getExtension**(extensionName: *"EXT_sRGB"*):  `EXT_sRGB` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_vertex_array_object"*): `OES_vertex_array_object` |`null`
+▸ **getExtension**(extensionName: *"OES_vertex_array_object"*):  `OES_vertex_array_object` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_color_buffer_float"*): `WEBGL_color_buffer_float` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_color_buffer_float"*):  `WEBGL_color_buffer_float` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_astc"*): `WEBGL_compressed_texture_astc` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_astc"*):  `WEBGL_compressed_texture_astc` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc_srgb"*): `WEBGL_compressed_texture_s3tc_srgb` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc_srgb"*):  `WEBGL_compressed_texture_s3tc_srgb` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_debug_shaders"*): `WEBGL_debug_shaders` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_debug_shaders"*):  `WEBGL_debug_shaders` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_draw_buffers"*): `WEBGL_draw_buffers` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_draw_buffers"*):  `WEBGL_draw_buffers` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_lose_context"*): `WEBGL_lose_context` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_lose_context"*):  `WEBGL_lose_context` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_depth_texture"*): `WEBGL_depth_texture` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_depth_texture"*):  `WEBGL_depth_texture` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_debug_renderer_info"*): `WEBGL_debug_renderer_info` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_debug_renderer_info"*):  `WEBGL_debug_renderer_info` &#124; `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc"*): `WEBGL_compressed_texture_s3tc` |`null`
+▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc"*):  `WEBGL_compressed_texture_s3tc` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_half_float_linear"*): `OES_texture_half_float_linear` |`null`
+▸ **getExtension**(extensionName: *"OES_texture_half_float_linear"*):  `OES_texture_half_float_linear` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_half_float"*): `OES_texture_half_float` |`null`
+▸ **getExtension**(extensionName: *"OES_texture_half_float"*):  `OES_texture_half_float` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_float_linear"*): `OES_texture_float_linear` |`null`
+▸ **getExtension**(extensionName: *"OES_texture_float_linear"*):  `OES_texture_float_linear` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_float"*): `OES_texture_float` |`null`
+▸ **getExtension**(extensionName: *"OES_texture_float"*):  `OES_texture_float` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_standard_derivatives"*): `OES_standard_derivatives` |`null`
+▸ **getExtension**(extensionName: *"OES_standard_derivatives"*):  `OES_standard_derivatives` &#124; `null`
 
-▸ **getExtension**(extensionName: *"OES_element_index_uint"*): `OES_element_index_uint` |`null`
+▸ **getExtension**(extensionName: *"OES_element_index_uint"*):  `OES_element_index_uint` &#124; `null`
 
-▸ **getExtension**(extensionName: *"ANGLE_instanced_arrays"*): `ANGLE_instanced_arrays` |`null`
+▸ **getExtension**(extensionName: *"ANGLE_instanced_arrays"*):  `ANGLE_instanced_arrays` &#124; `null`
 
 ▸ **getExtension**(extensionName: *`string`*): `any`
 
@@ -5737,10 +5679,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "EXT_blend_minmax" | 
+| extensionName | "EXT_blend_minmax" |
 
-**Returns:** `EXT_blend_minmax` |
-`null`
+**Returns:**  `EXT_blend_minmax` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5750,10 +5691,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "EXT_texture_filter_anisotropic" | 
+| extensionName | "EXT_texture_filter_anisotropic" |
 
-**Returns:** `EXT_texture_filter_anisotropic` |
-`null`
+**Returns:**  `EXT_texture_filter_anisotropic` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5763,10 +5703,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "EXT_frag_depth" | 
+| extensionName | "EXT_frag_depth" |
 
-**Returns:** `EXT_frag_depth` |
-`null`
+**Returns:**  `EXT_frag_depth` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5776,10 +5715,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "EXT_shader_texture_lod" | 
+| extensionName | "EXT_shader_texture_lod" |
 
-**Returns:** `EXT_shader_texture_lod` |
-`null`
+**Returns:**  `EXT_shader_texture_lod` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5789,10 +5727,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "EXT_sRGB" | 
+| extensionName | "EXT_sRGB" |
 
-**Returns:** `EXT_sRGB` |
-`null`
+**Returns:**  `EXT_sRGB` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5802,10 +5739,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_vertex_array_object" | 
+| extensionName | "OES_vertex_array_object" |
 
-**Returns:** `OES_vertex_array_object` |
-`null`
+**Returns:**  `OES_vertex_array_object` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5815,10 +5751,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_color_buffer_float" | 
+| extensionName | "WEBGL_color_buffer_float" |
 
-**Returns:** `WEBGL_color_buffer_float` |
-`null`
+**Returns:**  `WEBGL_color_buffer_float` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5828,10 +5763,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_compressed_texture_astc" | 
+| extensionName | "WEBGL_compressed_texture_astc" |
 
-**Returns:** `WEBGL_compressed_texture_astc` |
-`null`
+**Returns:**  `WEBGL_compressed_texture_astc` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5841,10 +5775,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_compressed_texture_s3tc_srgb" | 
+| extensionName | "WEBGL_compressed_texture_s3tc_srgb" |
 
-**Returns:** `WEBGL_compressed_texture_s3tc_srgb` |
-`null`
+**Returns:**  `WEBGL_compressed_texture_s3tc_srgb` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5854,10 +5787,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_debug_shaders" | 
+| extensionName | "WEBGL_debug_shaders" |
 
-**Returns:** `WEBGL_debug_shaders` |
-`null`
+**Returns:**  `WEBGL_debug_shaders` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5867,10 +5799,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_draw_buffers" | 
+| extensionName | "WEBGL_draw_buffers" |
 
-**Returns:** `WEBGL_draw_buffers` |
-`null`
+**Returns:**  `WEBGL_draw_buffers` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5880,10 +5811,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_lose_context" | 
+| extensionName | "WEBGL_lose_context" |
 
-**Returns:** `WEBGL_lose_context` |
-`null`
+**Returns:**  `WEBGL_lose_context` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5893,10 +5823,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_depth_texture" | 
+| extensionName | "WEBGL_depth_texture" |
 
-**Returns:** `WEBGL_depth_texture` |
-`null`
+**Returns:**  `WEBGL_depth_texture` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5906,10 +5835,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_debug_renderer_info" | 
+| extensionName | "WEBGL_debug_renderer_info" |
 
-**Returns:** `WEBGL_debug_renderer_info` |
-`null`
+**Returns:**  `WEBGL_debug_renderer_info` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5919,10 +5847,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "WEBGL_compressed_texture_s3tc" | 
+| extensionName | "WEBGL_compressed_texture_s3tc" |
 
-**Returns:** `WEBGL_compressed_texture_s3tc` |
-`null`
+**Returns:**  `WEBGL_compressed_texture_s3tc` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5932,10 +5859,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_texture_half_float_linear" | 
+| extensionName | "OES_texture_half_float_linear" |
 
-**Returns:** `OES_texture_half_float_linear` |
-`null`
+**Returns:**  `OES_texture_half_float_linear` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5945,10 +5871,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_texture_half_float" | 
+| extensionName | "OES_texture_half_float" |
 
-**Returns:** `OES_texture_half_float` |
-`null`
+**Returns:**  `OES_texture_half_float` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5958,10 +5883,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_texture_float_linear" | 
+| extensionName | "OES_texture_float_linear" |
 
-**Returns:** `OES_texture_float_linear` |
-`null`
+**Returns:**  `OES_texture_float_linear` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5971,10 +5895,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_texture_float" | 
+| extensionName | "OES_texture_float" |
 
-**Returns:** `OES_texture_float` |
-`null`
+**Returns:**  `OES_texture_float` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5984,10 +5907,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_standard_derivatives" | 
+| extensionName | "OES_standard_derivatives" |
 
-**Returns:** `OES_standard_derivatives` |
-`null`
+**Returns:**  `OES_standard_derivatives` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -5997,10 +5919,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "OES_element_index_uint" | 
+| extensionName | "OES_element_index_uint" |
 
-**Returns:** `OES_element_index_uint` |
-`null`
+**Returns:**  `OES_element_index_uint` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -6010,10 +5931,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | "ANGLE_instanced_arrays" | 
+| extensionName | "ANGLE_instanced_arrays" |
 
-**Returns:** `ANGLE_instanced_arrays` |
-`null`
+**Returns:**  `ANGLE_instanced_arrays` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getExtension*
 
@@ -6023,7 +5943,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| extensionName | `string` | 
+| extensionName | `string` |
 
 **Returns:** `any`
 
@@ -6042,9 +5962,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| attachment | `number` | 
-| pname | `number` | 
+| target | `number` |
+| attachment | `number` |
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6063,7 +5983,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| pname | `number` | 
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6072,7 +5992,7 @@ ___
 
 ###  getProgramInfoLog
 
-▸ **getProgramInfoLog**(program: *`WebGLProgram` |`null`*): `string` |`null`
+▸ **getProgramInfoLog**(program: * `WebGLProgram` &#124; `null`*):  `string` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getProgramInfoLog*
 
@@ -6082,19 +6002,16 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
-**Returns:** `string` |
-`null`
+**Returns:**  `string` &#124; `null`
 
 ___
 <a id="getprogramparameter"></a>
 
 ###  getProgramParameter
 
-▸ **getProgramParameter**(program: *`WebGLProgram` |`null`*, pname: *`number`*): `any`
+▸ **getProgramParameter**(program: * `WebGLProgram` &#124; `null`*, pname: *`number`*): `any`
 
 *Inherited from WebGLRenderingContext.getProgramParameter*
 
@@ -6104,10 +6021,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| pname | `number` | 
+| program |  `WebGLProgram` &#124; `null`|
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6126,8 +6041,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| pname | `number` | 
+| target | `number` |
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6136,7 +6051,7 @@ ___
 
 ###  getShaderInfoLog
 
-▸ **getShaderInfoLog**(shader: *`WebGLShader` |`null`*): `string` |`null`
+▸ **getShaderInfoLog**(shader: * `WebGLShader` &#124; `null`*):  `string` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getShaderInfoLog*
 
@@ -6146,19 +6061,16 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
+| shader |  `WebGLShader` &#124; `null`|
 
-**Returns:** `string` |
-`null`
+**Returns:**  `string` &#124; `null`
 
 ___
 <a id="getshaderparameter"></a>
 
 ###  getShaderParameter
 
-▸ **getShaderParameter**(shader: *`WebGLShader` |`null`*, pname: *`number`*): `any`
+▸ **getShaderParameter**(shader: * `WebGLShader` &#124; `null`*, pname: *`number`*): `any`
 
 *Inherited from WebGLRenderingContext.getShaderParameter*
 
@@ -6168,10 +6080,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
-| pname | `number` | 
+| shader |  `WebGLShader` &#124; `null`|
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6180,7 +6090,7 @@ ___
 
 ###  getShaderPrecisionFormat
 
-▸ **getShaderPrecisionFormat**(shadertype: *`number`*, precisiontype: *`number`*): `WebGLShaderPrecisionFormat` |`null`
+▸ **getShaderPrecisionFormat**(shadertype: *`number`*, precisiontype: *`number`*):  `WebGLShaderPrecisionFormat` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getShaderPrecisionFormat*
 
@@ -6190,18 +6100,17 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shadertype | `number` | 
-| precisiontype | `number` | 
+| shadertype | `number` |
+| precisiontype | `number` |
 
-**Returns:** `WebGLShaderPrecisionFormat` |
-`null`
+**Returns:**  `WebGLShaderPrecisionFormat` &#124; `null`
 
 ___
 <a id="getshadersource"></a>
 
 ###  getShaderSource
 
-▸ **getShaderSource**(shader: *`WebGLShader` |`null`*): `string` |`null`
+▸ **getShaderSource**(shader: * `WebGLShader` &#124; `null`*):  `string` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getShaderSource*
 
@@ -6211,26 +6120,22 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
+| shader |  `WebGLShader` &#124; `null`|
 
-**Returns:** `string` |
-`null`
+**Returns:**  `string` &#124; `null`
 
 ___
 <a id="getsupportedextensions"></a>
 
 ###  getSupportedExtensions
 
-▸ **getSupportedExtensions**(): `string`[] |`null`
+▸ **getSupportedExtensions**():  `string`[] &#124; `null`
 
 *Inherited from WebGLRenderingContext.getSupportedExtensions*
 
 *Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12551*
 
-**Returns:** `string`[] |
-`null`
+**Returns:**  `string`[] &#124; `null`
 
 ___
 <a id="gettexparameter"></a>
@@ -6247,8 +6152,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| pname | `number` | 
+| target | `number` |
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6257,7 +6162,7 @@ ___
 
 ###  getUniform
 
-▸ **getUniform**(program: *`WebGLProgram` |`null`*, location: *`WebGLUniformLocation` |`null`*): `any`
+▸ **getUniform**(program: * `WebGLProgram` &#124; `null`*, location: * `WebGLUniformLocation` &#124; `null`*): `any`
 
 *Inherited from WebGLRenderingContext.getUniform*
 
@@ -6267,12 +6172,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| location | `WebGLUniformLocation` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
+| location |  `WebGLUniformLocation` &#124; `null`|
 
 **Returns:** `any`
 
@@ -6281,7 +6182,7 @@ ___
 
 ###  getUniformLocation
 
-▸ **getUniformLocation**(program: *`WebGLProgram` |`null`*, name: *`string`*): `WebGLUniformLocation` |`null`
+▸ **getUniformLocation**(program: * `WebGLProgram` &#124; `null`*, name: *`string`*):  `WebGLUniformLocation` &#124; `null`
 
 *Inherited from WebGLRenderingContext.getUniformLocation*
 
@@ -6291,13 +6192,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
-| name | `string` | 
+| program |  `WebGLProgram` &#124; `null`|
+| name | `string` |
 
-**Returns:** `WebGLUniformLocation` |
-`null`
+**Returns:**  `WebGLUniformLocation` &#124; `null`
 
 ___
 <a id="getvertexattrib"></a>
@@ -6314,8 +6212,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| index | `number` | 
-| pname | `number` | 
+| index | `number` |
+| pname | `number` |
 
 **Returns:** `any`
 
@@ -6334,8 +6232,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| index | `number` | 
-| pname | `number` | 
+| index | `number` |
+| pname | `number` |
 
 **Returns:** `number`
 
@@ -6354,8 +6252,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| mode | `number` | 
+| target | `number` |
+| mode | `number` |
 
 **Returns:** `void`
 
@@ -6364,7 +6262,7 @@ ___
 
 ###  isBuffer
 
-▸ **isBuffer**(buffer: *`WebGLBuffer` |`null`*): `boolean`
+▸ **isBuffer**(buffer: * `WebGLBuffer` &#124; `null`*): `boolean`
 
 *Inherited from WebGLRenderingContext.isBuffer*
 
@@ -6374,9 +6272,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| buffer | `WebGLBuffer` |
-`null`
- | 
+| buffer |  `WebGLBuffer` &#124; `null`|
 
 **Returns:** `boolean`
 
@@ -6408,7 +6304,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| cap | `number` | 
+| cap | `number` |
 
 **Returns:** `boolean`
 
@@ -6417,7 +6313,7 @@ ___
 
 ###  isFramebuffer
 
-▸ **isFramebuffer**(framebuffer: *`WebGLFramebuffer` |`null`*): `boolean`
+▸ **isFramebuffer**(framebuffer: * `WebGLFramebuffer` &#124; `null`*): `boolean`
 
 *Inherited from WebGLRenderingContext.isFramebuffer*
 
@@ -6427,9 +6323,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| framebuffer | `WebGLFramebuffer` |
-`null`
- | 
+| framebuffer |  `WebGLFramebuffer` &#124; `null`|
 
 **Returns:** `boolean`
 
@@ -6438,7 +6332,7 @@ ___
 
 ###  isProgram
 
-▸ **isProgram**(program: *`WebGLProgram` |`null`*): `boolean`
+▸ **isProgram**(program: * `WebGLProgram` &#124; `null`*): `boolean`
 
 *Inherited from WebGLRenderingContext.isProgram*
 
@@ -6448,9 +6342,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
 **Returns:** `boolean`
 
@@ -6459,7 +6351,7 @@ ___
 
 ###  isRenderbuffer
 
-▸ **isRenderbuffer**(renderbuffer: *`WebGLRenderbuffer` |`null`*): `boolean`
+▸ **isRenderbuffer**(renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `boolean`
 
 *Inherited from WebGLRenderingContext.isRenderbuffer*
 
@@ -6469,9 +6361,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| renderbuffer | `WebGLRenderbuffer` |
-`null`
- | 
+| renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
 **Returns:** `boolean`
 
@@ -6480,7 +6370,7 @@ ___
 
 ###  isShader
 
-▸ **isShader**(shader: *`WebGLShader` |`null`*): `boolean`
+▸ **isShader**(shader: * `WebGLShader` &#124; `null`*): `boolean`
 
 *Inherited from WebGLRenderingContext.isShader*
 
@@ -6490,9 +6380,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
+| shader |  `WebGLShader` &#124; `null`|
 
 **Returns:** `boolean`
 
@@ -6501,7 +6389,7 @@ ___
 
 ###  isTexture
 
-▸ **isTexture**(texture: *`WebGLTexture` |`null`*): `boolean`
+▸ **isTexture**(texture: * `WebGLTexture` &#124; `null`*): `boolean`
 
 *Inherited from WebGLRenderingContext.isTexture*
 
@@ -6511,9 +6399,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| texture | `WebGLTexture` |
-`null`
- | 
+| texture |  `WebGLTexture` &#124; `null`|
 
 **Returns:** `boolean`
 
@@ -6524,13 +6410,13 @@ ___
 
 ▸ **isVertexArray**(vertexArray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `boolean`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iota-pico/pow-webgl/blob/b158547/src/webGL/webGLRenderingContextExt.ts#L16)*
+*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L16)*
 
 **Parameters:**
 
 | Param | Type |
 | ------ | ------ |
-| vertexArray | [WebGLVertexArrayObject](webglvertexarrayobject.md) | 
+| vertexArray | [WebGLVertexArrayObject](webglvertexarrayobject.md) |
 
 **Returns:** `boolean`
 
@@ -6549,7 +6435,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| width | `number` | 
+| width | `number` |
 
 **Returns:** `void`
 
@@ -6558,7 +6444,7 @@ ___
 
 ###  linkProgram
 
-▸ **linkProgram**(program: *`WebGLProgram` |`null`*): `void`
+▸ **linkProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.linkProgram*
 
@@ -6568,9 +6454,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
 **Returns:** `void`
 
@@ -6579,7 +6463,7 @@ ___
 
 ###  pixelStorei
 
-▸ **pixelStorei**(pname: *`number`*, param: *`number` |`boolean`*): `void`
+▸ **pixelStorei**(pname: *`number`*, param: * `number` &#124; `boolean`*): `void`
 
 *Inherited from WebGLRenderingContext.pixelStorei*
 
@@ -6589,10 +6473,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| pname | `number` | 
-| param | `number` |
-`boolean`
- | 
+| pname | `number` |
+| param |  `number` &#124; `boolean`|
 
 **Returns:** `void`
 
@@ -6611,8 +6493,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| factor | `number` | 
-| units | `number` | 
+| factor | `number` |
+| units | `number` |
 
 **Returns:** `void`
 
@@ -6621,7 +6503,7 @@ ___
 
 ###  readPixels
 
-▸ **readPixels**(x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, type: *`number`*, pixels: *`ArrayBufferView` |`null`*): `void`
+▸ **readPixels**(x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.readPixels*
 
@@ -6631,15 +6513,13 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| x | `number` | 
-| y | `number` | 
-| width | `number` | 
-| height | `number` | 
-| format | `number` | 
-| type | `number` | 
-| pixels | `ArrayBufferView` |
-`null`
- | 
+| x | `number` |
+| y | `number` |
+| width | `number` |
+| height | `number` |
+| format | `number` |
+| type | `number` |
+| pixels |  `ArrayBufferView` &#124; `null`|
 
 **Returns:** `void`
 
@@ -6658,10 +6538,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| internalformat | `number` | 
-| width | `number` | 
-| height | `number` | 
+| target | `number` |
+| internalformat | `number` |
+| width | `number` |
+| height | `number` |
 
 **Returns:** `void`
 
@@ -6680,8 +6560,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| value | `number` | 
-| invert | `boolean` | 
+| value | `number` |
+| invert | `boolean` |
 
 **Returns:** `void`
 
@@ -6700,10 +6580,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| x | `number` | 
-| y | `number` | 
-| width | `number` | 
-| height | `number` | 
+| x | `number` |
+| y | `number` |
+| width | `number` |
+| height | `number` |
 
 **Returns:** `void`
 
@@ -6712,7 +6592,7 @@ ___
 
 ###  shaderSource
 
-▸ **shaderSource**(shader: *`WebGLShader` |`null`*, source: *`string`*): `void`
+▸ **shaderSource**(shader: * `WebGLShader` &#124; `null`*, source: *`string`*): `void`
 
 *Inherited from WebGLRenderingContext.shaderSource*
 
@@ -6722,10 +6602,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| shader | `WebGLShader` |
-`null`
- | 
-| source | `string` | 
+| shader |  `WebGLShader` &#124; `null`|
+| source | `string` |
 
 **Returns:** `void`
 
@@ -6744,9 +6622,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| func | `number` | 
-| ref | `number` | 
-| mask | `number` | 
+| func | `number` |
+| ref | `number` |
+| mask | `number` |
 
 **Returns:** `void`
 
@@ -6765,10 +6643,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| face | `number` | 
-| func | `number` | 
-| ref | `number` | 
-| mask | `number` | 
+| face | `number` |
+| func | `number` |
+| ref | `number` |
+| mask | `number` |
 
 **Returns:** `void`
 
@@ -6787,7 +6665,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| mask | `number` | 
+| mask | `number` |
 
 **Returns:** `void`
 
@@ -6806,8 +6684,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| face | `number` | 
-| mask | `number` | 
+| face | `number` |
+| mask | `number` |
 
 **Returns:** `void`
 
@@ -6826,9 +6704,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| fail | `number` | 
-| zfail | `number` | 
-| zpass | `number` | 
+| fail | `number` |
+| zfail | `number` |
+| zpass | `number` |
 
 **Returns:** `void`
 
@@ -6847,10 +6725,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| face | `number` | 
-| fail | `number` | 
-| zfail | `number` | 
-| zpass | `number` | 
+| face | `number` |
+| fail | `number` |
+| zfail | `number` |
+| zpass | `number` |
 
 **Returns:** `void`
 
@@ -6859,9 +6737,9 @@ ___
 
 ###  texImage2D
 
-▸ **texImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, width: *`number`*, height: *`number`*, border: *`number`*, format: *`number`*, type: *`number`*, pixels: *`ArrayBufferView` |`null`*): `void`
+▸ **texImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, width: *`number`*, height: *`number`*, border: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
 
-▸ **texImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, format: *`number`*, type: *`number`*, pixels: *`ImageBitmap` |`ImageData` |`HTMLVideoElement` |`HTMLImageElement` |`HTMLCanvasElement`*): `void`
+▸ **texImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`*): `void`
 
 *Inherited from WebGLRenderingContext.texImage2D*
 
@@ -6871,17 +6749,15 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| internalformat | `number` | 
-| width | `number` | 
-| height | `number` | 
-| border | `number` | 
-| format | `number` | 
-| type | `number` | 
-| pixels | `ArrayBufferView` |
-`null`
- | 
+| target | `number` |
+| level | `number` |
+| internalformat | `number` |
+| width | `number` |
+| height | `number` |
+| border | `number` |
+| format | `number` |
+| type | `number` |
+| pixels |  `ArrayBufferView` &#124; `null`|
 
 **Returns:** `void`
 
@@ -6893,17 +6769,12 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| internalformat | `number` | 
-| format | `number` | 
-| type | `number` | 
-| pixels | `ImageBitmap` |
-`ImageData` |
-`HTMLVideoElement` |
-`HTMLImageElement` |
-`HTMLCanvasElement`
- | 
+| target | `number` |
+| level | `number` |
+| internalformat | `number` |
+| format | `number` |
+| type | `number` |
+| pixels |  `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`|
 
 **Returns:** `void`
 
@@ -6922,9 +6793,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| pname | `number` | 
-| param | `number` | 
+| target | `number` |
+| pname | `number` |
+| param | `number` |
 
 **Returns:** `void`
 
@@ -6943,9 +6814,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| pname | `number` | 
-| param | `number` | 
+| target | `number` |
+| pname | `number` |
+| param | `number` |
 
 **Returns:** `void`
 
@@ -6954,9 +6825,9 @@ ___
 
 ###  texSubImage2D
 
-▸ **texSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, type: *`number`*, pixels: *`ArrayBufferView` |`null`*): `void`
+▸ **texSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
 
-▸ **texSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, format: *`number`*, type: *`number`*, pixels: *`ImageBitmap` |`ImageData` |`HTMLVideoElement` |`HTMLImageElement` |`HTMLCanvasElement`*): `void`
+▸ **texSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`*): `void`
 
 *Inherited from WebGLRenderingContext.texSubImage2D*
 
@@ -6966,17 +6837,15 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| xoffset | `number` | 
-| yoffset | `number` | 
-| width | `number` | 
-| height | `number` | 
-| format | `number` | 
-| type | `number` | 
-| pixels | `ArrayBufferView` |
-`null`
- | 
+| target | `number` |
+| level | `number` |
+| xoffset | `number` |
+| yoffset | `number` |
+| width | `number` |
+| height | `number` |
+| format | `number` |
+| type | `number` |
+| pixels |  `ArrayBufferView` &#124; `null`|
 
 **Returns:** `void`
 
@@ -6988,18 +6857,13 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| target | `number` | 
-| level | `number` | 
-| xoffset | `number` | 
-| yoffset | `number` | 
-| format | `number` | 
-| type | `number` | 
-| pixels | `ImageBitmap` |
-`ImageData` |
-`HTMLVideoElement` |
-`HTMLImageElement` |
-`HTMLCanvasElement`
- | 
+| target | `number` |
+| level | `number` |
+| xoffset | `number` |
+| yoffset | `number` |
+| format | `number` |
+| type | `number` |
+| pixels |  `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`|
 
 **Returns:** `void`
 
@@ -7008,7 +6872,7 @@ ___
 
 ###  uniform1f
 
-▸ **uniform1f**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*): `void`
+▸ **uniform1f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform1f*
 
@@ -7018,10 +6882,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
 
 **Returns:** `void`
 
@@ -7030,7 +6892,7 @@ ___
 
 ###  uniform1fv
 
-▸ **uniform1fv**(location: *`WebGLUniformLocation`*, v: *`Float32Array` |`number`[]*): `void`
+▸ **uniform1fv**(location: *`WebGLUniformLocation`*, v: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform1fv*
 
@@ -7040,10 +6902,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7052,7 +6912,7 @@ ___
 
 ###  uniform1i
 
-▸ **uniform1i**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*): `void`
+▸ **uniform1i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform1i*
 
@@ -7062,10 +6922,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
 
 **Returns:** `void`
 
@@ -7074,7 +6932,7 @@ ___
 
 ###  uniform1iv
 
-▸ **uniform1iv**(location: *`WebGLUniformLocation`*, v: *`Int32Array` |`number`[]*): `void`
+▸ **uniform1iv**(location: *`WebGLUniformLocation`*, v: * `Int32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform1iv*
 
@@ -7084,10 +6942,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Int32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Int32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7096,7 +6952,7 @@ ___
 
 ###  uniform2f
 
-▸ **uniform2f**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*, y: *`number`*): `void`
+▸ **uniform2f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform2f*
 
@@ -7106,11 +6962,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
-| y | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
+| y | `number` |
 
 **Returns:** `void`
 
@@ -7119,7 +6973,7 @@ ___
 
 ###  uniform2fv
 
-▸ **uniform2fv**(location: *`WebGLUniformLocation`*, v: *`Float32Array` |`number`[]*): `void`
+▸ **uniform2fv**(location: *`WebGLUniformLocation`*, v: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform2fv*
 
@@ -7129,10 +6983,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7141,7 +6993,7 @@ ___
 
 ###  uniform2i
 
-▸ **uniform2i**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*, y: *`number`*): `void`
+▸ **uniform2i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform2i*
 
@@ -7151,11 +7003,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
-| y | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
+| y | `number` |
 
 **Returns:** `void`
 
@@ -7164,7 +7014,7 @@ ___
 
 ###  uniform2iv
 
-▸ **uniform2iv**(location: *`WebGLUniformLocation`*, v: *`Int32Array` |`number`[]*): `void`
+▸ **uniform2iv**(location: *`WebGLUniformLocation`*, v: * `Int32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform2iv*
 
@@ -7174,10 +7024,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Int32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Int32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7186,7 +7034,7 @@ ___
 
 ###  uniform3f
 
-▸ **uniform3f**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
+▸ **uniform3f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform3f*
 
@@ -7196,12 +7044,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
-| y | `number` | 
-| z | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
+| y | `number` |
+| z | `number` |
 
 **Returns:** `void`
 
@@ -7210,7 +7056,7 @@ ___
 
 ###  uniform3fv
 
-▸ **uniform3fv**(location: *`WebGLUniformLocation`*, v: *`Float32Array` |`number`[]*): `void`
+▸ **uniform3fv**(location: *`WebGLUniformLocation`*, v: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform3fv*
 
@@ -7220,10 +7066,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7232,7 +7076,7 @@ ___
 
 ###  uniform3i
 
-▸ **uniform3i**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
+▸ **uniform3i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform3i*
 
@@ -7242,12 +7086,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
-| y | `number` | 
-| z | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
+| y | `number` |
+| z | `number` |
 
 **Returns:** `void`
 
@@ -7256,7 +7098,7 @@ ___
 
 ###  uniform3iv
 
-▸ **uniform3iv**(location: *`WebGLUniformLocation`*, v: *`Int32Array` |`number`[]*): `void`
+▸ **uniform3iv**(location: *`WebGLUniformLocation`*, v: * `Int32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform3iv*
 
@@ -7266,10 +7108,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Int32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Int32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7278,7 +7118,7 @@ ___
 
 ###  uniform4f
 
-▸ **uniform4f**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
+▸ **uniform4f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform4f*
 
@@ -7288,13 +7128,11 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
-| y | `number` | 
-| z | `number` | 
-| w | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
+| y | `number` |
+| z | `number` |
+| w | `number` |
 
 **Returns:** `void`
 
@@ -7303,7 +7141,7 @@ ___
 
 ###  uniform4fv
 
-▸ **uniform4fv**(location: *`WebGLUniformLocation`*, v: *`Float32Array` |`number`[]*): `void`
+▸ **uniform4fv**(location: *`WebGLUniformLocation`*, v: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform4fv*
 
@@ -7313,10 +7151,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7325,7 +7161,7 @@ ___
 
 ###  uniform4i
 
-▸ **uniform4i**(location: *`WebGLUniformLocation` |`null`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
+▸ **uniform4i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
 
 *Inherited from WebGLRenderingContext.uniform4i*
 
@@ -7335,13 +7171,11 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` |
-`null`
- | 
-| x | `number` | 
-| y | `number` | 
-| z | `number` | 
-| w | `number` | 
+| location |  `WebGLUniformLocation` &#124; `null`|
+| x | `number` |
+| y | `number` |
+| z | `number` |
+| w | `number` |
 
 **Returns:** `void`
 
@@ -7350,7 +7184,7 @@ ___
 
 ###  uniform4iv
 
-▸ **uniform4iv**(location: *`WebGLUniformLocation`*, v: *`Int32Array` |`number`[]*): `void`
+▸ **uniform4iv**(location: *`WebGLUniformLocation`*, v: * `Int32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniform4iv*
 
@@ -7360,10 +7194,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| v | `Int32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| v |  `Int32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7372,7 +7204,7 @@ ___
 
 ###  uniformMatrix2fv
 
-▸ **uniformMatrix2fv**(location: *`WebGLUniformLocation`*, transpose: *`boolean`*, value: *`Float32Array` |`number`[]*): `void`
+▸ **uniformMatrix2fv**(location: *`WebGLUniformLocation`*, transpose: *`boolean`*, value: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniformMatrix2fv*
 
@@ -7382,11 +7214,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| transpose | `boolean` | 
-| value | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| transpose | `boolean` |
+| value |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7395,7 +7225,7 @@ ___
 
 ###  uniformMatrix3fv
 
-▸ **uniformMatrix3fv**(location: *`WebGLUniformLocation`*, transpose: *`boolean`*, value: *`Float32Array` |`number`[]*): `void`
+▸ **uniformMatrix3fv**(location: *`WebGLUniformLocation`*, transpose: *`boolean`*, value: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniformMatrix3fv*
 
@@ -7405,11 +7235,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| transpose | `boolean` | 
-| value | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| transpose | `boolean` |
+| value |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7418,7 +7246,7 @@ ___
 
 ###  uniformMatrix4fv
 
-▸ **uniformMatrix4fv**(location: *`WebGLUniformLocation`*, transpose: *`boolean`*, value: *`Float32Array` |`number`[]*): `void`
+▸ **uniformMatrix4fv**(location: *`WebGLUniformLocation`*, transpose: *`boolean`*, value: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.uniformMatrix4fv*
 
@@ -7428,11 +7256,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | 
-| transpose | `boolean` | 
-| value | `Float32Array` |
-`number`[]
- | 
+| location | `WebGLUniformLocation` |
+| transpose | `boolean` |
+| value |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7441,7 +7267,7 @@ ___
 
 ###  useProgram
 
-▸ **useProgram**(program: *`WebGLProgram` |`null`*): `void`
+▸ **useProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.useProgram*
 
@@ -7451,9 +7277,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
 **Returns:** `void`
 
@@ -7462,7 +7286,7 @@ ___
 
 ###  validateProgram
 
-▸ **validateProgram**(program: *`WebGLProgram` |`null`*): `void`
+▸ **validateProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
 
 *Inherited from WebGLRenderingContext.validateProgram*
 
@@ -7472,9 +7296,7 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| program | `WebGLProgram` |
-`null`
- | 
+| program |  `WebGLProgram` &#124; `null`|
 
 **Returns:** `void`
 
@@ -7493,8 +7315,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| x | `number` | 
+| indx | `number` |
+| x | `number` |
 
 **Returns:** `void`
 
@@ -7503,7 +7325,7 @@ ___
 
 ###  vertexAttrib1fv
 
-▸ **vertexAttrib1fv**(indx: *`number`*, values: *`Float32Array` |`number`[]*): `void`
+▸ **vertexAttrib1fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.vertexAttrib1fv*
 
@@ -7513,10 +7335,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| values | `Float32Array` |
-`number`[]
- | 
+| indx | `number` |
+| values |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7535,9 +7355,9 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| x | `number` | 
-| y | `number` | 
+| indx | `number` |
+| x | `number` |
+| y | `number` |
 
 **Returns:** `void`
 
@@ -7546,7 +7366,7 @@ ___
 
 ###  vertexAttrib2fv
 
-▸ **vertexAttrib2fv**(indx: *`number`*, values: *`Float32Array` |`number`[]*): `void`
+▸ **vertexAttrib2fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.vertexAttrib2fv*
 
@@ -7556,10 +7376,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| values | `Float32Array` |
-`number`[]
- | 
+| indx | `number` |
+| values |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7578,10 +7396,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| x | `number` | 
-| y | `number` | 
-| z | `number` | 
+| indx | `number` |
+| x | `number` |
+| y | `number` |
+| z | `number` |
 
 **Returns:** `void`
 
@@ -7590,7 +7408,7 @@ ___
 
 ###  vertexAttrib3fv
 
-▸ **vertexAttrib3fv**(indx: *`number`*, values: *`Float32Array` |`number`[]*): `void`
+▸ **vertexAttrib3fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.vertexAttrib3fv*
 
@@ -7600,10 +7418,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| values | `Float32Array` |
-`number`[]
- | 
+| indx | `number` |
+| values |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7622,11 +7438,11 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| x | `number` | 
-| y | `number` | 
-| z | `number` | 
-| w | `number` | 
+| indx | `number` |
+| x | `number` |
+| y | `number` |
+| z | `number` |
+| w | `number` |
 
 **Returns:** `void`
 
@@ -7635,7 +7451,7 @@ ___
 
 ###  vertexAttrib4fv
 
-▸ **vertexAttrib4fv**(indx: *`number`*, values: *`Float32Array` |`number`[]*): `void`
+▸ **vertexAttrib4fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
 
 *Inherited from WebGLRenderingContext.vertexAttrib4fv*
 
@@ -7645,10 +7461,8 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| values | `Float32Array` |
-`number`[]
- | 
+| indx | `number` |
+| values |  `Float32Array` &#124; `number`[]|
 
 **Returns:** `void`
 
@@ -7667,12 +7481,12 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| indx | `number` | 
-| size | `number` | 
-| type | `number` | 
-| normalized | `boolean` | 
-| stride | `number` | 
-| offset | `number` | 
+| indx | `number` |
+| size | `number` |
+| type | `number` |
+| normalized | `boolean` |
+| stride | `number` |
+| offset | `number` |
 
 **Returns:** `void`
 
@@ -7691,10 +7505,10 @@ ___
 
 | Param | Type |
 | ------ | ------ |
-| x | `number` | 
-| y | `number` | 
-| width | `number` | 
-| height | `number` | 
+| x | `number` |
+| y | `number` |
+| width | `number` |
+| height | `number` |
 
 **Returns:** `void`
 
