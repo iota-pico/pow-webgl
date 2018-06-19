@@ -474,7 +474,7 @@ Extension to the current definition of WebGLRenderingContext.
 
 *Inherited from WebGLRenderingContext.ACTIVE_ATTRIBUTES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12618*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12618*
 
 ___
 <a id="active_texture"></a>
@@ -485,7 +485,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ACTIVE_TEXTURE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12619*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12619*
 
 ___
 <a id="active_uniforms"></a>
@@ -496,7 +496,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ACTIVE_UNIFORMS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12620*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12620*
 
 ___
 <a id="aliased_line_width_range"></a>
@@ -507,7 +507,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ALIASED_LINE_WIDTH_RANGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12621*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12621*
 
 ___
 <a id="aliased_point_size_range"></a>
@@ -518,7 +518,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ALIASED_POINT_SIZE_RANGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12622*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12622*
 
 ___
 <a id="alpha"></a>
@@ -529,7 +529,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12623*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12623*
 
 ___
 <a id="alpha_bits"></a>
@@ -540,7 +540,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ALPHA_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12624*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12624*
 
 ___
 <a id="always"></a>
@@ -551,7 +551,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ALWAYS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12625*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12625*
 
 ___
 <a id="array_buffer"></a>
@@ -562,7 +562,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ARRAY_BUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12626*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12626*
 
 ___
 <a id="array_buffer_binding"></a>
@@ -573,7 +573,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ARRAY_BUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12627*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12627*
 
 ___
 <a id="attached_shaders"></a>
@@ -584,7 +584,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ATTACHED_SHADERS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12628*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12628*
 
 ___
 <a id="back"></a>
@@ -595,7 +595,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BACK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12629*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12629*
 
 ___
 <a id="blend"></a>
@@ -606,7 +606,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12630*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12630*
 
 ___
 <a id="blend_color"></a>
@@ -617,7 +617,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12631*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12631*
 
 ___
 <a id="blend_dst_alpha"></a>
@@ -628,7 +628,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_DST_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12632*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12632*
 
 ___
 <a id="blend_dst_rgb"></a>
@@ -639,7 +639,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_DST_RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12633*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12633*
 
 ___
 <a id="blend_equation"></a>
@@ -650,7 +650,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_EQUATION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12634*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12634*
 
 ___
 <a id="blend_equation_alpha"></a>
@@ -661,7 +661,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_EQUATION_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12635*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12635*
 
 ___
 <a id="blend_equation_rgb"></a>
@@ -672,7 +672,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_EQUATION_RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12636*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12636*
 
 ___
 <a id="blend_src_alpha"></a>
@@ -683,7 +683,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_SRC_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12637*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12637*
 
 ___
 <a id="blend_src_rgb"></a>
@@ -694,7 +694,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLEND_SRC_RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12638*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12638*
 
 ___
 <a id="blue_bits"></a>
@@ -705,7 +705,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BLUE_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12639*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12639*
 
 ___
 <a id="bool"></a>
@@ -716,7 +716,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BOOL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12640*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12640*
 
 ___
 <a id="bool_vec2"></a>
@@ -727,7 +727,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BOOL_VEC2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12641*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12641*
 
 ___
 <a id="bool_vec3"></a>
@@ -738,7 +738,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BOOL_VEC3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12642*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12642*
 
 ___
 <a id="bool_vec4"></a>
@@ -749,7 +749,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BOOL_VEC4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12643*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12643*
 
 ___
 <a id="browser_default_webgl"></a>
@@ -760,7 +760,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BROWSER_DEFAULT_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12644*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12644*
 
 ___
 <a id="buffer_size"></a>
@@ -771,7 +771,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BUFFER_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12645*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12645*
 
 ___
 <a id="buffer_usage"></a>
@@ -782,7 +782,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BUFFER_USAGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12646*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12646*
 
 ___
 <a id="byte"></a>
@@ -793,7 +793,7 @@ ___
 
 *Inherited from WebGLRenderingContext.BYTE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12647*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12647*
 
 ___
 <a id="ccw"></a>
@@ -804,7 +804,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CCW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12648*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12648*
 
 ___
 <a id="clamp_to_edge"></a>
@@ -815,7 +815,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CLAMP_TO_EDGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12649*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12649*
 
 ___
 <a id="color_attachment0"></a>
@@ -826,7 +826,7 @@ ___
 
 *Inherited from WebGLRenderingContext.COLOR_ATTACHMENT0*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12650*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12650*
 
 ___
 <a id="color_buffer_bit"></a>
@@ -837,7 +837,7 @@ ___
 
 *Inherited from WebGLRenderingContext.COLOR_BUFFER_BIT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12651*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12651*
 
 ___
 <a id="color_clear_value"></a>
@@ -848,7 +848,7 @@ ___
 
 *Inherited from WebGLRenderingContext.COLOR_CLEAR_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12652*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12652*
 
 ___
 <a id="color_writemask"></a>
@@ -859,7 +859,7 @@ ___
 
 *Inherited from WebGLRenderingContext.COLOR_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12653*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12653*
 
 ___
 <a id="compile_status"></a>
@@ -870,7 +870,7 @@ ___
 
 *Inherited from WebGLRenderingContext.COMPILE_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12654*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12654*
 
 ___
 <a id="compressed_texture_formats"></a>
@@ -881,7 +881,7 @@ ___
 
 *Inherited from WebGLRenderingContext.COMPRESSED_TEXTURE_FORMATS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12655*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12655*
 
 ___
 <a id="constant_alpha"></a>
@@ -892,7 +892,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CONSTANT_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12656*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12656*
 
 ___
 <a id="constant_color"></a>
@@ -903,7 +903,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CONSTANT_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12657*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12657*
 
 ___
 <a id="context_lost_webgl"></a>
@@ -914,7 +914,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CONTEXT_LOST_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12658*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12658*
 
 ___
 <a id="cull_face"></a>
@@ -925,7 +925,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CULL_FACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12659*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12659*
 
 ___
 <a id="cull_face_mode"></a>
@@ -936,7 +936,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CULL_FACE_MODE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12660*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12660*
 
 ___
 <a id="current_program"></a>
@@ -947,7 +947,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CURRENT_PROGRAM*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12661*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12661*
 
 ___
 <a id="current_vertex_attrib"></a>
@@ -958,7 +958,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CURRENT_VERTEX_ATTRIB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12662*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12662*
 
 ___
 <a id="cw"></a>
@@ -969,7 +969,7 @@ ___
 
 *Inherited from WebGLRenderingContext.CW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12663*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12663*
 
 ___
 <a id="decr"></a>
@@ -980,7 +980,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DECR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12664*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12664*
 
 ___
 <a id="decr_wrap"></a>
@@ -991,7 +991,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DECR_WRAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12665*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12665*
 
 ___
 <a id="delete_status"></a>
@@ -1002,7 +1002,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DELETE_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12666*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12666*
 
 ___
 <a id="depth_attachment"></a>
@@ -1013,7 +1013,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12667*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12667*
 
 ___
 <a id="depth_bits"></a>
@@ -1024,7 +1024,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12668*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12668*
 
 ___
 <a id="depth_buffer_bit"></a>
@@ -1035,7 +1035,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_BUFFER_BIT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12669*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12669*
 
 ___
 <a id="depth_clear_value"></a>
@@ -1046,7 +1046,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_CLEAR_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12670*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12670*
 
 ___
 <a id="depth_component"></a>
@@ -1057,7 +1057,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_COMPONENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12671*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12671*
 
 ___
 <a id="depth_component16"></a>
@@ -1068,7 +1068,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_COMPONENT16*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12672*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12672*
 
 ___
 <a id="depth_func"></a>
@@ -1079,7 +1079,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_FUNC*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12673*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12673*
 
 ___
 <a id="depth_range"></a>
@@ -1090,7 +1090,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_RANGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12674*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12674*
 
 ___
 <a id="depth_stencil"></a>
@@ -1101,7 +1101,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_STENCIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12675*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12675*
 
 ___
 <a id="depth_stencil_attachment"></a>
@@ -1112,7 +1112,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_STENCIL_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12676*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12676*
 
 ___
 <a id="depth_test"></a>
@@ -1123,7 +1123,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_TEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12677*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12677*
 
 ___
 <a id="depth_writemask"></a>
@@ -1134,7 +1134,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DEPTH_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12678*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12678*
 
 ___
 <a id="dither"></a>
@@ -1145,7 +1145,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DITHER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12679*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12679*
 
 ___
 <a id="dont_care"></a>
@@ -1156,7 +1156,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DONT_CARE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12680*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12680*
 
 ___
 <a id="dst_alpha"></a>
@@ -1167,7 +1167,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DST_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12681*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12681*
 
 ___
 <a id="dst_color"></a>
@@ -1178,7 +1178,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DST_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12682*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12682*
 
 ___
 <a id="dynamic_draw"></a>
@@ -1189,7 +1189,7 @@ ___
 
 *Inherited from WebGLRenderingContext.DYNAMIC_DRAW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12683*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12683*
 
 ___
 <a id="element_array_buffer"></a>
@@ -1200,7 +1200,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ELEMENT_ARRAY_BUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12684*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12684*
 
 ___
 <a id="element_array_buffer_binding"></a>
@@ -1211,7 +1211,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ELEMENT_ARRAY_BUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12685*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12685*
 
 ___
 <a id="equal"></a>
@@ -1222,7 +1222,7 @@ ___
 
 *Inherited from WebGLRenderingContext.EQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12686*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12686*
 
 ___
 <a id="fastest"></a>
@@ -1233,7 +1233,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FASTEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12687*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12687*
 
 ___
 <a id="float"></a>
@@ -1244,7 +1244,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12688*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12688*
 
 ___
 <a id="float_mat2"></a>
@@ -1255,7 +1255,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT_MAT2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12689*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12689*
 
 ___
 <a id="float_mat3"></a>
@@ -1266,7 +1266,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT_MAT3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12690*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12690*
 
 ___
 <a id="float_mat4"></a>
@@ -1277,7 +1277,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT_MAT4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12691*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12691*
 
 ___
 <a id="float_vec2"></a>
@@ -1288,7 +1288,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT_VEC2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12692*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12692*
 
 ___
 <a id="float_vec3"></a>
@@ -1299,7 +1299,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT_VEC3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12693*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12693*
 
 ___
 <a id="float_vec4"></a>
@@ -1310,7 +1310,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FLOAT_VEC4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12694*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12694*
 
 ___
 <a id="fragment_shader"></a>
@@ -1321,7 +1321,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAGMENT_SHADER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12695*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12695*
 
 ___
 <a id="framebuffer"></a>
@@ -1332,7 +1332,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12696*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12696*
 
 ___
 <a id="framebuffer_attachment_object_name"></a>
@@ -1343,7 +1343,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_OBJECT_NAME*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12697*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12697*
 
 ___
 <a id="framebuffer_attachment_object_type"></a>
@@ -1354,7 +1354,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12698*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12698*
 
 ___
 <a id="framebuffer_attachment_texture_cube_map_face"></a>
@@ -1365,7 +1365,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12699*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12699*
 
 ___
 <a id="framebuffer_attachment_texture_level"></a>
@@ -1376,7 +1376,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12700*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12700*
 
 ___
 <a id="framebuffer_binding"></a>
@@ -1387,7 +1387,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12701*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12701*
 
 ___
 <a id="framebuffer_complete"></a>
@@ -1398,7 +1398,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_COMPLETE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12702*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12702*
 
 ___
 <a id="framebuffer_incomplete_attachment"></a>
@@ -1409,7 +1409,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_INCOMPLETE_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12703*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12703*
 
 ___
 <a id="framebuffer_incomplete_dimensions"></a>
@@ -1420,7 +1420,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_INCOMPLETE_DIMENSIONS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12704*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12704*
 
 ___
 <a id="framebuffer_incomplete_missing_attachment"></a>
@@ -1431,7 +1431,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12705*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12705*
 
 ___
 <a id="framebuffer_unsupported"></a>
@@ -1442,7 +1442,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRAMEBUFFER_UNSUPPORTED*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12706*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12706*
 
 ___
 <a id="front"></a>
@@ -1453,7 +1453,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRONT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12707*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12707*
 
 ___
 <a id="front_and_back"></a>
@@ -1464,7 +1464,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRONT_AND_BACK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12708*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12708*
 
 ___
 <a id="front_face"></a>
@@ -1475,7 +1475,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FRONT_FACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12709*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12709*
 
 ___
 <a id="func_add"></a>
@@ -1486,7 +1486,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FUNC_ADD*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12710*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12710*
 
 ___
 <a id="func_reverse_subtract"></a>
@@ -1497,7 +1497,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FUNC_REVERSE_SUBTRACT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12711*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12711*
 
 ___
 <a id="func_subtract"></a>
@@ -1508,7 +1508,7 @@ ___
 
 *Inherited from WebGLRenderingContext.FUNC_SUBTRACT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12712*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12712*
 
 ___
 <a id="generate_mipmap_hint"></a>
@@ -1519,7 +1519,7 @@ ___
 
 *Inherited from WebGLRenderingContext.GENERATE_MIPMAP_HINT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12713*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12713*
 
 ___
 <a id="gequal"></a>
@@ -1530,7 +1530,7 @@ ___
 
 *Inherited from WebGLRenderingContext.GEQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12714*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12714*
 
 ___
 <a id="greater"></a>
@@ -1541,7 +1541,7 @@ ___
 
 *Inherited from WebGLRenderingContext.GREATER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12715*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12715*
 
 ___
 <a id="green_bits"></a>
@@ -1552,7 +1552,7 @@ ___
 
 *Inherited from WebGLRenderingContext.GREEN_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12716*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12716*
 
 ___
 <a id="high_float"></a>
@@ -1563,7 +1563,7 @@ ___
 
 *Inherited from WebGLRenderingContext.HIGH_FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12717*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12717*
 
 ___
 <a id="high_int"></a>
@@ -1574,7 +1574,7 @@ ___
 
 *Inherited from WebGLRenderingContext.HIGH_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12718*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12718*
 
 ___
 <a id="implementation_color_read_format"></a>
@@ -1585,7 +1585,7 @@ ___
 
 *Inherited from WebGLRenderingContext.IMPLEMENTATION_COLOR_READ_FORMAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12719*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12719*
 
 ___
 <a id="implementation_color_read_type"></a>
@@ -1596,7 +1596,7 @@ ___
 
 *Inherited from WebGLRenderingContext.IMPLEMENTATION_COLOR_READ_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12720*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12720*
 
 ___
 <a id="incr"></a>
@@ -1607,7 +1607,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INCR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12721*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12721*
 
 ___
 <a id="incr_wrap"></a>
@@ -1618,7 +1618,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INCR_WRAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12722*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12722*
 
 ___
 <a id="int"></a>
@@ -1629,7 +1629,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12723*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12723*
 
 ___
 <a id="int_vec2"></a>
@@ -1640,7 +1640,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INT_VEC2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12724*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12724*
 
 ___
 <a id="int_vec3"></a>
@@ -1651,7 +1651,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INT_VEC3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12725*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12725*
 
 ___
 <a id="int_vec4"></a>
@@ -1662,7 +1662,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INT_VEC4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12726*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12726*
 
 ___
 <a id="invalid_enum"></a>
@@ -1673,7 +1673,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INVALID_ENUM*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12727*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12727*
 
 ___
 <a id="invalid_framebuffer_operation"></a>
@@ -1684,7 +1684,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INVALID_FRAMEBUFFER_OPERATION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12728*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12728*
 
 ___
 <a id="invalid_operation"></a>
@@ -1695,7 +1695,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INVALID_OPERATION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12729*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12729*
 
 ___
 <a id="invalid_value"></a>
@@ -1706,7 +1706,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INVALID_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12730*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12730*
 
 ___
 <a id="invert"></a>
@@ -1717,7 +1717,7 @@ ___
 
 *Inherited from WebGLRenderingContext.INVERT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12731*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12731*
 
 ___
 <a id="keep"></a>
@@ -1728,7 +1728,7 @@ ___
 
 *Inherited from WebGLRenderingContext.KEEP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12732*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12732*
 
 ___
 <a id="lequal"></a>
@@ -1739,7 +1739,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LEQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12733*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12733*
 
 ___
 <a id="less"></a>
@@ -1750,7 +1750,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LESS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12734*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12734*
 
 ___
 <a id="linear"></a>
@@ -1761,7 +1761,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINEAR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12738*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12738*
 
 ___
 <a id="linear_mipmap_linear"></a>
@@ -1772,7 +1772,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINEAR_MIPMAP_LINEAR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12739*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12739*
 
 ___
 <a id="linear_mipmap_nearest"></a>
@@ -1783,7 +1783,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINEAR_MIPMAP_NEAREST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12740*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12740*
 
 ___
 <a id="lines"></a>
@@ -1794,7 +1794,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12741*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12741*
 
 ___
 <a id="line_loop"></a>
@@ -1805,7 +1805,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINE_LOOP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12735*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12735*
 
 ___
 <a id="line_strip"></a>
@@ -1816,7 +1816,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINE_STRIP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12736*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12736*
 
 ___
 <a id="line_width"></a>
@@ -1827,7 +1827,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINE_WIDTH*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12737*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12737*
 
 ___
 <a id="link_status"></a>
@@ -1838,7 +1838,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LINK_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12742*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12742*
 
 ___
 <a id="low_float"></a>
@@ -1849,7 +1849,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LOW_FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12743*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12743*
 
 ___
 <a id="low_int"></a>
@@ -1860,7 +1860,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LOW_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12744*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12744*
 
 ___
 <a id="luminance"></a>
@@ -1871,7 +1871,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LUMINANCE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12745*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12745*
 
 ___
 <a id="luminance_alpha"></a>
@@ -1882,7 +1882,7 @@ ___
 
 *Inherited from WebGLRenderingContext.LUMINANCE_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12746*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12746*
 
 ___
 <a id="max_combined_texture_image_units"></a>
@@ -1893,7 +1893,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_COMBINED_TEXTURE_IMAGE_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12747*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12747*
 
 ___
 <a id="max_cube_map_texture_size"></a>
@@ -1904,7 +1904,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_CUBE_MAP_TEXTURE_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12748*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12748*
 
 ___
 <a id="max_fragment_uniform_vectors"></a>
@@ -1915,7 +1915,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_FRAGMENT_UNIFORM_VECTORS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12749*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12749*
 
 ___
 <a id="max_renderbuffer_size"></a>
@@ -1926,7 +1926,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_RENDERBUFFER_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12750*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12750*
 
 ___
 <a id="max_texture_image_units"></a>
@@ -1937,7 +1937,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_TEXTURE_IMAGE_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12751*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12751*
 
 ___
 <a id="max_texture_size"></a>
@@ -1948,7 +1948,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_TEXTURE_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12752*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12752*
 
 ___
 <a id="max_varying_vectors"></a>
@@ -1959,7 +1959,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_VARYING_VECTORS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12753*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12753*
 
 ___
 <a id="max_vertex_attribs"></a>
@@ -1970,7 +1970,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_VERTEX_ATTRIBS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12754*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12754*
 
 ___
 <a id="max_vertex_texture_image_units"></a>
@@ -1981,7 +1981,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_VERTEX_TEXTURE_IMAGE_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12755*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12755*
 
 ___
 <a id="max_vertex_uniform_vectors"></a>
@@ -1992,7 +1992,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_VERTEX_UNIFORM_VECTORS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12756*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12756*
 
 ___
 <a id="max_viewport_dims"></a>
@@ -2003,7 +2003,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MAX_VIEWPORT_DIMS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12757*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12757*
 
 ___
 <a id="medium_float"></a>
@@ -2014,7 +2014,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MEDIUM_FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12758*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12758*
 
 ___
 <a id="medium_int"></a>
@@ -2025,7 +2025,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MEDIUM_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12759*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12759*
 
 ___
 <a id="mirrored_repeat"></a>
@@ -2036,7 +2036,7 @@ ___
 
 *Inherited from WebGLRenderingContext.MIRRORED_REPEAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12760*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12760*
 
 ___
 <a id="nearest"></a>
@@ -2047,7 +2047,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NEAREST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12761*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12761*
 
 ___
 <a id="nearest_mipmap_linear"></a>
@@ -2058,7 +2058,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NEAREST_MIPMAP_LINEAR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12762*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12762*
 
 ___
 <a id="nearest_mipmap_nearest"></a>
@@ -2069,7 +2069,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NEAREST_MIPMAP_NEAREST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12763*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12763*
 
 ___
 <a id="never"></a>
@@ -2080,7 +2080,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NEVER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12764*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12764*
 
 ___
 <a id="nicest"></a>
@@ -2091,7 +2091,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NICEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12765*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12765*
 
 ___
 <a id="none"></a>
@@ -2102,7 +2102,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NONE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12767*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12767*
 
 ___
 <a id="notequal"></a>
@@ -2113,7 +2113,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NOTEQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12768*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12768*
 
 ___
 <a id="no_error"></a>
@@ -2124,7 +2124,7 @@ ___
 
 *Inherited from WebGLRenderingContext.NO_ERROR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12766*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12766*
 
 ___
 <a id="one"></a>
@@ -2135,7 +2135,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12769*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12769*
 
 ___
 <a id="one_minus_constant_alpha"></a>
@@ -2146,7 +2146,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE_MINUS_CONSTANT_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12770*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12770*
 
 ___
 <a id="one_minus_constant_color"></a>
@@ -2157,7 +2157,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE_MINUS_CONSTANT_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12771*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12771*
 
 ___
 <a id="one_minus_dst_alpha"></a>
@@ -2168,7 +2168,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE_MINUS_DST_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12772*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12772*
 
 ___
 <a id="one_minus_dst_color"></a>
@@ -2179,7 +2179,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE_MINUS_DST_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12773*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12773*
 
 ___
 <a id="one_minus_src_alpha"></a>
@@ -2190,7 +2190,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE_MINUS_SRC_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12774*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12774*
 
 ___
 <a id="one_minus_src_color"></a>
@@ -2201,7 +2201,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ONE_MINUS_SRC_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12775*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12775*
 
 ___
 <a id="out_of_memory"></a>
@@ -2212,7 +2212,7 @@ ___
 
 *Inherited from WebGLRenderingContext.OUT_OF_MEMORY*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12776*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12776*
 
 ___
 <a id="pack_alignment"></a>
@@ -2223,7 +2223,7 @@ ___
 
 *Inherited from WebGLRenderingContext.PACK_ALIGNMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12777*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12777*
 
 ___
 <a id="points"></a>
@@ -2234,7 +2234,7 @@ ___
 
 *Inherited from WebGLRenderingContext.POINTS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12778*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12778*
 
 ___
 <a id="polygon_offset_factor"></a>
@@ -2245,7 +2245,7 @@ ___
 
 *Inherited from WebGLRenderingContext.POLYGON_OFFSET_FACTOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12779*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12779*
 
 ___
 <a id="polygon_offset_fill"></a>
@@ -2256,7 +2256,7 @@ ___
 
 *Inherited from WebGLRenderingContext.POLYGON_OFFSET_FILL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12780*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12780*
 
 ___
 <a id="polygon_offset_units"></a>
@@ -2267,7 +2267,7 @@ ___
 
 *Inherited from WebGLRenderingContext.POLYGON_OFFSET_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12781*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12781*
 
 ___
 <a id="red_bits"></a>
@@ -2278,7 +2278,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RED_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12782*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12782*
 
 ___
 <a id="renderbuffer"></a>
@@ -2289,7 +2289,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12783*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12783*
 
 ___
 <a id="renderbuffer_alpha_size"></a>
@@ -2300,7 +2300,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_ALPHA_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12784*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12784*
 
 ___
 <a id="renderbuffer_binding"></a>
@@ -2311,7 +2311,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12785*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12785*
 
 ___
 <a id="renderbuffer_blue_size"></a>
@@ -2322,7 +2322,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_BLUE_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12786*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12786*
 
 ___
 <a id="renderbuffer_depth_size"></a>
@@ -2333,7 +2333,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_DEPTH_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12787*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12787*
 
 ___
 <a id="renderbuffer_green_size"></a>
@@ -2344,7 +2344,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_GREEN_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12788*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12788*
 
 ___
 <a id="renderbuffer_height"></a>
@@ -2355,7 +2355,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_HEIGHT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12789*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12789*
 
 ___
 <a id="renderbuffer_internal_format"></a>
@@ -2366,7 +2366,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_INTERNAL_FORMAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12790*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12790*
 
 ___
 <a id="renderbuffer_red_size"></a>
@@ -2377,7 +2377,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_RED_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12791*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12791*
 
 ___
 <a id="renderbuffer_stencil_size"></a>
@@ -2388,7 +2388,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_STENCIL_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12792*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12792*
 
 ___
 <a id="renderbuffer_width"></a>
@@ -2399,7 +2399,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERBUFFER_WIDTH*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12793*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12793*
 
 ___
 <a id="renderer"></a>
@@ -2410,7 +2410,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RENDERER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12794*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12794*
 
 ___
 <a id="repeat"></a>
@@ -2421,7 +2421,7 @@ ___
 
 *Inherited from WebGLRenderingContext.REPEAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12795*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12795*
 
 ___
 <a id="replace"></a>
@@ -2432,7 +2432,7 @@ ___
 
 *Inherited from WebGLRenderingContext.REPLACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12796*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12796*
 
 ___
 <a id="rgb"></a>
@@ -2443,7 +2443,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12797*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12797*
 
 ___
 <a id="rgb565"></a>
@@ -2454,7 +2454,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RGB565*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12799*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12799*
 
 ___
 <a id="rgb5_a1"></a>
@@ -2465,7 +2465,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RGB5_A1*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12798*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12798*
 
 ___
 <a id="rgba"></a>
@@ -2476,7 +2476,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RGBA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12800*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12800*
 
 ___
 <a id="rgba32i"></a>
@@ -2485,7 +2485,7 @@ ___
 
 **● RGBA32I**: *`number`*
 
-*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L11)*
+*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L11)*
 
 ___
 <a id="rgba4"></a>
@@ -2496,7 +2496,7 @@ ___
 
 *Inherited from WebGLRenderingContext.RGBA4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12801*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12801*
 
 ___
 <a id="rgba_integer"></a>
@@ -2505,7 +2505,7 @@ ___
 
 **● RGBA_INTEGER**: *`number`*
 
-*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L10)*
+*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L10)*
 
 ___
 <a id="sampler_2d"></a>
@@ -2516,7 +2516,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLER_2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12807*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12807*
 
 ___
 <a id="sampler_cube"></a>
@@ -2527,7 +2527,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLER_CUBE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12808*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12808*
 
 ___
 <a id="samples"></a>
@@ -2538,7 +2538,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12809*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12809*
 
 ___
 <a id="sample_alpha_to_coverage"></a>
@@ -2549,7 +2549,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLE_ALPHA_TO_COVERAGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12802*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12802*
 
 ___
 <a id="sample_buffers"></a>
@@ -2560,7 +2560,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLE_BUFFERS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12803*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12803*
 
 ___
 <a id="sample_coverage"></a>
@@ -2571,7 +2571,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLE_COVERAGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12804*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12804*
 
 ___
 <a id="sample_coverage_invert"></a>
@@ -2582,7 +2582,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLE_COVERAGE_INVERT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12805*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12805*
 
 ___
 <a id="sample_coverage_value"></a>
@@ -2593,7 +2593,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SAMPLE_COVERAGE_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12806*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12806*
 
 ___
 <a id="scissor_box"></a>
@@ -2604,7 +2604,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SCISSOR_BOX*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12810*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12810*
 
 ___
 <a id="scissor_test"></a>
@@ -2615,7 +2615,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SCISSOR_TEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12811*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12811*
 
 ___
 <a id="shader_type"></a>
@@ -2626,7 +2626,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SHADER_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12812*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12812*
 
 ___
 <a id="shading_language_version"></a>
@@ -2637,7 +2637,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SHADING_LANGUAGE_VERSION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12813*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12813*
 
 ___
 <a id="short"></a>
@@ -2648,7 +2648,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SHORT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12814*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12814*
 
 ___
 <a id="src_alpha"></a>
@@ -2659,7 +2659,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SRC_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12815*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12815*
 
 ___
 <a id="src_alpha_saturate"></a>
@@ -2670,7 +2670,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SRC_ALPHA_SATURATE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12816*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12816*
 
 ___
 <a id="src_color"></a>
@@ -2681,7 +2681,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SRC_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12817*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12817*
 
 ___
 <a id="static_draw"></a>
@@ -2692,7 +2692,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STATIC_DRAW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12818*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12818*
 
 ___
 <a id="stencil_attachment"></a>
@@ -2703,7 +2703,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12819*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12819*
 
 ___
 <a id="stencil_back_fail"></a>
@@ -2714,7 +2714,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12820*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12820*
 
 ___
 <a id="stencil_back_func"></a>
@@ -2725,7 +2725,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_FUNC*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12821*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12821*
 
 ___
 <a id="stencil_back_pass_depth_fail"></a>
@@ -2736,7 +2736,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_PASS_DEPTH_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12822*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12822*
 
 ___
 <a id="stencil_back_pass_depth_pass"></a>
@@ -2747,7 +2747,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_PASS_DEPTH_PASS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12823*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12823*
 
 ___
 <a id="stencil_back_ref"></a>
@@ -2758,7 +2758,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_REF*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12824*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12824*
 
 ___
 <a id="stencil_back_value_mask"></a>
@@ -2769,7 +2769,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_VALUE_MASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12825*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12825*
 
 ___
 <a id="stencil_back_writemask"></a>
@@ -2780,7 +2780,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BACK_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12826*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12826*
 
 ___
 <a id="stencil_bits"></a>
@@ -2791,7 +2791,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12827*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12827*
 
 ___
 <a id="stencil_buffer_bit"></a>
@@ -2802,7 +2802,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_BUFFER_BIT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12828*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12828*
 
 ___
 <a id="stencil_clear_value"></a>
@@ -2813,7 +2813,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_CLEAR_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12829*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12829*
 
 ___
 <a id="stencil_fail"></a>
@@ -2824,7 +2824,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12830*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12830*
 
 ___
 <a id="stencil_func"></a>
@@ -2835,7 +2835,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_FUNC*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12831*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12831*
 
 ___
 <a id="stencil_index"></a>
@@ -2846,7 +2846,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_INDEX*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12832*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12832*
 
 ___
 <a id="stencil_index8"></a>
@@ -2857,7 +2857,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_INDEX8*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12833*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12833*
 
 ___
 <a id="stencil_pass_depth_fail"></a>
@@ -2868,7 +2868,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_PASS_DEPTH_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12834*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12834*
 
 ___
 <a id="stencil_pass_depth_pass"></a>
@@ -2879,7 +2879,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_PASS_DEPTH_PASS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12835*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12835*
 
 ___
 <a id="stencil_ref"></a>
@@ -2890,7 +2890,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_REF*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12836*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12836*
 
 ___
 <a id="stencil_test"></a>
@@ -2901,7 +2901,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_TEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12837*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12837*
 
 ___
 <a id="stencil_value_mask"></a>
@@ -2912,7 +2912,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_VALUE_MASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12838*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12838*
 
 ___
 <a id="stencil_writemask"></a>
@@ -2923,7 +2923,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STENCIL_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12839*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12839*
 
 ___
 <a id="stream_draw"></a>
@@ -2934,7 +2934,7 @@ ___
 
 *Inherited from WebGLRenderingContext.STREAM_DRAW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12840*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12840*
 
 ___
 <a id="subpixel_bits"></a>
@@ -2945,7 +2945,7 @@ ___
 
 *Inherited from WebGLRenderingContext.SUBPIXEL_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12841*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12841*
 
 ___
 <a id="texture"></a>
@@ -2956,7 +2956,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12842*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12842*
 
 ___
 <a id="texture0"></a>
@@ -2967,7 +2967,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE0*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12857*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12857*
 
 ___
 <a id="texture1"></a>
@@ -2978,7 +2978,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE1*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12858*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12858*
 
 ___
 <a id="texture10"></a>
@@ -2989,7 +2989,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE10*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12859*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12859*
 
 ___
 <a id="texture11"></a>
@@ -3000,7 +3000,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE11*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12860*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12860*
 
 ___
 <a id="texture12"></a>
@@ -3011,7 +3011,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE12*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12861*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12861*
 
 ___
 <a id="texture13"></a>
@@ -3022,7 +3022,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE13*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12862*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12862*
 
 ___
 <a id="texture14"></a>
@@ -3033,7 +3033,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE14*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12863*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12863*
 
 ___
 <a id="texture15"></a>
@@ -3044,7 +3044,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE15*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12864*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12864*
 
 ___
 <a id="texture16"></a>
@@ -3055,7 +3055,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE16*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12865*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12865*
 
 ___
 <a id="texture17"></a>
@@ -3066,7 +3066,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE17*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12866*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12866*
 
 ___
 <a id="texture18"></a>
@@ -3077,7 +3077,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE18*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12867*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12867*
 
 ___
 <a id="texture19"></a>
@@ -3088,7 +3088,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE19*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12868*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12868*
 
 ___
 <a id="texture2"></a>
@@ -3099,7 +3099,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12869*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12869*
 
 ___
 <a id="texture20"></a>
@@ -3110,7 +3110,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE20*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12870*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12870*
 
 ___
 <a id="texture21"></a>
@@ -3121,7 +3121,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE21*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12871*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12871*
 
 ___
 <a id="texture22"></a>
@@ -3132,7 +3132,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE22*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12872*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12872*
 
 ___
 <a id="texture23"></a>
@@ -3143,7 +3143,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE23*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12873*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12873*
 
 ___
 <a id="texture24"></a>
@@ -3154,7 +3154,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE24*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12874*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12874*
 
 ___
 <a id="texture25"></a>
@@ -3165,7 +3165,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE25*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12875*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12875*
 
 ___
 <a id="texture26"></a>
@@ -3176,7 +3176,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE26*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12876*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12876*
 
 ___
 <a id="texture27"></a>
@@ -3187,7 +3187,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE27*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12877*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12877*
 
 ___
 <a id="texture28"></a>
@@ -3198,7 +3198,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE28*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12878*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12878*
 
 ___
 <a id="texture29"></a>
@@ -3209,7 +3209,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE29*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12879*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12879*
 
 ___
 <a id="texture3"></a>
@@ -3220,7 +3220,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12880*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12880*
 
 ___
 <a id="texture30"></a>
@@ -3231,7 +3231,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE30*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12881*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12881*
 
 ___
 <a id="texture31"></a>
@@ -3242,7 +3242,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE31*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12882*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12882*
 
 ___
 <a id="texture4"></a>
@@ -3253,7 +3253,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12883*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12883*
 
 ___
 <a id="texture5"></a>
@@ -3264,7 +3264,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE5*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12884*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12884*
 
 ___
 <a id="texture6"></a>
@@ -3275,7 +3275,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE6*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12885*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12885*
 
 ___
 <a id="texture7"></a>
@@ -3286,7 +3286,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE7*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12886*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12886*
 
 ___
 <a id="texture8"></a>
@@ -3297,7 +3297,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE8*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12887*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12887*
 
 ___
 <a id="texture9"></a>
@@ -3308,7 +3308,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE9*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12888*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12888*
 
 ___
 <a id="texture_2d"></a>
@@ -3319,7 +3319,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12843*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12843*
 
 ___
 <a id="texture_binding_2d"></a>
@@ -3330,7 +3330,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_BINDING_2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12844*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12844*
 
 ___
 <a id="texture_binding_cube_map"></a>
@@ -3341,7 +3341,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_BINDING_CUBE_MAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12845*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12845*
 
 ___
 <a id="texture_cube_map"></a>
@@ -3352,7 +3352,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12846*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12846*
 
 ___
 <a id="texture_cube_map_negative_x"></a>
@@ -3363,7 +3363,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_NEGATIVE_X*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12847*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12847*
 
 ___
 <a id="texture_cube_map_negative_y"></a>
@@ -3374,7 +3374,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_NEGATIVE_Y*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12848*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12848*
 
 ___
 <a id="texture_cube_map_negative_z"></a>
@@ -3385,7 +3385,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_NEGATIVE_Z*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12849*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12849*
 
 ___
 <a id="texture_cube_map_positive_x"></a>
@@ -3396,7 +3396,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_POSITIVE_X*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12850*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12850*
 
 ___
 <a id="texture_cube_map_positive_y"></a>
@@ -3407,7 +3407,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_POSITIVE_Y*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12851*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12851*
 
 ___
 <a id="texture_cube_map_positive_z"></a>
@@ -3418,7 +3418,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_POSITIVE_Z*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12852*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12852*
 
 ___
 <a id="texture_mag_filter"></a>
@@ -3429,7 +3429,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_MAG_FILTER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12853*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12853*
 
 ___
 <a id="texture_min_filter"></a>
@@ -3440,7 +3440,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_MIN_FILTER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12854*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12854*
 
 ___
 <a id="texture_wrap_s"></a>
@@ -3451,7 +3451,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_WRAP_S*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12855*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12855*
 
 ___
 <a id="texture_wrap_t"></a>
@@ -3462,7 +3462,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TEXTURE_WRAP_T*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12856*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12856*
 
 ___
 <a id="triangles"></a>
@@ -3473,7 +3473,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TRIANGLES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12891*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12891*
 
 ___
 <a id="triangle_fan"></a>
@@ -3484,7 +3484,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TRIANGLE_FAN*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12889*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12889*
 
 ___
 <a id="triangle_strip"></a>
@@ -3495,7 +3495,7 @@ ___
 
 *Inherited from WebGLRenderingContext.TRIANGLE_STRIP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12890*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12890*
 
 ___
 <a id="unpack_alignment"></a>
@@ -3506,7 +3506,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNPACK_ALIGNMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12892*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12892*
 
 ___
 <a id="unpack_colorspace_conversion_webgl"></a>
@@ -3517,7 +3517,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNPACK_COLORSPACE_CONVERSION_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12893*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12893*
 
 ___
 <a id="unpack_flip_y_webgl"></a>
@@ -3528,7 +3528,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNPACK_FLIP_Y_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12894*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12894*
 
 ___
 <a id="unpack_premultiply_alpha_webgl"></a>
@@ -3539,7 +3539,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNPACK_PREMULTIPLY_ALPHA_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12895*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12895*
 
 ___
 <a id="unsigned_byte"></a>
@@ -3550,7 +3550,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNSIGNED_BYTE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12896*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12896*
 
 ___
 <a id="unsigned_int"></a>
@@ -3561,7 +3561,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNSIGNED_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12897*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12897*
 
 ___
 <a id="unsigned_short"></a>
@@ -3572,7 +3572,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNSIGNED_SHORT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12898*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12898*
 
 ___
 <a id="unsigned_short_4_4_4_4"></a>
@@ -3583,7 +3583,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNSIGNED_SHORT_4_4_4_4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12899*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12899*
 
 ___
 <a id="unsigned_short_5_5_5_1"></a>
@@ -3594,7 +3594,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNSIGNED_SHORT_5_5_5_1*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12900*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12900*
 
 ___
 <a id="unsigned_short_5_6_5"></a>
@@ -3605,7 +3605,7 @@ ___
 
 *Inherited from WebGLRenderingContext.UNSIGNED_SHORT_5_6_5*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12901*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12901*
 
 ___
 <a id="validate_status"></a>
@@ -3616,7 +3616,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VALIDATE_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12902*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12902*
 
 ___
 <a id="vendor"></a>
@@ -3627,7 +3627,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VENDOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12903*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12903*
 
 ___
 <a id="version"></a>
@@ -3638,7 +3638,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERSION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12904*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12904*
 
 ___
 <a id="vertex_attrib_array_buffer_binding"></a>
@@ -3649,7 +3649,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_BUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12905*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12905*
 
 ___
 <a id="vertex_attrib_array_enabled"></a>
@@ -3660,7 +3660,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_ENABLED*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12906*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12906*
 
 ___
 <a id="vertex_attrib_array_normalized"></a>
@@ -3671,7 +3671,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_NORMALIZED*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12907*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12907*
 
 ___
 <a id="vertex_attrib_array_pointer"></a>
@@ -3682,7 +3682,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_POINTER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12908*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12908*
 
 ___
 <a id="vertex_attrib_array_size"></a>
@@ -3693,7 +3693,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12909*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12909*
 
 ___
 <a id="vertex_attrib_array_stride"></a>
@@ -3704,7 +3704,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_STRIDE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12910*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12910*
 
 ___
 <a id="vertex_attrib_array_type"></a>
@@ -3715,7 +3715,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12911*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12911*
 
 ___
 <a id="vertex_shader"></a>
@@ -3726,7 +3726,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VERTEX_SHADER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12912*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12912*
 
 ___
 <a id="viewport"></a>
@@ -3737,7 +3737,7 @@ ___
 
 *Inherited from WebGLRenderingContext.VIEWPORT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12913*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12913*
 
 ___
 <a id="webglrenderingcontext"></a>
@@ -3746,14 +3746,14 @@ ___
 
 **● WebGLRenderingContext**: *`object`*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12917*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12917*
 
 #### Type declaration
 
  constructor : function
 ⊕ **new __type**(): `WebGLRenderingContext`
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12918*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12918*
 
 **Returns:** `WebGLRenderingContext`
 
@@ -4362,7 +4362,7 @@ ___
 
 *Inherited from WebGLRenderingContext.ZERO*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12914*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12914*
 
 ___
 <a id="canvas"></a>
@@ -4373,7 +4373,7 @@ ___
 
 *Inherited from WebGLRenderingContext.canvas*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12455*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12455*
 
 ___
 <a id="drawingbufferheight"></a>
@@ -4384,7 +4384,7 @@ ___
 
 *Inherited from WebGLRenderingContext.drawingBufferHeight*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12456*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12456*
 
 ___
 <a id="drawingbufferwidth"></a>
@@ -4395,7 +4395,7 @@ ___
 
 *Inherited from WebGLRenderingContext.drawingBufferWidth*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12457*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12457*
 
 ___
 
@@ -4409,7 +4409,7 @@ ___
 
 *Inherited from WebGLRenderingContext.activeTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12458*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12458*
 
 **Parameters:**
 
@@ -4428,7 +4428,7 @@ ___
 
 *Inherited from WebGLRenderingContext.attachShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12459*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12459*
 
 **Parameters:**
 
@@ -4448,7 +4448,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bindAttribLocation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12460*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12460*
 
 **Parameters:**
 
@@ -4469,7 +4469,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bindBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12461*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12461*
 
 **Parameters:**
 
@@ -4489,7 +4489,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bindFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12462*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12462*
 
 **Parameters:**
 
@@ -4509,7 +4509,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bindRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12463*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12463*
 
 **Parameters:**
 
@@ -4529,7 +4529,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bindTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12464*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12464*
 
 **Parameters:**
 
@@ -4547,7 +4547,7 @@ ___
 
 ▸ **bindVertexArray**(vertexAray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `void`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L14)*
+*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L14)*
 
 **Parameters:**
 
@@ -4566,7 +4566,7 @@ ___
 
 *Inherited from WebGLRenderingContext.blendColor*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12465*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12465*
 
 **Parameters:**
 
@@ -4588,7 +4588,7 @@ ___
 
 *Inherited from WebGLRenderingContext.blendEquation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12466*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12466*
 
 **Parameters:**
 
@@ -4607,7 +4607,7 @@ ___
 
 *Inherited from WebGLRenderingContext.blendEquationSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12467*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12467*
 
 **Parameters:**
 
@@ -4627,7 +4627,7 @@ ___
 
 *Inherited from WebGLRenderingContext.blendFunc*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12468*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12468*
 
 **Parameters:**
 
@@ -4647,7 +4647,7 @@ ___
 
 *Inherited from WebGLRenderingContext.blendFuncSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12469*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12469*
 
 **Parameters:**
 
@@ -4669,7 +4669,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bufferData*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12470*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12470*
 
 **Parameters:**
 
@@ -4690,7 +4690,7 @@ ___
 
 *Inherited from WebGLRenderingContext.bufferSubData*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12471*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12471*
 
 **Parameters:**
 
@@ -4711,7 +4711,7 @@ ___
 
 *Inherited from WebGLRenderingContext.checkFramebufferStatus*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12472*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12472*
 
 **Parameters:**
 
@@ -4730,7 +4730,7 @@ ___
 
 *Inherited from WebGLRenderingContext.clear*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12473*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12473*
 
 **Parameters:**
 
@@ -4749,7 +4749,7 @@ ___
 
 *Inherited from WebGLRenderingContext.clearColor*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12474*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12474*
 
 **Parameters:**
 
@@ -4771,7 +4771,7 @@ ___
 
 *Inherited from WebGLRenderingContext.clearDepth*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12475*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12475*
 
 **Parameters:**
 
@@ -4790,7 +4790,7 @@ ___
 
 *Inherited from WebGLRenderingContext.clearStencil*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12476*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12476*
 
 **Parameters:**
 
@@ -4809,7 +4809,7 @@ ___
 
 *Inherited from WebGLRenderingContext.colorMask*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12477*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12477*
 
 **Parameters:**
 
@@ -4831,7 +4831,7 @@ ___
 
 *Inherited from WebGLRenderingContext.compileShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12478*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12478*
 
 **Parameters:**
 
@@ -4850,7 +4850,7 @@ ___
 
 *Inherited from WebGLRenderingContext.compressedTexImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12479*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12479*
 
 **Parameters:**
 
@@ -4875,7 +4875,7 @@ ___
 
 *Inherited from WebGLRenderingContext.compressedTexSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12480*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12480*
 
 **Parameters:**
 
@@ -4901,7 +4901,7 @@ ___
 
 *Inherited from WebGLRenderingContext.copyTexImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12481*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12481*
 
 **Parameters:**
 
@@ -4927,7 +4927,7 @@ ___
 
 *Inherited from WebGLRenderingContext.copyTexSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12482*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12482*
 
 **Parameters:**
 
@@ -4953,7 +4953,7 @@ ___
 
 *Inherited from WebGLRenderingContext.createBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12483*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12483*
 
 **Returns:**  `WebGLBuffer` &#124; `null`
 
@@ -4966,7 +4966,7 @@ ___
 
 *Inherited from WebGLRenderingContext.createFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12484*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12484*
 
 **Returns:**  `WebGLFramebuffer` &#124; `null`
 
@@ -4979,7 +4979,7 @@ ___
 
 *Inherited from WebGLRenderingContext.createProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12485*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12485*
 
 **Returns:**  `WebGLProgram` &#124; `null`
 
@@ -4992,7 +4992,7 @@ ___
 
 *Inherited from WebGLRenderingContext.createRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12486*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12486*
 
 **Returns:**  `WebGLRenderbuffer` &#124; `null`
 
@@ -5005,7 +5005,7 @@ ___
 
 *Inherited from WebGLRenderingContext.createShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12487*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12487*
 
 **Parameters:**
 
@@ -5024,7 +5024,7 @@ ___
 
 *Inherited from WebGLRenderingContext.createTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12488*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12488*
 
 **Returns:**  `WebGLTexture` &#124; `null`
 
@@ -5035,7 +5035,7 @@ ___
 
 ▸ **createVertexArray**(): [WebGLVertexArrayObject](webglvertexarrayobject.md)
 
-*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L13)*
+*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L13)*
 
 **Returns:** [WebGLVertexArrayObject](webglvertexarrayobject.md)
 
@@ -5048,7 +5048,7 @@ ___
 
 *Inherited from WebGLRenderingContext.cullFace*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12489*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12489*
 
 **Parameters:**
 
@@ -5067,7 +5067,7 @@ ___
 
 *Inherited from WebGLRenderingContext.deleteBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12490*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12490*
 
 **Parameters:**
 
@@ -5086,7 +5086,7 @@ ___
 
 *Inherited from WebGLRenderingContext.deleteFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12491*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12491*
 
 **Parameters:**
 
@@ -5105,7 +5105,7 @@ ___
 
 *Inherited from WebGLRenderingContext.deleteProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12492*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12492*
 
 **Parameters:**
 
@@ -5124,7 +5124,7 @@ ___
 
 *Inherited from WebGLRenderingContext.deleteRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12493*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12493*
 
 **Parameters:**
 
@@ -5143,7 +5143,7 @@ ___
 
 *Inherited from WebGLRenderingContext.deleteShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12494*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12494*
 
 **Parameters:**
 
@@ -5162,7 +5162,7 @@ ___
 
 *Inherited from WebGLRenderingContext.deleteTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12495*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12495*
 
 **Parameters:**
 
@@ -5179,7 +5179,7 @@ ___
 
 ▸ **deleteVertexArray**(vertexArray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `void`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L15)*
+*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L15)*
 
 **Parameters:**
 
@@ -5198,7 +5198,7 @@ ___
 
 *Inherited from WebGLRenderingContext.depthFunc*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12496*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12496*
 
 **Parameters:**
 
@@ -5217,7 +5217,7 @@ ___
 
 *Inherited from WebGLRenderingContext.depthMask*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12497*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12497*
 
 **Parameters:**
 
@@ -5236,7 +5236,7 @@ ___
 
 *Inherited from WebGLRenderingContext.depthRange*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12498*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12498*
 
 **Parameters:**
 
@@ -5256,7 +5256,7 @@ ___
 
 *Inherited from WebGLRenderingContext.detachShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12499*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12499*
 
 **Parameters:**
 
@@ -5276,7 +5276,7 @@ ___
 
 *Inherited from WebGLRenderingContext.disable*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12500*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12500*
 
 **Parameters:**
 
@@ -5295,7 +5295,7 @@ ___
 
 *Inherited from WebGLRenderingContext.disableVertexAttribArray*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12501*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12501*
 
 **Parameters:**
 
@@ -5314,7 +5314,7 @@ ___
 
 *Inherited from WebGLRenderingContext.drawArrays*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12502*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12502*
 
 **Parameters:**
 
@@ -5335,7 +5335,7 @@ ___
 
 *Inherited from WebGLRenderingContext.drawElements*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12503*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12503*
 
 **Parameters:**
 
@@ -5357,7 +5357,7 @@ ___
 
 *Inherited from WebGLRenderingContext.enable*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12504*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12504*
 
 **Parameters:**
 
@@ -5376,7 +5376,7 @@ ___
 
 *Inherited from WebGLRenderingContext.enableVertexAttribArray*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12505*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12505*
 
 **Parameters:**
 
@@ -5395,7 +5395,7 @@ ___
 
 *Inherited from WebGLRenderingContext.finish*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12506*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12506*
 
 **Returns:** `void`
 
@@ -5408,7 +5408,7 @@ ___
 
 *Inherited from WebGLRenderingContext.flush*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12507*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12507*
 
 **Returns:** `void`
 
@@ -5421,7 +5421,7 @@ ___
 
 *Inherited from WebGLRenderingContext.framebufferRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12508*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12508*
 
 **Parameters:**
 
@@ -5443,7 +5443,7 @@ ___
 
 *Inherited from WebGLRenderingContext.framebufferTexture2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12509*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12509*
 
 **Parameters:**
 
@@ -5466,7 +5466,7 @@ ___
 
 *Inherited from WebGLRenderingContext.frontFace*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12510*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12510*
 
 **Parameters:**
 
@@ -5485,7 +5485,7 @@ ___
 
 *Inherited from WebGLRenderingContext.generateMipmap*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12511*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12511*
 
 **Parameters:**
 
@@ -5504,7 +5504,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getActiveAttrib*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12512*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12512*
 
 **Parameters:**
 
@@ -5524,7 +5524,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getActiveUniform*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12513*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12513*
 
 **Parameters:**
 
@@ -5544,7 +5544,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getAttachedShaders*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12514*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12514*
 
 **Parameters:**
 
@@ -5563,7 +5563,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getAttribLocation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12515*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12515*
 
 **Parameters:**
 
@@ -5583,7 +5583,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getBufferParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12516*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12516*
 
 **Parameters:**
 
@@ -5603,7 +5603,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getContextAttributes*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12517*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12517*
 
 **Returns:** `WebGLContextAttributes`
 
@@ -5616,7 +5616,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getError*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12518*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12518*
 
 **Returns:** `number`
 
@@ -5673,7 +5673,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12519*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12519*
 
 **Parameters:**
 
@@ -5685,7 +5685,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12520*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12520*
 
 **Parameters:**
 
@@ -5697,7 +5697,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12521*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12521*
 
 **Parameters:**
 
@@ -5709,7 +5709,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12522*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12522*
 
 **Parameters:**
 
@@ -5721,7 +5721,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12523*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12523*
 
 **Parameters:**
 
@@ -5733,7 +5733,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12524*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12524*
 
 **Parameters:**
 
@@ -5745,7 +5745,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12525*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12525*
 
 **Parameters:**
 
@@ -5757,7 +5757,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12526*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12526*
 
 **Parameters:**
 
@@ -5769,7 +5769,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12527*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12527*
 
 **Parameters:**
 
@@ -5781,7 +5781,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12528*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12528*
 
 **Parameters:**
 
@@ -5793,7 +5793,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12529*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12529*
 
 **Parameters:**
 
@@ -5805,7 +5805,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12530*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12530*
 
 **Parameters:**
 
@@ -5817,7 +5817,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12531*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12531*
 
 **Parameters:**
 
@@ -5829,7 +5829,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12532*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12532*
 
 **Parameters:**
 
@@ -5841,7 +5841,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12533*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12533*
 
 **Parameters:**
 
@@ -5853,7 +5853,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12534*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12534*
 
 **Parameters:**
 
@@ -5865,7 +5865,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12535*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12535*
 
 **Parameters:**
 
@@ -5877,7 +5877,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12536*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12536*
 
 **Parameters:**
 
@@ -5889,7 +5889,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12537*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12537*
 
 **Parameters:**
 
@@ -5901,7 +5901,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12538*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12538*
 
 **Parameters:**
 
@@ -5913,7 +5913,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12539*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12539*
 
 **Parameters:**
 
@@ -5925,7 +5925,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12540*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12540*
 
 **Parameters:**
 
@@ -5937,7 +5937,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12541*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12541*
 
 **Parameters:**
 
@@ -5956,7 +5956,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getFramebufferAttachmentParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12542*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12542*
 
 **Parameters:**
 
@@ -5977,7 +5977,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12543*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12543*
 
 **Parameters:**
 
@@ -5996,7 +5996,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getProgramInfoLog*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12544*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12544*
 
 **Parameters:**
 
@@ -6015,7 +6015,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getProgramParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12545*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12545*
 
 **Parameters:**
 
@@ -6035,7 +6035,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getRenderbufferParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12546*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12546*
 
 **Parameters:**
 
@@ -6055,7 +6055,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getShaderInfoLog*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12547*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12547*
 
 **Parameters:**
 
@@ -6074,7 +6074,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getShaderParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12548*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12548*
 
 **Parameters:**
 
@@ -6094,7 +6094,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getShaderPrecisionFormat*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12549*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12549*
 
 **Parameters:**
 
@@ -6114,7 +6114,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getShaderSource*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12550*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12550*
 
 **Parameters:**
 
@@ -6133,7 +6133,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getSupportedExtensions*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12551*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12551*
 
 **Returns:**  `string`[] &#124; `null`
 
@@ -6146,7 +6146,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getTexParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12552*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12552*
 
 **Parameters:**
 
@@ -6166,7 +6166,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getUniform*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12553*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12553*
 
 **Parameters:**
 
@@ -6186,7 +6186,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getUniformLocation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12554*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12554*
 
 **Parameters:**
 
@@ -6206,7 +6206,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getVertexAttrib*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12555*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12555*
 
 **Parameters:**
 
@@ -6226,7 +6226,7 @@ ___
 
 *Inherited from WebGLRenderingContext.getVertexAttribOffset*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12556*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12556*
 
 **Parameters:**
 
@@ -6246,7 +6246,7 @@ ___
 
 *Inherited from WebGLRenderingContext.hint*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12557*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12557*
 
 **Parameters:**
 
@@ -6266,7 +6266,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12558*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12558*
 
 **Parameters:**
 
@@ -6285,7 +6285,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isContextLost*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12559*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12559*
 
 **Returns:** `boolean`
 
@@ -6298,7 +6298,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isEnabled*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12560*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12560*
 
 **Parameters:**
 
@@ -6317,7 +6317,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12561*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12561*
 
 **Parameters:**
 
@@ -6336,7 +6336,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12562*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12562*
 
 **Parameters:**
 
@@ -6355,7 +6355,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12563*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12563*
 
 **Parameters:**
 
@@ -6374,7 +6374,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12564*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12564*
 
 **Parameters:**
 
@@ -6393,7 +6393,7 @@ ___
 
 *Inherited from WebGLRenderingContext.isTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12565*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12565*
 
 **Parameters:**
 
@@ -6410,7 +6410,7 @@ ___
 
 ▸ **isVertexArray**(vertexArray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `boolean`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iota-pico/pow-webgl/blob/9daaabc/src/webGL/webGLRenderingContextExt.ts#L16)*
+*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L16)*
 
 **Parameters:**
 
@@ -6429,7 +6429,7 @@ ___
 
 *Inherited from WebGLRenderingContext.lineWidth*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12566*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12566*
 
 **Parameters:**
 
@@ -6448,7 +6448,7 @@ ___
 
 *Inherited from WebGLRenderingContext.linkProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12567*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12567*
 
 **Parameters:**
 
@@ -6467,7 +6467,7 @@ ___
 
 *Inherited from WebGLRenderingContext.pixelStorei*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12568*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12568*
 
 **Parameters:**
 
@@ -6487,7 +6487,7 @@ ___
 
 *Inherited from WebGLRenderingContext.polygonOffset*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12569*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12569*
 
 **Parameters:**
 
@@ -6507,7 +6507,7 @@ ___
 
 *Inherited from WebGLRenderingContext.readPixels*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12570*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12570*
 
 **Parameters:**
 
@@ -6532,7 +6532,7 @@ ___
 
 *Inherited from WebGLRenderingContext.renderbufferStorage*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12571*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12571*
 
 **Parameters:**
 
@@ -6554,7 +6554,7 @@ ___
 
 *Inherited from WebGLRenderingContext.sampleCoverage*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12572*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12572*
 
 **Parameters:**
 
@@ -6574,7 +6574,7 @@ ___
 
 *Inherited from WebGLRenderingContext.scissor*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12573*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12573*
 
 **Parameters:**
 
@@ -6596,7 +6596,7 @@ ___
 
 *Inherited from WebGLRenderingContext.shaderSource*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12574*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12574*
 
 **Parameters:**
 
@@ -6616,7 +6616,7 @@ ___
 
 *Inherited from WebGLRenderingContext.stencilFunc*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12575*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12575*
 
 **Parameters:**
 
@@ -6637,7 +6637,7 @@ ___
 
 *Inherited from WebGLRenderingContext.stencilFuncSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12576*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12576*
 
 **Parameters:**
 
@@ -6659,7 +6659,7 @@ ___
 
 *Inherited from WebGLRenderingContext.stencilMask*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12577*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12577*
 
 **Parameters:**
 
@@ -6678,7 +6678,7 @@ ___
 
 *Inherited from WebGLRenderingContext.stencilMaskSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12578*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12578*
 
 **Parameters:**
 
@@ -6698,7 +6698,7 @@ ___
 
 *Inherited from WebGLRenderingContext.stencilOp*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12579*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12579*
 
 **Parameters:**
 
@@ -6719,7 +6719,7 @@ ___
 
 *Inherited from WebGLRenderingContext.stencilOpSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12580*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12580*
 
 **Parameters:**
 
@@ -6743,7 +6743,7 @@ ___
 
 *Inherited from WebGLRenderingContext.texImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12581*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12581*
 
 **Parameters:**
 
@@ -6763,7 +6763,7 @@ ___
 
 *Inherited from WebGLRenderingContext.texImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12582*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12582*
 
 **Parameters:**
 
@@ -6787,7 +6787,7 @@ ___
 
 *Inherited from WebGLRenderingContext.texParameterf*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12583*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12583*
 
 **Parameters:**
 
@@ -6808,7 +6808,7 @@ ___
 
 *Inherited from WebGLRenderingContext.texParameteri*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12584*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12584*
 
 **Parameters:**
 
@@ -6831,7 +6831,7 @@ ___
 
 *Inherited from WebGLRenderingContext.texSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12585*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12585*
 
 **Parameters:**
 
@@ -6851,7 +6851,7 @@ ___
 
 *Inherited from WebGLRenderingContext.texSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12586*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12586*
 
 **Parameters:**
 
@@ -6876,7 +6876,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform1f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12587*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12587*
 
 **Parameters:**
 
@@ -6896,7 +6896,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform1fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12588*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12588*
 
 **Parameters:**
 
@@ -6916,7 +6916,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform1i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12589*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12589*
 
 **Parameters:**
 
@@ -6936,7 +6936,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform1iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12590*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12590*
 
 **Parameters:**
 
@@ -6956,7 +6956,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform2f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12591*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12591*
 
 **Parameters:**
 
@@ -6977,7 +6977,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform2fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12592*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12592*
 
 **Parameters:**
 
@@ -6997,7 +6997,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform2i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12593*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12593*
 
 **Parameters:**
 
@@ -7018,7 +7018,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform2iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12594*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12594*
 
 **Parameters:**
 
@@ -7038,7 +7038,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform3f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12595*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12595*
 
 **Parameters:**
 
@@ -7060,7 +7060,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform3fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12596*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12596*
 
 **Parameters:**
 
@@ -7080,7 +7080,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform3i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12597*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12597*
 
 **Parameters:**
 
@@ -7102,7 +7102,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform3iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12598*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12598*
 
 **Parameters:**
 
@@ -7122,7 +7122,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform4f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12599*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12599*
 
 **Parameters:**
 
@@ -7145,7 +7145,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform4fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12600*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12600*
 
 **Parameters:**
 
@@ -7165,7 +7165,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform4i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12601*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12601*
 
 **Parameters:**
 
@@ -7188,7 +7188,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniform4iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12602*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12602*
 
 **Parameters:**
 
@@ -7208,7 +7208,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniformMatrix2fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12603*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12603*
 
 **Parameters:**
 
@@ -7229,7 +7229,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniformMatrix3fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12604*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12604*
 
 **Parameters:**
 
@@ -7250,7 +7250,7 @@ ___
 
 *Inherited from WebGLRenderingContext.uniformMatrix4fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12605*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12605*
 
 **Parameters:**
 
@@ -7271,7 +7271,7 @@ ___
 
 *Inherited from WebGLRenderingContext.useProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12606*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12606*
 
 **Parameters:**
 
@@ -7290,7 +7290,7 @@ ___
 
 *Inherited from WebGLRenderingContext.validateProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12607*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12607*
 
 **Parameters:**
 
@@ -7309,7 +7309,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib1f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12608*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12608*
 
 **Parameters:**
 
@@ -7329,7 +7329,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib1fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12609*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12609*
 
 **Parameters:**
 
@@ -7349,7 +7349,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib2f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12610*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12610*
 
 **Parameters:**
 
@@ -7370,7 +7370,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib2fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12611*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12611*
 
 **Parameters:**
 
@@ -7390,7 +7390,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib3f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12612*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12612*
 
 **Parameters:**
 
@@ -7412,7 +7412,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib3fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12613*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12613*
 
 **Parameters:**
 
@@ -7432,7 +7432,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib4f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12614*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12614*
 
 **Parameters:**
 
@@ -7455,7 +7455,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttrib4fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12615*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12615*
 
 **Parameters:**
 
@@ -7475,7 +7475,7 @@ ___
 
 *Inherited from WebGLRenderingContext.vertexAttribPointer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12616*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12616*
 
 **Parameters:**
 
@@ -7499,7 +7499,7 @@ ___
 
 *Inherited from WebGLRenderingContext.viewport*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12617*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12617*
 
 **Parameters:**
 

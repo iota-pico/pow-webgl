@@ -27,14 +27,14 @@ Interface used by the current WebGLRenderingContextExt definition.
 
 **● WebGLObject**: *`object`*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12433*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12433*
 
 #### Type declaration
 
  constructor : function
 ⊕ **new __type**(): `WebGLObject`
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:12434*
+*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/.registry.npmjs.org/typescript/2.7.2/node_modules/typescript/lib/lib.dom.d.ts:12434*
 
 **Returns:** `WebGLObject`
 
