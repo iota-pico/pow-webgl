@@ -54,7 +54,7 @@ module.exports = function (config) {
                 timeout: 60000
             },
             args: [
-                process.env            
+                process.env
             ]
         },
         preprocessors: {
@@ -69,6 +69,15 @@ module.exports = function (config) {
             html: './coverage/lcov-report',
             lcovonly: './coverage/lcov.info'
         },
-        browserNoActivityTimeout: 60000
+        browserNoActivityTimeout: 60000,
+        plugins: [
+            require('karma-chrome-launcher'),
+            require('karma-coverage'),
+            require('karma-sourcemap-loader'),
+            require('karma-typescript'),
+            require('karma-mocha'),
+            require('karma-story-reporter'),
+            require('karma-remap-coverage')
+        ]
     });
 };
