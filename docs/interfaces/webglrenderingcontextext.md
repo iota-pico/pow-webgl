@@ -2485,7 +2485,7 @@ ___
 
 **● RGBA32I**: *`number`*
 
-*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L11)*
+*Defined in [webGL/webGLRenderingContextExt.ts:11](https://github.com/iota-pico/pow-webgl/blob/64ad2a2/src/webGL/webGLRenderingContextExt.ts#L11)*
 
 ___
 <a id="rgba4"></a>
@@ -2505,7 +2505,7 @@ ___
 
 **● RGBA_INTEGER**: *`number`*
 
-*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L10)*
+*Defined in [webGL/webGLRenderingContextExt.ts:10](https://github.com/iota-pico/pow-webgl/blob/64ad2a2/src/webGL/webGLRenderingContextExt.ts#L10)*
 
 ___
 <a id="sampler_2d"></a>
@@ -4547,7 +4547,7 @@ ___
 
 ▸ **bindVertexArray**(vertexAray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `void`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L14)*
+*Defined in [webGL/webGLRenderingContextExt.ts:14](https://github.com/iota-pico/pow-webgl/blob/64ad2a2/src/webGL/webGLRenderingContextExt.ts#L14)*
 
 **Parameters:**
 
@@ -5035,7 +5035,7 @@ ___
 
 ▸ **createVertexArray**(): [WebGLVertexArrayObject](webglvertexarrayobject.md)
 
-*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L13)*
+*Defined in [webGL/webGLRenderingContextExt.ts:13](https://github.com/iota-pico/pow-webgl/blob/64ad2a2/src/webGL/webGLRenderingContextExt.ts#L13)*
 
 **Returns:** [WebGLVertexArrayObject](webglvertexarrayobject.md)
 
@@ -5179,7 +5179,7 @@ ___
 
 ▸ **deleteVertexArray**(vertexArray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `void`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L15)*
+*Defined in [webGL/webGLRenderingContextExt.ts:15](https://github.com/iota-pico/pow-webgl/blob/64ad2a2/src/webGL/webGLRenderingContextExt.ts#L15)*
 
 **Parameters:**
 
@@ -6410,7 +6410,7 @@ ___
 
 ▸ **isVertexArray**(vertexArray: *[WebGLVertexArrayObject](webglvertexarrayobject.md)*): `boolean`
 
-*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iota-pico/pow-webgl/blob/288fe51/src/webGL/webGLRenderingContextExt.ts#L16)*
+*Defined in [webGL/webGLRenderingContextExt.ts:16](https://github.com/iota-pico/pow-webgl/blob/64ad2a2/src/webGL/webGLRenderingContextExt.ts#L16)*
 
 **Parameters:**
 
