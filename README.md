@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iota-pico/pow-webgl/master/LICENSE) [![Build Status](https://travis-ci.org/iota-pico/pow-webgl.svg?branch=master)](https://travis-ci.org/iota-pico/pow-webgl) [![NSP Status](https://nodesecurity.io/orgs/iota-pico/projects/e87b3745-994f-45db-9949-eeadd9097437/badge)](https://nodesecurity.io/orgs/iota-pico/projects/e87b3745-994f-45db-9949-eeadd9097437)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iota-pico/pow-webgl/master/LICENSE) [![Build Status](https://travis-ci.org/iota-pico/pow-webgl.svg?branch=master)](https://travis-ci.org/iota-pico/pow-webgl) 
 [![Coveralls](https://img.shields.io/coveralls/iota-pico/pow-webgl.svg)](https://coveralls.io/github/iota-pico/pow-webgl)
 
 # IOTA Pico Framework Proof Of Work WebGL
