@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iota-pico/pow-webgl/master/LICENSE) [![Build Status](https://travis-ci.org/iota-pico/pow-webgl.svg?branch=master)](https://travis-ci.org/iota-pico/pow-webgl) [![NSP Status](https://nodesecurity.io/orgs/iota-pico/projects/e87b3745-994f-45db-9949-eeadd9097437/badge)](https://nodesecurity.io/orgs/iota-pico/projects/e87b3745-994f-45db-9949-eeadd9097437)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iota-pico/pow-webgl/master/LICENSE) [![Build Status](https://travis-ci.org/iota-pico/pow-webgl.svg?branch=master)](https://travis-ci.org/iota-pico/pow-webgl) 
 [![Coveralls](https://img.shields.io/coveralls/iota-pico/pow-webgl.svg)](https://coveralls.io/github/iota-pico/pow-webgl)
 
 # IOTA Pico Framework Proof Of Work WebGL
@@ -13,13 +13,14 @@ npm install @iota-pico/pow-webgl --save
 
 # Documentation
 
-Documentation for the code can be found in [docs](./docs/README.md) folder.
+Documentation for the code can be found in [docs](https://github.com/iota-pico/pow-webgl/blob/master/docs/README.md) folder.
 
 # Library
 
 The IOTA Pico Framework is a multi-layered set of object oriented JavaScript libraries for use with the IOTA tangle.
 
 If you don't want to use the layered versions of the libraries consider using the  ready bundled versions:
+
 * [@iota-pico/lib-browser](https://github.com/iota-pico/lib-browser)
 * [@iota-pico/lib-nodejs](https://github.com/iota-pico/lib-nodejs)
 
@@ -30,7 +31,6 @@ The layered libraries are written in TypeScript so are all strongly typed. The m
 ## Tutorials
 
 Some tutorials can be found in the following repo [@iota-pico/tutorials](https://github.com/iota-pico/tutorials)
-
 
 # Contributing
 
@@ -45,10 +45,13 @@ Come and find us on the IOTA [Discord](https://discordapp.com/invite/fNGZXvh) de
 # Donations
 
 IOTA donations are always welcome :smile:
+
+![QR Code for Trinity](https://raw.githubusercontent.com/iota-pico/pow-webgl/master/donation.png)
+
 ```shell
 QWJXX99QDEYWUWXEGA9QXSNOWOKHMFKCMSZTXDFLRZAFQRPQTHQDXSZWQQTAHNDNRYHMIKJYWQLKTFHBWSAOJDHAMB
 ```
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/iota-pico/pow-webgl/blob/master/LICENSE) file for details.
