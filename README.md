@@ -5,6 +5,8 @@
 
 The library contains the Curl proof of work algorithm for WebGL platforms.
 
+The implementation requires the browser to support for WebGL2, you can check if your browser supports it here [https://www.caniuse.com/#search=webgl2](https://www.caniuse.com/#search=webgl2). Currently the only browsers with full main-stream support are Chrome and Firefox.
+
 # Installation
 
 ```shell
