@@ -33,7 +33,7 @@
 
 ###  PearlDiverSearchObject
 
-**ΤPearlDiverSearchObject**: *`object`*
+**Ƭ PearlDiverSearchObject**: *`object`*
 
 *Defined in [pearlDiver/pearlDiverSearchObject.ts:7](https://github.com/iota-pico/pow-webgl/tree/master/src/pearlDiver/pearlDiverSearchObject.ts#L7*
 
@@ -63,7 +63,7 @@ ___
 
 ###  PearlDiverSearchStates
 
-**ΤPearlDiverSearchStates**: *`object`*
+**Ƭ PearlDiverSearchStates**: *`object`*
 
 *Defined in [pearlDiver/pearlDiverSearchStates.ts:5](https://github.com/iota-pico/pow-webgl/tree/master/src/pearlDiver/pearlDiverSearchStates.ts#L5*
 
