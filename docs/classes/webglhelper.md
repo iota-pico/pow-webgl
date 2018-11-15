@@ -33,7 +33,7 @@ Create a new WebGL buffer.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | gl | [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md) |  The WebGL rendering context. |
 | data | `WebGLBuffer` |  The data to add to the buffer. |
@@ -56,7 +56,7 @@ Create a WebGL Context.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md) |  The platform to create the context with. |
 
@@ -76,11 +76,22 @@ Transfer data onto clamped texture and turn off any filtering
 
 **Parameters:**
 
-| Param | Type | Description |
-| ------ | ------ | ------ |
-| gl | [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md) |  The WebGL rendering context. |
-| pixelData | `ArrayBufferView` |  The pixel data to create the view from. |
-| dimensions | `object` |  The dimensions to create the texture. |
+**gl: [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)**
+
+The WebGL rendering context.
+
+**pixelData: `ArrayBufferView`**
+
+The pixel data to create the view from.
+
+**dimensions: `object`**
+
+The dimensions to create the texture.
+
+| Name | Type |
+| ------ | ------ |
+| x | `number` |
+| y | `number` |
 
 **Returns:** `WebGLTexture`
 The texture.
@@ -98,7 +109,7 @@ Set the texure into the framebuffer.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | gl | [WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md) |  The WebGL rendering context. |
 | frameBuffer | `WebGLFramebuffer` |  The frame buffer to set the text in to. |

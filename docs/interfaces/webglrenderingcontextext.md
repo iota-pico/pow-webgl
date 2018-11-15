@@ -231,7 +231,6 @@ Extension to the current definition of WebGLRenderingContext.
 * [STENCIL_CLEAR_VALUE](webglrenderingcontextext.md#stencil_clear_value)
 * [STENCIL_FAIL](webglrenderingcontextext.md#stencil_fail)
 * [STENCIL_FUNC](webglrenderingcontextext.md#stencil_func)
-* [STENCIL_INDEX](webglrenderingcontextext.md#stencil_index)
 * [STENCIL_INDEX8](webglrenderingcontextext.md#stencil_index8)
 * [STENCIL_PASS_DEPTH_FAIL](webglrenderingcontextext.md#stencil_pass_depth_fail)
 * [STENCIL_PASS_DEPTH_PASS](webglrenderingcontextext.md#stencil_pass_depth_pass)
@@ -470,2013 +469,2013 @@ Extension to the current definition of WebGLRenderingContext.
 
 ###  ACTIVE_ATTRIBUTES
 
-**● ACTIVE_ATTRIBUTES**: *`number`*
+**● ACTIVE_ATTRIBUTES**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ACTIVE_ATTRIBUTES*
+*Inherited from WebGLRenderingContextBase.ACTIVE_ATTRIBUTES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15193*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15809*
 
 ___
 <a id="active_texture"></a>
 
 ###  ACTIVE_TEXTURE
 
-**● ACTIVE_TEXTURE**: *`number`*
+**● ACTIVE_TEXTURE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ACTIVE_TEXTURE*
+*Inherited from WebGLRenderingContextBase.ACTIVE_TEXTURE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15194*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15810*
 
 ___
 <a id="active_uniforms"></a>
 
 ###  ACTIVE_UNIFORMS
 
-**● ACTIVE_UNIFORMS**: *`number`*
+**● ACTIVE_UNIFORMS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ACTIVE_UNIFORMS*
+*Inherited from WebGLRenderingContextBase.ACTIVE_UNIFORMS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15195*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15811*
 
 ___
 <a id="aliased_line_width_range"></a>
 
 ###  ALIASED_LINE_WIDTH_RANGE
 
-**● ALIASED_LINE_WIDTH_RANGE**: *`number`*
+**● ALIASED_LINE_WIDTH_RANGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ALIASED_LINE_WIDTH_RANGE*
+*Inherited from WebGLRenderingContextBase.ALIASED_LINE_WIDTH_RANGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15196*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15812*
 
 ___
 <a id="aliased_point_size_range"></a>
 
 ###  ALIASED_POINT_SIZE_RANGE
 
-**● ALIASED_POINT_SIZE_RANGE**: *`number`*
+**● ALIASED_POINT_SIZE_RANGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ALIASED_POINT_SIZE_RANGE*
+*Inherited from WebGLRenderingContextBase.ALIASED_POINT_SIZE_RANGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15197*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15813*
 
 ___
 <a id="alpha"></a>
 
 ###  ALPHA
 
-**● ALPHA**: *`number`*
+**● ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ALPHA*
+*Inherited from WebGLRenderingContextBase.ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15198*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15814*
 
 ___
 <a id="alpha_bits"></a>
 
 ###  ALPHA_BITS
 
-**● ALPHA_BITS**: *`number`*
+**● ALPHA_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ALPHA_BITS*
+*Inherited from WebGLRenderingContextBase.ALPHA_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15199*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15815*
 
 ___
 <a id="always"></a>
 
 ###  ALWAYS
 
-**● ALWAYS**: *`number`*
+**● ALWAYS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ALWAYS*
+*Inherited from WebGLRenderingContextBase.ALWAYS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15200*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15816*
 
 ___
 <a id="array_buffer"></a>
 
 ###  ARRAY_BUFFER
 
-**● ARRAY_BUFFER**: *`number`*
+**● ARRAY_BUFFER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ARRAY_BUFFER*
+*Inherited from WebGLRenderingContextBase.ARRAY_BUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15201*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15817*
 
 ___
 <a id="array_buffer_binding"></a>
 
 ###  ARRAY_BUFFER_BINDING
 
-**● ARRAY_BUFFER_BINDING**: *`number`*
+**● ARRAY_BUFFER_BINDING**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ARRAY_BUFFER_BINDING*
+*Inherited from WebGLRenderingContextBase.ARRAY_BUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15202*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15818*
 
 ___
 <a id="attached_shaders"></a>
 
 ###  ATTACHED_SHADERS
 
-**● ATTACHED_SHADERS**: *`number`*
+**● ATTACHED_SHADERS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ATTACHED_SHADERS*
+*Inherited from WebGLRenderingContextBase.ATTACHED_SHADERS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15203*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15819*
 
 ___
 <a id="back"></a>
 
 ###  BACK
 
-**● BACK**: *`number`*
+**● BACK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BACK*
+*Inherited from WebGLRenderingContextBase.BACK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15204*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15820*
 
 ___
 <a id="blend"></a>
 
 ###  BLEND
 
-**● BLEND**: *`number`*
+**● BLEND**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND*
+*Inherited from WebGLRenderingContextBase.BLEND*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15205*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15821*
 
 ___
 <a id="blend_color"></a>
 
 ###  BLEND_COLOR
 
-**● BLEND_COLOR**: *`number`*
+**● BLEND_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_COLOR*
+*Inherited from WebGLRenderingContextBase.BLEND_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15206*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15822*
 
 ___
 <a id="blend_dst_alpha"></a>
 
 ###  BLEND_DST_ALPHA
 
-**● BLEND_DST_ALPHA**: *`number`*
+**● BLEND_DST_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_DST_ALPHA*
+*Inherited from WebGLRenderingContextBase.BLEND_DST_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15207*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15823*
 
 ___
 <a id="blend_dst_rgb"></a>
 
 ###  BLEND_DST_RGB
 
-**● BLEND_DST_RGB**: *`number`*
+**● BLEND_DST_RGB**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_DST_RGB*
+*Inherited from WebGLRenderingContextBase.BLEND_DST_RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15208*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15824*
 
 ___
 <a id="blend_equation"></a>
 
 ###  BLEND_EQUATION
 
-**● BLEND_EQUATION**: *`number`*
+**● BLEND_EQUATION**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_EQUATION*
+*Inherited from WebGLRenderingContextBase.BLEND_EQUATION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15209*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15825*
 
 ___
 <a id="blend_equation_alpha"></a>
 
 ###  BLEND_EQUATION_ALPHA
 
-**● BLEND_EQUATION_ALPHA**: *`number`*
+**● BLEND_EQUATION_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_EQUATION_ALPHA*
+*Inherited from WebGLRenderingContextBase.BLEND_EQUATION_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15210*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15826*
 
 ___
 <a id="blend_equation_rgb"></a>
 
 ###  BLEND_EQUATION_RGB
 
-**● BLEND_EQUATION_RGB**: *`number`*
+**● BLEND_EQUATION_RGB**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_EQUATION_RGB*
+*Inherited from WebGLRenderingContextBase.BLEND_EQUATION_RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15211*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15827*
 
 ___
 <a id="blend_src_alpha"></a>
 
 ###  BLEND_SRC_ALPHA
 
-**● BLEND_SRC_ALPHA**: *`number`*
+**● BLEND_SRC_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_SRC_ALPHA*
+*Inherited from WebGLRenderingContextBase.BLEND_SRC_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15212*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15828*
 
 ___
 <a id="blend_src_rgb"></a>
 
 ###  BLEND_SRC_RGB
 
-**● BLEND_SRC_RGB**: *`number`*
+**● BLEND_SRC_RGB**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLEND_SRC_RGB*
+*Inherited from WebGLRenderingContextBase.BLEND_SRC_RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15213*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15829*
 
 ___
 <a id="blue_bits"></a>
 
 ###  BLUE_BITS
 
-**● BLUE_BITS**: *`number`*
+**● BLUE_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BLUE_BITS*
+*Inherited from WebGLRenderingContextBase.BLUE_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15214*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15830*
 
 ___
 <a id="bool"></a>
 
 ###  BOOL
 
-**● BOOL**: *`number`*
+**● BOOL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BOOL*
+*Inherited from WebGLRenderingContextBase.BOOL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15215*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15831*
 
 ___
 <a id="bool_vec2"></a>
 
 ###  BOOL_VEC2
 
-**● BOOL_VEC2**: *`number`*
+**● BOOL_VEC2**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BOOL_VEC2*
+*Inherited from WebGLRenderingContextBase.BOOL_VEC2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15216*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15832*
 
 ___
 <a id="bool_vec3"></a>
 
 ###  BOOL_VEC3
 
-**● BOOL_VEC3**: *`number`*
+**● BOOL_VEC3**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BOOL_VEC3*
+*Inherited from WebGLRenderingContextBase.BOOL_VEC3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15217*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15833*
 
 ___
 <a id="bool_vec4"></a>
 
 ###  BOOL_VEC4
 
-**● BOOL_VEC4**: *`number`*
+**● BOOL_VEC4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BOOL_VEC4*
+*Inherited from WebGLRenderingContextBase.BOOL_VEC4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15218*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15834*
 
 ___
 <a id="browser_default_webgl"></a>
 
 ###  BROWSER_DEFAULT_WEBGL
 
-**● BROWSER_DEFAULT_WEBGL**: *`number`*
+**● BROWSER_DEFAULT_WEBGL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BROWSER_DEFAULT_WEBGL*
+*Inherited from WebGLRenderingContextBase.BROWSER_DEFAULT_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15219*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15835*
 
 ___
 <a id="buffer_size"></a>
 
 ###  BUFFER_SIZE
 
-**● BUFFER_SIZE**: *`number`*
+**● BUFFER_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BUFFER_SIZE*
+*Inherited from WebGLRenderingContextBase.BUFFER_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15220*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15836*
 
 ___
 <a id="buffer_usage"></a>
 
 ###  BUFFER_USAGE
 
-**● BUFFER_USAGE**: *`number`*
+**● BUFFER_USAGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BUFFER_USAGE*
+*Inherited from WebGLRenderingContextBase.BUFFER_USAGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15221*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15837*
 
 ___
 <a id="byte"></a>
 
 ###  BYTE
 
-**● BYTE**: *`number`*
+**● BYTE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.BYTE*
+*Inherited from WebGLRenderingContextBase.BYTE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15222*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15838*
 
 ___
 <a id="ccw"></a>
 
 ###  CCW
 
-**● CCW**: *`number`*
+**● CCW**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CCW*
+*Inherited from WebGLRenderingContextBase.CCW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15223*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15839*
 
 ___
 <a id="clamp_to_edge"></a>
 
 ###  CLAMP_TO_EDGE
 
-**● CLAMP_TO_EDGE**: *`number`*
+**● CLAMP_TO_EDGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CLAMP_TO_EDGE*
+*Inherited from WebGLRenderingContextBase.CLAMP_TO_EDGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15224*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15840*
 
 ___
 <a id="color_attachment0"></a>
 
 ###  COLOR_ATTACHMENT0
 
-**● COLOR_ATTACHMENT0**: *`number`*
+**● COLOR_ATTACHMENT0**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.COLOR_ATTACHMENT0*
+*Inherited from WebGLRenderingContextBase.COLOR_ATTACHMENT0*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15225*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15841*
 
 ___
 <a id="color_buffer_bit"></a>
 
 ###  COLOR_BUFFER_BIT
 
-**● COLOR_BUFFER_BIT**: *`number`*
+**● COLOR_BUFFER_BIT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.COLOR_BUFFER_BIT*
+*Inherited from WebGLRenderingContextBase.COLOR_BUFFER_BIT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15226*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15842*
 
 ___
 <a id="color_clear_value"></a>
 
 ###  COLOR_CLEAR_VALUE
 
-**● COLOR_CLEAR_VALUE**: *`number`*
+**● COLOR_CLEAR_VALUE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.COLOR_CLEAR_VALUE*
+*Inherited from WebGLRenderingContextBase.COLOR_CLEAR_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15227*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15843*
 
 ___
 <a id="color_writemask"></a>
 
 ###  COLOR_WRITEMASK
 
-**● COLOR_WRITEMASK**: *`number`*
+**● COLOR_WRITEMASK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.COLOR_WRITEMASK*
+*Inherited from WebGLRenderingContextBase.COLOR_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15228*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15844*
 
 ___
 <a id="compile_status"></a>
 
 ###  COMPILE_STATUS
 
-**● COMPILE_STATUS**: *`number`*
+**● COMPILE_STATUS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.COMPILE_STATUS*
+*Inherited from WebGLRenderingContextBase.COMPILE_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15229*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15845*
 
 ___
 <a id="compressed_texture_formats"></a>
 
 ###  COMPRESSED_TEXTURE_FORMATS
 
-**● COMPRESSED_TEXTURE_FORMATS**: *`number`*
+**● COMPRESSED_TEXTURE_FORMATS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.COMPRESSED_TEXTURE_FORMATS*
+*Inherited from WebGLRenderingContextBase.COMPRESSED_TEXTURE_FORMATS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15230*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15846*
 
 ___
 <a id="constant_alpha"></a>
 
 ###  CONSTANT_ALPHA
 
-**● CONSTANT_ALPHA**: *`number`*
+**● CONSTANT_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CONSTANT_ALPHA*
+*Inherited from WebGLRenderingContextBase.CONSTANT_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15231*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15847*
 
 ___
 <a id="constant_color"></a>
 
 ###  CONSTANT_COLOR
 
-**● CONSTANT_COLOR**: *`number`*
+**● CONSTANT_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CONSTANT_COLOR*
+*Inherited from WebGLRenderingContextBase.CONSTANT_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15232*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15848*
 
 ___
 <a id="context_lost_webgl"></a>
 
 ###  CONTEXT_LOST_WEBGL
 
-**● CONTEXT_LOST_WEBGL**: *`number`*
+**● CONTEXT_LOST_WEBGL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CONTEXT_LOST_WEBGL*
+*Inherited from WebGLRenderingContextBase.CONTEXT_LOST_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15233*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15849*
 
 ___
 <a id="cull_face"></a>
 
 ###  CULL_FACE
 
-**● CULL_FACE**: *`number`*
+**● CULL_FACE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CULL_FACE*
+*Inherited from WebGLRenderingContextBase.CULL_FACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15234*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15850*
 
 ___
 <a id="cull_face_mode"></a>
 
 ###  CULL_FACE_MODE
 
-**● CULL_FACE_MODE**: *`number`*
+**● CULL_FACE_MODE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CULL_FACE_MODE*
+*Inherited from WebGLRenderingContextBase.CULL_FACE_MODE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15235*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15851*
 
 ___
 <a id="current_program"></a>
 
 ###  CURRENT_PROGRAM
 
-**● CURRENT_PROGRAM**: *`number`*
+**● CURRENT_PROGRAM**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CURRENT_PROGRAM*
+*Inherited from WebGLRenderingContextBase.CURRENT_PROGRAM*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15236*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15852*
 
 ___
 <a id="current_vertex_attrib"></a>
 
 ###  CURRENT_VERTEX_ATTRIB
 
-**● CURRENT_VERTEX_ATTRIB**: *`number`*
+**● CURRENT_VERTEX_ATTRIB**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CURRENT_VERTEX_ATTRIB*
+*Inherited from WebGLRenderingContextBase.CURRENT_VERTEX_ATTRIB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15237*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15853*
 
 ___
 <a id="cw"></a>
 
 ###  CW
 
-**● CW**: *`number`*
+**● CW**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.CW*
+*Inherited from WebGLRenderingContextBase.CW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15238*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15854*
 
 ___
 <a id="decr"></a>
 
 ###  DECR
 
-**● DECR**: *`number`*
+**● DECR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DECR*
+*Inherited from WebGLRenderingContextBase.DECR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15239*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15855*
 
 ___
 <a id="decr_wrap"></a>
 
 ###  DECR_WRAP
 
-**● DECR_WRAP**: *`number`*
+**● DECR_WRAP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DECR_WRAP*
+*Inherited from WebGLRenderingContextBase.DECR_WRAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15240*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15856*
 
 ___
 <a id="delete_status"></a>
 
 ###  DELETE_STATUS
 
-**● DELETE_STATUS**: *`number`*
+**● DELETE_STATUS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DELETE_STATUS*
+*Inherited from WebGLRenderingContextBase.DELETE_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15241*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15857*
 
 ___
 <a id="depth_attachment"></a>
 
 ###  DEPTH_ATTACHMENT
 
-**● DEPTH_ATTACHMENT**: *`number`*
+**● DEPTH_ATTACHMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_ATTACHMENT*
+*Inherited from WebGLRenderingContextBase.DEPTH_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15242*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15858*
 
 ___
 <a id="depth_bits"></a>
 
 ###  DEPTH_BITS
 
-**● DEPTH_BITS**: *`number`*
+**● DEPTH_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_BITS*
+*Inherited from WebGLRenderingContextBase.DEPTH_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15243*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15859*
 
 ___
 <a id="depth_buffer_bit"></a>
 
 ###  DEPTH_BUFFER_BIT
 
-**● DEPTH_BUFFER_BIT**: *`number`*
+**● DEPTH_BUFFER_BIT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_BUFFER_BIT*
+*Inherited from WebGLRenderingContextBase.DEPTH_BUFFER_BIT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15244*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15860*
 
 ___
 <a id="depth_clear_value"></a>
 
 ###  DEPTH_CLEAR_VALUE
 
-**● DEPTH_CLEAR_VALUE**: *`number`*
+**● DEPTH_CLEAR_VALUE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_CLEAR_VALUE*
+*Inherited from WebGLRenderingContextBase.DEPTH_CLEAR_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15245*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15861*
 
 ___
 <a id="depth_component"></a>
 
 ###  DEPTH_COMPONENT
 
-**● DEPTH_COMPONENT**: *`number`*
+**● DEPTH_COMPONENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_COMPONENT*
+*Inherited from WebGLRenderingContextBase.DEPTH_COMPONENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15246*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15862*
 
 ___
 <a id="depth_component16"></a>
 
 ###  DEPTH_COMPONENT16
 
-**● DEPTH_COMPONENT16**: *`number`*
+**● DEPTH_COMPONENT16**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_COMPONENT16*
+*Inherited from WebGLRenderingContextBase.DEPTH_COMPONENT16*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15247*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15863*
 
 ___
 <a id="depth_func"></a>
 
 ###  DEPTH_FUNC
 
-**● DEPTH_FUNC**: *`number`*
+**● DEPTH_FUNC**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_FUNC*
+*Inherited from WebGLRenderingContextBase.DEPTH_FUNC*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15248*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15864*
 
 ___
 <a id="depth_range"></a>
 
 ###  DEPTH_RANGE
 
-**● DEPTH_RANGE**: *`number`*
+**● DEPTH_RANGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_RANGE*
+*Inherited from WebGLRenderingContextBase.DEPTH_RANGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15249*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15865*
 
 ___
 <a id="depth_stencil"></a>
 
 ###  DEPTH_STENCIL
 
-**● DEPTH_STENCIL**: *`number`*
+**● DEPTH_STENCIL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_STENCIL*
+*Inherited from WebGLRenderingContextBase.DEPTH_STENCIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15250*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15866*
 
 ___
 <a id="depth_stencil_attachment"></a>
 
 ###  DEPTH_STENCIL_ATTACHMENT
 
-**● DEPTH_STENCIL_ATTACHMENT**: *`number`*
+**● DEPTH_STENCIL_ATTACHMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_STENCIL_ATTACHMENT*
+*Inherited from WebGLRenderingContextBase.DEPTH_STENCIL_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15251*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15867*
 
 ___
 <a id="depth_test"></a>
 
 ###  DEPTH_TEST
 
-**● DEPTH_TEST**: *`number`*
+**● DEPTH_TEST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_TEST*
+*Inherited from WebGLRenderingContextBase.DEPTH_TEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15252*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15868*
 
 ___
 <a id="depth_writemask"></a>
 
 ###  DEPTH_WRITEMASK
 
-**● DEPTH_WRITEMASK**: *`number`*
+**● DEPTH_WRITEMASK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DEPTH_WRITEMASK*
+*Inherited from WebGLRenderingContextBase.DEPTH_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15253*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15869*
 
 ___
 <a id="dither"></a>
 
 ###  DITHER
 
-**● DITHER**: *`number`*
+**● DITHER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DITHER*
+*Inherited from WebGLRenderingContextBase.DITHER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15254*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15870*
 
 ___
 <a id="dont_care"></a>
 
 ###  DONT_CARE
 
-**● DONT_CARE**: *`number`*
+**● DONT_CARE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DONT_CARE*
+*Inherited from WebGLRenderingContextBase.DONT_CARE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15255*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15871*
 
 ___
 <a id="dst_alpha"></a>
 
 ###  DST_ALPHA
 
-**● DST_ALPHA**: *`number`*
+**● DST_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DST_ALPHA*
+*Inherited from WebGLRenderingContextBase.DST_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15256*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15872*
 
 ___
 <a id="dst_color"></a>
 
 ###  DST_COLOR
 
-**● DST_COLOR**: *`number`*
+**● DST_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DST_COLOR*
+*Inherited from WebGLRenderingContextBase.DST_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15257*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15873*
 
 ___
 <a id="dynamic_draw"></a>
 
 ###  DYNAMIC_DRAW
 
-**● DYNAMIC_DRAW**: *`number`*
+**● DYNAMIC_DRAW**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.DYNAMIC_DRAW*
+*Inherited from WebGLRenderingContextBase.DYNAMIC_DRAW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15258*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15874*
 
 ___
 <a id="element_array_buffer"></a>
 
 ###  ELEMENT_ARRAY_BUFFER
 
-**● ELEMENT_ARRAY_BUFFER**: *`number`*
+**● ELEMENT_ARRAY_BUFFER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ELEMENT_ARRAY_BUFFER*
+*Inherited from WebGLRenderingContextBase.ELEMENT_ARRAY_BUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15259*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15875*
 
 ___
 <a id="element_array_buffer_binding"></a>
 
 ###  ELEMENT_ARRAY_BUFFER_BINDING
 
-**● ELEMENT_ARRAY_BUFFER_BINDING**: *`number`*
+**● ELEMENT_ARRAY_BUFFER_BINDING**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ELEMENT_ARRAY_BUFFER_BINDING*
+*Inherited from WebGLRenderingContextBase.ELEMENT_ARRAY_BUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15260*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15876*
 
 ___
 <a id="equal"></a>
 
 ###  EQUAL
 
-**● EQUAL**: *`number`*
+**● EQUAL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.EQUAL*
+*Inherited from WebGLRenderingContextBase.EQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15261*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15877*
 
 ___
 <a id="fastest"></a>
 
 ###  FASTEST
 
-**● FASTEST**: *`number`*
+**● FASTEST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FASTEST*
+*Inherited from WebGLRenderingContextBase.FASTEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15262*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15878*
 
 ___
 <a id="float"></a>
 
 ###  FLOAT
 
-**● FLOAT**: *`number`*
+**● FLOAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT*
+*Inherited from WebGLRenderingContextBase.FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15263*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15879*
 
 ___
 <a id="float_mat2"></a>
 
 ###  FLOAT_MAT2
 
-**● FLOAT_MAT2**: *`number`*
+**● FLOAT_MAT2**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT_MAT2*
+*Inherited from WebGLRenderingContextBase.FLOAT_MAT2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15264*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15880*
 
 ___
 <a id="float_mat3"></a>
 
 ###  FLOAT_MAT3
 
-**● FLOAT_MAT3**: *`number`*
+**● FLOAT_MAT3**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT_MAT3*
+*Inherited from WebGLRenderingContextBase.FLOAT_MAT3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15265*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15881*
 
 ___
 <a id="float_mat4"></a>
 
 ###  FLOAT_MAT4
 
-**● FLOAT_MAT4**: *`number`*
+**● FLOAT_MAT4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT_MAT4*
+*Inherited from WebGLRenderingContextBase.FLOAT_MAT4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15266*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15882*
 
 ___
 <a id="float_vec2"></a>
 
 ###  FLOAT_VEC2
 
-**● FLOAT_VEC2**: *`number`*
+**● FLOAT_VEC2**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT_VEC2*
+*Inherited from WebGLRenderingContextBase.FLOAT_VEC2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15267*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15883*
 
 ___
 <a id="float_vec3"></a>
 
 ###  FLOAT_VEC3
 
-**● FLOAT_VEC3**: *`number`*
+**● FLOAT_VEC3**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT_VEC3*
+*Inherited from WebGLRenderingContextBase.FLOAT_VEC3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15268*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15884*
 
 ___
 <a id="float_vec4"></a>
 
 ###  FLOAT_VEC4
 
-**● FLOAT_VEC4**: *`number`*
+**● FLOAT_VEC4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FLOAT_VEC4*
+*Inherited from WebGLRenderingContextBase.FLOAT_VEC4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15269*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15885*
 
 ___
 <a id="fragment_shader"></a>
 
 ###  FRAGMENT_SHADER
 
-**● FRAGMENT_SHADER**: *`number`*
+**● FRAGMENT_SHADER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAGMENT_SHADER*
+*Inherited from WebGLRenderingContextBase.FRAGMENT_SHADER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15270*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15886*
 
 ___
 <a id="framebuffer"></a>
 
 ###  FRAMEBUFFER
 
-**● FRAMEBUFFER**: *`number`*
+**● FRAMEBUFFER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15271*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15887*
 
 ___
 <a id="framebuffer_attachment_object_name"></a>
 
 ###  FRAMEBUFFER_ATTACHMENT_OBJECT_NAME
 
-**● FRAMEBUFFER_ATTACHMENT_OBJECT_NAME**: *`number`*
+**● FRAMEBUFFER_ATTACHMENT_OBJECT_NAME**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_OBJECT_NAME*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_ATTACHMENT_OBJECT_NAME*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15272*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15888*
 
 ___
 <a id="framebuffer_attachment_object_type"></a>
 
 ###  FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE
 
-**● FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE**: *`number`*
+**● FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15273*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15889*
 
 ___
 <a id="framebuffer_attachment_texture_cube_map_face"></a>
 
 ###  FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE
 
-**● FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE**: *`number`*
+**● FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15274*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15890*
 
 ___
 <a id="framebuffer_attachment_texture_level"></a>
 
 ###  FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL
 
-**● FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL**: *`number`*
+**● FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15275*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15891*
 
 ___
 <a id="framebuffer_binding"></a>
 
 ###  FRAMEBUFFER_BINDING
 
-**● FRAMEBUFFER_BINDING**: *`number`*
+**● FRAMEBUFFER_BINDING**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_BINDING*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15276*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15892*
 
 ___
 <a id="framebuffer_complete"></a>
 
 ###  FRAMEBUFFER_COMPLETE
 
-**● FRAMEBUFFER_COMPLETE**: *`number`*
+**● FRAMEBUFFER_COMPLETE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_COMPLETE*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_COMPLETE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15277*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15893*
 
 ___
 <a id="framebuffer_incomplete_attachment"></a>
 
 ###  FRAMEBUFFER_INCOMPLETE_ATTACHMENT
 
-**● FRAMEBUFFER_INCOMPLETE_ATTACHMENT**: *`number`*
+**● FRAMEBUFFER_INCOMPLETE_ATTACHMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_INCOMPLETE_ATTACHMENT*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_INCOMPLETE_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15278*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15894*
 
 ___
 <a id="framebuffer_incomplete_dimensions"></a>
 
 ###  FRAMEBUFFER_INCOMPLETE_DIMENSIONS
 
-**● FRAMEBUFFER_INCOMPLETE_DIMENSIONS**: *`number`*
+**● FRAMEBUFFER_INCOMPLETE_DIMENSIONS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_INCOMPLETE_DIMENSIONS*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_INCOMPLETE_DIMENSIONS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15279*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15895*
 
 ___
 <a id="framebuffer_incomplete_missing_attachment"></a>
 
 ###  FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT
 
-**● FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT**: *`number`*
+**● FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15280*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15896*
 
 ___
 <a id="framebuffer_unsupported"></a>
 
 ###  FRAMEBUFFER_UNSUPPORTED
 
-**● FRAMEBUFFER_UNSUPPORTED**: *`number`*
+**● FRAMEBUFFER_UNSUPPORTED**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRAMEBUFFER_UNSUPPORTED*
+*Inherited from WebGLRenderingContextBase.FRAMEBUFFER_UNSUPPORTED*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15281*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15897*
 
 ___
 <a id="front"></a>
 
 ###  FRONT
 
-**● FRONT**: *`number`*
+**● FRONT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRONT*
+*Inherited from WebGLRenderingContextBase.FRONT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15282*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15898*
 
 ___
 <a id="front_and_back"></a>
 
 ###  FRONT_AND_BACK
 
-**● FRONT_AND_BACK**: *`number`*
+**● FRONT_AND_BACK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRONT_AND_BACK*
+*Inherited from WebGLRenderingContextBase.FRONT_AND_BACK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15283*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15899*
 
 ___
 <a id="front_face"></a>
 
 ###  FRONT_FACE
 
-**● FRONT_FACE**: *`number`*
+**● FRONT_FACE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FRONT_FACE*
+*Inherited from WebGLRenderingContextBase.FRONT_FACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15284*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15900*
 
 ___
 <a id="func_add"></a>
 
 ###  FUNC_ADD
 
-**● FUNC_ADD**: *`number`*
+**● FUNC_ADD**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FUNC_ADD*
+*Inherited from WebGLRenderingContextBase.FUNC_ADD*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15285*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15901*
 
 ___
 <a id="func_reverse_subtract"></a>
 
 ###  FUNC_REVERSE_SUBTRACT
 
-**● FUNC_REVERSE_SUBTRACT**: *`number`*
+**● FUNC_REVERSE_SUBTRACT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FUNC_REVERSE_SUBTRACT*
+*Inherited from WebGLRenderingContextBase.FUNC_REVERSE_SUBTRACT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15286*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15902*
 
 ___
 <a id="func_subtract"></a>
 
 ###  FUNC_SUBTRACT
 
-**● FUNC_SUBTRACT**: *`number`*
+**● FUNC_SUBTRACT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.FUNC_SUBTRACT*
+*Inherited from WebGLRenderingContextBase.FUNC_SUBTRACT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15287*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15903*
 
 ___
 <a id="generate_mipmap_hint"></a>
 
 ###  GENERATE_MIPMAP_HINT
 
-**● GENERATE_MIPMAP_HINT**: *`number`*
+**● GENERATE_MIPMAP_HINT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.GENERATE_MIPMAP_HINT*
+*Inherited from WebGLRenderingContextBase.GENERATE_MIPMAP_HINT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15288*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15904*
 
 ___
 <a id="gequal"></a>
 
 ###  GEQUAL
 
-**● GEQUAL**: *`number`*
+**● GEQUAL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.GEQUAL*
+*Inherited from WebGLRenderingContextBase.GEQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15289*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15905*
 
 ___
 <a id="greater"></a>
 
 ###  GREATER
 
-**● GREATER**: *`number`*
+**● GREATER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.GREATER*
+*Inherited from WebGLRenderingContextBase.GREATER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15290*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15906*
 
 ___
 <a id="green_bits"></a>
 
 ###  GREEN_BITS
 
-**● GREEN_BITS**: *`number`*
+**● GREEN_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.GREEN_BITS*
+*Inherited from WebGLRenderingContextBase.GREEN_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15291*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15907*
 
 ___
 <a id="high_float"></a>
 
 ###  HIGH_FLOAT
 
-**● HIGH_FLOAT**: *`number`*
+**● HIGH_FLOAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.HIGH_FLOAT*
+*Inherited from WebGLRenderingContextBase.HIGH_FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15292*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15908*
 
 ___
 <a id="high_int"></a>
 
 ###  HIGH_INT
 
-**● HIGH_INT**: *`number`*
+**● HIGH_INT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.HIGH_INT*
+*Inherited from WebGLRenderingContextBase.HIGH_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15293*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15909*
 
 ___
 <a id="implementation_color_read_format"></a>
 
 ###  IMPLEMENTATION_COLOR_READ_FORMAT
 
-**● IMPLEMENTATION_COLOR_READ_FORMAT**: *`number`*
+**● IMPLEMENTATION_COLOR_READ_FORMAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.IMPLEMENTATION_COLOR_READ_FORMAT*
+*Inherited from WebGLRenderingContextBase.IMPLEMENTATION_COLOR_READ_FORMAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15294*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15910*
 
 ___
 <a id="implementation_color_read_type"></a>
 
 ###  IMPLEMENTATION_COLOR_READ_TYPE
 
-**● IMPLEMENTATION_COLOR_READ_TYPE**: *`number`*
+**● IMPLEMENTATION_COLOR_READ_TYPE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.IMPLEMENTATION_COLOR_READ_TYPE*
+*Inherited from WebGLRenderingContextBase.IMPLEMENTATION_COLOR_READ_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15295*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15911*
 
 ___
 <a id="incr"></a>
 
 ###  INCR
 
-**● INCR**: *`number`*
+**● INCR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INCR*
+*Inherited from WebGLRenderingContextBase.INCR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15296*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15912*
 
 ___
 <a id="incr_wrap"></a>
 
 ###  INCR_WRAP
 
-**● INCR_WRAP**: *`number`*
+**● INCR_WRAP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INCR_WRAP*
+*Inherited from WebGLRenderingContextBase.INCR_WRAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15297*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15913*
 
 ___
 <a id="int"></a>
 
 ###  INT
 
-**● INT**: *`number`*
+**● INT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INT*
+*Inherited from WebGLRenderingContextBase.INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15298*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15914*
 
 ___
 <a id="int_vec2"></a>
 
 ###  INT_VEC2
 
-**● INT_VEC2**: *`number`*
+**● INT_VEC2**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INT_VEC2*
+*Inherited from WebGLRenderingContextBase.INT_VEC2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15299*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15915*
 
 ___
 <a id="int_vec3"></a>
 
 ###  INT_VEC3
 
-**● INT_VEC3**: *`number`*
+**● INT_VEC3**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INT_VEC3*
+*Inherited from WebGLRenderingContextBase.INT_VEC3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15300*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15916*
 
 ___
 <a id="int_vec4"></a>
 
 ###  INT_VEC4
 
-**● INT_VEC4**: *`number`*
+**● INT_VEC4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INT_VEC4*
+*Inherited from WebGLRenderingContextBase.INT_VEC4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15301*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15917*
 
 ___
 <a id="invalid_enum"></a>
 
 ###  INVALID_ENUM
 
-**● INVALID_ENUM**: *`number`*
+**● INVALID_ENUM**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INVALID_ENUM*
+*Inherited from WebGLRenderingContextBase.INVALID_ENUM*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15302*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15918*
 
 ___
 <a id="invalid_framebuffer_operation"></a>
 
 ###  INVALID_FRAMEBUFFER_OPERATION
 
-**● INVALID_FRAMEBUFFER_OPERATION**: *`number`*
+**● INVALID_FRAMEBUFFER_OPERATION**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INVALID_FRAMEBUFFER_OPERATION*
+*Inherited from WebGLRenderingContextBase.INVALID_FRAMEBUFFER_OPERATION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15303*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15919*
 
 ___
 <a id="invalid_operation"></a>
 
 ###  INVALID_OPERATION
 
-**● INVALID_OPERATION**: *`number`*
+**● INVALID_OPERATION**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INVALID_OPERATION*
+*Inherited from WebGLRenderingContextBase.INVALID_OPERATION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15304*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15920*
 
 ___
 <a id="invalid_value"></a>
 
 ###  INVALID_VALUE
 
-**● INVALID_VALUE**: *`number`*
+**● INVALID_VALUE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INVALID_VALUE*
+*Inherited from WebGLRenderingContextBase.INVALID_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15305*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15921*
 
 ___
 <a id="invert"></a>
 
 ###  INVERT
 
-**● INVERT**: *`number`*
+**● INVERT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.INVERT*
+*Inherited from WebGLRenderingContextBase.INVERT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15306*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15922*
 
 ___
 <a id="keep"></a>
 
 ###  KEEP
 
-**● KEEP**: *`number`*
+**● KEEP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.KEEP*
+*Inherited from WebGLRenderingContextBase.KEEP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15307*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15923*
 
 ___
 <a id="lequal"></a>
 
 ###  LEQUAL
 
-**● LEQUAL**: *`number`*
+**● LEQUAL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LEQUAL*
+*Inherited from WebGLRenderingContextBase.LEQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15308*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15924*
 
 ___
 <a id="less"></a>
 
 ###  LESS
 
-**● LESS**: *`number`*
+**● LESS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LESS*
+*Inherited from WebGLRenderingContextBase.LESS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15309*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15925*
 
 ___
 <a id="linear"></a>
 
 ###  LINEAR
 
-**● LINEAR**: *`number`*
+**● LINEAR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINEAR*
+*Inherited from WebGLRenderingContextBase.LINEAR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15310*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15926*
 
 ___
 <a id="linear_mipmap_linear"></a>
 
 ###  LINEAR_MIPMAP_LINEAR
 
-**● LINEAR_MIPMAP_LINEAR**: *`number`*
+**● LINEAR_MIPMAP_LINEAR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINEAR_MIPMAP_LINEAR*
+*Inherited from WebGLRenderingContextBase.LINEAR_MIPMAP_LINEAR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15311*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15927*
 
 ___
 <a id="linear_mipmap_nearest"></a>
 
 ###  LINEAR_MIPMAP_NEAREST
 
-**● LINEAR_MIPMAP_NEAREST**: *`number`*
+**● LINEAR_MIPMAP_NEAREST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINEAR_MIPMAP_NEAREST*
+*Inherited from WebGLRenderingContextBase.LINEAR_MIPMAP_NEAREST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15312*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15928*
 
 ___
 <a id="lines"></a>
 
 ###  LINES
 
-**● LINES**: *`number`*
+**● LINES**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINES*
+*Inherited from WebGLRenderingContextBase.LINES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15313*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15929*
 
 ___
 <a id="line_loop"></a>
 
 ###  LINE_LOOP
 
-**● LINE_LOOP**: *`number`*
+**● LINE_LOOP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINE_LOOP*
+*Inherited from WebGLRenderingContextBase.LINE_LOOP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15314*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15930*
 
 ___
 <a id="line_strip"></a>
 
 ###  LINE_STRIP
 
-**● LINE_STRIP**: *`number`*
+**● LINE_STRIP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINE_STRIP*
+*Inherited from WebGLRenderingContextBase.LINE_STRIP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15315*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15931*
 
 ___
 <a id="line_width"></a>
 
 ###  LINE_WIDTH
 
-**● LINE_WIDTH**: *`number`*
+**● LINE_WIDTH**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINE_WIDTH*
+*Inherited from WebGLRenderingContextBase.LINE_WIDTH*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15316*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15932*
 
 ___
 <a id="link_status"></a>
 
 ###  LINK_STATUS
 
-**● LINK_STATUS**: *`number`*
+**● LINK_STATUS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LINK_STATUS*
+*Inherited from WebGLRenderingContextBase.LINK_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15317*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15933*
 
 ___
 <a id="low_float"></a>
 
 ###  LOW_FLOAT
 
-**● LOW_FLOAT**: *`number`*
+**● LOW_FLOAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LOW_FLOAT*
+*Inherited from WebGLRenderingContextBase.LOW_FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15318*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15934*
 
 ___
 <a id="low_int"></a>
 
 ###  LOW_INT
 
-**● LOW_INT**: *`number`*
+**● LOW_INT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LOW_INT*
+*Inherited from WebGLRenderingContextBase.LOW_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15319*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15935*
 
 ___
 <a id="luminance"></a>
 
 ###  LUMINANCE
 
-**● LUMINANCE**: *`number`*
+**● LUMINANCE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LUMINANCE*
+*Inherited from WebGLRenderingContextBase.LUMINANCE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15320*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15936*
 
 ___
 <a id="luminance_alpha"></a>
 
 ###  LUMINANCE_ALPHA
 
-**● LUMINANCE_ALPHA**: *`number`*
+**● LUMINANCE_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.LUMINANCE_ALPHA*
+*Inherited from WebGLRenderingContextBase.LUMINANCE_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15321*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15937*
 
 ___
 <a id="max_combined_texture_image_units"></a>
 
 ###  MAX_COMBINED_TEXTURE_IMAGE_UNITS
 
-**● MAX_COMBINED_TEXTURE_IMAGE_UNITS**: *`number`*
+**● MAX_COMBINED_TEXTURE_IMAGE_UNITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_COMBINED_TEXTURE_IMAGE_UNITS*
+*Inherited from WebGLRenderingContextBase.MAX_COMBINED_TEXTURE_IMAGE_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15322*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15938*
 
 ___
 <a id="max_cube_map_texture_size"></a>
 
 ###  MAX_CUBE_MAP_TEXTURE_SIZE
 
-**● MAX_CUBE_MAP_TEXTURE_SIZE**: *`number`*
+**● MAX_CUBE_MAP_TEXTURE_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_CUBE_MAP_TEXTURE_SIZE*
+*Inherited from WebGLRenderingContextBase.MAX_CUBE_MAP_TEXTURE_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15323*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15939*
 
 ___
 <a id="max_fragment_uniform_vectors"></a>
 
 ###  MAX_FRAGMENT_UNIFORM_VECTORS
 
-**● MAX_FRAGMENT_UNIFORM_VECTORS**: *`number`*
+**● MAX_FRAGMENT_UNIFORM_VECTORS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_FRAGMENT_UNIFORM_VECTORS*
+*Inherited from WebGLRenderingContextBase.MAX_FRAGMENT_UNIFORM_VECTORS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15324*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15940*
 
 ___
 <a id="max_renderbuffer_size"></a>
 
 ###  MAX_RENDERBUFFER_SIZE
 
-**● MAX_RENDERBUFFER_SIZE**: *`number`*
+**● MAX_RENDERBUFFER_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_RENDERBUFFER_SIZE*
+*Inherited from WebGLRenderingContextBase.MAX_RENDERBUFFER_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15325*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15941*
 
 ___
 <a id="max_texture_image_units"></a>
 
 ###  MAX_TEXTURE_IMAGE_UNITS
 
-**● MAX_TEXTURE_IMAGE_UNITS**: *`number`*
+**● MAX_TEXTURE_IMAGE_UNITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_TEXTURE_IMAGE_UNITS*
+*Inherited from WebGLRenderingContextBase.MAX_TEXTURE_IMAGE_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15326*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15942*
 
 ___
 <a id="max_texture_size"></a>
 
 ###  MAX_TEXTURE_SIZE
 
-**● MAX_TEXTURE_SIZE**: *`number`*
+**● MAX_TEXTURE_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_TEXTURE_SIZE*
+*Inherited from WebGLRenderingContextBase.MAX_TEXTURE_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15327*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15943*
 
 ___
 <a id="max_varying_vectors"></a>
 
 ###  MAX_VARYING_VECTORS
 
-**● MAX_VARYING_VECTORS**: *`number`*
+**● MAX_VARYING_VECTORS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_VARYING_VECTORS*
+*Inherited from WebGLRenderingContextBase.MAX_VARYING_VECTORS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15328*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15944*
 
 ___
 <a id="max_vertex_attribs"></a>
 
 ###  MAX_VERTEX_ATTRIBS
 
-**● MAX_VERTEX_ATTRIBS**: *`number`*
+**● MAX_VERTEX_ATTRIBS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_VERTEX_ATTRIBS*
+*Inherited from WebGLRenderingContextBase.MAX_VERTEX_ATTRIBS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15329*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15945*
 
 ___
 <a id="max_vertex_texture_image_units"></a>
 
 ###  MAX_VERTEX_TEXTURE_IMAGE_UNITS
 
-**● MAX_VERTEX_TEXTURE_IMAGE_UNITS**: *`number`*
+**● MAX_VERTEX_TEXTURE_IMAGE_UNITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_VERTEX_TEXTURE_IMAGE_UNITS*
+*Inherited from WebGLRenderingContextBase.MAX_VERTEX_TEXTURE_IMAGE_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15330*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15946*
 
 ___
 <a id="max_vertex_uniform_vectors"></a>
 
 ###  MAX_VERTEX_UNIFORM_VECTORS
 
-**● MAX_VERTEX_UNIFORM_VECTORS**: *`number`*
+**● MAX_VERTEX_UNIFORM_VECTORS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_VERTEX_UNIFORM_VECTORS*
+*Inherited from WebGLRenderingContextBase.MAX_VERTEX_UNIFORM_VECTORS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15331*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15947*
 
 ___
 <a id="max_viewport_dims"></a>
 
 ###  MAX_VIEWPORT_DIMS
 
-**● MAX_VIEWPORT_DIMS**: *`number`*
+**● MAX_VIEWPORT_DIMS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MAX_VIEWPORT_DIMS*
+*Inherited from WebGLRenderingContextBase.MAX_VIEWPORT_DIMS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15332*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15948*
 
 ___
 <a id="medium_float"></a>
 
 ###  MEDIUM_FLOAT
 
-**● MEDIUM_FLOAT**: *`number`*
+**● MEDIUM_FLOAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MEDIUM_FLOAT*
+*Inherited from WebGLRenderingContextBase.MEDIUM_FLOAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15333*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15949*
 
 ___
 <a id="medium_int"></a>
 
 ###  MEDIUM_INT
 
-**● MEDIUM_INT**: *`number`*
+**● MEDIUM_INT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MEDIUM_INT*
+*Inherited from WebGLRenderingContextBase.MEDIUM_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15334*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15950*
 
 ___
 <a id="mirrored_repeat"></a>
 
 ###  MIRRORED_REPEAT
 
-**● MIRRORED_REPEAT**: *`number`*
+**● MIRRORED_REPEAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.MIRRORED_REPEAT*
+*Inherited from WebGLRenderingContextBase.MIRRORED_REPEAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15335*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15951*
 
 ___
 <a id="nearest"></a>
 
 ###  NEAREST
 
-**● NEAREST**: *`number`*
+**● NEAREST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NEAREST*
+*Inherited from WebGLRenderingContextBase.NEAREST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15336*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15952*
 
 ___
 <a id="nearest_mipmap_linear"></a>
 
 ###  NEAREST_MIPMAP_LINEAR
 
-**● NEAREST_MIPMAP_LINEAR**: *`number`*
+**● NEAREST_MIPMAP_LINEAR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NEAREST_MIPMAP_LINEAR*
+*Inherited from WebGLRenderingContextBase.NEAREST_MIPMAP_LINEAR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15337*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15953*
 
 ___
 <a id="nearest_mipmap_nearest"></a>
 
 ###  NEAREST_MIPMAP_NEAREST
 
-**● NEAREST_MIPMAP_NEAREST**: *`number`*
+**● NEAREST_MIPMAP_NEAREST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NEAREST_MIPMAP_NEAREST*
+*Inherited from WebGLRenderingContextBase.NEAREST_MIPMAP_NEAREST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15338*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15954*
 
 ___
 <a id="never"></a>
 
 ###  NEVER
 
-**● NEVER**: *`number`*
+**● NEVER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NEVER*
+*Inherited from WebGLRenderingContextBase.NEVER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15339*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15955*
 
 ___
 <a id="nicest"></a>
 
 ###  NICEST
 
-**● NICEST**: *`number`*
+**● NICEST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NICEST*
+*Inherited from WebGLRenderingContextBase.NICEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15340*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15956*
 
 ___
 <a id="none"></a>
 
 ###  NONE
 
-**● NONE**: *`number`*
+**● NONE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NONE*
+*Inherited from WebGLRenderingContextBase.NONE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15341*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15957*
 
 ___
 <a id="notequal"></a>
 
 ###  NOTEQUAL
 
-**● NOTEQUAL**: *`number`*
+**● NOTEQUAL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NOTEQUAL*
+*Inherited from WebGLRenderingContextBase.NOTEQUAL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15342*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15958*
 
 ___
 <a id="no_error"></a>
 
 ###  NO_ERROR
 
-**● NO_ERROR**: *`number`*
+**● NO_ERROR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.NO_ERROR*
+*Inherited from WebGLRenderingContextBase.NO_ERROR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15343*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15959*
 
 ___
 <a id="one"></a>
 
 ###  ONE
 
-**● ONE**: *`number`*
+**● ONE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE*
+*Inherited from WebGLRenderingContextBase.ONE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15344*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15960*
 
 ___
 <a id="one_minus_constant_alpha"></a>
 
 ###  ONE_MINUS_CONSTANT_ALPHA
 
-**● ONE_MINUS_CONSTANT_ALPHA**: *`number`*
+**● ONE_MINUS_CONSTANT_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE_MINUS_CONSTANT_ALPHA*
+*Inherited from WebGLRenderingContextBase.ONE_MINUS_CONSTANT_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15345*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15961*
 
 ___
 <a id="one_minus_constant_color"></a>
 
 ###  ONE_MINUS_CONSTANT_COLOR
 
-**● ONE_MINUS_CONSTANT_COLOR**: *`number`*
+**● ONE_MINUS_CONSTANT_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE_MINUS_CONSTANT_COLOR*
+*Inherited from WebGLRenderingContextBase.ONE_MINUS_CONSTANT_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15346*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15962*
 
 ___
 <a id="one_minus_dst_alpha"></a>
 
 ###  ONE_MINUS_DST_ALPHA
 
-**● ONE_MINUS_DST_ALPHA**: *`number`*
+**● ONE_MINUS_DST_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE_MINUS_DST_ALPHA*
+*Inherited from WebGLRenderingContextBase.ONE_MINUS_DST_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15347*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15963*
 
 ___
 <a id="one_minus_dst_color"></a>
 
 ###  ONE_MINUS_DST_COLOR
 
-**● ONE_MINUS_DST_COLOR**: *`number`*
+**● ONE_MINUS_DST_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE_MINUS_DST_COLOR*
+*Inherited from WebGLRenderingContextBase.ONE_MINUS_DST_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15348*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15964*
 
 ___
 <a id="one_minus_src_alpha"></a>
 
 ###  ONE_MINUS_SRC_ALPHA
 
-**● ONE_MINUS_SRC_ALPHA**: *`number`*
+**● ONE_MINUS_SRC_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE_MINUS_SRC_ALPHA*
+*Inherited from WebGLRenderingContextBase.ONE_MINUS_SRC_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15349*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15965*
 
 ___
 <a id="one_minus_src_color"></a>
 
 ###  ONE_MINUS_SRC_COLOR
 
-**● ONE_MINUS_SRC_COLOR**: *`number`*
+**● ONE_MINUS_SRC_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ONE_MINUS_SRC_COLOR*
+*Inherited from WebGLRenderingContextBase.ONE_MINUS_SRC_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15350*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15966*
 
 ___
 <a id="out_of_memory"></a>
 
 ###  OUT_OF_MEMORY
 
-**● OUT_OF_MEMORY**: *`number`*
+**● OUT_OF_MEMORY**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.OUT_OF_MEMORY*
+*Inherited from WebGLRenderingContextBase.OUT_OF_MEMORY*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15351*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15967*
 
 ___
 <a id="pack_alignment"></a>
 
 ###  PACK_ALIGNMENT
 
-**● PACK_ALIGNMENT**: *`number`*
+**● PACK_ALIGNMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.PACK_ALIGNMENT*
+*Inherited from WebGLRenderingContextBase.PACK_ALIGNMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15352*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15968*
 
 ___
 <a id="points"></a>
 
 ###  POINTS
 
-**● POINTS**: *`number`*
+**● POINTS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.POINTS*
+*Inherited from WebGLRenderingContextBase.POINTS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15353*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15969*
 
 ___
 <a id="polygon_offset_factor"></a>
 
 ###  POLYGON_OFFSET_FACTOR
 
-**● POLYGON_OFFSET_FACTOR**: *`number`*
+**● POLYGON_OFFSET_FACTOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.POLYGON_OFFSET_FACTOR*
+*Inherited from WebGLRenderingContextBase.POLYGON_OFFSET_FACTOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15354*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15970*
 
 ___
 <a id="polygon_offset_fill"></a>
 
 ###  POLYGON_OFFSET_FILL
 
-**● POLYGON_OFFSET_FILL**: *`number`*
+**● POLYGON_OFFSET_FILL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.POLYGON_OFFSET_FILL*
+*Inherited from WebGLRenderingContextBase.POLYGON_OFFSET_FILL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15355*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15971*
 
 ___
 <a id="polygon_offset_units"></a>
 
 ###  POLYGON_OFFSET_UNITS
 
-**● POLYGON_OFFSET_UNITS**: *`number`*
+**● POLYGON_OFFSET_UNITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.POLYGON_OFFSET_UNITS*
+*Inherited from WebGLRenderingContextBase.POLYGON_OFFSET_UNITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15356*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15972*
 
 ___
 <a id="red_bits"></a>
 
 ###  RED_BITS
 
-**● RED_BITS**: *`number`*
+**● RED_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RED_BITS*
+*Inherited from WebGLRenderingContextBase.RED_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15357*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15973*
 
 ___
 <a id="renderbuffer"></a>
 
 ###  RENDERBUFFER
 
-**● RENDERBUFFER**: *`number`*
+**● RENDERBUFFER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15358*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15974*
 
 ___
 <a id="renderbuffer_alpha_size"></a>
 
 ###  RENDERBUFFER_ALPHA_SIZE
 
-**● RENDERBUFFER_ALPHA_SIZE**: *`number`*
+**● RENDERBUFFER_ALPHA_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_ALPHA_SIZE*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_ALPHA_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15359*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15975*
 
 ___
 <a id="renderbuffer_binding"></a>
 
 ###  RENDERBUFFER_BINDING
 
-**● RENDERBUFFER_BINDING**: *`number`*
+**● RENDERBUFFER_BINDING**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_BINDING*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15360*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15976*
 
 ___
 <a id="renderbuffer_blue_size"></a>
 
 ###  RENDERBUFFER_BLUE_SIZE
 
-**● RENDERBUFFER_BLUE_SIZE**: *`number`*
+**● RENDERBUFFER_BLUE_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_BLUE_SIZE*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_BLUE_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15361*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15977*
 
 ___
 <a id="renderbuffer_depth_size"></a>
 
 ###  RENDERBUFFER_DEPTH_SIZE
 
-**● RENDERBUFFER_DEPTH_SIZE**: *`number`*
+**● RENDERBUFFER_DEPTH_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_DEPTH_SIZE*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_DEPTH_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15362*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15978*
 
 ___
 <a id="renderbuffer_green_size"></a>
 
 ###  RENDERBUFFER_GREEN_SIZE
 
-**● RENDERBUFFER_GREEN_SIZE**: *`number`*
+**● RENDERBUFFER_GREEN_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_GREEN_SIZE*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_GREEN_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15363*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15979*
 
 ___
 <a id="renderbuffer_height"></a>
 
 ###  RENDERBUFFER_HEIGHT
 
-**● RENDERBUFFER_HEIGHT**: *`number`*
+**● RENDERBUFFER_HEIGHT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_HEIGHT*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_HEIGHT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15364*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15980*
 
 ___
 <a id="renderbuffer_internal_format"></a>
 
 ###  RENDERBUFFER_INTERNAL_FORMAT
 
-**● RENDERBUFFER_INTERNAL_FORMAT**: *`number`*
+**● RENDERBUFFER_INTERNAL_FORMAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_INTERNAL_FORMAT*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_INTERNAL_FORMAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15365*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15981*
 
 ___
 <a id="renderbuffer_red_size"></a>
 
 ###  RENDERBUFFER_RED_SIZE
 
-**● RENDERBUFFER_RED_SIZE**: *`number`*
+**● RENDERBUFFER_RED_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_RED_SIZE*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_RED_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15366*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15982*
 
 ___
 <a id="renderbuffer_stencil_size"></a>
 
 ###  RENDERBUFFER_STENCIL_SIZE
 
-**● RENDERBUFFER_STENCIL_SIZE**: *`number`*
+**● RENDERBUFFER_STENCIL_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_STENCIL_SIZE*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_STENCIL_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15367*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15983*
 
 ___
 <a id="renderbuffer_width"></a>
 
 ###  RENDERBUFFER_WIDTH
 
-**● RENDERBUFFER_WIDTH**: *`number`*
+**● RENDERBUFFER_WIDTH**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERBUFFER_WIDTH*
+*Inherited from WebGLRenderingContextBase.RENDERBUFFER_WIDTH*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15368*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15984*
 
 ___
 <a id="renderer"></a>
 
 ###  RENDERER
 
-**● RENDERER**: *`number`*
+**● RENDERER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RENDERER*
+*Inherited from WebGLRenderingContextBase.RENDERER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15369*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15985*
 
 ___
 <a id="repeat"></a>
 
 ###  REPEAT
 
-**● REPEAT**: *`number`*
+**● REPEAT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.REPEAT*
+*Inherited from WebGLRenderingContextBase.REPEAT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15370*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15986*
 
 ___
 <a id="replace"></a>
 
 ###  REPLACE
 
-**● REPLACE**: *`number`*
+**● REPLACE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.REPLACE*
+*Inherited from WebGLRenderingContextBase.REPLACE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15371*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15987*
 
 ___
 <a id="rgb"></a>
 
 ###  RGB
 
-**● RGB**: *`number`*
+**● RGB**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RGB*
+*Inherited from WebGLRenderingContextBase.RGB*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15372*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15988*
 
 ___
 <a id="rgb565"></a>
 
 ###  RGB565
 
-**● RGB565**: *`number`*
+**● RGB565**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RGB565*
+*Inherited from WebGLRenderingContextBase.RGB565*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15373*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15989*
 
 ___
 <a id="rgb5_a1"></a>
 
 ###  RGB5_A1
 
-**● RGB5_A1**: *`number`*
+**● RGB5_A1**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RGB5_A1*
+*Inherited from WebGLRenderingContextBase.RGB5_A1*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15374*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15990*
 
 ___
 <a id="rgba"></a>
 
 ###  RGBA
 
-**● RGBA**: *`number`*
+**● RGBA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RGBA*
+*Inherited from WebGLRenderingContextBase.RGBA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15375*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15991*
 
 ___
 <a id="rgba32i"></a>
@@ -2492,11 +2491,11 @@ ___
 
 ###  RGBA4
 
-**● RGBA4**: *`number`*
+**● RGBA4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.RGBA4*
+*Inherited from WebGLRenderingContextBase.RGBA4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15376*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15992*
 
 ___
 <a id="rgba_integer"></a>
@@ -2512,1232 +2511,1221 @@ ___
 
 ###  SAMPLER_2D
 
-**● SAMPLER_2D**: *`number`*
+**● SAMPLER_2D**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLER_2D*
+*Inherited from WebGLRenderingContextBase.SAMPLER_2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15377*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15993*
 
 ___
 <a id="sampler_cube"></a>
 
 ###  SAMPLER_CUBE
 
-**● SAMPLER_CUBE**: *`number`*
+**● SAMPLER_CUBE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLER_CUBE*
+*Inherited from WebGLRenderingContextBase.SAMPLER_CUBE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15378*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15994*
 
 ___
 <a id="samples"></a>
 
 ###  SAMPLES
 
-**● SAMPLES**: *`number`*
+**● SAMPLES**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLES*
+*Inherited from WebGLRenderingContextBase.SAMPLES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15379*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15995*
 
 ___
 <a id="sample_alpha_to_coverage"></a>
 
 ###  SAMPLE_ALPHA_TO_COVERAGE
 
-**● SAMPLE_ALPHA_TO_COVERAGE**: *`number`*
+**● SAMPLE_ALPHA_TO_COVERAGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLE_ALPHA_TO_COVERAGE*
+*Inherited from WebGLRenderingContextBase.SAMPLE_ALPHA_TO_COVERAGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15380*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15996*
 
 ___
 <a id="sample_buffers"></a>
 
 ###  SAMPLE_BUFFERS
 
-**● SAMPLE_BUFFERS**: *`number`*
+**● SAMPLE_BUFFERS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLE_BUFFERS*
+*Inherited from WebGLRenderingContextBase.SAMPLE_BUFFERS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15381*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15997*
 
 ___
 <a id="sample_coverage"></a>
 
 ###  SAMPLE_COVERAGE
 
-**● SAMPLE_COVERAGE**: *`number`*
+**● SAMPLE_COVERAGE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLE_COVERAGE*
+*Inherited from WebGLRenderingContextBase.SAMPLE_COVERAGE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15382*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15998*
 
 ___
 <a id="sample_coverage_invert"></a>
 
 ###  SAMPLE_COVERAGE_INVERT
 
-**● SAMPLE_COVERAGE_INVERT**: *`number`*
+**● SAMPLE_COVERAGE_INVERT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLE_COVERAGE_INVERT*
+*Inherited from WebGLRenderingContextBase.SAMPLE_COVERAGE_INVERT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15383*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15999*
 
 ___
 <a id="sample_coverage_value"></a>
 
 ###  SAMPLE_COVERAGE_VALUE
 
-**● SAMPLE_COVERAGE_VALUE**: *`number`*
+**● SAMPLE_COVERAGE_VALUE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SAMPLE_COVERAGE_VALUE*
+*Inherited from WebGLRenderingContextBase.SAMPLE_COVERAGE_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15384*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16000*
 
 ___
 <a id="scissor_box"></a>
 
 ###  SCISSOR_BOX
 
-**● SCISSOR_BOX**: *`number`*
+**● SCISSOR_BOX**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SCISSOR_BOX*
+*Inherited from WebGLRenderingContextBase.SCISSOR_BOX*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15385*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16001*
 
 ___
 <a id="scissor_test"></a>
 
 ###  SCISSOR_TEST
 
-**● SCISSOR_TEST**: *`number`*
+**● SCISSOR_TEST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SCISSOR_TEST*
+*Inherited from WebGLRenderingContextBase.SCISSOR_TEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15386*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16002*
 
 ___
 <a id="shader_type"></a>
 
 ###  SHADER_TYPE
 
-**● SHADER_TYPE**: *`number`*
+**● SHADER_TYPE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SHADER_TYPE*
+*Inherited from WebGLRenderingContextBase.SHADER_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15387*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16003*
 
 ___
 <a id="shading_language_version"></a>
 
 ###  SHADING_LANGUAGE_VERSION
 
-**● SHADING_LANGUAGE_VERSION**: *`number`*
+**● SHADING_LANGUAGE_VERSION**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SHADING_LANGUAGE_VERSION*
+*Inherited from WebGLRenderingContextBase.SHADING_LANGUAGE_VERSION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15388*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16004*
 
 ___
 <a id="short"></a>
 
 ###  SHORT
 
-**● SHORT**: *`number`*
+**● SHORT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SHORT*
+*Inherited from WebGLRenderingContextBase.SHORT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15389*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16005*
 
 ___
 <a id="src_alpha"></a>
 
 ###  SRC_ALPHA
 
-**● SRC_ALPHA**: *`number`*
+**● SRC_ALPHA**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SRC_ALPHA*
+*Inherited from WebGLRenderingContextBase.SRC_ALPHA*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15390*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16006*
 
 ___
 <a id="src_alpha_saturate"></a>
 
 ###  SRC_ALPHA_SATURATE
 
-**● SRC_ALPHA_SATURATE**: *`number`*
+**● SRC_ALPHA_SATURATE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SRC_ALPHA_SATURATE*
+*Inherited from WebGLRenderingContextBase.SRC_ALPHA_SATURATE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15391*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16007*
 
 ___
 <a id="src_color"></a>
 
 ###  SRC_COLOR
 
-**● SRC_COLOR**: *`number`*
+**● SRC_COLOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SRC_COLOR*
+*Inherited from WebGLRenderingContextBase.SRC_COLOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15392*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16008*
 
 ___
 <a id="static_draw"></a>
 
 ###  STATIC_DRAW
 
-**● STATIC_DRAW**: *`number`*
+**● STATIC_DRAW**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STATIC_DRAW*
+*Inherited from WebGLRenderingContextBase.STATIC_DRAW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15393*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16009*
 
 ___
 <a id="stencil_attachment"></a>
 
 ###  STENCIL_ATTACHMENT
 
-**● STENCIL_ATTACHMENT**: *`number`*
+**● STENCIL_ATTACHMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_ATTACHMENT*
+*Inherited from WebGLRenderingContextBase.STENCIL_ATTACHMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15394*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16010*
 
 ___
 <a id="stencil_back_fail"></a>
 
 ###  STENCIL_BACK_FAIL
 
-**● STENCIL_BACK_FAIL**: *`number`*
+**● STENCIL_BACK_FAIL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_FAIL*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15395*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16011*
 
 ___
 <a id="stencil_back_func"></a>
 
 ###  STENCIL_BACK_FUNC
 
-**● STENCIL_BACK_FUNC**: *`number`*
+**● STENCIL_BACK_FUNC**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_FUNC*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_FUNC*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15396*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16012*
 
 ___
 <a id="stencil_back_pass_depth_fail"></a>
 
 ###  STENCIL_BACK_PASS_DEPTH_FAIL
 
-**● STENCIL_BACK_PASS_DEPTH_FAIL**: *`number`*
+**● STENCIL_BACK_PASS_DEPTH_FAIL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_PASS_DEPTH_FAIL*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_PASS_DEPTH_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15397*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16013*
 
 ___
 <a id="stencil_back_pass_depth_pass"></a>
 
 ###  STENCIL_BACK_PASS_DEPTH_PASS
 
-**● STENCIL_BACK_PASS_DEPTH_PASS**: *`number`*
+**● STENCIL_BACK_PASS_DEPTH_PASS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_PASS_DEPTH_PASS*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_PASS_DEPTH_PASS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15398*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16014*
 
 ___
 <a id="stencil_back_ref"></a>
 
 ###  STENCIL_BACK_REF
 
-**● STENCIL_BACK_REF**: *`number`*
+**● STENCIL_BACK_REF**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_REF*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_REF*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15399*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16015*
 
 ___
 <a id="stencil_back_value_mask"></a>
 
 ###  STENCIL_BACK_VALUE_MASK
 
-**● STENCIL_BACK_VALUE_MASK**: *`number`*
+**● STENCIL_BACK_VALUE_MASK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_VALUE_MASK*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_VALUE_MASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15400*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16016*
 
 ___
 <a id="stencil_back_writemask"></a>
 
 ###  STENCIL_BACK_WRITEMASK
 
-**● STENCIL_BACK_WRITEMASK**: *`number`*
+**● STENCIL_BACK_WRITEMASK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BACK_WRITEMASK*
+*Inherited from WebGLRenderingContextBase.STENCIL_BACK_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15401*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16017*
 
 ___
 <a id="stencil_bits"></a>
 
 ###  STENCIL_BITS
 
-**● STENCIL_BITS**: *`number`*
+**● STENCIL_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BITS*
+*Inherited from WebGLRenderingContextBase.STENCIL_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15402*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16018*
 
 ___
 <a id="stencil_buffer_bit"></a>
 
 ###  STENCIL_BUFFER_BIT
 
-**● STENCIL_BUFFER_BIT**: *`number`*
+**● STENCIL_BUFFER_BIT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_BUFFER_BIT*
+*Inherited from WebGLRenderingContextBase.STENCIL_BUFFER_BIT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15403*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16019*
 
 ___
 <a id="stencil_clear_value"></a>
 
 ###  STENCIL_CLEAR_VALUE
 
-**● STENCIL_CLEAR_VALUE**: *`number`*
+**● STENCIL_CLEAR_VALUE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_CLEAR_VALUE*
+*Inherited from WebGLRenderingContextBase.STENCIL_CLEAR_VALUE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15404*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16020*
 
 ___
 <a id="stencil_fail"></a>
 
 ###  STENCIL_FAIL
 
-**● STENCIL_FAIL**: *`number`*
+**● STENCIL_FAIL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_FAIL*
+*Inherited from WebGLRenderingContextBase.STENCIL_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15405*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16021*
 
 ___
 <a id="stencil_func"></a>
 
 ###  STENCIL_FUNC
 
-**● STENCIL_FUNC**: *`number`*
+**● STENCIL_FUNC**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_FUNC*
+*Inherited from WebGLRenderingContextBase.STENCIL_FUNC*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15406*
-
-___
-<a id="stencil_index"></a>
-
-###  STENCIL_INDEX
-
-**● STENCIL_INDEX**: *`number`*
-
-*Inherited from WebGLRenderingContext.STENCIL_INDEX*
-
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15407*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16022*
 
 ___
 <a id="stencil_index8"></a>
 
 ###  STENCIL_INDEX8
 
-**● STENCIL_INDEX8**: *`number`*
+**● STENCIL_INDEX8**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_INDEX8*
+*Inherited from WebGLRenderingContextBase.STENCIL_INDEX8*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15408*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16023*
 
 ___
 <a id="stencil_pass_depth_fail"></a>
 
 ###  STENCIL_PASS_DEPTH_FAIL
 
-**● STENCIL_PASS_DEPTH_FAIL**: *`number`*
+**● STENCIL_PASS_DEPTH_FAIL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_PASS_DEPTH_FAIL*
+*Inherited from WebGLRenderingContextBase.STENCIL_PASS_DEPTH_FAIL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15409*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16024*
 
 ___
 <a id="stencil_pass_depth_pass"></a>
 
 ###  STENCIL_PASS_DEPTH_PASS
 
-**● STENCIL_PASS_DEPTH_PASS**: *`number`*
+**● STENCIL_PASS_DEPTH_PASS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_PASS_DEPTH_PASS*
+*Inherited from WebGLRenderingContextBase.STENCIL_PASS_DEPTH_PASS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15410*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16025*
 
 ___
 <a id="stencil_ref"></a>
 
 ###  STENCIL_REF
 
-**● STENCIL_REF**: *`number`*
+**● STENCIL_REF**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_REF*
+*Inherited from WebGLRenderingContextBase.STENCIL_REF*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15411*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16026*
 
 ___
 <a id="stencil_test"></a>
 
 ###  STENCIL_TEST
 
-**● STENCIL_TEST**: *`number`*
+**● STENCIL_TEST**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_TEST*
+*Inherited from WebGLRenderingContextBase.STENCIL_TEST*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15412*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16027*
 
 ___
 <a id="stencil_value_mask"></a>
 
 ###  STENCIL_VALUE_MASK
 
-**● STENCIL_VALUE_MASK**: *`number`*
+**● STENCIL_VALUE_MASK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_VALUE_MASK*
+*Inherited from WebGLRenderingContextBase.STENCIL_VALUE_MASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15413*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16028*
 
 ___
 <a id="stencil_writemask"></a>
 
 ###  STENCIL_WRITEMASK
 
-**● STENCIL_WRITEMASK**: *`number`*
+**● STENCIL_WRITEMASK**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STENCIL_WRITEMASK*
+*Inherited from WebGLRenderingContextBase.STENCIL_WRITEMASK*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15414*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16029*
 
 ___
 <a id="stream_draw"></a>
 
 ###  STREAM_DRAW
 
-**● STREAM_DRAW**: *`number`*
+**● STREAM_DRAW**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.STREAM_DRAW*
+*Inherited from WebGLRenderingContextBase.STREAM_DRAW*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15415*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16030*
 
 ___
 <a id="subpixel_bits"></a>
 
 ###  SUBPIXEL_BITS
 
-**● SUBPIXEL_BITS**: *`number`*
+**● SUBPIXEL_BITS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.SUBPIXEL_BITS*
+*Inherited from WebGLRenderingContextBase.SUBPIXEL_BITS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15416*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16031*
 
 ___
 <a id="texture"></a>
 
 ###  TEXTURE
 
-**● TEXTURE**: *`number`*
+**● TEXTURE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE*
+*Inherited from WebGLRenderingContextBase.TEXTURE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15417*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16032*
 
 ___
 <a id="texture0"></a>
 
 ###  TEXTURE0
 
-**● TEXTURE0**: *`number`*
+**● TEXTURE0**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE0*
+*Inherited from WebGLRenderingContextBase.TEXTURE0*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15418*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16033*
 
 ___
 <a id="texture1"></a>
 
 ###  TEXTURE1
 
-**● TEXTURE1**: *`number`*
+**● TEXTURE1**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE1*
+*Inherited from WebGLRenderingContextBase.TEXTURE1*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15419*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16034*
 
 ___
 <a id="texture10"></a>
 
 ###  TEXTURE10
 
-**● TEXTURE10**: *`number`*
+**● TEXTURE10**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE10*
+*Inherited from WebGLRenderingContextBase.TEXTURE10*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15420*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16035*
 
 ___
 <a id="texture11"></a>
 
 ###  TEXTURE11
 
-**● TEXTURE11**: *`number`*
+**● TEXTURE11**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE11*
+*Inherited from WebGLRenderingContextBase.TEXTURE11*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15421*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16036*
 
 ___
 <a id="texture12"></a>
 
 ###  TEXTURE12
 
-**● TEXTURE12**: *`number`*
+**● TEXTURE12**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE12*
+*Inherited from WebGLRenderingContextBase.TEXTURE12*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15422*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16037*
 
 ___
 <a id="texture13"></a>
 
 ###  TEXTURE13
 
-**● TEXTURE13**: *`number`*
+**● TEXTURE13**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE13*
+*Inherited from WebGLRenderingContextBase.TEXTURE13*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15423*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16038*
 
 ___
 <a id="texture14"></a>
 
 ###  TEXTURE14
 
-**● TEXTURE14**: *`number`*
+**● TEXTURE14**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE14*
+*Inherited from WebGLRenderingContextBase.TEXTURE14*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15424*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16039*
 
 ___
 <a id="texture15"></a>
 
 ###  TEXTURE15
 
-**● TEXTURE15**: *`number`*
+**● TEXTURE15**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE15*
+*Inherited from WebGLRenderingContextBase.TEXTURE15*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15425*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16040*
 
 ___
 <a id="texture16"></a>
 
 ###  TEXTURE16
 
-**● TEXTURE16**: *`number`*
+**● TEXTURE16**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE16*
+*Inherited from WebGLRenderingContextBase.TEXTURE16*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15426*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16041*
 
 ___
 <a id="texture17"></a>
 
 ###  TEXTURE17
 
-**● TEXTURE17**: *`number`*
+**● TEXTURE17**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE17*
+*Inherited from WebGLRenderingContextBase.TEXTURE17*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15427*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16042*
 
 ___
 <a id="texture18"></a>
 
 ###  TEXTURE18
 
-**● TEXTURE18**: *`number`*
+**● TEXTURE18**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE18*
+*Inherited from WebGLRenderingContextBase.TEXTURE18*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15428*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16043*
 
 ___
 <a id="texture19"></a>
 
 ###  TEXTURE19
 
-**● TEXTURE19**: *`number`*
+**● TEXTURE19**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE19*
+*Inherited from WebGLRenderingContextBase.TEXTURE19*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15429*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16044*
 
 ___
 <a id="texture2"></a>
 
 ###  TEXTURE2
 
-**● TEXTURE2**: *`number`*
+**● TEXTURE2**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE2*
+*Inherited from WebGLRenderingContextBase.TEXTURE2*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15430*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16045*
 
 ___
 <a id="texture20"></a>
 
 ###  TEXTURE20
 
-**● TEXTURE20**: *`number`*
+**● TEXTURE20**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE20*
+*Inherited from WebGLRenderingContextBase.TEXTURE20*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15431*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16046*
 
 ___
 <a id="texture21"></a>
 
 ###  TEXTURE21
 
-**● TEXTURE21**: *`number`*
+**● TEXTURE21**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE21*
+*Inherited from WebGLRenderingContextBase.TEXTURE21*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15432*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16047*
 
 ___
 <a id="texture22"></a>
 
 ###  TEXTURE22
 
-**● TEXTURE22**: *`number`*
+**● TEXTURE22**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE22*
+*Inherited from WebGLRenderingContextBase.TEXTURE22*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15433*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16048*
 
 ___
 <a id="texture23"></a>
 
 ###  TEXTURE23
 
-**● TEXTURE23**: *`number`*
+**● TEXTURE23**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE23*
+*Inherited from WebGLRenderingContextBase.TEXTURE23*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15434*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16049*
 
 ___
 <a id="texture24"></a>
 
 ###  TEXTURE24
 
-**● TEXTURE24**: *`number`*
+**● TEXTURE24**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE24*
+*Inherited from WebGLRenderingContextBase.TEXTURE24*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15435*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16050*
 
 ___
 <a id="texture25"></a>
 
 ###  TEXTURE25
 
-**● TEXTURE25**: *`number`*
+**● TEXTURE25**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE25*
+*Inherited from WebGLRenderingContextBase.TEXTURE25*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15436*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16051*
 
 ___
 <a id="texture26"></a>
 
 ###  TEXTURE26
 
-**● TEXTURE26**: *`number`*
+**● TEXTURE26**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE26*
+*Inherited from WebGLRenderingContextBase.TEXTURE26*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15437*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16052*
 
 ___
 <a id="texture27"></a>
 
 ###  TEXTURE27
 
-**● TEXTURE27**: *`number`*
+**● TEXTURE27**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE27*
+*Inherited from WebGLRenderingContextBase.TEXTURE27*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15438*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16053*
 
 ___
 <a id="texture28"></a>
 
 ###  TEXTURE28
 
-**● TEXTURE28**: *`number`*
+**● TEXTURE28**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE28*
+*Inherited from WebGLRenderingContextBase.TEXTURE28*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15439*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16054*
 
 ___
 <a id="texture29"></a>
 
 ###  TEXTURE29
 
-**● TEXTURE29**: *`number`*
+**● TEXTURE29**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE29*
+*Inherited from WebGLRenderingContextBase.TEXTURE29*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15440*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16055*
 
 ___
 <a id="texture3"></a>
 
 ###  TEXTURE3
 
-**● TEXTURE3**: *`number`*
+**● TEXTURE3**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE3*
+*Inherited from WebGLRenderingContextBase.TEXTURE3*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15441*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16056*
 
 ___
 <a id="texture30"></a>
 
 ###  TEXTURE30
 
-**● TEXTURE30**: *`number`*
+**● TEXTURE30**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE30*
+*Inherited from WebGLRenderingContextBase.TEXTURE30*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15442*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16057*
 
 ___
 <a id="texture31"></a>
 
 ###  TEXTURE31
 
-**● TEXTURE31**: *`number`*
+**● TEXTURE31**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE31*
+*Inherited from WebGLRenderingContextBase.TEXTURE31*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15443*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16058*
 
 ___
 <a id="texture4"></a>
 
 ###  TEXTURE4
 
-**● TEXTURE4**: *`number`*
+**● TEXTURE4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE4*
+*Inherited from WebGLRenderingContextBase.TEXTURE4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15444*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16059*
 
 ___
 <a id="texture5"></a>
 
 ###  TEXTURE5
 
-**● TEXTURE5**: *`number`*
+**● TEXTURE5**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE5*
+*Inherited from WebGLRenderingContextBase.TEXTURE5*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15445*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16060*
 
 ___
 <a id="texture6"></a>
 
 ###  TEXTURE6
 
-**● TEXTURE6**: *`number`*
+**● TEXTURE6**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE6*
+*Inherited from WebGLRenderingContextBase.TEXTURE6*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15446*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16061*
 
 ___
 <a id="texture7"></a>
 
 ###  TEXTURE7
 
-**● TEXTURE7**: *`number`*
+**● TEXTURE7**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE7*
+*Inherited from WebGLRenderingContextBase.TEXTURE7*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15447*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16062*
 
 ___
 <a id="texture8"></a>
 
 ###  TEXTURE8
 
-**● TEXTURE8**: *`number`*
+**● TEXTURE8**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE8*
+*Inherited from WebGLRenderingContextBase.TEXTURE8*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15448*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16063*
 
 ___
 <a id="texture9"></a>
 
 ###  TEXTURE9
 
-**● TEXTURE9**: *`number`*
+**● TEXTURE9**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE9*
+*Inherited from WebGLRenderingContextBase.TEXTURE9*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15449*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16064*
 
 ___
 <a id="texture_2d"></a>
 
 ###  TEXTURE_2D
 
-**● TEXTURE_2D**: *`number`*
+**● TEXTURE_2D**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_2D*
+*Inherited from WebGLRenderingContextBase.TEXTURE_2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15450*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16065*
 
 ___
 <a id="texture_binding_2d"></a>
 
 ###  TEXTURE_BINDING_2D
 
-**● TEXTURE_BINDING_2D**: *`number`*
+**● TEXTURE_BINDING_2D**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_BINDING_2D*
+*Inherited from WebGLRenderingContextBase.TEXTURE_BINDING_2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15451*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16066*
 
 ___
 <a id="texture_binding_cube_map"></a>
 
 ###  TEXTURE_BINDING_CUBE_MAP
 
-**● TEXTURE_BINDING_CUBE_MAP**: *`number`*
+**● TEXTURE_BINDING_CUBE_MAP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_BINDING_CUBE_MAP*
+*Inherited from WebGLRenderingContextBase.TEXTURE_BINDING_CUBE_MAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15452*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16067*
 
 ___
 <a id="texture_cube_map"></a>
 
 ###  TEXTURE_CUBE_MAP
 
-**● TEXTURE_CUBE_MAP**: *`number`*
+**● TEXTURE_CUBE_MAP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15453*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16068*
 
 ___
 <a id="texture_cube_map_negative_x"></a>
 
 ###  TEXTURE_CUBE_MAP_NEGATIVE_X
 
-**● TEXTURE_CUBE_MAP_NEGATIVE_X**: *`number`*
+**● TEXTURE_CUBE_MAP_NEGATIVE_X**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_NEGATIVE_X*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP_NEGATIVE_X*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15454*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16069*
 
 ___
 <a id="texture_cube_map_negative_y"></a>
 
 ###  TEXTURE_CUBE_MAP_NEGATIVE_Y
 
-**● TEXTURE_CUBE_MAP_NEGATIVE_Y**: *`number`*
+**● TEXTURE_CUBE_MAP_NEGATIVE_Y**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_NEGATIVE_Y*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP_NEGATIVE_Y*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15455*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16070*
 
 ___
 <a id="texture_cube_map_negative_z"></a>
 
 ###  TEXTURE_CUBE_MAP_NEGATIVE_Z
 
-**● TEXTURE_CUBE_MAP_NEGATIVE_Z**: *`number`*
+**● TEXTURE_CUBE_MAP_NEGATIVE_Z**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_NEGATIVE_Z*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP_NEGATIVE_Z*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15456*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16071*
 
 ___
 <a id="texture_cube_map_positive_x"></a>
 
 ###  TEXTURE_CUBE_MAP_POSITIVE_X
 
-**● TEXTURE_CUBE_MAP_POSITIVE_X**: *`number`*
+**● TEXTURE_CUBE_MAP_POSITIVE_X**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_POSITIVE_X*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP_POSITIVE_X*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15457*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16072*
 
 ___
 <a id="texture_cube_map_positive_y"></a>
 
 ###  TEXTURE_CUBE_MAP_POSITIVE_Y
 
-**● TEXTURE_CUBE_MAP_POSITIVE_Y**: *`number`*
+**● TEXTURE_CUBE_MAP_POSITIVE_Y**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_POSITIVE_Y*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP_POSITIVE_Y*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15458*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16073*
 
 ___
 <a id="texture_cube_map_positive_z"></a>
 
 ###  TEXTURE_CUBE_MAP_POSITIVE_Z
 
-**● TEXTURE_CUBE_MAP_POSITIVE_Z**: *`number`*
+**● TEXTURE_CUBE_MAP_POSITIVE_Z**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_CUBE_MAP_POSITIVE_Z*
+*Inherited from WebGLRenderingContextBase.TEXTURE_CUBE_MAP_POSITIVE_Z*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15459*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16074*
 
 ___
 <a id="texture_mag_filter"></a>
 
 ###  TEXTURE_MAG_FILTER
 
-**● TEXTURE_MAG_FILTER**: *`number`*
+**● TEXTURE_MAG_FILTER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_MAG_FILTER*
+*Inherited from WebGLRenderingContextBase.TEXTURE_MAG_FILTER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15460*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16075*
 
 ___
 <a id="texture_min_filter"></a>
 
 ###  TEXTURE_MIN_FILTER
 
-**● TEXTURE_MIN_FILTER**: *`number`*
+**● TEXTURE_MIN_FILTER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_MIN_FILTER*
+*Inherited from WebGLRenderingContextBase.TEXTURE_MIN_FILTER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15461*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16076*
 
 ___
 <a id="texture_wrap_s"></a>
 
 ###  TEXTURE_WRAP_S
 
-**● TEXTURE_WRAP_S**: *`number`*
+**● TEXTURE_WRAP_S**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_WRAP_S*
+*Inherited from WebGLRenderingContextBase.TEXTURE_WRAP_S*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15462*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16077*
 
 ___
 <a id="texture_wrap_t"></a>
 
 ###  TEXTURE_WRAP_T
 
-**● TEXTURE_WRAP_T**: *`number`*
+**● TEXTURE_WRAP_T**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TEXTURE_WRAP_T*
+*Inherited from WebGLRenderingContextBase.TEXTURE_WRAP_T*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15463*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16078*
 
 ___
 <a id="triangles"></a>
 
 ###  TRIANGLES
 
-**● TRIANGLES**: *`number`*
+**● TRIANGLES**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TRIANGLES*
+*Inherited from WebGLRenderingContextBase.TRIANGLES*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15464*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16079*
 
 ___
 <a id="triangle_fan"></a>
 
 ###  TRIANGLE_FAN
 
-**● TRIANGLE_FAN**: *`number`*
+**● TRIANGLE_FAN**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TRIANGLE_FAN*
+*Inherited from WebGLRenderingContextBase.TRIANGLE_FAN*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15465*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16080*
 
 ___
 <a id="triangle_strip"></a>
 
 ###  TRIANGLE_STRIP
 
-**● TRIANGLE_STRIP**: *`number`*
+**● TRIANGLE_STRIP**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.TRIANGLE_STRIP*
+*Inherited from WebGLRenderingContextBase.TRIANGLE_STRIP*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15466*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16081*
 
 ___
 <a id="unpack_alignment"></a>
 
 ###  UNPACK_ALIGNMENT
 
-**● UNPACK_ALIGNMENT**: *`number`*
+**● UNPACK_ALIGNMENT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNPACK_ALIGNMENT*
+*Inherited from WebGLRenderingContextBase.UNPACK_ALIGNMENT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15467*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16082*
 
 ___
 <a id="unpack_colorspace_conversion_webgl"></a>
 
 ###  UNPACK_COLORSPACE_CONVERSION_WEBGL
 
-**● UNPACK_COLORSPACE_CONVERSION_WEBGL**: *`number`*
+**● UNPACK_COLORSPACE_CONVERSION_WEBGL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNPACK_COLORSPACE_CONVERSION_WEBGL*
+*Inherited from WebGLRenderingContextBase.UNPACK_COLORSPACE_CONVERSION_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15468*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16083*
 
 ___
 <a id="unpack_flip_y_webgl"></a>
 
 ###  UNPACK_FLIP_Y_WEBGL
 
-**● UNPACK_FLIP_Y_WEBGL**: *`number`*
+**● UNPACK_FLIP_Y_WEBGL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNPACK_FLIP_Y_WEBGL*
+*Inherited from WebGLRenderingContextBase.UNPACK_FLIP_Y_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15469*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16084*
 
 ___
 <a id="unpack_premultiply_alpha_webgl"></a>
 
 ###  UNPACK_PREMULTIPLY_ALPHA_WEBGL
 
-**● UNPACK_PREMULTIPLY_ALPHA_WEBGL**: *`number`*
+**● UNPACK_PREMULTIPLY_ALPHA_WEBGL**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNPACK_PREMULTIPLY_ALPHA_WEBGL*
+*Inherited from WebGLRenderingContextBase.UNPACK_PREMULTIPLY_ALPHA_WEBGL*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15470*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16085*
 
 ___
 <a id="unsigned_byte"></a>
 
 ###  UNSIGNED_BYTE
 
-**● UNSIGNED_BYTE**: *`number`*
+**● UNSIGNED_BYTE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNSIGNED_BYTE*
+*Inherited from WebGLRenderingContextBase.UNSIGNED_BYTE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15471*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16086*
 
 ___
 <a id="unsigned_int"></a>
 
 ###  UNSIGNED_INT
 
-**● UNSIGNED_INT**: *`number`*
+**● UNSIGNED_INT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNSIGNED_INT*
+*Inherited from WebGLRenderingContextBase.UNSIGNED_INT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15472*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16087*
 
 ___
 <a id="unsigned_short"></a>
 
 ###  UNSIGNED_SHORT
 
-**● UNSIGNED_SHORT**: *`number`*
+**● UNSIGNED_SHORT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNSIGNED_SHORT*
+*Inherited from WebGLRenderingContextBase.UNSIGNED_SHORT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15473*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16088*
 
 ___
 <a id="unsigned_short_4_4_4_4"></a>
 
 ###  UNSIGNED_SHORT_4_4_4_4
 
-**● UNSIGNED_SHORT_4_4_4_4**: *`number`*
+**● UNSIGNED_SHORT_4_4_4_4**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNSIGNED_SHORT_4_4_4_4*
+*Inherited from WebGLRenderingContextBase.UNSIGNED_SHORT_4_4_4_4*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15474*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16089*
 
 ___
 <a id="unsigned_short_5_5_5_1"></a>
 
 ###  UNSIGNED_SHORT_5_5_5_1
 
-**● UNSIGNED_SHORT_5_5_5_1**: *`number`*
+**● UNSIGNED_SHORT_5_5_5_1**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNSIGNED_SHORT_5_5_5_1*
+*Inherited from WebGLRenderingContextBase.UNSIGNED_SHORT_5_5_5_1*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15475*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16090*
 
 ___
 <a id="unsigned_short_5_6_5"></a>
 
 ###  UNSIGNED_SHORT_5_6_5
 
-**● UNSIGNED_SHORT_5_6_5**: *`number`*
+**● UNSIGNED_SHORT_5_6_5**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.UNSIGNED_SHORT_5_6_5*
+*Inherited from WebGLRenderingContextBase.UNSIGNED_SHORT_5_6_5*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15476*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16091*
 
 ___
 <a id="validate_status"></a>
 
 ###  VALIDATE_STATUS
 
-**● VALIDATE_STATUS**: *`number`*
+**● VALIDATE_STATUS**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VALIDATE_STATUS*
+*Inherited from WebGLRenderingContextBase.VALIDATE_STATUS*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15477*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16092*
 
 ___
 <a id="vendor"></a>
 
 ###  VENDOR
 
-**● VENDOR**: *`number`*
+**● VENDOR**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VENDOR*
+*Inherited from WebGLRenderingContextBase.VENDOR*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15478*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16093*
 
 ___
 <a id="version"></a>
 
 ###  VERSION
 
-**● VERSION**: *`number`*
+**● VERSION**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERSION*
+*Inherited from WebGLRenderingContextBase.VERSION*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15479*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16094*
 
 ___
 <a id="vertex_attrib_array_buffer_binding"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_BUFFER_BINDING
 
-**● VERTEX_ATTRIB_ARRAY_BUFFER_BINDING**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_BUFFER_BINDING**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_BUFFER_BINDING*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_BUFFER_BINDING*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15480*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16095*
 
 ___
 <a id="vertex_attrib_array_enabled"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_ENABLED
 
-**● VERTEX_ATTRIB_ARRAY_ENABLED**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_ENABLED**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_ENABLED*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_ENABLED*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15481*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16096*
 
 ___
 <a id="vertex_attrib_array_normalized"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_NORMALIZED
 
-**● VERTEX_ATTRIB_ARRAY_NORMALIZED**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_NORMALIZED**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_NORMALIZED*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_NORMALIZED*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15482*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16097*
 
 ___
 <a id="vertex_attrib_array_pointer"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_POINTER
 
-**● VERTEX_ATTRIB_ARRAY_POINTER**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_POINTER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_POINTER*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_POINTER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15483*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16098*
 
 ___
 <a id="vertex_attrib_array_size"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_SIZE
 
-**● VERTEX_ATTRIB_ARRAY_SIZE**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_SIZE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_SIZE*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_SIZE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15484*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16099*
 
 ___
 <a id="vertex_attrib_array_stride"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_STRIDE
 
-**● VERTEX_ATTRIB_ARRAY_STRIDE**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_STRIDE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_STRIDE*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_STRIDE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15485*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16100*
 
 ___
 <a id="vertex_attrib_array_type"></a>
 
 ###  VERTEX_ATTRIB_ARRAY_TYPE
 
-**● VERTEX_ATTRIB_ARRAY_TYPE**: *`number`*
+**● VERTEX_ATTRIB_ARRAY_TYPE**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_ATTRIB_ARRAY_TYPE*
+*Inherited from WebGLRenderingContextBase.VERTEX_ATTRIB_ARRAY_TYPE*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15486*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16101*
 
 ___
 <a id="vertex_shader"></a>
 
 ###  VERTEX_SHADER
 
-**● VERTEX_SHADER**: *`number`*
+**● VERTEX_SHADER**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VERTEX_SHADER*
+*Inherited from WebGLRenderingContextBase.VERTEX_SHADER*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15487*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16102*
 
 ___
 <a id="viewport"></a>
 
 ###  VIEWPORT
 
-**● VIEWPORT**: *`number`*
+**● VIEWPORT**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.VIEWPORT*
+*Inherited from WebGLRenderingContextBase.VIEWPORT*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15488*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16103*
 
 ___
 <a id="webglrenderingcontext"></a>
@@ -3746,610 +3734,608 @@ ___
 
 **● WebGLRenderingContext**: *`object`*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15492*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15343*
 
 #### Type declaration
 
  constructor : function
 ⊕ **new __type**(): `WebGLRenderingContext`
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15493*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15344*
 
 **Returns:** `WebGLRenderingContext`
 
- ACTIVE_ATTRIBUTES: `number`
+ ACTIVE_ATTRIBUTES: `GLenum`
 
- ACTIVE_TEXTURE: `number`
+ ACTIVE_TEXTURE: `GLenum`
 
- ACTIVE_UNIFORMS: `number`
+ ACTIVE_UNIFORMS: `GLenum`
 
- ALIASED_LINE_WIDTH_RANGE: `number`
+ ALIASED_LINE_WIDTH_RANGE: `GLenum`
 
- ALIASED_POINT_SIZE_RANGE: `number`
+ ALIASED_POINT_SIZE_RANGE: `GLenum`
 
- ALPHA: `number`
+ ALPHA: `GLenum`
 
- ALPHA_BITS: `number`
+ ALPHA_BITS: `GLenum`
 
- ALWAYS: `number`
+ ALWAYS: `GLenum`
 
- ARRAY_BUFFER: `number`
+ ARRAY_BUFFER: `GLenum`
 
- ARRAY_BUFFER_BINDING: `number`
+ ARRAY_BUFFER_BINDING: `GLenum`
 
- ATTACHED_SHADERS: `number`
+ ATTACHED_SHADERS: `GLenum`
 
- BACK: `number`
+ BACK: `GLenum`
 
- BLEND: `number`
+ BLEND: `GLenum`
 
- BLEND_COLOR: `number`
+ BLEND_COLOR: `GLenum`
 
- BLEND_DST_ALPHA: `number`
+ BLEND_DST_ALPHA: `GLenum`
 
- BLEND_DST_RGB: `number`
+ BLEND_DST_RGB: `GLenum`
 
- BLEND_EQUATION: `number`
+ BLEND_EQUATION: `GLenum`
 
- BLEND_EQUATION_ALPHA: `number`
+ BLEND_EQUATION_ALPHA: `GLenum`
 
- BLEND_EQUATION_RGB: `number`
+ BLEND_EQUATION_RGB: `GLenum`
 
- BLEND_SRC_ALPHA: `number`
+ BLEND_SRC_ALPHA: `GLenum`
 
- BLEND_SRC_RGB: `number`
+ BLEND_SRC_RGB: `GLenum`
 
- BLUE_BITS: `number`
+ BLUE_BITS: `GLenum`
 
- BOOL: `number`
+ BOOL: `GLenum`
 
- BOOL_VEC2: `number`
+ BOOL_VEC2: `GLenum`
 
- BOOL_VEC3: `number`
+ BOOL_VEC3: `GLenum`
 
- BOOL_VEC4: `number`
+ BOOL_VEC4: `GLenum`
 
- BROWSER_DEFAULT_WEBGL: `number`
+ BROWSER_DEFAULT_WEBGL: `GLenum`
 
- BUFFER_SIZE: `number`
+ BUFFER_SIZE: `GLenum`
 
- BUFFER_USAGE: `number`
+ BUFFER_USAGE: `GLenum`
 
- BYTE: `number`
+ BYTE: `GLenum`
 
- CCW: `number`
+ CCW: `GLenum`
 
- CLAMP_TO_EDGE: `number`
+ CLAMP_TO_EDGE: `GLenum`
 
- COLOR_ATTACHMENT0: `number`
+ COLOR_ATTACHMENT0: `GLenum`
 
- COLOR_BUFFER_BIT: `number`
+ COLOR_BUFFER_BIT: `GLenum`
 
- COLOR_CLEAR_VALUE: `number`
+ COLOR_CLEAR_VALUE: `GLenum`
 
- COLOR_WRITEMASK: `number`
+ COLOR_WRITEMASK: `GLenum`
 
- COMPILE_STATUS: `number`
+ COMPILE_STATUS: `GLenum`
 
- COMPRESSED_TEXTURE_FORMATS: `number`
+ COMPRESSED_TEXTURE_FORMATS: `GLenum`
 
- CONSTANT_ALPHA: `number`
+ CONSTANT_ALPHA: `GLenum`
 
- CONSTANT_COLOR: `number`
+ CONSTANT_COLOR: `GLenum`
 
- CONTEXT_LOST_WEBGL: `number`
+ CONTEXT_LOST_WEBGL: `GLenum`
 
- CULL_FACE: `number`
+ CULL_FACE: `GLenum`
 
- CULL_FACE_MODE: `number`
+ CULL_FACE_MODE: `GLenum`
 
- CURRENT_PROGRAM: `number`
+ CURRENT_PROGRAM: `GLenum`
 
- CURRENT_VERTEX_ATTRIB: `number`
+ CURRENT_VERTEX_ATTRIB: `GLenum`
 
- CW: `number`
+ CW: `GLenum`
 
- DECR: `number`
+ DECR: `GLenum`
 
- DECR_WRAP: `number`
+ DECR_WRAP: `GLenum`
 
- DELETE_STATUS: `number`
+ DELETE_STATUS: `GLenum`
 
- DEPTH_ATTACHMENT: `number`
+ DEPTH_ATTACHMENT: `GLenum`
 
- DEPTH_BITS: `number`
+ DEPTH_BITS: `GLenum`
 
- DEPTH_BUFFER_BIT: `number`
+ DEPTH_BUFFER_BIT: `GLenum`
 
- DEPTH_CLEAR_VALUE: `number`
+ DEPTH_CLEAR_VALUE: `GLenum`
 
- DEPTH_COMPONENT: `number`
+ DEPTH_COMPONENT: `GLenum`
 
- DEPTH_COMPONENT16: `number`
+ DEPTH_COMPONENT16: `GLenum`
 
- DEPTH_FUNC: `number`
+ DEPTH_FUNC: `GLenum`
 
- DEPTH_RANGE: `number`
+ DEPTH_RANGE: `GLenum`
 
- DEPTH_STENCIL: `number`
+ DEPTH_STENCIL: `GLenum`
 
- DEPTH_STENCIL_ATTACHMENT: `number`
+ DEPTH_STENCIL_ATTACHMENT: `GLenum`
 
- DEPTH_TEST: `number`
+ DEPTH_TEST: `GLenum`
 
- DEPTH_WRITEMASK: `number`
+ DEPTH_WRITEMASK: `GLenum`
 
- DITHER: `number`
+ DITHER: `GLenum`
 
- DONT_CARE: `number`
+ DONT_CARE: `GLenum`
 
- DST_ALPHA: `number`
+ DST_ALPHA: `GLenum`
 
- DST_COLOR: `number`
+ DST_COLOR: `GLenum`
 
- DYNAMIC_DRAW: `number`
+ DYNAMIC_DRAW: `GLenum`
 
- ELEMENT_ARRAY_BUFFER: `number`
+ ELEMENT_ARRAY_BUFFER: `GLenum`
 
- ELEMENT_ARRAY_BUFFER_BINDING: `number`
+ ELEMENT_ARRAY_BUFFER_BINDING: `GLenum`
 
- EQUAL: `number`
+ EQUAL: `GLenum`
 
- FASTEST: `number`
+ FASTEST: `GLenum`
 
- FLOAT: `number`
+ FLOAT: `GLenum`
 
- FLOAT_MAT2: `number`
+ FLOAT_MAT2: `GLenum`
 
- FLOAT_MAT3: `number`
+ FLOAT_MAT3: `GLenum`
 
- FLOAT_MAT4: `number`
+ FLOAT_MAT4: `GLenum`
 
- FLOAT_VEC2: `number`
+ FLOAT_VEC2: `GLenum`
 
- FLOAT_VEC3: `number`
+ FLOAT_VEC3: `GLenum`
 
- FLOAT_VEC4: `number`
+ FLOAT_VEC4: `GLenum`
 
- FRAGMENT_SHADER: `number`
+ FRAGMENT_SHADER: `GLenum`
 
- FRAMEBUFFER: `number`
+ FRAMEBUFFER: `GLenum`
 
- FRAMEBUFFER_ATTACHMENT_OBJECT_NAME: `number`
+ FRAMEBUFFER_ATTACHMENT_OBJECT_NAME: `GLenum`
 
- FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE: `number`
+ FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE: `GLenum`
 
- FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE: `number`
+ FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE: `GLenum`
 
- FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL: `number`
+ FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL: `GLenum`
 
- FRAMEBUFFER_BINDING: `number`
+ FRAMEBUFFER_BINDING: `GLenum`
 
- FRAMEBUFFER_COMPLETE: `number`
+ FRAMEBUFFER_COMPLETE: `GLenum`
 
- FRAMEBUFFER_INCOMPLETE_ATTACHMENT: `number`
+ FRAMEBUFFER_INCOMPLETE_ATTACHMENT: `GLenum`
 
- FRAMEBUFFER_INCOMPLETE_DIMENSIONS: `number`
+ FRAMEBUFFER_INCOMPLETE_DIMENSIONS: `GLenum`
 
- FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT: `number`
+ FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT: `GLenum`
 
- FRAMEBUFFER_UNSUPPORTED: `number`
+ FRAMEBUFFER_UNSUPPORTED: `GLenum`
 
- FRONT: `number`
+ FRONT: `GLenum`
 
- FRONT_AND_BACK: `number`
+ FRONT_AND_BACK: `GLenum`
 
- FRONT_FACE: `number`
+ FRONT_FACE: `GLenum`
 
- FUNC_ADD: `number`
+ FUNC_ADD: `GLenum`
 
- FUNC_REVERSE_SUBTRACT: `number`
+ FUNC_REVERSE_SUBTRACT: `GLenum`
 
- FUNC_SUBTRACT: `number`
+ FUNC_SUBTRACT: `GLenum`
 
- GENERATE_MIPMAP_HINT: `number`
+ GENERATE_MIPMAP_HINT: `GLenum`
 
- GEQUAL: `number`
+ GEQUAL: `GLenum`
 
- GREATER: `number`
+ GREATER: `GLenum`
 
- GREEN_BITS: `number`
+ GREEN_BITS: `GLenum`
 
- HIGH_FLOAT: `number`
+ HIGH_FLOAT: `GLenum`
 
- HIGH_INT: `number`
+ HIGH_INT: `GLenum`
 
- IMPLEMENTATION_COLOR_READ_FORMAT: `number`
+ IMPLEMENTATION_COLOR_READ_FORMAT: `GLenum`
 
- IMPLEMENTATION_COLOR_READ_TYPE: `number`
+ IMPLEMENTATION_COLOR_READ_TYPE: `GLenum`
 
- INCR: `number`
+ INCR: `GLenum`
 
- INCR_WRAP: `number`
+ INCR_WRAP: `GLenum`
 
- INT: `number`
+ INT: `GLenum`
 
- INT_VEC2: `number`
+ INT_VEC2: `GLenum`
 
- INT_VEC3: `number`
+ INT_VEC3: `GLenum`
 
- INT_VEC4: `number`
+ INT_VEC4: `GLenum`
 
- INVALID_ENUM: `number`
+ INVALID_ENUM: `GLenum`
 
- INVALID_FRAMEBUFFER_OPERATION: `number`
+ INVALID_FRAMEBUFFER_OPERATION: `GLenum`
 
- INVALID_OPERATION: `number`
+ INVALID_OPERATION: `GLenum`
 
- INVALID_VALUE: `number`
+ INVALID_VALUE: `GLenum`
 
- INVERT: `number`
+ INVERT: `GLenum`
 
- KEEP: `number`
+ KEEP: `GLenum`
 
- LEQUAL: `number`
+ LEQUAL: `GLenum`
 
- LESS: `number`
+ LESS: `GLenum`
 
- LINEAR: `number`
+ LINEAR: `GLenum`
 
- LINEAR_MIPMAP_LINEAR: `number`
+ LINEAR_MIPMAP_LINEAR: `GLenum`
 
- LINEAR_MIPMAP_NEAREST: `number`
+ LINEAR_MIPMAP_NEAREST: `GLenum`
 
- LINES: `number`
+ LINES: `GLenum`
 
- LINE_LOOP: `number`
+ LINE_LOOP: `GLenum`
 
- LINE_STRIP: `number`
+ LINE_STRIP: `GLenum`
 
- LINE_WIDTH: `number`
+ LINE_WIDTH: `GLenum`
 
- LINK_STATUS: `number`
+ LINK_STATUS: `GLenum`
 
- LOW_FLOAT: `number`
+ LOW_FLOAT: `GLenum`
 
- LOW_INT: `number`
+ LOW_INT: `GLenum`
 
- LUMINANCE: `number`
+ LUMINANCE: `GLenum`
 
- LUMINANCE_ALPHA: `number`
+ LUMINANCE_ALPHA: `GLenum`
 
- MAX_COMBINED_TEXTURE_IMAGE_UNITS: `number`
+ MAX_COMBINED_TEXTURE_IMAGE_UNITS: `GLenum`
 
- MAX_CUBE_MAP_TEXTURE_SIZE: `number`
+ MAX_CUBE_MAP_TEXTURE_SIZE: `GLenum`
 
- MAX_FRAGMENT_UNIFORM_VECTORS: `number`
+ MAX_FRAGMENT_UNIFORM_VECTORS: `GLenum`
 
- MAX_RENDERBUFFER_SIZE: `number`
+ MAX_RENDERBUFFER_SIZE: `GLenum`
 
- MAX_TEXTURE_IMAGE_UNITS: `number`
+ MAX_TEXTURE_IMAGE_UNITS: `GLenum`
 
- MAX_TEXTURE_SIZE: `number`
+ MAX_TEXTURE_SIZE: `GLenum`
 
- MAX_VARYING_VECTORS: `number`
+ MAX_VARYING_VECTORS: `GLenum`
 
- MAX_VERTEX_ATTRIBS: `number`
+ MAX_VERTEX_ATTRIBS: `GLenum`
 
- MAX_VERTEX_TEXTURE_IMAGE_UNITS: `number`
+ MAX_VERTEX_TEXTURE_IMAGE_UNITS: `GLenum`
 
- MAX_VERTEX_UNIFORM_VECTORS: `number`
+ MAX_VERTEX_UNIFORM_VECTORS: `GLenum`
 
- MAX_VIEWPORT_DIMS: `number`
+ MAX_VIEWPORT_DIMS: `GLenum`
 
- MEDIUM_FLOAT: `number`
+ MEDIUM_FLOAT: `GLenum`
 
- MEDIUM_INT: `number`
+ MEDIUM_INT: `GLenum`
 
- MIRRORED_REPEAT: `number`
+ MIRRORED_REPEAT: `GLenum`
 
- NEAREST: `number`
+ NEAREST: `GLenum`
 
- NEAREST_MIPMAP_LINEAR: `number`
+ NEAREST_MIPMAP_LINEAR: `GLenum`
 
- NEAREST_MIPMAP_NEAREST: `number`
+ NEAREST_MIPMAP_NEAREST: `GLenum`
 
- NEVER: `number`
+ NEVER: `GLenum`
 
- NICEST: `number`
+ NICEST: `GLenum`
 
- NONE: `number`
+ NONE: `GLenum`
 
- NOTEQUAL: `number`
+ NOTEQUAL: `GLenum`
 
- NO_ERROR: `number`
+ NO_ERROR: `GLenum`
 
- ONE: `number`
+ ONE: `GLenum`
 
- ONE_MINUS_CONSTANT_ALPHA: `number`
+ ONE_MINUS_CONSTANT_ALPHA: `GLenum`
 
- ONE_MINUS_CONSTANT_COLOR: `number`
+ ONE_MINUS_CONSTANT_COLOR: `GLenum`
 
- ONE_MINUS_DST_ALPHA: `number`
+ ONE_MINUS_DST_ALPHA: `GLenum`
 
- ONE_MINUS_DST_COLOR: `number`
+ ONE_MINUS_DST_COLOR: `GLenum`
 
- ONE_MINUS_SRC_ALPHA: `number`
+ ONE_MINUS_SRC_ALPHA: `GLenum`
 
- ONE_MINUS_SRC_COLOR: `number`
+ ONE_MINUS_SRC_COLOR: `GLenum`
 
- OUT_OF_MEMORY: `number`
+ OUT_OF_MEMORY: `GLenum`
 
- PACK_ALIGNMENT: `number`
+ PACK_ALIGNMENT: `GLenum`
 
- POINTS: `number`
+ POINTS: `GLenum`
 
- POLYGON_OFFSET_FACTOR: `number`
+ POLYGON_OFFSET_FACTOR: `GLenum`
 
- POLYGON_OFFSET_FILL: `number`
+ POLYGON_OFFSET_FILL: `GLenum`
 
- POLYGON_OFFSET_UNITS: `number`
+ POLYGON_OFFSET_UNITS: `GLenum`
 
- RED_BITS: `number`
+ RED_BITS: `GLenum`
 
- RENDERBUFFER: `number`
+ RENDERBUFFER: `GLenum`
 
- RENDERBUFFER_ALPHA_SIZE: `number`
+ RENDERBUFFER_ALPHA_SIZE: `GLenum`
 
- RENDERBUFFER_BINDING: `number`
+ RENDERBUFFER_BINDING: `GLenum`
 
- RENDERBUFFER_BLUE_SIZE: `number`
+ RENDERBUFFER_BLUE_SIZE: `GLenum`
 
- RENDERBUFFER_DEPTH_SIZE: `number`
+ RENDERBUFFER_DEPTH_SIZE: `GLenum`
 
- RENDERBUFFER_GREEN_SIZE: `number`
+ RENDERBUFFER_GREEN_SIZE: `GLenum`
 
- RENDERBUFFER_HEIGHT: `number`
+ RENDERBUFFER_HEIGHT: `GLenum`
 
- RENDERBUFFER_INTERNAL_FORMAT: `number`
+ RENDERBUFFER_INTERNAL_FORMAT: `GLenum`
 
- RENDERBUFFER_RED_SIZE: `number`
+ RENDERBUFFER_RED_SIZE: `GLenum`
 
- RENDERBUFFER_STENCIL_SIZE: `number`
+ RENDERBUFFER_STENCIL_SIZE: `GLenum`
 
- RENDERBUFFER_WIDTH: `number`
+ RENDERBUFFER_WIDTH: `GLenum`
 
- RENDERER: `number`
+ RENDERER: `GLenum`
 
- REPEAT: `number`
+ REPEAT: `GLenum`
 
- REPLACE: `number`
+ REPLACE: `GLenum`
 
- RGB: `number`
+ RGB: `GLenum`
 
- RGB565: `number`
+ RGB565: `GLenum`
 
- RGB5_A1: `number`
+ RGB5_A1: `GLenum`
 
- RGBA: `number`
+ RGBA: `GLenum`
 
- RGBA4: `number`
+ RGBA4: `GLenum`
 
- SAMPLER_2D: `number`
+ SAMPLER_2D: `GLenum`
 
- SAMPLER_CUBE: `number`
+ SAMPLER_CUBE: `GLenum`
 
- SAMPLES: `number`
+ SAMPLES: `GLenum`
 
- SAMPLE_ALPHA_TO_COVERAGE: `number`
+ SAMPLE_ALPHA_TO_COVERAGE: `GLenum`
 
- SAMPLE_BUFFERS: `number`
+ SAMPLE_BUFFERS: `GLenum`
 
- SAMPLE_COVERAGE: `number`
+ SAMPLE_COVERAGE: `GLenum`
 
- SAMPLE_COVERAGE_INVERT: `number`
+ SAMPLE_COVERAGE_INVERT: `GLenum`
 
- SAMPLE_COVERAGE_VALUE: `number`
+ SAMPLE_COVERAGE_VALUE: `GLenum`
 
- SCISSOR_BOX: `number`
+ SCISSOR_BOX: `GLenum`
 
- SCISSOR_TEST: `number`
+ SCISSOR_TEST: `GLenum`
 
- SHADER_TYPE: `number`
+ SHADER_TYPE: `GLenum`
 
- SHADING_LANGUAGE_VERSION: `number`
+ SHADING_LANGUAGE_VERSION: `GLenum`
 
- SHORT: `number`
+ SHORT: `GLenum`
 
- SRC_ALPHA: `number`
+ SRC_ALPHA: `GLenum`
 
- SRC_ALPHA_SATURATE: `number`
+ SRC_ALPHA_SATURATE: `GLenum`
 
- SRC_COLOR: `number`
+ SRC_COLOR: `GLenum`
 
- STATIC_DRAW: `number`
+ STATIC_DRAW: `GLenum`
 
- STENCIL_ATTACHMENT: `number`
+ STENCIL_ATTACHMENT: `GLenum`
 
- STENCIL_BACK_FAIL: `number`
+ STENCIL_BACK_FAIL: `GLenum`
 
- STENCIL_BACK_FUNC: `number`
+ STENCIL_BACK_FUNC: `GLenum`
 
- STENCIL_BACK_PASS_DEPTH_FAIL: `number`
+ STENCIL_BACK_PASS_DEPTH_FAIL: `GLenum`
 
- STENCIL_BACK_PASS_DEPTH_PASS: `number`
+ STENCIL_BACK_PASS_DEPTH_PASS: `GLenum`
 
- STENCIL_BACK_REF: `number`
+ STENCIL_BACK_REF: `GLenum`
 
- STENCIL_BACK_VALUE_MASK: `number`
+ STENCIL_BACK_VALUE_MASK: `GLenum`
 
- STENCIL_BACK_WRITEMASK: `number`
+ STENCIL_BACK_WRITEMASK: `GLenum`
 
- STENCIL_BITS: `number`
+ STENCIL_BITS: `GLenum`
 
- STENCIL_BUFFER_BIT: `number`
+ STENCIL_BUFFER_BIT: `GLenum`
 
- STENCIL_CLEAR_VALUE: `number`
+ STENCIL_CLEAR_VALUE: `GLenum`
 
- STENCIL_FAIL: `number`
+ STENCIL_FAIL: `GLenum`
 
- STENCIL_FUNC: `number`
+ STENCIL_FUNC: `GLenum`
 
- STENCIL_INDEX: `number`
+ STENCIL_INDEX8: `GLenum`
 
- STENCIL_INDEX8: `number`
+ STENCIL_PASS_DEPTH_FAIL: `GLenum`
 
- STENCIL_PASS_DEPTH_FAIL: `number`
+ STENCIL_PASS_DEPTH_PASS: `GLenum`
 
- STENCIL_PASS_DEPTH_PASS: `number`
+ STENCIL_REF: `GLenum`
 
- STENCIL_REF: `number`
+ STENCIL_TEST: `GLenum`
 
- STENCIL_TEST: `number`
+ STENCIL_VALUE_MASK: `GLenum`
 
- STENCIL_VALUE_MASK: `number`
+ STENCIL_WRITEMASK: `GLenum`
 
- STENCIL_WRITEMASK: `number`
+ STREAM_DRAW: `GLenum`
 
- STREAM_DRAW: `number`
+ SUBPIXEL_BITS: `GLenum`
 
- SUBPIXEL_BITS: `number`
+ TEXTURE: `GLenum`
 
- TEXTURE: `number`
+ TEXTURE0: `GLenum`
 
- TEXTURE0: `number`
+ TEXTURE1: `GLenum`
 
- TEXTURE1: `number`
+ TEXTURE10: `GLenum`
 
- TEXTURE10: `number`
+ TEXTURE11: `GLenum`
 
- TEXTURE11: `number`
+ TEXTURE12: `GLenum`
 
- TEXTURE12: `number`
+ TEXTURE13: `GLenum`
 
- TEXTURE13: `number`
+ TEXTURE14: `GLenum`
 
- TEXTURE14: `number`
+ TEXTURE15: `GLenum`
 
- TEXTURE15: `number`
+ TEXTURE16: `GLenum`
 
- TEXTURE16: `number`
+ TEXTURE17: `GLenum`
 
- TEXTURE17: `number`
+ TEXTURE18: `GLenum`
 
- TEXTURE18: `number`
+ TEXTURE19: `GLenum`
 
- TEXTURE19: `number`
+ TEXTURE2: `GLenum`
 
- TEXTURE2: `number`
+ TEXTURE20: `GLenum`
 
- TEXTURE20: `number`
+ TEXTURE21: `GLenum`
 
- TEXTURE21: `number`
+ TEXTURE22: `GLenum`
 
- TEXTURE22: `number`
+ TEXTURE23: `GLenum`
 
- TEXTURE23: `number`
+ TEXTURE24: `GLenum`
 
- TEXTURE24: `number`
+ TEXTURE25: `GLenum`
 
- TEXTURE25: `number`
+ TEXTURE26: `GLenum`
 
- TEXTURE26: `number`
+ TEXTURE27: `GLenum`
 
- TEXTURE27: `number`
+ TEXTURE28: `GLenum`
 
- TEXTURE28: `number`
+ TEXTURE29: `GLenum`
 
- TEXTURE29: `number`
+ TEXTURE3: `GLenum`
 
- TEXTURE3: `number`
+ TEXTURE30: `GLenum`
 
- TEXTURE30: `number`
+ TEXTURE31: `GLenum`
 
- TEXTURE31: `number`
+ TEXTURE4: `GLenum`
 
- TEXTURE4: `number`
+ TEXTURE5: `GLenum`
 
- TEXTURE5: `number`
+ TEXTURE6: `GLenum`
 
- TEXTURE6: `number`
+ TEXTURE7: `GLenum`
 
- TEXTURE7: `number`
+ TEXTURE8: `GLenum`
 
- TEXTURE8: `number`
+ TEXTURE9: `GLenum`
 
- TEXTURE9: `number`
+ TEXTURE_2D: `GLenum`
 
- TEXTURE_2D: `number`
+ TEXTURE_BINDING_2D: `GLenum`
 
- TEXTURE_BINDING_2D: `number`
+ TEXTURE_BINDING_CUBE_MAP: `GLenum`
 
- TEXTURE_BINDING_CUBE_MAP: `number`
+ TEXTURE_CUBE_MAP: `GLenum`
 
- TEXTURE_CUBE_MAP: `number`
+ TEXTURE_CUBE_MAP_NEGATIVE_X: `GLenum`
 
- TEXTURE_CUBE_MAP_NEGATIVE_X: `number`
+ TEXTURE_CUBE_MAP_NEGATIVE_Y: `GLenum`
 
- TEXTURE_CUBE_MAP_NEGATIVE_Y: `number`
+ TEXTURE_CUBE_MAP_NEGATIVE_Z: `GLenum`
 
- TEXTURE_CUBE_MAP_NEGATIVE_Z: `number`
+ TEXTURE_CUBE_MAP_POSITIVE_X: `GLenum`
 
- TEXTURE_CUBE_MAP_POSITIVE_X: `number`
+ TEXTURE_CUBE_MAP_POSITIVE_Y: `GLenum`
 
- TEXTURE_CUBE_MAP_POSITIVE_Y: `number`
+ TEXTURE_CUBE_MAP_POSITIVE_Z: `GLenum`
 
- TEXTURE_CUBE_MAP_POSITIVE_Z: `number`
+ TEXTURE_MAG_FILTER: `GLenum`
 
- TEXTURE_MAG_FILTER: `number`
+ TEXTURE_MIN_FILTER: `GLenum`
 
- TEXTURE_MIN_FILTER: `number`
+ TEXTURE_WRAP_S: `GLenum`
 
- TEXTURE_WRAP_S: `number`
+ TEXTURE_WRAP_T: `GLenum`
 
- TEXTURE_WRAP_T: `number`
+ TRIANGLES: `GLenum`
 
- TRIANGLES: `number`
+ TRIANGLE_FAN: `GLenum`
 
- TRIANGLE_FAN: `number`
+ TRIANGLE_STRIP: `GLenum`
 
- TRIANGLE_STRIP: `number`
+ UNPACK_ALIGNMENT: `GLenum`
 
- UNPACK_ALIGNMENT: `number`
+ UNPACK_COLORSPACE_CONVERSION_WEBGL: `GLenum`
 
- UNPACK_COLORSPACE_CONVERSION_WEBGL: `number`
+ UNPACK_FLIP_Y_WEBGL: `GLenum`
 
- UNPACK_FLIP_Y_WEBGL: `number`
+ UNPACK_PREMULTIPLY_ALPHA_WEBGL: `GLenum`
 
- UNPACK_PREMULTIPLY_ALPHA_WEBGL: `number`
+ UNSIGNED_BYTE: `GLenum`
 
- UNSIGNED_BYTE: `number`
+ UNSIGNED_INT: `GLenum`
 
- UNSIGNED_INT: `number`
+ UNSIGNED_SHORT: `GLenum`
 
- UNSIGNED_SHORT: `number`
+ UNSIGNED_SHORT_4_4_4_4: `GLenum`
 
- UNSIGNED_SHORT_4_4_4_4: `number`
+ UNSIGNED_SHORT_5_5_5_1: `GLenum`
 
- UNSIGNED_SHORT_5_5_5_1: `number`
+ UNSIGNED_SHORT_5_6_5: `GLenum`
 
- UNSIGNED_SHORT_5_6_5: `number`
+ VALIDATE_STATUS: `GLenum`
 
- VALIDATE_STATUS: `number`
+ VENDOR: `GLenum`
 
- VENDOR: `number`
+ VERSION: `GLenum`
 
- VERSION: `number`
+ VERTEX_ATTRIB_ARRAY_BUFFER_BINDING: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_BUFFER_BINDING: `number`
+ VERTEX_ATTRIB_ARRAY_ENABLED: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_ENABLED: `number`
+ VERTEX_ATTRIB_ARRAY_NORMALIZED: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_NORMALIZED: `number`
+ VERTEX_ATTRIB_ARRAY_POINTER: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_POINTER: `number`
+ VERTEX_ATTRIB_ARRAY_SIZE: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_SIZE: `number`
+ VERTEX_ATTRIB_ARRAY_STRIDE: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_STRIDE: `number`
+ VERTEX_ATTRIB_ARRAY_TYPE: `GLenum`
 
- VERTEX_ATTRIB_ARRAY_TYPE: `number`
+ VERTEX_SHADER: `GLenum`
 
- VERTEX_SHADER: `number`
+ VIEWPORT: `GLenum`
 
- VIEWPORT: `number`
-
- ZERO: `number`
+ ZERO: `GLenum`
 
  prototype: `WebGLRenderingContext`
 
@@ -4358,11 +4344,11 @@ ___
 
 ###  ZERO
 
-**● ZERO**: *`number`*
+**● ZERO**: *`GLenum`*
 
-*Inherited from WebGLRenderingContext.ZERO*
+*Inherited from WebGLRenderingContextBase.ZERO*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15489*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:16104*
 
 ___
 <a id="canvas"></a>
@@ -4371,31 +4357,31 @@ ___
 
 **● canvas**: *`HTMLCanvasElement`*
 
-*Inherited from WebGLRenderingContext.canvas*
+*Inherited from WebGLRenderingContextBase.canvas*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15030*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15645*
 
 ___
 <a id="drawingbufferheight"></a>
 
 ###  drawingBufferHeight
 
-**● drawingBufferHeight**: *`number`*
+**● drawingBufferHeight**: *`GLsizei`*
 
-*Inherited from WebGLRenderingContext.drawingBufferHeight*
+*Inherited from WebGLRenderingContextBase.drawingBufferHeight*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15031*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15646*
 
 ___
 <a id="drawingbufferwidth"></a>
 
 ###  drawingBufferWidth
 
-**● drawingBufferWidth**: *`number`*
+**● drawingBufferWidth**: *`GLsizei`*
 
-*Inherited from WebGLRenderingContext.drawingBufferWidth*
+*Inherited from WebGLRenderingContextBase.drawingBufferWidth*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15032*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15647*
 
 ___
 
@@ -4405,17 +4391,17 @@ ___
 
 ###  activeTexture
 
-▸ **activeTexture**(texture: *`number`*): `void`
+▸ **activeTexture**(texture: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.activeTexture*
+*Inherited from WebGLRenderingContextBase.activeTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15033*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15648*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| texture | `number` |
+| texture | `GLenum` |
 
 **Returns:** `void`
 
@@ -4424,18 +4410,18 @@ ___
 
 ###  attachShader
 
-▸ **attachShader**(program: * `WebGLProgram` &#124; `null`*, shader: * `WebGLShader` &#124; `null`*): `void`
+▸ **attachShader**(program: *`WebGLProgram`*, shader: *`WebGLShader`*): `void`
 
-*Inherited from WebGLRenderingContext.attachShader*
+*Inherited from WebGLRenderingContextBase.attachShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15034*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15649*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| shader |  `WebGLShader` &#124; `null`|
+| program | `WebGLProgram` |
+| shader | `WebGLShader` |
 
 **Returns:** `void`
 
@@ -4444,18 +4430,18 @@ ___
 
 ###  bindAttribLocation
 
-▸ **bindAttribLocation**(program: * `WebGLProgram` &#124; `null`*, index: *`number`*, name: *`string`*): `void`
+▸ **bindAttribLocation**(program: *`WebGLProgram`*, index: *`GLuint`*, name: *`string`*): `void`
 
-*Inherited from WebGLRenderingContext.bindAttribLocation*
+*Inherited from WebGLRenderingContextBase.bindAttribLocation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15035*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15650*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| index | `number` |
+| program | `WebGLProgram` |
+| index | `GLuint` |
 | name | `string` |
 
 **Returns:** `void`
@@ -4465,17 +4451,17 @@ ___
 
 ###  bindBuffer
 
-▸ **bindBuffer**(target: *`number`*, buffer: * `WebGLBuffer` &#124; `null`*): `void`
+▸ **bindBuffer**(target: *`GLenum`*, buffer: * `WebGLBuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.bindBuffer*
+*Inherited from WebGLRenderingContextBase.bindBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15036*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15651*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
+| target | `GLenum` |
 | buffer |  `WebGLBuffer` &#124; `null`|
 
 **Returns:** `void`
@@ -4485,17 +4471,17 @@ ___
 
 ###  bindFramebuffer
 
-▸ **bindFramebuffer**(target: *`number`*, framebuffer: * `WebGLFramebuffer` &#124; `null`*): `void`
+▸ **bindFramebuffer**(target: *`GLenum`*, framebuffer: * `WebGLFramebuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.bindFramebuffer*
+*Inherited from WebGLRenderingContextBase.bindFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15037*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15652*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
+| target | `GLenum` |
 | framebuffer |  `WebGLFramebuffer` &#124; `null`|
 
 **Returns:** `void`
@@ -4505,17 +4491,17 @@ ___
 
 ###  bindRenderbuffer
 
-▸ **bindRenderbuffer**(target: *`number`*, renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
+▸ **bindRenderbuffer**(target: *`GLenum`*, renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.bindRenderbuffer*
+*Inherited from WebGLRenderingContextBase.bindRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15038*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15653*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
+| target | `GLenum` |
 | renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
 **Returns:** `void`
@@ -4525,17 +4511,17 @@ ___
 
 ###  bindTexture
 
-▸ **bindTexture**(target: *`number`*, texture: * `WebGLTexture` &#124; `null`*): `void`
+▸ **bindTexture**(target: *`GLenum`*, texture: * `WebGLTexture` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.bindTexture*
+*Inherited from WebGLRenderingContextBase.bindTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15039*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15654*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
+| target | `GLenum` |
 | texture |  `WebGLTexture` &#124; `null`|
 
 **Returns:** `void`
@@ -4551,7 +4537,7 @@ ___
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | vertexAray | [WebGLVertexArrayObject](webglvertexarrayobject.md) |
 
@@ -4562,20 +4548,20 @@ ___
 
 ###  blendColor
 
-▸ **blendColor**(red: *`number`*, green: *`number`*, blue: *`number`*, alpha: *`number`*): `void`
+▸ **blendColor**(red: *`GLclampf`*, green: *`GLclampf`*, blue: *`GLclampf`*, alpha: *`GLclampf`*): `void`
 
-*Inherited from WebGLRenderingContext.blendColor*
+*Inherited from WebGLRenderingContextBase.blendColor*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15040*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15655*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| red | `number` |
-| green | `number` |
-| blue | `number` |
-| alpha | `number` |
+| red | `GLclampf` |
+| green | `GLclampf` |
+| blue | `GLclampf` |
+| alpha | `GLclampf` |
 
 **Returns:** `void`
 
@@ -4584,17 +4570,17 @@ ___
 
 ###  blendEquation
 
-▸ **blendEquation**(mode: *`number`*): `void`
+▸ **blendEquation**(mode: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.blendEquation*
+*Inherited from WebGLRenderingContextBase.blendEquation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15041*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15656*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mode | `number` |
+| mode | `GLenum` |
 
 **Returns:** `void`
 
@@ -4603,18 +4589,18 @@ ___
 
 ###  blendEquationSeparate
 
-▸ **blendEquationSeparate**(modeRGB: *`number`*, modeAlpha: *`number`*): `void`
+▸ **blendEquationSeparate**(modeRGB: *`GLenum`*, modeAlpha: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.blendEquationSeparate*
+*Inherited from WebGLRenderingContextBase.blendEquationSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15042*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15657*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| modeRGB | `number` |
-| modeAlpha | `number` |
+| modeRGB | `GLenum` |
+| modeAlpha | `GLenum` |
 
 **Returns:** `void`
 
@@ -4623,18 +4609,18 @@ ___
 
 ###  blendFunc
 
-▸ **blendFunc**(sfactor: *`number`*, dfactor: *`number`*): `void`
+▸ **blendFunc**(sfactor: *`GLenum`*, dfactor: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.blendFunc*
+*Inherited from WebGLRenderingContextBase.blendFunc*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15043*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15658*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| sfactor | `number` |
-| dfactor | `number` |
+| sfactor | `GLenum` |
+| dfactor | `GLenum` |
 
 **Returns:** `void`
 
@@ -4643,20 +4629,20 @@ ___
 
 ###  blendFuncSeparate
 
-▸ **blendFuncSeparate**(srcRGB: *`number`*, dstRGB: *`number`*, srcAlpha: *`number`*, dstAlpha: *`number`*): `void`
+▸ **blendFuncSeparate**(srcRGB: *`GLenum`*, dstRGB: *`GLenum`*, srcAlpha: *`GLenum`*, dstAlpha: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.blendFuncSeparate*
+*Inherited from WebGLRenderingContextBase.blendFuncSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15044*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15659*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| srcRGB | `number` |
-| dstRGB | `number` |
-| srcAlpha | `number` |
-| dstAlpha | `number` |
+| srcRGB | `GLenum` |
+| dstRGB | `GLenum` |
+| srcAlpha | `GLenum` |
+| dstAlpha | `GLenum` |
 
 **Returns:** `void`
 
@@ -4665,19 +4651,35 @@ ___
 
 ###  bufferData
 
-▸ **bufferData**(target: *`number`*, size: * `number` &#124; `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `ArrayBuffer` &#124; `null`*, usage: *`number`*): `void`
+▸ **bufferData**(target: *`GLenum`*, size: *`GLsizeiptr`*, usage: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.bufferData*
+▸ **bufferData**(target: *`GLenum`*, data: * `BufferSource` &#124; `null`*, usage: *`GLenum`*): `void`
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15045*
+*Inherited from WebGLRenderingContextBase.bufferData*
+
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15660*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| size |  `number` &#124; `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `ArrayBuffer` &#124; `null`|
-| usage | `number` |
+| target | `GLenum` |
+| size | `GLsizeiptr` |
+| usage | `GLenum` |
+
+**Returns:** `void`
+
+*Inherited from WebGLRenderingContextBase.bufferData*
+
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15661*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| target | `GLenum` |
+| data |  `BufferSource` &#124; `null`|
+| usage | `GLenum` |
 
 **Returns:** `void`
 
@@ -4686,19 +4688,19 @@ ___
 
 ###  bufferSubData
 
-▸ **bufferSubData**(target: *`number`*, offset: *`number`*, data: * `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `ArrayBuffer` &#124; `null`*): `void`
+▸ **bufferSubData**(target: *`GLenum`*, offset: *`GLintptr`*, data: *`BufferSource`*): `void`
 
-*Inherited from WebGLRenderingContext.bufferSubData*
+*Inherited from WebGLRenderingContextBase.bufferSubData*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15046*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15662*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| offset | `number` |
-| data |  `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `ArrayBuffer` &#124; `null`|
+| target | `GLenum` |
+| offset | `GLintptr` |
+| data | `BufferSource` |
 
 **Returns:** `void`
 
@@ -4707,36 +4709,36 @@ ___
 
 ###  checkFramebufferStatus
 
-▸ **checkFramebufferStatus**(target: *`number`*): `number`
+▸ **checkFramebufferStatus**(target: *`GLenum`*): `GLenum`
 
-*Inherited from WebGLRenderingContext.checkFramebufferStatus*
+*Inherited from WebGLRenderingContextBase.checkFramebufferStatus*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15047*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15663*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
+| target | `GLenum` |
 
-**Returns:** `number`
+**Returns:** `GLenum`
 
 ___
 <a id="clear"></a>
 
 ###  clear
 
-▸ **clear**(mask: *`number`*): `void`
+▸ **clear**(mask: *`GLbitfield`*): `void`
 
-*Inherited from WebGLRenderingContext.clear*
+*Inherited from WebGLRenderingContextBase.clear*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15048*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15664*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mask | `number` |
+| mask | `GLbitfield` |
 
 **Returns:** `void`
 
@@ -4745,20 +4747,20 @@ ___
 
 ###  clearColor
 
-▸ **clearColor**(red: *`number`*, green: *`number`*, blue: *`number`*, alpha: *`number`*): `void`
+▸ **clearColor**(red: *`GLclampf`*, green: *`GLclampf`*, blue: *`GLclampf`*, alpha: *`GLclampf`*): `void`
 
-*Inherited from WebGLRenderingContext.clearColor*
+*Inherited from WebGLRenderingContextBase.clearColor*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15049*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15665*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| red | `number` |
-| green | `number` |
-| blue | `number` |
-| alpha | `number` |
+| red | `GLclampf` |
+| green | `GLclampf` |
+| blue | `GLclampf` |
+| alpha | `GLclampf` |
 
 **Returns:** `void`
 
@@ -4767,17 +4769,17 @@ ___
 
 ###  clearDepth
 
-▸ **clearDepth**(depth: *`number`*): `void`
+▸ **clearDepth**(depth: *`GLclampf`*): `void`
 
-*Inherited from WebGLRenderingContext.clearDepth*
+*Inherited from WebGLRenderingContextBase.clearDepth*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15050*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15666*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| depth | `number` |
+| depth | `GLclampf` |
 
 **Returns:** `void`
 
@@ -4786,17 +4788,17 @@ ___
 
 ###  clearStencil
 
-▸ **clearStencil**(s: *`number`*): `void`
+▸ **clearStencil**(s: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.clearStencil*
+*Inherited from WebGLRenderingContextBase.clearStencil*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15051*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15667*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| s | `number` |
+| s | `GLint` |
 
 **Returns:** `void`
 
@@ -4805,20 +4807,20 @@ ___
 
 ###  colorMask
 
-▸ **colorMask**(red: *`boolean`*, green: *`boolean`*, blue: *`boolean`*, alpha: *`boolean`*): `void`
+▸ **colorMask**(red: *`GLboolean`*, green: *`GLboolean`*, blue: *`GLboolean`*, alpha: *`GLboolean`*): `void`
 
-*Inherited from WebGLRenderingContext.colorMask*
+*Inherited from WebGLRenderingContextBase.colorMask*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15052*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15668*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| red | `boolean` |
-| green | `boolean` |
-| blue | `boolean` |
-| alpha | `boolean` |
+| red | `GLboolean` |
+| green | `GLboolean` |
+| blue | `GLboolean` |
+| alpha | `GLboolean` |
 
 **Returns:** `void`
 
@@ -4827,17 +4829,17 @@ ___
 
 ###  compileShader
 
-▸ **compileShader**(shader: * `WebGLShader` &#124; `null`*): `void`
+▸ **compileShader**(shader: *`WebGLShader`*): `void`
 
-*Inherited from WebGLRenderingContext.compileShader*
+*Inherited from WebGLRenderingContextBase.compileShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15053*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15669*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| shader |  `WebGLShader` &#124; `null`|
+| shader | `WebGLShader` |
 
 **Returns:** `void`
 
@@ -4846,23 +4848,23 @@ ___
 
 ###  compressedTexImage2D
 
-▸ **compressedTexImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, width: *`number`*, height: *`number`*, border: *`number`*, data: * `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `null`*): `void`
+▸ **compressedTexImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLenum`*, width: *`GLsizei`*, height: *`GLsizei`*, border: *`GLint`*, data: *`ArrayBufferView`*): `void`
 
-*Inherited from WebGLRenderingContext.compressedTexImage2D*
+*Inherited from WebGLRenderingContextBase.compressedTexImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15054*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15670*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| internalformat | `number` |
-| width | `number` |
-| height | `number` |
-| border | `number` |
-| data |  `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `null`|
+| target | `GLenum` |
+| level | `GLint` |
+| internalformat | `GLenum` |
+| width | `GLsizei` |
+| height | `GLsizei` |
+| border | `GLint` |
+| data | `ArrayBufferView` |
 
 **Returns:** `void`
 
@@ -4871,24 +4873,24 @@ ___
 
 ###  compressedTexSubImage2D
 
-▸ **compressedTexSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, data: * `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `null`*): `void`
+▸ **compressedTexSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, data: *`ArrayBufferView`*): `void`
 
-*Inherited from WebGLRenderingContext.compressedTexSubImage2D*
+*Inherited from WebGLRenderingContextBase.compressedTexSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15055*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15671*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| xoffset | `number` |
-| yoffset | `number` |
-| width | `number` |
-| height | `number` |
-| format | `number` |
-| data |  `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `null`|
+| target | `GLenum` |
+| level | `GLint` |
+| xoffset | `GLint` |
+| yoffset | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
+| format | `GLenum` |
+| data | `ArrayBufferView` |
 
 **Returns:** `void`
 
@@ -4897,24 +4899,24 @@ ___
 
 ###  copyTexImage2D
 
-▸ **copyTexImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*, border: *`number`*): `void`
+▸ **copyTexImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLenum`*, x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, border: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.copyTexImage2D*
+*Inherited from WebGLRenderingContextBase.copyTexImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15056*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15672*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| internalformat | `number` |
-| x | `number` |
-| y | `number` |
-| width | `number` |
-| height | `number` |
-| border | `number` |
+| target | `GLenum` |
+| level | `GLint` |
+| internalformat | `GLenum` |
+| x | `GLint` |
+| y | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
+| border | `GLint` |
 
 **Returns:** `void`
 
@@ -4923,24 +4925,24 @@ ___
 
 ###  copyTexSubImage2D
 
-▸ **copyTexSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*): `void`
+▸ **copyTexSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*): `void`
 
-*Inherited from WebGLRenderingContext.copyTexSubImage2D*
+*Inherited from WebGLRenderingContextBase.copyTexSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15057*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15673*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| xoffset | `number` |
-| yoffset | `number` |
-| x | `number` |
-| y | `number` |
-| width | `number` |
-| height | `number` |
+| target | `GLenum` |
+| level | `GLint` |
+| xoffset | `GLint` |
+| yoffset | `GLint` |
+| x | `GLint` |
+| y | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
 
 **Returns:** `void`
 
@@ -4951,9 +4953,9 @@ ___
 
 ▸ **createBuffer**():  `WebGLBuffer` &#124; `null`
 
-*Inherited from WebGLRenderingContext.createBuffer*
+*Inherited from WebGLRenderingContextBase.createBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15058*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15674*
 
 **Returns:**  `WebGLBuffer` &#124; `null`
 
@@ -4964,9 +4966,9 @@ ___
 
 ▸ **createFramebuffer**():  `WebGLFramebuffer` &#124; `null`
 
-*Inherited from WebGLRenderingContext.createFramebuffer*
+*Inherited from WebGLRenderingContextBase.createFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15059*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15675*
 
 **Returns:**  `WebGLFramebuffer` &#124; `null`
 
@@ -4977,9 +4979,9 @@ ___
 
 ▸ **createProgram**():  `WebGLProgram` &#124; `null`
 
-*Inherited from WebGLRenderingContext.createProgram*
+*Inherited from WebGLRenderingContextBase.createProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15060*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15676*
 
 **Returns:**  `WebGLProgram` &#124; `null`
 
@@ -4990,9 +4992,9 @@ ___
 
 ▸ **createRenderbuffer**():  `WebGLRenderbuffer` &#124; `null`
 
-*Inherited from WebGLRenderingContext.createRenderbuffer*
+*Inherited from WebGLRenderingContextBase.createRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15061*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15677*
 
 **Returns:**  `WebGLRenderbuffer` &#124; `null`
 
@@ -5001,17 +5003,17 @@ ___
 
 ###  createShader
 
-▸ **createShader**(type: *`number`*):  `WebGLShader` &#124; `null`
+▸ **createShader**(type: *`GLenum`*):  `WebGLShader` &#124; `null`
 
-*Inherited from WebGLRenderingContext.createShader*
+*Inherited from WebGLRenderingContextBase.createShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15062*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15678*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| type | `number` |
+| type | `GLenum` |
 
 **Returns:**  `WebGLShader` &#124; `null`
 
@@ -5022,9 +5024,9 @@ ___
 
 ▸ **createTexture**():  `WebGLTexture` &#124; `null`
 
-*Inherited from WebGLRenderingContext.createTexture*
+*Inherited from WebGLRenderingContextBase.createTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15063*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15679*
 
 **Returns:**  `WebGLTexture` &#124; `null`
 
@@ -5044,17 +5046,17 @@ ___
 
 ###  cullFace
 
-▸ **cullFace**(mode: *`number`*): `void`
+▸ **cullFace**(mode: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.cullFace*
+*Inherited from WebGLRenderingContextBase.cullFace*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15064*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15680*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mode | `number` |
+| mode | `GLenum` |
 
 **Returns:** `void`
 
@@ -5065,13 +5067,13 @@ ___
 
 ▸ **deleteBuffer**(buffer: * `WebGLBuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.deleteBuffer*
+*Inherited from WebGLRenderingContextBase.deleteBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15065*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15681*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | buffer |  `WebGLBuffer` &#124; `null`|
 
@@ -5084,13 +5086,13 @@ ___
 
 ▸ **deleteFramebuffer**(framebuffer: * `WebGLFramebuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.deleteFramebuffer*
+*Inherited from WebGLRenderingContextBase.deleteFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15066*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15682*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | framebuffer |  `WebGLFramebuffer` &#124; `null`|
 
@@ -5103,13 +5105,13 @@ ___
 
 ▸ **deleteProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.deleteProgram*
+*Inherited from WebGLRenderingContextBase.deleteProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15067*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15683*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | program |  `WebGLProgram` &#124; `null`|
 
@@ -5122,13 +5124,13 @@ ___
 
 ▸ **deleteRenderbuffer**(renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.deleteRenderbuffer*
+*Inherited from WebGLRenderingContextBase.deleteRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15068*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15684*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
@@ -5141,13 +5143,13 @@ ___
 
 ▸ **deleteShader**(shader: * `WebGLShader` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.deleteShader*
+*Inherited from WebGLRenderingContextBase.deleteShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15069*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15685*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | shader |  `WebGLShader` &#124; `null`|
 
@@ -5160,13 +5162,13 @@ ___
 
 ▸ **deleteTexture**(texture: * `WebGLTexture` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.deleteTexture*
+*Inherited from WebGLRenderingContextBase.deleteTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15070*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15686*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | texture |  `WebGLTexture` &#124; `null`|
 
@@ -5183,7 +5185,7 @@ ___
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | vertexArray | [WebGLVertexArrayObject](webglvertexarrayobject.md) |
 
@@ -5194,17 +5196,17 @@ ___
 
 ###  depthFunc
 
-▸ **depthFunc**(func: *`number`*): `void`
+▸ **depthFunc**(func: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.depthFunc*
+*Inherited from WebGLRenderingContextBase.depthFunc*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15071*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15687*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| func | `number` |
+| func | `GLenum` |
 
 **Returns:** `void`
 
@@ -5213,17 +5215,17 @@ ___
 
 ###  depthMask
 
-▸ **depthMask**(flag: *`boolean`*): `void`
+▸ **depthMask**(flag: *`GLboolean`*): `void`
 
-*Inherited from WebGLRenderingContext.depthMask*
+*Inherited from WebGLRenderingContextBase.depthMask*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15072*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15688*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| flag | `boolean` |
+| flag | `GLboolean` |
 
 **Returns:** `void`
 
@@ -5232,18 +5234,18 @@ ___
 
 ###  depthRange
 
-▸ **depthRange**(zNear: *`number`*, zFar: *`number`*): `void`
+▸ **depthRange**(zNear: *`GLclampf`*, zFar: *`GLclampf`*): `void`
 
-*Inherited from WebGLRenderingContext.depthRange*
+*Inherited from WebGLRenderingContextBase.depthRange*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15073*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15689*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| zNear | `number` |
-| zFar | `number` |
+| zNear | `GLclampf` |
+| zFar | `GLclampf` |
 
 **Returns:** `void`
 
@@ -5252,18 +5254,18 @@ ___
 
 ###  detachShader
 
-▸ **detachShader**(program: * `WebGLProgram` &#124; `null`*, shader: * `WebGLShader` &#124; `null`*): `void`
+▸ **detachShader**(program: *`WebGLProgram`*, shader: *`WebGLShader`*): `void`
 
-*Inherited from WebGLRenderingContext.detachShader*
+*Inherited from WebGLRenderingContextBase.detachShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15074*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15690*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| shader |  `WebGLShader` &#124; `null`|
+| program | `WebGLProgram` |
+| shader | `WebGLShader` |
 
 **Returns:** `void`
 
@@ -5272,17 +5274,17 @@ ___
 
 ###  disable
 
-▸ **disable**(cap: *`number`*): `void`
+▸ **disable**(cap: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.disable*
+*Inherited from WebGLRenderingContextBase.disable*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15075*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15691*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| cap | `number` |
+| cap | `GLenum` |
 
 **Returns:** `void`
 
@@ -5291,17 +5293,17 @@ ___
 
 ###  disableVertexAttribArray
 
-▸ **disableVertexAttribArray**(index: *`number`*): `void`
+▸ **disableVertexAttribArray**(index: *`GLuint`*): `void`
 
-*Inherited from WebGLRenderingContext.disableVertexAttribArray*
+*Inherited from WebGLRenderingContextBase.disableVertexAttribArray*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15076*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15692*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| index | `number` |
+| index | `GLuint` |
 
 **Returns:** `void`
 
@@ -5310,19 +5312,19 @@ ___
 
 ###  drawArrays
 
-▸ **drawArrays**(mode: *`number`*, first: *`number`*, count: *`number`*): `void`
+▸ **drawArrays**(mode: *`GLenum`*, first: *`GLint`*, count: *`GLsizei`*): `void`
 
-*Inherited from WebGLRenderingContext.drawArrays*
+*Inherited from WebGLRenderingContextBase.drawArrays*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15077*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15693*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mode | `number` |
-| first | `number` |
-| count | `number` |
+| mode | `GLenum` |
+| first | `GLint` |
+| count | `GLsizei` |
 
 **Returns:** `void`
 
@@ -5331,20 +5333,20 @@ ___
 
 ###  drawElements
 
-▸ **drawElements**(mode: *`number`*, count: *`number`*, type: *`number`*, offset: *`number`*): `void`
+▸ **drawElements**(mode: *`GLenum`*, count: *`GLsizei`*, type: *`GLenum`*, offset: *`GLintptr`*): `void`
 
-*Inherited from WebGLRenderingContext.drawElements*
+*Inherited from WebGLRenderingContextBase.drawElements*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15078*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15694*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mode | `number` |
-| count | `number` |
-| type | `number` |
-| offset | `number` |
+| mode | `GLenum` |
+| count | `GLsizei` |
+| type | `GLenum` |
+| offset | `GLintptr` |
 
 **Returns:** `void`
 
@@ -5353,17 +5355,17 @@ ___
 
 ###  enable
 
-▸ **enable**(cap: *`number`*): `void`
+▸ **enable**(cap: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.enable*
+*Inherited from WebGLRenderingContextBase.enable*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15079*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15695*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| cap | `number` |
+| cap | `GLenum` |
 
 **Returns:** `void`
 
@@ -5372,17 +5374,17 @@ ___
 
 ###  enableVertexAttribArray
 
-▸ **enableVertexAttribArray**(index: *`number`*): `void`
+▸ **enableVertexAttribArray**(index: *`GLuint`*): `void`
 
-*Inherited from WebGLRenderingContext.enableVertexAttribArray*
+*Inherited from WebGLRenderingContextBase.enableVertexAttribArray*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15080*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15696*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| index | `number` |
+| index | `GLuint` |
 
 **Returns:** `void`
 
@@ -5393,9 +5395,9 @@ ___
 
 ▸ **finish**(): `void`
 
-*Inherited from WebGLRenderingContext.finish*
+*Inherited from WebGLRenderingContextBase.finish*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15081*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15697*
 
 **Returns:** `void`
 
@@ -5406,9 +5408,9 @@ ___
 
 ▸ **flush**(): `void`
 
-*Inherited from WebGLRenderingContext.flush*
+*Inherited from WebGLRenderingContextBase.flush*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15082*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15698*
 
 **Returns:** `void`
 
@@ -5417,19 +5419,19 @@ ___
 
 ###  framebufferRenderbuffer
 
-▸ **framebufferRenderbuffer**(target: *`number`*, attachment: *`number`*, renderbuffertarget: *`number`*, renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
+▸ **framebufferRenderbuffer**(target: *`GLenum`*, attachment: *`GLenum`*, renderbuffertarget: *`GLenum`*, renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.framebufferRenderbuffer*
+*Inherited from WebGLRenderingContextBase.framebufferRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15083*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15699*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| attachment | `number` |
-| renderbuffertarget | `number` |
+| target | `GLenum` |
+| attachment | `GLenum` |
+| renderbuffertarget | `GLenum` |
 | renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
 **Returns:** `void`
@@ -5439,21 +5441,21 @@ ___
 
 ###  framebufferTexture2D
 
-▸ **framebufferTexture2D**(target: *`number`*, attachment: *`number`*, textarget: *`number`*, texture: * `WebGLTexture` &#124; `null`*, level: *`number`*): `void`
+▸ **framebufferTexture2D**(target: *`GLenum`*, attachment: *`GLenum`*, textarget: *`GLenum`*, texture: * `WebGLTexture` &#124; `null`*, level: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.framebufferTexture2D*
+*Inherited from WebGLRenderingContextBase.framebufferTexture2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15084*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15700*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| attachment | `number` |
-| textarget | `number` |
+| target | `GLenum` |
+| attachment | `GLenum` |
+| textarget | `GLenum` |
 | texture |  `WebGLTexture` &#124; `null`|
-| level | `number` |
+| level | `GLint` |
 
 **Returns:** `void`
 
@@ -5462,17 +5464,17 @@ ___
 
 ###  frontFace
 
-▸ **frontFace**(mode: *`number`*): `void`
+▸ **frontFace**(mode: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.frontFace*
+*Inherited from WebGLRenderingContextBase.frontFace*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15085*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15701*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mode | `number` |
+| mode | `GLenum` |
 
 **Returns:** `void`
 
@@ -5481,17 +5483,17 @@ ___
 
 ###  generateMipmap
 
-▸ **generateMipmap**(target: *`number`*): `void`
+▸ **generateMipmap**(target: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.generateMipmap*
+*Inherited from WebGLRenderingContextBase.generateMipmap*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15086*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15702*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
+| target | `GLenum` |
 
 **Returns:** `void`
 
@@ -5500,18 +5502,18 @@ ___
 
 ###  getActiveAttrib
 
-▸ **getActiveAttrib**(program: * `WebGLProgram` &#124; `null`*, index: *`number`*):  `WebGLActiveInfo` &#124; `null`
+▸ **getActiveAttrib**(program: *`WebGLProgram`*, index: *`GLuint`*):  `WebGLActiveInfo` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getActiveAttrib*
+*Inherited from WebGLRenderingContextBase.getActiveAttrib*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15087*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15703*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| index | `number` |
+| program | `WebGLProgram` |
+| index | `GLuint` |
 
 **Returns:**  `WebGLActiveInfo` &#124; `null`
 
@@ -5520,18 +5522,18 @@ ___
 
 ###  getActiveUniform
 
-▸ **getActiveUniform**(program: * `WebGLProgram` &#124; `null`*, index: *`number`*):  `WebGLActiveInfo` &#124; `null`
+▸ **getActiveUniform**(program: *`WebGLProgram`*, index: *`GLuint`*):  `WebGLActiveInfo` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getActiveUniform*
+*Inherited from WebGLRenderingContextBase.getActiveUniform*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15088*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15704*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| index | `number` |
+| program | `WebGLProgram` |
+| index | `GLuint` |
 
 **Returns:**  `WebGLActiveInfo` &#124; `null`
 
@@ -5540,17 +5542,17 @@ ___
 
 ###  getAttachedShaders
 
-▸ **getAttachedShaders**(program: * `WebGLProgram` &#124; `null`*):  `WebGLShader`[] &#124; `null`
+▸ **getAttachedShaders**(program: *`WebGLProgram`*):  `WebGLShader`[] &#124; `null`
 
-*Inherited from WebGLRenderingContext.getAttachedShaders*
+*Inherited from WebGLRenderingContextBase.getAttachedShaders*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15089*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15705*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
+| program | `WebGLProgram` |
 
 **Returns:**  `WebGLShader`[] &#124; `null`
 
@@ -5559,38 +5561,38 @@ ___
 
 ###  getAttribLocation
 
-▸ **getAttribLocation**(program: * `WebGLProgram` &#124; `null`*, name: *`string`*): `number`
+▸ **getAttribLocation**(program: *`WebGLProgram`*, name: *`string`*): `GLint`
 
-*Inherited from WebGLRenderingContext.getAttribLocation*
+*Inherited from WebGLRenderingContextBase.getAttribLocation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15090*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15706*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
+| program | `WebGLProgram` |
 | name | `string` |
 
-**Returns:** `number`
+**Returns:** `GLint`
 
 ___
 <a id="getbufferparameter"></a>
 
 ###  getBufferParameter
 
-▸ **getBufferParameter**(target: *`number`*, pname: *`number`*): `any`
+▸ **getBufferParameter**(target: *`GLenum`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getBufferParameter*
+*Inherited from WebGLRenderingContextBase.getBufferParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15091*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15707*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| pname | `number` |
+| target | `GLenum` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -5599,26 +5601,26 @@ ___
 
 ###  getContextAttributes
 
-▸ **getContextAttributes**(): `WebGLContextAttributes`
+▸ **getContextAttributes**():  `WebGLContextAttributes` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getContextAttributes*
+*Inherited from WebGLRenderingContextBase.getContextAttributes*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15092*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15708*
 
-**Returns:** `WebGLContextAttributes`
+**Returns:**  `WebGLContextAttributes` &#124; `null`
 
 ___
 <a id="geterror"></a>
 
 ###  getError
 
-▸ **getError**(): `number`
+▸ **getError**(): `GLenum`
 
-*Inherited from WebGLRenderingContext.getError*
+*Inherited from WebGLRenderingContextBase.getError*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15093*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15709*
 
-**Returns:** `number`
+**Returns:** `GLenum`
 
 ___
 <a id="getextension"></a>
@@ -5671,277 +5673,277 @@ ___
 
 ▸ **getExtension**(extensionName: *`string`*): `any`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15094*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15710*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "EXT_blend_minmax" |
 
 **Returns:**  `EXT_blend_minmax` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15095*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15711*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "EXT_texture_filter_anisotropic" |
 
 **Returns:**  `EXT_texture_filter_anisotropic` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15096*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15712*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "EXT_frag_depth" |
 
 **Returns:**  `EXT_frag_depth` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15097*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15713*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "EXT_shader_texture_lod" |
 
 **Returns:**  `EXT_shader_texture_lod` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15098*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15714*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "EXT_sRGB" |
 
 **Returns:**  `EXT_sRGB` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15099*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15715*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_vertex_array_object" |
 
 **Returns:**  `OES_vertex_array_object` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15100*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15716*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_color_buffer_float" |
 
 **Returns:**  `WEBGL_color_buffer_float` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15101*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15717*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_compressed_texture_astc" |
 
 **Returns:**  `WEBGL_compressed_texture_astc` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15102*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15718*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_compressed_texture_s3tc_srgb" |
 
 **Returns:**  `WEBGL_compressed_texture_s3tc_srgb` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15103*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15719*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_debug_shaders" |
 
 **Returns:**  `WEBGL_debug_shaders` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15104*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15720*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_draw_buffers" |
 
 **Returns:**  `WEBGL_draw_buffers` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15105*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15721*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_lose_context" |
 
 **Returns:**  `WEBGL_lose_context` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15106*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15722*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_depth_texture" |
 
 **Returns:**  `WEBGL_depth_texture` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15107*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15723*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_debug_renderer_info" |
 
 **Returns:**  `WEBGL_debug_renderer_info` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15108*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15724*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "WEBGL_compressed_texture_s3tc" |
 
 **Returns:**  `WEBGL_compressed_texture_s3tc` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15109*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15725*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_texture_half_float_linear" |
 
 **Returns:**  `OES_texture_half_float_linear` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15110*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15726*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_texture_half_float" |
 
 **Returns:**  `OES_texture_half_float` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15111*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15727*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_texture_float_linear" |
 
 **Returns:**  `OES_texture_float_linear` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15112*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15728*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_texture_float" |
 
 **Returns:**  `OES_texture_float` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15113*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15729*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_standard_derivatives" |
 
 **Returns:**  `OES_standard_derivatives` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15114*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15730*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "OES_element_index_uint" |
 
 **Returns:**  `OES_element_index_uint` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15115*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15731*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | "ANGLE_instanced_arrays" |
 
 **Returns:**  `ANGLE_instanced_arrays` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getExtension*
+*Inherited from WebGLRenderingContextBase.getExtension*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15116*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15732*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | extensionName | `string` |
 
@@ -5952,19 +5954,19 @@ ___
 
 ###  getFramebufferAttachmentParameter
 
-▸ **getFramebufferAttachmentParameter**(target: *`number`*, attachment: *`number`*, pname: *`number`*): `any`
+▸ **getFramebufferAttachmentParameter**(target: *`GLenum`*, attachment: *`GLenum`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getFramebufferAttachmentParameter*
+*Inherited from WebGLRenderingContextBase.getFramebufferAttachmentParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15117*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15733*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| attachment | `number` |
-| pname | `number` |
+| target | `GLenum` |
+| attachment | `GLenum` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -5973,17 +5975,17 @@ ___
 
 ###  getParameter
 
-▸ **getParameter**(pname: *`number`*): `any`
+▸ **getParameter**(pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getParameter*
+*Inherited from WebGLRenderingContextBase.getParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15118*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15734*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| pname | `number` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -5992,17 +5994,17 @@ ___
 
 ###  getProgramInfoLog
 
-▸ **getProgramInfoLog**(program: * `WebGLProgram` &#124; `null`*):  `string` &#124; `null`
+▸ **getProgramInfoLog**(program: *`WebGLProgram`*):  `string` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getProgramInfoLog*
+*Inherited from WebGLRenderingContextBase.getProgramInfoLog*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15119*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15735*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
+| program | `WebGLProgram` |
 
 **Returns:**  `string` &#124; `null`
 
@@ -6011,18 +6013,18 @@ ___
 
 ###  getProgramParameter
 
-▸ **getProgramParameter**(program: * `WebGLProgram` &#124; `null`*, pname: *`number`*): `any`
+▸ **getProgramParameter**(program: *`WebGLProgram`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getProgramParameter*
+*Inherited from WebGLRenderingContextBase.getProgramParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15120*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15736*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| pname | `number` |
+| program | `WebGLProgram` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -6031,18 +6033,18 @@ ___
 
 ###  getRenderbufferParameter
 
-▸ **getRenderbufferParameter**(target: *`number`*, pname: *`number`*): `any`
+▸ **getRenderbufferParameter**(target: *`GLenum`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getRenderbufferParameter*
+*Inherited from WebGLRenderingContextBase.getRenderbufferParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15121*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15737*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| pname | `number` |
+| target | `GLenum` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -6051,17 +6053,17 @@ ___
 
 ###  getShaderInfoLog
 
-▸ **getShaderInfoLog**(shader: * `WebGLShader` &#124; `null`*):  `string` &#124; `null`
+▸ **getShaderInfoLog**(shader: *`WebGLShader`*):  `string` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getShaderInfoLog*
+*Inherited from WebGLRenderingContextBase.getShaderInfoLog*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15122*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15738*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| shader |  `WebGLShader` &#124; `null`|
+| shader | `WebGLShader` |
 
 **Returns:**  `string` &#124; `null`
 
@@ -6070,18 +6072,18 @@ ___
 
 ###  getShaderParameter
 
-▸ **getShaderParameter**(shader: * `WebGLShader` &#124; `null`*, pname: *`number`*): `any`
+▸ **getShaderParameter**(shader: *`WebGLShader`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getShaderParameter*
+*Inherited from WebGLRenderingContextBase.getShaderParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15123*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15739*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| shader |  `WebGLShader` &#124; `null`|
-| pname | `number` |
+| shader | `WebGLShader` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -6090,18 +6092,18 @@ ___
 
 ###  getShaderPrecisionFormat
 
-▸ **getShaderPrecisionFormat**(shadertype: *`number`*, precisiontype: *`number`*):  `WebGLShaderPrecisionFormat` &#124; `null`
+▸ **getShaderPrecisionFormat**(shadertype: *`GLenum`*, precisiontype: *`GLenum`*):  `WebGLShaderPrecisionFormat` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getShaderPrecisionFormat*
+*Inherited from WebGLRenderingContextBase.getShaderPrecisionFormat*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15124*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15740*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| shadertype | `number` |
-| precisiontype | `number` |
+| shadertype | `GLenum` |
+| precisiontype | `GLenum` |
 
 **Returns:**  `WebGLShaderPrecisionFormat` &#124; `null`
 
@@ -6110,17 +6112,17 @@ ___
 
 ###  getShaderSource
 
-▸ **getShaderSource**(shader: * `WebGLShader` &#124; `null`*):  `string` &#124; `null`
+▸ **getShaderSource**(shader: *`WebGLShader`*):  `string` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getShaderSource*
+*Inherited from WebGLRenderingContextBase.getShaderSource*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15125*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15741*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| shader |  `WebGLShader` &#124; `null`|
+| shader | `WebGLShader` |
 
 **Returns:**  `string` &#124; `null`
 
@@ -6131,9 +6133,9 @@ ___
 
 ▸ **getSupportedExtensions**():  `string`[] &#124; `null`
 
-*Inherited from WebGLRenderingContext.getSupportedExtensions*
+*Inherited from WebGLRenderingContextBase.getSupportedExtensions*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15126*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15742*
 
 **Returns:**  `string`[] &#124; `null`
 
@@ -6142,18 +6144,18 @@ ___
 
 ###  getTexParameter
 
-▸ **getTexParameter**(target: *`number`*, pname: *`number`*): `any`
+▸ **getTexParameter**(target: *`GLenum`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getTexParameter*
+*Inherited from WebGLRenderingContextBase.getTexParameter*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15127*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15743*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| pname | `number` |
+| target | `GLenum` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -6162,18 +6164,18 @@ ___
 
 ###  getUniform
 
-▸ **getUniform**(program: * `WebGLProgram` &#124; `null`*, location: * `WebGLUniformLocation` &#124; `null`*): `any`
+▸ **getUniform**(program: *`WebGLProgram`*, location: *`WebGLUniformLocation`*): `any`
 
-*Inherited from WebGLRenderingContext.getUniform*
+*Inherited from WebGLRenderingContextBase.getUniform*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15128*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15744*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
-| location |  `WebGLUniformLocation` &#124; `null`|
+| program | `WebGLProgram` |
+| location | `WebGLUniformLocation` |
 
 **Returns:** `any`
 
@@ -6182,17 +6184,17 @@ ___
 
 ###  getUniformLocation
 
-▸ **getUniformLocation**(program: * `WebGLProgram` &#124; `null`*, name: *`string`*):  `WebGLUniformLocation` &#124; `null`
+▸ **getUniformLocation**(program: *`WebGLProgram`*, name: *`string`*):  `WebGLUniformLocation` &#124; `null`
 
-*Inherited from WebGLRenderingContext.getUniformLocation*
+*Inherited from WebGLRenderingContextBase.getUniformLocation*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15129*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15745*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
+| program | `WebGLProgram` |
 | name | `string` |
 
 **Returns:**  `WebGLUniformLocation` &#124; `null`
@@ -6202,18 +6204,18 @@ ___
 
 ###  getVertexAttrib
 
-▸ **getVertexAttrib**(index: *`number`*, pname: *`number`*): `any`
+▸ **getVertexAttrib**(index: *`GLuint`*, pname: *`GLenum`*): `any`
 
-*Inherited from WebGLRenderingContext.getVertexAttrib*
+*Inherited from WebGLRenderingContextBase.getVertexAttrib*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15130*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15746*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| index | `number` |
-| pname | `number` |
+| index | `GLuint` |
+| pname | `GLenum` |
 
 **Returns:** `any`
 
@@ -6222,38 +6224,38 @@ ___
 
 ###  getVertexAttribOffset
 
-▸ **getVertexAttribOffset**(index: *`number`*, pname: *`number`*): `number`
+▸ **getVertexAttribOffset**(index: *`GLuint`*, pname: *`GLenum`*): `GLintptr`
 
-*Inherited from WebGLRenderingContext.getVertexAttribOffset*
+*Inherited from WebGLRenderingContextBase.getVertexAttribOffset*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15131*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15747*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| index | `number` |
-| pname | `number` |
+| index | `GLuint` |
+| pname | `GLenum` |
 
-**Returns:** `number`
+**Returns:** `GLintptr`
 
 ___
 <a id="hint"></a>
 
 ###  hint
 
-▸ **hint**(target: *`number`*, mode: *`number`*): `void`
+▸ **hint**(target: *`GLenum`*, mode: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.hint*
+*Inherited from WebGLRenderingContextBase.hint*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15132*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15748*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| mode | `number` |
+| target | `GLenum` |
+| mode | `GLenum` |
 
 **Returns:** `void`
 
@@ -6262,19 +6264,19 @@ ___
 
 ###  isBuffer
 
-▸ **isBuffer**(buffer: * `WebGLBuffer` &#124; `null`*): `boolean`
+▸ **isBuffer**(buffer: * `WebGLBuffer` &#124; `null`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isBuffer*
+*Inherited from WebGLRenderingContextBase.isBuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15133*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15749*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | buffer |  `WebGLBuffer` &#124; `null`|
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="iscontextlost"></a>
@@ -6283,9 +6285,9 @@ ___
 
 ▸ **isContextLost**(): `boolean`
 
-*Inherited from WebGLRenderingContext.isContextLost*
+*Inherited from WebGLRenderingContextBase.isContextLost*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15134*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15750*
 
 **Returns:** `boolean`
 
@@ -6294,114 +6296,114 @@ ___
 
 ###  isEnabled
 
-▸ **isEnabled**(cap: *`number`*): `boolean`
+▸ **isEnabled**(cap: *`GLenum`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isEnabled*
+*Inherited from WebGLRenderingContextBase.isEnabled*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15135*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15751*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| cap | `number` |
+| cap | `GLenum` |
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="isframebuffer"></a>
 
 ###  isFramebuffer
 
-▸ **isFramebuffer**(framebuffer: * `WebGLFramebuffer` &#124; `null`*): `boolean`
+▸ **isFramebuffer**(framebuffer: * `WebGLFramebuffer` &#124; `null`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isFramebuffer*
+*Inherited from WebGLRenderingContextBase.isFramebuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15136*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15752*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | framebuffer |  `WebGLFramebuffer` &#124; `null`|
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="isprogram"></a>
 
 ###  isProgram
 
-▸ **isProgram**(program: * `WebGLProgram` &#124; `null`*): `boolean`
+▸ **isProgram**(program: * `WebGLProgram` &#124; `null`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isProgram*
+*Inherited from WebGLRenderingContextBase.isProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15137*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15753*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | program |  `WebGLProgram` &#124; `null`|
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="isrenderbuffer"></a>
 
 ###  isRenderbuffer
 
-▸ **isRenderbuffer**(renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `boolean`
+▸ **isRenderbuffer**(renderbuffer: * `WebGLRenderbuffer` &#124; `null`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isRenderbuffer*
+*Inherited from WebGLRenderingContextBase.isRenderbuffer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15138*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15754*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | renderbuffer |  `WebGLRenderbuffer` &#124; `null`|
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="isshader"></a>
 
 ###  isShader
 
-▸ **isShader**(shader: * `WebGLShader` &#124; `null`*): `boolean`
+▸ **isShader**(shader: * `WebGLShader` &#124; `null`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isShader*
+*Inherited from WebGLRenderingContextBase.isShader*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15139*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15755*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | shader |  `WebGLShader` &#124; `null`|
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="istexture"></a>
 
 ###  isTexture
 
-▸ **isTexture**(texture: * `WebGLTexture` &#124; `null`*): `boolean`
+▸ **isTexture**(texture: * `WebGLTexture` &#124; `null`*): `GLboolean`
 
-*Inherited from WebGLRenderingContext.isTexture*
+*Inherited from WebGLRenderingContextBase.isTexture*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15140*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15756*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | texture |  `WebGLTexture` &#124; `null`|
 
-**Returns:** `boolean`
+**Returns:** `GLboolean`
 
 ___
 <a id="isvertexarray"></a>
@@ -6414,7 +6416,7 @@ ___
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | vertexArray | [WebGLVertexArrayObject](webglvertexarrayobject.md) |
 
@@ -6425,17 +6427,17 @@ ___
 
 ###  lineWidth
 
-▸ **lineWidth**(width: *`number`*): `void`
+▸ **lineWidth**(width: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.lineWidth*
+*Inherited from WebGLRenderingContextBase.lineWidth*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15141*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15757*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| width | `number` |
+| width | `GLfloat` |
 
 **Returns:** `void`
 
@@ -6444,17 +6446,17 @@ ___
 
 ###  linkProgram
 
-▸ **linkProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
+▸ **linkProgram**(program: *`WebGLProgram`*): `void`
 
-*Inherited from WebGLRenderingContext.linkProgram*
+*Inherited from WebGLRenderingContextBase.linkProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15142*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15758*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
+| program | `WebGLProgram` |
 
 **Returns:** `void`
 
@@ -6463,18 +6465,18 @@ ___
 
 ###  pixelStorei
 
-▸ **pixelStorei**(pname: *`number`*, param: * `number` &#124; `boolean`*): `void`
+▸ **pixelStorei**(pname: *`GLenum`*, param: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.pixelStorei*
+*Inherited from WebGLRenderingContextBase.pixelStorei*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15143*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15759*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| pname | `number` |
-| param |  `number` &#124; `boolean`|
+| pname | `GLenum` |
+| param | `GLint` |
 
 **Returns:** `void`
 
@@ -6483,18 +6485,18 @@ ___
 
 ###  polygonOffset
 
-▸ **polygonOffset**(factor: *`number`*, units: *`number`*): `void`
+▸ **polygonOffset**(factor: *`GLfloat`*, units: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.polygonOffset*
+*Inherited from WebGLRenderingContextBase.polygonOffset*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15144*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15760*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| factor | `number` |
-| units | `number` |
+| factor | `GLfloat` |
+| units | `GLfloat` |
 
 **Returns:** `void`
 
@@ -6503,23 +6505,23 @@ ___
 
 ###  readPixels
 
-▸ **readPixels**(x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, type: *`number`*, pixels: * `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `null`*): `void`
+▸ **readPixels**(x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, type: *`GLenum`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.readPixels*
+*Inherited from WebGLRenderingContextBase.readPixels*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15145*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15761*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| x | `number` |
-| y | `number` |
-| width | `number` |
-| height | `number` |
-| format | `number` |
-| type | `number` |
-| pixels |  `Int8Array` &#124; `Int16Array` &#124; `Int32Array` &#124; `Uint8Array` &#124; `Uint16Array` &#124; `Uint32Array` &#124; `Uint8ClampedArray` &#124; `Float32Array` &#124; `Float64Array` &#124; `DataView` &#124; `null`|
+| x | `GLint` |
+| y | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
+| format | `GLenum` |
+| type | `GLenum` |
+| pixels |  `ArrayBufferView` &#124; `null`|
 
 **Returns:** `void`
 
@@ -6528,20 +6530,20 @@ ___
 
 ###  renderbufferStorage
 
-▸ **renderbufferStorage**(target: *`number`*, internalformat: *`number`*, width: *`number`*, height: *`number`*): `void`
+▸ **renderbufferStorage**(target: *`GLenum`*, internalformat: *`GLenum`*, width: *`GLsizei`*, height: *`GLsizei`*): `void`
 
-*Inherited from WebGLRenderingContext.renderbufferStorage*
+*Inherited from WebGLRenderingContextBase.renderbufferStorage*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15146*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15762*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| internalformat | `number` |
-| width | `number` |
-| height | `number` |
+| target | `GLenum` |
+| internalformat | `GLenum` |
+| width | `GLsizei` |
+| height | `GLsizei` |
 
 **Returns:** `void`
 
@@ -6550,18 +6552,18 @@ ___
 
 ###  sampleCoverage
 
-▸ **sampleCoverage**(value: *`number`*, invert: *`boolean`*): `void`
+▸ **sampleCoverage**(value: *`GLclampf`*, invert: *`GLboolean`*): `void`
 
-*Inherited from WebGLRenderingContext.sampleCoverage*
+*Inherited from WebGLRenderingContextBase.sampleCoverage*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15147*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15763*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| value | `number` |
-| invert | `boolean` |
+| value | `GLclampf` |
+| invert | `GLboolean` |
 
 **Returns:** `void`
 
@@ -6570,20 +6572,20 @@ ___
 
 ###  scissor
 
-▸ **scissor**(x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*): `void`
+▸ **scissor**(x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*): `void`
 
-*Inherited from WebGLRenderingContext.scissor*
+*Inherited from WebGLRenderingContextBase.scissor*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15148*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15764*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| x | `number` |
-| y | `number` |
-| width | `number` |
-| height | `number` |
+| x | `GLint` |
+| y | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
 
 **Returns:** `void`
 
@@ -6592,17 +6594,17 @@ ___
 
 ###  shaderSource
 
-▸ **shaderSource**(shader: * `WebGLShader` &#124; `null`*, source: *`string`*): `void`
+▸ **shaderSource**(shader: *`WebGLShader`*, source: *`string`*): `void`
 
-*Inherited from WebGLRenderingContext.shaderSource*
+*Inherited from WebGLRenderingContextBase.shaderSource*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15149*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15765*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| shader |  `WebGLShader` &#124; `null`|
+| shader | `WebGLShader` |
 | source | `string` |
 
 **Returns:** `void`
@@ -6612,19 +6614,19 @@ ___
 
 ###  stencilFunc
 
-▸ **stencilFunc**(func: *`number`*, ref: *`number`*, mask: *`number`*): `void`
+▸ **stencilFunc**(func: *`GLenum`*, ref: *`GLint`*, mask: *`GLuint`*): `void`
 
-*Inherited from WebGLRenderingContext.stencilFunc*
+*Inherited from WebGLRenderingContextBase.stencilFunc*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15150*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15766*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| func | `number` |
-| ref | `number` |
-| mask | `number` |
+| func | `GLenum` |
+| ref | `GLint` |
+| mask | `GLuint` |
 
 **Returns:** `void`
 
@@ -6633,20 +6635,20 @@ ___
 
 ###  stencilFuncSeparate
 
-▸ **stencilFuncSeparate**(face: *`number`*, func: *`number`*, ref: *`number`*, mask: *`number`*): `void`
+▸ **stencilFuncSeparate**(face: *`GLenum`*, func: *`GLenum`*, ref: *`GLint`*, mask: *`GLuint`*): `void`
 
-*Inherited from WebGLRenderingContext.stencilFuncSeparate*
+*Inherited from WebGLRenderingContextBase.stencilFuncSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15151*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15767*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| face | `number` |
-| func | `number` |
-| ref | `number` |
-| mask | `number` |
+| face | `GLenum` |
+| func | `GLenum` |
+| ref | `GLint` |
+| mask | `GLuint` |
 
 **Returns:** `void`
 
@@ -6655,17 +6657,17 @@ ___
 
 ###  stencilMask
 
-▸ **stencilMask**(mask: *`number`*): `void`
+▸ **stencilMask**(mask: *`GLuint`*): `void`
 
-*Inherited from WebGLRenderingContext.stencilMask*
+*Inherited from WebGLRenderingContextBase.stencilMask*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15152*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15768*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| mask | `number` |
+| mask | `GLuint` |
 
 **Returns:** `void`
 
@@ -6674,18 +6676,18 @@ ___
 
 ###  stencilMaskSeparate
 
-▸ **stencilMaskSeparate**(face: *`number`*, mask: *`number`*): `void`
+▸ **stencilMaskSeparate**(face: *`GLenum`*, mask: *`GLuint`*): `void`
 
-*Inherited from WebGLRenderingContext.stencilMaskSeparate*
+*Inherited from WebGLRenderingContextBase.stencilMaskSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15153*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15769*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| face | `number` |
-| mask | `number` |
+| face | `GLenum` |
+| mask | `GLuint` |
 
 **Returns:** `void`
 
@@ -6694,19 +6696,19 @@ ___
 
 ###  stencilOp
 
-▸ **stencilOp**(fail: *`number`*, zfail: *`number`*, zpass: *`number`*): `void`
+▸ **stencilOp**(fail: *`GLenum`*, zfail: *`GLenum`*, zpass: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.stencilOp*
+*Inherited from WebGLRenderingContextBase.stencilOp*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15154*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15770*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| fail | `number` |
-| zfail | `number` |
-| zpass | `number` |
+| fail | `GLenum` |
+| zfail | `GLenum` |
+| zpass | `GLenum` |
 
 **Returns:** `void`
 
@@ -6715,20 +6717,20 @@ ___
 
 ###  stencilOpSeparate
 
-▸ **stencilOpSeparate**(face: *`number`*, fail: *`number`*, zfail: *`number`*, zpass: *`number`*): `void`
+▸ **stencilOpSeparate**(face: *`GLenum`*, fail: *`GLenum`*, zfail: *`GLenum`*, zpass: *`GLenum`*): `void`
 
-*Inherited from WebGLRenderingContext.stencilOpSeparate*
+*Inherited from WebGLRenderingContextBase.stencilOpSeparate*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15155*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15771*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| face | `number` |
-| fail | `number` |
-| zfail | `number` |
-| zpass | `number` |
+| face | `GLenum` |
+| fail | `GLenum` |
+| zfail | `GLenum` |
+| zpass | `GLenum` |
 
 **Returns:** `void`
 
@@ -6737,44 +6739,44 @@ ___
 
 ###  texImage2D
 
-▸ **texImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, width: *`number`*, height: *`number`*, border: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
+▸ **texImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, border: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
 
-▸ **texImage2D**(target: *`number`*, level: *`number`*, internalformat: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`*): `void`
+▸ **texImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, source: *`TexImageSource`*): `void`
 
-*Inherited from WebGLRenderingContext.texImage2D*
+*Inherited from WebGLRenderingContextBase.texImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15156*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15772*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| internalformat | `number` |
-| width | `number` |
-| height | `number` |
-| border | `number` |
-| format | `number` |
-| type | `number` |
+| target | `GLenum` |
+| level | `GLint` |
+| internalformat | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
+| border | `GLint` |
+| format | `GLenum` |
+| type | `GLenum` |
 | pixels |  `ArrayBufferView` &#124; `null`|
 
 **Returns:** `void`
 
-*Inherited from WebGLRenderingContext.texImage2D*
+*Inherited from WebGLRenderingContextBase.texImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15157*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15773*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| internalformat | `number` |
-| format | `number` |
-| type | `number` |
-| pixels |  `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`|
+| target | `GLenum` |
+| level | `GLint` |
+| internalformat | `GLint` |
+| format | `GLenum` |
+| type | `GLenum` |
+| source | `TexImageSource` |
 
 **Returns:** `void`
 
@@ -6783,19 +6785,19 @@ ___
 
 ###  texParameterf
 
-▸ **texParameterf**(target: *`number`*, pname: *`number`*, param: *`number`*): `void`
+▸ **texParameterf**(target: *`GLenum`*, pname: *`GLenum`*, param: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.texParameterf*
+*Inherited from WebGLRenderingContextBase.texParameterf*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15158*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15774*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| pname | `number` |
-| param | `number` |
+| target | `GLenum` |
+| pname | `GLenum` |
+| param | `GLfloat` |
 
 **Returns:** `void`
 
@@ -6804,19 +6806,19 @@ ___
 
 ###  texParameteri
 
-▸ **texParameteri**(target: *`number`*, pname: *`number`*, param: *`number`*): `void`
+▸ **texParameteri**(target: *`GLenum`*, pname: *`GLenum`*, param: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.texParameteri*
+*Inherited from WebGLRenderingContextBase.texParameteri*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15159*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15775*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| pname | `number` |
-| param | `number` |
+| target | `GLenum` |
+| pname | `GLenum` |
+| param | `GLint` |
 
 **Returns:** `void`
 
@@ -6825,45 +6827,45 @@ ___
 
 ###  texSubImage2D
 
-▸ **texSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, width: *`number`*, height: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
+▸ **texSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, type: *`GLenum`*, pixels: * `ArrayBufferView` &#124; `null`*): `void`
 
-▸ **texSubImage2D**(target: *`number`*, level: *`number`*, xoffset: *`number`*, yoffset: *`number`*, format: *`number`*, type: *`number`*, pixels: * `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`*): `void`
+▸ **texSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, source: *`TexImageSource`*): `void`
 
-*Inherited from WebGLRenderingContext.texSubImage2D*
+*Inherited from WebGLRenderingContextBase.texSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15160*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15776*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| xoffset | `number` |
-| yoffset | `number` |
-| width | `number` |
-| height | `number` |
-| format | `number` |
-| type | `number` |
+| target | `GLenum` |
+| level | `GLint` |
+| xoffset | `GLint` |
+| yoffset | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
+| format | `GLenum` |
+| type | `GLenum` |
 | pixels |  `ArrayBufferView` &#124; `null`|
 
 **Returns:** `void`
 
-*Inherited from WebGLRenderingContext.texSubImage2D*
+*Inherited from WebGLRenderingContextBase.texSubImage2D*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15161*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15777*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| target | `number` |
-| level | `number` |
-| xoffset | `number` |
-| yoffset | `number` |
-| format | `number` |
-| type | `number` |
-| pixels |  `ImageBitmap` &#124; `ImageData` &#124; `HTMLVideoElement` &#124; `HTMLImageElement` &#124; `HTMLCanvasElement`|
+| target | `GLenum` |
+| level | `GLint` |
+| xoffset | `GLint` |
+| yoffset | `GLint` |
+| format | `GLenum` |
+| type | `GLenum` |
+| source | `TexImageSource` |
 
 **Returns:** `void`
 
@@ -6872,18 +6874,18 @@ ___
 
 ###  uniform1f
 
-▸ **uniform1f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*): `void`
+▸ **uniform1f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform1f*
+*Inherited from WebGLRenderingContextBase.uniform1f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15162*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15778*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
+| x | `GLfloat` |
 
 **Returns:** `void`
 
@@ -6892,18 +6894,18 @@ ___
 
 ###  uniform1fv
 
-▸ **uniform1fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform1fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform1fv*
+*Inherited from WebGLRenderingContextBase.uniform1fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15163*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15779*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| v | `Float32List` |
 
 **Returns:** `void`
 
@@ -6912,18 +6914,18 @@ ___
 
 ###  uniform1i
 
-▸ **uniform1i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*): `void`
+▸ **uniform1i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform1i*
+*Inherited from WebGLRenderingContextBase.uniform1i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15164*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15780*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
+| x | `GLint` |
 
 **Returns:** `void`
 
@@ -6932,18 +6934,18 @@ ___
 
 ###  uniform1iv
 
-▸ **uniform1iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Int32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform1iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Int32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform1iv*
+*Inherited from WebGLRenderingContextBase.uniform1iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15165*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15781*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Int32Array` &#124; `ArrayLike`<`number`>|
+| v | `Int32List` |
 
 **Returns:** `void`
 
@@ -6952,19 +6954,19 @@ ___
 
 ###  uniform2f
 
-▸ **uniform2f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*): `void`
+▸ **uniform2f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLfloat`*, y: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform2f*
+*Inherited from WebGLRenderingContextBase.uniform2f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15166*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15782*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
-| y | `number` |
+| x | `GLfloat` |
+| y | `GLfloat` |
 
 **Returns:** `void`
 
@@ -6973,18 +6975,18 @@ ___
 
 ###  uniform2fv
 
-▸ **uniform2fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform2fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform2fv*
+*Inherited from WebGLRenderingContextBase.uniform2fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15167*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15783*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| v | `Float32List` |
 
 **Returns:** `void`
 
@@ -6993,19 +6995,19 @@ ___
 
 ###  uniform2i
 
-▸ **uniform2i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*): `void`
+▸ **uniform2i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLint`*, y: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform2i*
+*Inherited from WebGLRenderingContextBase.uniform2i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15168*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15784*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
-| y | `number` |
+| x | `GLint` |
+| y | `GLint` |
 
 **Returns:** `void`
 
@@ -7014,18 +7016,18 @@ ___
 
 ###  uniform2iv
 
-▸ **uniform2iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Int32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform2iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Int32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform2iv*
+*Inherited from WebGLRenderingContextBase.uniform2iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15169*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15785*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Int32Array` &#124; `ArrayLike`<`number`>|
+| v | `Int32List` |
 
 **Returns:** `void`
 
@@ -7034,20 +7036,20 @@ ___
 
 ###  uniform3f
 
-▸ **uniform3f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
+▸ **uniform3f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform3f*
+*Inherited from WebGLRenderingContextBase.uniform3f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15170*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15786*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
-| y | `number` |
-| z | `number` |
+| x | `GLfloat` |
+| y | `GLfloat` |
+| z | `GLfloat` |
 
 **Returns:** `void`
 
@@ -7056,18 +7058,18 @@ ___
 
 ###  uniform3fv
 
-▸ **uniform3fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform3fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform3fv*
+*Inherited from WebGLRenderingContextBase.uniform3fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15171*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15787*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| v | `Float32List` |
 
 **Returns:** `void`
 
@@ -7076,20 +7078,20 @@ ___
 
 ###  uniform3i
 
-▸ **uniform3i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
+▸ **uniform3i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLint`*, y: *`GLint`*, z: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform3i*
+*Inherited from WebGLRenderingContextBase.uniform3i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15172*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15788*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
-| y | `number` |
-| z | `number` |
+| x | `GLint` |
+| y | `GLint` |
+| z | `GLint` |
 
 **Returns:** `void`
 
@@ -7098,18 +7100,18 @@ ___
 
 ###  uniform3iv
 
-▸ **uniform3iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Int32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform3iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Int32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform3iv*
+*Inherited from WebGLRenderingContextBase.uniform3iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15173*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15789*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Int32Array` &#124; `ArrayLike`<`number`>|
+| v | `Int32List` |
 
 **Returns:** `void`
 
@@ -7118,21 +7120,21 @@ ___
 
 ###  uniform4f
 
-▸ **uniform4f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
+▸ **uniform4f**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*, w: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform4f*
+*Inherited from WebGLRenderingContextBase.uniform4f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15174*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15790*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
-| y | `number` |
-| z | `number` |
-| w | `number` |
+| x | `GLfloat` |
+| y | `GLfloat` |
+| z | `GLfloat` |
+| w | `GLfloat` |
 
 **Returns:** `void`
 
@@ -7141,18 +7143,18 @@ ___
 
 ###  uniform4fv
 
-▸ **uniform4fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform4fv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform4fv*
+*Inherited from WebGLRenderingContextBase.uniform4fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15175*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15791*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| v | `Float32List` |
 
 **Returns:** `void`
 
@@ -7161,21 +7163,21 @@ ___
 
 ###  uniform4i
 
-▸ **uniform4i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
+▸ **uniform4i**(location: * `WebGLUniformLocation` &#124; `null`*, x: *`GLint`*, y: *`GLint`*, z: *`GLint`*, w: *`GLint`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform4i*
+*Inherited from WebGLRenderingContextBase.uniform4i*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15176*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15792*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| x | `number` |
-| y | `number` |
-| z | `number` |
-| w | `number` |
+| x | `GLint` |
+| y | `GLint` |
+| z | `GLint` |
+| w | `GLint` |
 
 **Returns:** `void`
 
@@ -7184,18 +7186,18 @@ ___
 
 ###  uniform4iv
 
-▸ **uniform4iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: * `Int32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniform4iv**(location: * `WebGLUniformLocation` &#124; `null`*, v: *`Int32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniform4iv*
+*Inherited from WebGLRenderingContextBase.uniform4iv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15177*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15793*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| v |  `Int32Array` &#124; `ArrayLike`<`number`>|
+| v | `Int32List` |
 
 **Returns:** `void`
 
@@ -7204,19 +7206,19 @@ ___
 
 ###  uniformMatrix2fv
 
-▸ **uniformMatrix2fv**(location: * `WebGLUniformLocation` &#124; `null`*, transpose: *`boolean`*, value: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniformMatrix2fv**(location: * `WebGLUniformLocation` &#124; `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniformMatrix2fv*
+*Inherited from WebGLRenderingContextBase.uniformMatrix2fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15178*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15794*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| transpose | `boolean` |
-| value |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| transpose | `GLboolean` |
+| value | `Float32List` |
 
 **Returns:** `void`
 
@@ -7225,19 +7227,19 @@ ___
 
 ###  uniformMatrix3fv
 
-▸ **uniformMatrix3fv**(location: * `WebGLUniformLocation` &#124; `null`*, transpose: *`boolean`*, value: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniformMatrix3fv**(location: * `WebGLUniformLocation` &#124; `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniformMatrix3fv*
+*Inherited from WebGLRenderingContextBase.uniformMatrix3fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15179*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15795*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| transpose | `boolean` |
-| value |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| transpose | `GLboolean` |
+| value | `Float32List` |
 
 **Returns:** `void`
 
@@ -7246,19 +7248,19 @@ ___
 
 ###  uniformMatrix4fv
 
-▸ **uniformMatrix4fv**(location: * `WebGLUniformLocation` &#124; `null`*, transpose: *`boolean`*, value: * `Float32Array` &#124; `ArrayLike`<`number`>*): `void`
+▸ **uniformMatrix4fv**(location: * `WebGLUniformLocation` &#124; `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.uniformMatrix4fv*
+*Inherited from WebGLRenderingContextBase.uniformMatrix4fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15180*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15796*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | location |  `WebGLUniformLocation` &#124; `null`|
-| transpose | `boolean` |
-| value |  `Float32Array` &#124; `ArrayLike`<`number`>|
+| transpose | `GLboolean` |
+| value | `Float32List` |
 
 **Returns:** `void`
 
@@ -7269,13 +7271,13 @@ ___
 
 ▸ **useProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
 
-*Inherited from WebGLRenderingContext.useProgram*
+*Inherited from WebGLRenderingContextBase.useProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15181*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15797*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | program |  `WebGLProgram` &#124; `null`|
 
@@ -7286,17 +7288,17 @@ ___
 
 ###  validateProgram
 
-▸ **validateProgram**(program: * `WebGLProgram` &#124; `null`*): `void`
+▸ **validateProgram**(program: *`WebGLProgram`*): `void`
 
-*Inherited from WebGLRenderingContext.validateProgram*
+*Inherited from WebGLRenderingContextBase.validateProgram*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15182*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15798*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| program |  `WebGLProgram` &#124; `null`|
+| program | `WebGLProgram` |
 
 **Returns:** `void`
 
@@ -7305,18 +7307,18 @@ ___
 
 ###  vertexAttrib1f
 
-▸ **vertexAttrib1f**(indx: *`number`*, x: *`number`*): `void`
+▸ **vertexAttrib1f**(index: *`GLuint`*, x: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib1f*
+*Inherited from WebGLRenderingContextBase.vertexAttrib1f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15183*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15799*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| x | `number` |
+| index | `GLuint` |
+| x | `GLfloat` |
 
 **Returns:** `void`
 
@@ -7325,18 +7327,18 @@ ___
 
 ###  vertexAttrib1fv
 
-▸ **vertexAttrib1fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
+▸ **vertexAttrib1fv**(index: *`GLuint`*, values: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib1fv*
+*Inherited from WebGLRenderingContextBase.vertexAttrib1fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15184*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15800*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| values |  `Float32Array` &#124; `number`[]|
+| index | `GLuint` |
+| values | `Float32List` |
 
 **Returns:** `void`
 
@@ -7345,19 +7347,19 @@ ___
 
 ###  vertexAttrib2f
 
-▸ **vertexAttrib2f**(indx: *`number`*, x: *`number`*, y: *`number`*): `void`
+▸ **vertexAttrib2f**(index: *`GLuint`*, x: *`GLfloat`*, y: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib2f*
+*Inherited from WebGLRenderingContextBase.vertexAttrib2f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15185*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15801*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| x | `number` |
-| y | `number` |
+| index | `GLuint` |
+| x | `GLfloat` |
+| y | `GLfloat` |
 
 **Returns:** `void`
 
@@ -7366,18 +7368,18 @@ ___
 
 ###  vertexAttrib2fv
 
-▸ **vertexAttrib2fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
+▸ **vertexAttrib2fv**(index: *`GLuint`*, values: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib2fv*
+*Inherited from WebGLRenderingContextBase.vertexAttrib2fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15186*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15802*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| values |  `Float32Array` &#124; `number`[]|
+| index | `GLuint` |
+| values | `Float32List` |
 
 **Returns:** `void`
 
@@ -7386,20 +7388,20 @@ ___
 
 ###  vertexAttrib3f
 
-▸ **vertexAttrib3f**(indx: *`number`*, x: *`number`*, y: *`number`*, z: *`number`*): `void`
+▸ **vertexAttrib3f**(index: *`GLuint`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib3f*
+*Inherited from WebGLRenderingContextBase.vertexAttrib3f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15187*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15803*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| x | `number` |
-| y | `number` |
-| z | `number` |
+| index | `GLuint` |
+| x | `GLfloat` |
+| y | `GLfloat` |
+| z | `GLfloat` |
 
 **Returns:** `void`
 
@@ -7408,18 +7410,18 @@ ___
 
 ###  vertexAttrib3fv
 
-▸ **vertexAttrib3fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
+▸ **vertexAttrib3fv**(index: *`GLuint`*, values: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib3fv*
+*Inherited from WebGLRenderingContextBase.vertexAttrib3fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15188*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15804*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| values |  `Float32Array` &#124; `number`[]|
+| index | `GLuint` |
+| values | `Float32List` |
 
 **Returns:** `void`
 
@@ -7428,21 +7430,21 @@ ___
 
 ###  vertexAttrib4f
 
-▸ **vertexAttrib4f**(indx: *`number`*, x: *`number`*, y: *`number`*, z: *`number`*, w: *`number`*): `void`
+▸ **vertexAttrib4f**(index: *`GLuint`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*, w: *`GLfloat`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib4f*
+*Inherited from WebGLRenderingContextBase.vertexAttrib4f*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15189*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15805*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| x | `number` |
-| y | `number` |
-| z | `number` |
-| w | `number` |
+| index | `GLuint` |
+| x | `GLfloat` |
+| y | `GLfloat` |
+| z | `GLfloat` |
+| w | `GLfloat` |
 
 **Returns:** `void`
 
@@ -7451,18 +7453,18 @@ ___
 
 ###  vertexAttrib4fv
 
-▸ **vertexAttrib4fv**(indx: *`number`*, values: * `Float32Array` &#124; `number`[]*): `void`
+▸ **vertexAttrib4fv**(index: *`GLuint`*, values: *`Float32List`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttrib4fv*
+*Inherited from WebGLRenderingContextBase.vertexAttrib4fv*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15190*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15806*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| values |  `Float32Array` &#124; `number`[]|
+| index | `GLuint` |
+| values | `Float32List` |
 
 **Returns:** `void`
 
@@ -7471,22 +7473,22 @@ ___
 
 ###  vertexAttribPointer
 
-▸ **vertexAttribPointer**(indx: *`number`*, size: *`number`*, type: *`number`*, normalized: *`boolean`*, stride: *`number`*, offset: *`number`*): `void`
+▸ **vertexAttribPointer**(index: *`GLuint`*, size: *`GLint`*, type: *`GLenum`*, normalized: *`GLboolean`*, stride: *`GLsizei`*, offset: *`GLintptr`*): `void`
 
-*Inherited from WebGLRenderingContext.vertexAttribPointer*
+*Inherited from WebGLRenderingContextBase.vertexAttribPointer*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15191*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15807*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| indx | `number` |
-| size | `number` |
-| type | `number` |
-| normalized | `boolean` |
-| stride | `number` |
-| offset | `number` |
+| index | `GLuint` |
+| size | `GLint` |
+| type | `GLenum` |
+| normalized | `GLboolean` |
+| stride | `GLsizei` |
+| offset | `GLintptr` |
 
 **Returns:** `void`
 
@@ -7495,20 +7497,20 @@ ___
 
 ###  viewport
 
-▸ **viewport**(x: *`number`*, y: *`number`*, width: *`number`*, height: *`number`*): `void`
+▸ **viewport**(x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*): `void`
 
-*Inherited from WebGLRenderingContext.viewport*
+*Inherited from WebGLRenderingContextBase.viewport*
 
-*Defined in D:/Workarea/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15192*
+*Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typescript/lib/lib.dom.d.ts:15808*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
-| x | `number` |
-| y | `number` |
-| width | `number` |
-| height | `number` |
+| x | `GLint` |
+| y | `GLint` |
+| width | `GLsizei` |
+| height | `GLsizei` |
 
 **Returns:** `void`
 

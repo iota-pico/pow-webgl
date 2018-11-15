@@ -31,7 +31,7 @@ IWebGLPlatform interface.
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | document | `Document` |
 
@@ -48,7 +48,7 @@ ___
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | window | `Window` |
 
@@ -65,7 +65,7 @@ ___
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | canvas | `HTMLCanvasElement` |
 
