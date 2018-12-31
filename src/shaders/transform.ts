@@ -1,7 +1,7 @@
 /**
  * Shaders transform.
  */
-export default `
+export const transform = `
 ivec2 twist() {
   int alpha, beta, gamma, delta;
   ivec4 v1, v2;

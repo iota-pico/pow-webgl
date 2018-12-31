@@ -1,7 +1,7 @@
 /**
  * Shaders finalize.
  */
-export default `
+export const finalize = `
 void main() {
   init();
   ivec4 my_vec = read();

@@ -1,7 +1,7 @@
 import { CryptoError } from "@iota-pico/crypto/dist/error/cryptoError";
 import { IWebGLPlatform } from "../IWebGLPlatform";
-import stdlib from "./stdlib";
-import vertexShaderCode from "./vertexShaderCode";
+import { stdlib } from "./stdlib";
+import { vertexShaderCode } from "./vertexShaderCode";
 import { WebGLHelper } from "./webGLHelper";
 import { WebGLRenderingContextExt } from "./webGLRenderingContextExt";
 import { WebGLVertexArrayObject } from "./webGLVertexArrayObject";

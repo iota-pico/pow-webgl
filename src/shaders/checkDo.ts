@@ -1,7 +1,7 @@
 /**
  * Shaders check_do.
  */
-export default `
+export const checkDo = `
 int check(int row, int min_weight_magnitude) {
   int nonce_probe, i;
   ivec2 r_texel;

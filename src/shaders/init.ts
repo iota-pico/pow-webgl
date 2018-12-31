@@ -1,7 +1,7 @@
 /**
  * Shaders init.
  */
-export default `
+export const init = `
 uniform int gr_offset;
 ivec4 offset() {
   if(my_coord.x >= HASH_LENGTH / 3 && my_coord.x < HASH_LENGTH / 3 * 2 ) {

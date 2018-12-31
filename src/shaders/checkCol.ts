@@ -1,7 +1,7 @@
 /**
  * Shaders check_col.
  */
-export default `
+export const checkCol = `
 void main() {
   init();
   ivec4 my_vec = read();

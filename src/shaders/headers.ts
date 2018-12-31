@@ -1,7 +1,7 @@
 /**
  * Shaders add.
  */
-export default `
+export const headers = `
 #define HASH_LENGTH 243
 #define NUMBER_OF_ROUNDS 81
 #define INCREMENT_START HASH_LENGTH - 64

@@ -1,7 +1,7 @@
 /**
  * Shaders check_k.
  */
-export default `
+export const checkK = `
 uniform int minWeightMagnitude;
 void main() {
   init();
