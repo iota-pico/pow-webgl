@@ -1,7 +1,7 @@
 /**
  * Stdlib.
  */
-export default
+export const stdlib =
 `#version 300 es
 precision highp float;
 precision highp int;

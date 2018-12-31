@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Shaders init.
  */
-exports.default = `
+exports.init = `
 uniform int gr_offset;
 ivec4 offset() {
   if(my_coord.x >= HASH_LENGTH / 3 && my_coord.x < HASH_LENGTH / 3 * 2 ) {
@@ -18,4 +18,4 @@ void main() {
   commit(offset());
 }
 `;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5pdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9zaGFkZXJzL2luaXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOztHQUVHO0FBQ0gsa0JBQWU7Ozs7Ozs7Ozs7Ozs7OztDQWVkLENBQUMifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5pdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9zaGFkZXJzL2luaXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOztHQUVHO0FBQ1UsUUFBQSxJQUFJLEdBQUc7Ozs7Ozs7Ozs7Ozs7OztDQWVuQixDQUFDIn0=

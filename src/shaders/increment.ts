@@ -1,7 +1,7 @@
 /**
  * Shaders increment.
  */
-export default `
+export const increment = `
 void main() {
   init();
   ivec4 my_vec = read();

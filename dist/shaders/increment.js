@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Shaders increment.
  */
-exports.default = `
+exports.increment = `
 void main() {
   init();
   ivec4 my_vec = read();
@@ -16,4 +16,4 @@ void main() {
   commit(my_vec);
 }
 `;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5jcmVtZW50LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL3NoYWRlcnMvaW5jcmVtZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTs7R0FFRztBQUNILGtCQUFlOzs7Ozs7Ozs7Ozs7O0NBYWQsQ0FBQyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5jcmVtZW50LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL3NoYWRlcnMvaW5jcmVtZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTs7R0FFRztBQUNVLFFBQUEsU0FBUyxHQUFHOzs7Ozs7Ozs7Ozs7O0NBYXhCLENBQUMifQ==

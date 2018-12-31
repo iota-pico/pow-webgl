@@ -1,7 +1,7 @@
 /**
  * Shaders add.
  */
-export default `
+export const add = `
 int sum (int a, int b) {
   int my_sum = a + b;
   return my_sum == 2 ? -1 : (my_sum == -2) ? 1 : my_sum;
