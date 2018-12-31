@@ -36,7 +36,7 @@ Add a program to the worker.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | name | `string` |  The name of the program to add. |
 | code | `string` |  The code for the program. |
@@ -85,7 +85,7 @@ Initialize the web GL Worker.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md) |  The webGL platform. |
 | stateLength | `number` |  The length of the state. |
@@ -106,7 +106,7 @@ Read data from the worker.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | x | `number` |  The x position to read from. |
 | y | `number` |  The y position to read from. |
@@ -129,7 +129,7 @@ Run the program in the web worker.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | name | `string` |  The name of the program to run. |
 | count | `number` |  The number of times to run it. |
@@ -150,7 +150,7 @@ Write data to the worker.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | data | `ArrayBufferView` |  The data to write. |
 

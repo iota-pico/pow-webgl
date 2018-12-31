@@ -52,7 +52,7 @@ PearlDiverSearchObject to maintain information during search.
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | nonce | `Trytes` |
 

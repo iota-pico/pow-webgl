@@ -48,7 +48,7 @@ Perform a search using trytes.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | trytes | `Trytes` |  The trytes to perform the search on. |
 | minWeightMagnitude | `number` |  The minimum weight magnitude. |
@@ -82,7 +82,7 @@ Initialize the PearlDiver main instance.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | webGLPlatform | [IWebGLPlatform](../interfaces/iwebglplatform.md) |  The platform so initialize the pearl diver with. |
 
