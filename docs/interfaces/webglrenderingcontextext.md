@@ -3,6 +3,7 @@
 # Interface: WebGLRenderingContextExt
 
 Extension to the current definition of WebGLRenderingContext.
+
 *__interface__*: 
 
 ## Hierarchy
@@ -4451,7 +4452,7 @@ ___
 
 ###  bindBuffer
 
-▸ **bindBuffer**(target: *`GLenum`*, buffer: *`WebGLBuffer` | `null`*): `void`
+▸ **bindBuffer**(target: *`GLenum`*, buffer: *`WebGLBuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.bindBuffer*
 
@@ -4462,7 +4463,7 @@ ___
 | Name | Type |
 | ------ | ------ |
 | target | `GLenum` |
-| buffer | `WebGLBuffer` | `null` |
+| buffer | `WebGLBuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -4471,7 +4472,7 @@ ___
 
 ###  bindFramebuffer
 
-▸ **bindFramebuffer**(target: *`GLenum`*, framebuffer: *`WebGLFramebuffer` | `null`*): `void`
+▸ **bindFramebuffer**(target: *`GLenum`*, framebuffer: *`WebGLFramebuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.bindFramebuffer*
 
@@ -4482,7 +4483,7 @@ ___
 | Name | Type |
 | ------ | ------ |
 | target | `GLenum` |
-| framebuffer | `WebGLFramebuffer` | `null` |
+| framebuffer | `WebGLFramebuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -4491,7 +4492,7 @@ ___
 
 ###  bindRenderbuffer
 
-▸ **bindRenderbuffer**(target: *`GLenum`*, renderbuffer: *`WebGLRenderbuffer` | `null`*): `void`
+▸ **bindRenderbuffer**(target: *`GLenum`*, renderbuffer: *`WebGLRenderbuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.bindRenderbuffer*
 
@@ -4502,7 +4503,7 @@ ___
 | Name | Type |
 | ------ | ------ |
 | target | `GLenum` |
-| renderbuffer | `WebGLRenderbuffer` | `null` |
+| renderbuffer | `WebGLRenderbuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -4511,7 +4512,7 @@ ___
 
 ###  bindTexture
 
-▸ **bindTexture**(target: *`GLenum`*, texture: *`WebGLTexture` | `null`*): `void`
+▸ **bindTexture**(target: *`GLenum`*, texture: *`WebGLTexture` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.bindTexture*
 
@@ -4522,7 +4523,7 @@ ___
 | Name | Type |
 | ------ | ------ |
 | target | `GLenum` |
-| texture | `WebGLTexture` | `null` |
+| texture | `WebGLTexture` \| `null` |
 
 **Returns:** `void`
 
@@ -4653,7 +4654,7 @@ ___
 
 ▸ **bufferData**(target: *`GLenum`*, size: *`GLsizeiptr`*, usage: *`GLenum`*): `void`
 
-▸ **bufferData**(target: *`GLenum`*, data: *`BufferSource` | `null`*, usage: *`GLenum`*): `void`
+▸ **bufferData**(target: *`GLenum`*, data: *`BufferSource` \| `null`*, usage: *`GLenum`*): `void`
 
 *Inherited from WebGLRenderingContextBase.bufferData*
 
@@ -4678,7 +4679,7 @@ ___
 | Name | Type |
 | ------ | ------ |
 | target | `GLenum` |
-| data | `BufferSource` | `null` |
+| data | `BufferSource` \| `null` |
 | usage | `GLenum` |
 
 **Returns:** `void`
@@ -4951,59 +4952,59 @@ ___
 
 ###  createBuffer
 
-▸ **createBuffer**(): `WebGLBuffer` | `null`
+▸ **createBuffer**(): `WebGLBuffer` \| `null`
 
 *Inherited from WebGLRenderingContextBase.createBuffer*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15674*
 
-**Returns:** `WebGLBuffer` | `null`
+**Returns:** `WebGLBuffer` \| `null`
 
 ___
 <a id="createframebuffer"></a>
 
 ###  createFramebuffer
 
-▸ **createFramebuffer**(): `WebGLFramebuffer` | `null`
+▸ **createFramebuffer**(): `WebGLFramebuffer` \| `null`
 
 *Inherited from WebGLRenderingContextBase.createFramebuffer*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15675*
 
-**Returns:** `WebGLFramebuffer` | `null`
+**Returns:** `WebGLFramebuffer` \| `null`
 
 ___
 <a id="createprogram"></a>
 
 ###  createProgram
 
-▸ **createProgram**(): `WebGLProgram` | `null`
+▸ **createProgram**(): `WebGLProgram` \| `null`
 
 *Inherited from WebGLRenderingContextBase.createProgram*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15676*
 
-**Returns:** `WebGLProgram` | `null`
+**Returns:** `WebGLProgram` \| `null`
 
 ___
 <a id="createrenderbuffer"></a>
 
 ###  createRenderbuffer
 
-▸ **createRenderbuffer**(): `WebGLRenderbuffer` | `null`
+▸ **createRenderbuffer**(): `WebGLRenderbuffer` \| `null`
 
 *Inherited from WebGLRenderingContextBase.createRenderbuffer*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15677*
 
-**Returns:** `WebGLRenderbuffer` | `null`
+**Returns:** `WebGLRenderbuffer` \| `null`
 
 ___
 <a id="createshader"></a>
 
 ###  createShader
 
-▸ **createShader**(type: *`GLenum`*): `WebGLShader` | `null`
+▸ **createShader**(type: *`GLenum`*): `WebGLShader` \| `null`
 
 *Inherited from WebGLRenderingContextBase.createShader*
 
@@ -5015,20 +5016,20 @@ ___
 | ------ | ------ |
 | type | `GLenum` |
 
-**Returns:** `WebGLShader` | `null`
+**Returns:** `WebGLShader` \| `null`
 
 ___
 <a id="createtexture"></a>
 
 ###  createTexture
 
-▸ **createTexture**(): `WebGLTexture` | `null`
+▸ **createTexture**(): `WebGLTexture` \| `null`
 
 *Inherited from WebGLRenderingContextBase.createTexture*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15679*
 
-**Returns:** `WebGLTexture` | `null`
+**Returns:** `WebGLTexture` \| `null`
 
 ___
 <a id="createvertexarray"></a>
@@ -5065,7 +5066,7 @@ ___
 
 ###  deleteBuffer
 
-▸ **deleteBuffer**(buffer: *`WebGLBuffer` | `null`*): `void`
+▸ **deleteBuffer**(buffer: *`WebGLBuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.deleteBuffer*
 
@@ -5075,7 +5076,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| buffer | `WebGLBuffer` | `null` |
+| buffer | `WebGLBuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -5084,7 +5085,7 @@ ___
 
 ###  deleteFramebuffer
 
-▸ **deleteFramebuffer**(framebuffer: *`WebGLFramebuffer` | `null`*): `void`
+▸ **deleteFramebuffer**(framebuffer: *`WebGLFramebuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.deleteFramebuffer*
 
@@ -5094,7 +5095,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| framebuffer | `WebGLFramebuffer` | `null` |
+| framebuffer | `WebGLFramebuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -5103,7 +5104,7 @@ ___
 
 ###  deleteProgram
 
-▸ **deleteProgram**(program: *`WebGLProgram` | `null`*): `void`
+▸ **deleteProgram**(program: *`WebGLProgram` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.deleteProgram*
 
@@ -5113,7 +5114,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| program | `WebGLProgram` | `null` |
+| program | `WebGLProgram` \| `null` |
 
 **Returns:** `void`
 
@@ -5122,7 +5123,7 @@ ___
 
 ###  deleteRenderbuffer
 
-▸ **deleteRenderbuffer**(renderbuffer: *`WebGLRenderbuffer` | `null`*): `void`
+▸ **deleteRenderbuffer**(renderbuffer: *`WebGLRenderbuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.deleteRenderbuffer*
 
@@ -5132,7 +5133,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| renderbuffer | `WebGLRenderbuffer` | `null` |
+| renderbuffer | `WebGLRenderbuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -5141,7 +5142,7 @@ ___
 
 ###  deleteShader
 
-▸ **deleteShader**(shader: *`WebGLShader` | `null`*): `void`
+▸ **deleteShader**(shader: *`WebGLShader` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.deleteShader*
 
@@ -5151,7 +5152,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| shader | `WebGLShader` | `null` |
+| shader | `WebGLShader` \| `null` |
 
 **Returns:** `void`
 
@@ -5160,7 +5161,7 @@ ___
 
 ###  deleteTexture
 
-▸ **deleteTexture**(texture: *`WebGLTexture` | `null`*): `void`
+▸ **deleteTexture**(texture: *`WebGLTexture` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.deleteTexture*
 
@@ -5170,7 +5171,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| texture | `WebGLTexture` | `null` |
+| texture | `WebGLTexture` \| `null` |
 
 **Returns:** `void`
 
@@ -5419,7 +5420,7 @@ ___
 
 ###  framebufferRenderbuffer
 
-▸ **framebufferRenderbuffer**(target: *`GLenum`*, attachment: *`GLenum`*, renderbuffertarget: *`GLenum`*, renderbuffer: *`WebGLRenderbuffer` | `null`*): `void`
+▸ **framebufferRenderbuffer**(target: *`GLenum`*, attachment: *`GLenum`*, renderbuffertarget: *`GLenum`*, renderbuffer: *`WebGLRenderbuffer` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.framebufferRenderbuffer*
 
@@ -5432,7 +5433,7 @@ ___
 | target | `GLenum` |
 | attachment | `GLenum` |
 | renderbuffertarget | `GLenum` |
-| renderbuffer | `WebGLRenderbuffer` | `null` |
+| renderbuffer | `WebGLRenderbuffer` \| `null` |
 
 **Returns:** `void`
 
@@ -5441,7 +5442,7 @@ ___
 
 ###  framebufferTexture2D
 
-▸ **framebufferTexture2D**(target: *`GLenum`*, attachment: *`GLenum`*, textarget: *`GLenum`*, texture: *`WebGLTexture` | `null`*, level: *`GLint`*): `void`
+▸ **framebufferTexture2D**(target: *`GLenum`*, attachment: *`GLenum`*, textarget: *`GLenum`*, texture: *`WebGLTexture` \| `null`*, level: *`GLint`*): `void`
 
 *Inherited from WebGLRenderingContextBase.framebufferTexture2D*
 
@@ -5454,7 +5455,7 @@ ___
 | target | `GLenum` |
 | attachment | `GLenum` |
 | textarget | `GLenum` |
-| texture | `WebGLTexture` | `null` |
+| texture | `WebGLTexture` \| `null` |
 | level | `GLint` |
 
 **Returns:** `void`
@@ -5502,7 +5503,7 @@ ___
 
 ###  getActiveAttrib
 
-▸ **getActiveAttrib**(program: *`WebGLProgram`*, index: *`GLuint`*): `WebGLActiveInfo` | `null`
+▸ **getActiveAttrib**(program: *`WebGLProgram`*, index: *`GLuint`*): `WebGLActiveInfo` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getActiveAttrib*
 
@@ -5515,14 +5516,14 @@ ___
 | program | `WebGLProgram` |
 | index | `GLuint` |
 
-**Returns:** `WebGLActiveInfo` | `null`
+**Returns:** `WebGLActiveInfo` \| `null`
 
 ___
 <a id="getactiveuniform"></a>
 
 ###  getActiveUniform
 
-▸ **getActiveUniform**(program: *`WebGLProgram`*, index: *`GLuint`*): `WebGLActiveInfo` | `null`
+▸ **getActiveUniform**(program: *`WebGLProgram`*, index: *`GLuint`*): `WebGLActiveInfo` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getActiveUniform*
 
@@ -5535,14 +5536,14 @@ ___
 | program | `WebGLProgram` |
 | index | `GLuint` |
 
-**Returns:** `WebGLActiveInfo` | `null`
+**Returns:** `WebGLActiveInfo` \| `null`
 
 ___
 <a id="getattachedshaders"></a>
 
 ###  getAttachedShaders
 
-▸ **getAttachedShaders**(program: *`WebGLProgram`*): `WebGLShader`[] | `null`
+▸ **getAttachedShaders**(program: *`WebGLProgram`*): `WebGLShader`[] \| `null`
 
 *Inherited from WebGLRenderingContextBase.getAttachedShaders*
 
@@ -5554,7 +5555,7 @@ ___
 | ------ | ------ |
 | program | `WebGLProgram` |
 
-**Returns:** `WebGLShader`[] | `null`
+**Returns:** `WebGLShader`[] \| `null`
 
 ___
 <a id="getattriblocation"></a>
@@ -5601,13 +5602,13 @@ ___
 
 ###  getContextAttributes
 
-▸ **getContextAttributes**(): `WebGLContextAttributes` | `null`
+▸ **getContextAttributes**(): `WebGLContextAttributes` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getContextAttributes*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15708*
 
-**Returns:** `WebGLContextAttributes` | `null`
+**Returns:** `WebGLContextAttributes` \| `null`
 
 ___
 <a id="geterror"></a>
@@ -5627,49 +5628,49 @@ ___
 
 ###  getExtension
 
-▸ **getExtension**(extensionName: *"EXT_blend_minmax"*): `EXT_blend_minmax` | `null`
+▸ **getExtension**(extensionName: *"EXT_blend_minmax"*): `EXT_blend_minmax` \| `null`
 
-▸ **getExtension**(extensionName: *"EXT_texture_filter_anisotropic"*): `EXT_texture_filter_anisotropic` | `null`
+▸ **getExtension**(extensionName: *"EXT_texture_filter_anisotropic"*): `EXT_texture_filter_anisotropic` \| `null`
 
-▸ **getExtension**(extensionName: *"EXT_frag_depth"*): `EXT_frag_depth` | `null`
+▸ **getExtension**(extensionName: *"EXT_frag_depth"*): `EXT_frag_depth` \| `null`
 
-▸ **getExtension**(extensionName: *"EXT_shader_texture_lod"*): `EXT_shader_texture_lod` | `null`
+▸ **getExtension**(extensionName: *"EXT_shader_texture_lod"*): `EXT_shader_texture_lod` \| `null`
 
-▸ **getExtension**(extensionName: *"EXT_sRGB"*): `EXT_sRGB` | `null`
+▸ **getExtension**(extensionName: *"EXT_sRGB"*): `EXT_sRGB` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_vertex_array_object"*): `OES_vertex_array_object` | `null`
+▸ **getExtension**(extensionName: *"OES_vertex_array_object"*): `OES_vertex_array_object` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_color_buffer_float"*): `WEBGL_color_buffer_float` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_color_buffer_float"*): `WEBGL_color_buffer_float` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_astc"*): `WEBGL_compressed_texture_astc` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_astc"*): `WEBGL_compressed_texture_astc` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc_srgb"*): `WEBGL_compressed_texture_s3tc_srgb` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc_srgb"*): `WEBGL_compressed_texture_s3tc_srgb` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_debug_shaders"*): `WEBGL_debug_shaders` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_debug_shaders"*): `WEBGL_debug_shaders` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_draw_buffers"*): `WEBGL_draw_buffers` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_draw_buffers"*): `WEBGL_draw_buffers` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_lose_context"*): `WEBGL_lose_context` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_lose_context"*): `WEBGL_lose_context` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_depth_texture"*): `WEBGL_depth_texture` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_depth_texture"*): `WEBGL_depth_texture` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_debug_renderer_info"*): `WEBGL_debug_renderer_info` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_debug_renderer_info"*): `WEBGL_debug_renderer_info` \| `null`
 
-▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc"*): `WEBGL_compressed_texture_s3tc` | `null`
+▸ **getExtension**(extensionName: *"WEBGL_compressed_texture_s3tc"*): `WEBGL_compressed_texture_s3tc` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_half_float_linear"*): `OES_texture_half_float_linear` | `null`
+▸ **getExtension**(extensionName: *"OES_texture_half_float_linear"*): `OES_texture_half_float_linear` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_half_float"*): `OES_texture_half_float` | `null`
+▸ **getExtension**(extensionName: *"OES_texture_half_float"*): `OES_texture_half_float` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_float_linear"*): `OES_texture_float_linear` | `null`
+▸ **getExtension**(extensionName: *"OES_texture_float_linear"*): `OES_texture_float_linear` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_texture_float"*): `OES_texture_float` | `null`
+▸ **getExtension**(extensionName: *"OES_texture_float"*): `OES_texture_float` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_standard_derivatives"*): `OES_standard_derivatives` | `null`
+▸ **getExtension**(extensionName: *"OES_standard_derivatives"*): `OES_standard_derivatives` \| `null`
 
-▸ **getExtension**(extensionName: *"OES_element_index_uint"*): `OES_element_index_uint` | `null`
+▸ **getExtension**(extensionName: *"OES_element_index_uint"*): `OES_element_index_uint` \| `null`
 
-▸ **getExtension**(extensionName: *"ANGLE_instanced_arrays"*): `ANGLE_instanced_arrays` | `null`
+▸ **getExtension**(extensionName: *"ANGLE_instanced_arrays"*): `ANGLE_instanced_arrays` \| `null`
 
 ▸ **getExtension**(extensionName: *`string`*): `any`
 
@@ -5683,7 +5684,7 @@ ___
 | ------ | ------ |
 | extensionName | "EXT_blend_minmax" |
 
-**Returns:** `EXT_blend_minmax` | `null`
+**Returns:** `EXT_blend_minmax` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5695,7 +5696,7 @@ ___
 | ------ | ------ |
 | extensionName | "EXT_texture_filter_anisotropic" |
 
-**Returns:** `EXT_texture_filter_anisotropic` | `null`
+**Returns:** `EXT_texture_filter_anisotropic` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5707,7 +5708,7 @@ ___
 | ------ | ------ |
 | extensionName | "EXT_frag_depth" |
 
-**Returns:** `EXT_frag_depth` | `null`
+**Returns:** `EXT_frag_depth` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5719,7 +5720,7 @@ ___
 | ------ | ------ |
 | extensionName | "EXT_shader_texture_lod" |
 
-**Returns:** `EXT_shader_texture_lod` | `null`
+**Returns:** `EXT_shader_texture_lod` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5731,7 +5732,7 @@ ___
 | ------ | ------ |
 | extensionName | "EXT_sRGB" |
 
-**Returns:** `EXT_sRGB` | `null`
+**Returns:** `EXT_sRGB` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5743,7 +5744,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_vertex_array_object" |
 
-**Returns:** `OES_vertex_array_object` | `null`
+**Returns:** `OES_vertex_array_object` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5755,7 +5756,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_color_buffer_float" |
 
-**Returns:** `WEBGL_color_buffer_float` | `null`
+**Returns:** `WEBGL_color_buffer_float` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5767,7 +5768,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_compressed_texture_astc" |
 
-**Returns:** `WEBGL_compressed_texture_astc` | `null`
+**Returns:** `WEBGL_compressed_texture_astc` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5779,7 +5780,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_compressed_texture_s3tc_srgb" |
 
-**Returns:** `WEBGL_compressed_texture_s3tc_srgb` | `null`
+**Returns:** `WEBGL_compressed_texture_s3tc_srgb` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5791,7 +5792,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_debug_shaders" |
 
-**Returns:** `WEBGL_debug_shaders` | `null`
+**Returns:** `WEBGL_debug_shaders` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5803,7 +5804,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_draw_buffers" |
 
-**Returns:** `WEBGL_draw_buffers` | `null`
+**Returns:** `WEBGL_draw_buffers` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5815,7 +5816,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_lose_context" |
 
-**Returns:** `WEBGL_lose_context` | `null`
+**Returns:** `WEBGL_lose_context` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5827,7 +5828,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_depth_texture" |
 
-**Returns:** `WEBGL_depth_texture` | `null`
+**Returns:** `WEBGL_depth_texture` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5839,7 +5840,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_debug_renderer_info" |
 
-**Returns:** `WEBGL_debug_renderer_info` | `null`
+**Returns:** `WEBGL_debug_renderer_info` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5851,7 +5852,7 @@ ___
 | ------ | ------ |
 | extensionName | "WEBGL_compressed_texture_s3tc" |
 
-**Returns:** `WEBGL_compressed_texture_s3tc` | `null`
+**Returns:** `WEBGL_compressed_texture_s3tc` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5863,7 +5864,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_texture_half_float_linear" |
 
-**Returns:** `OES_texture_half_float_linear` | `null`
+**Returns:** `OES_texture_half_float_linear` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5875,7 +5876,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_texture_half_float" |
 
-**Returns:** `OES_texture_half_float` | `null`
+**Returns:** `OES_texture_half_float` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5887,7 +5888,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_texture_float_linear" |
 
-**Returns:** `OES_texture_float_linear` | `null`
+**Returns:** `OES_texture_float_linear` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5899,7 +5900,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_texture_float" |
 
-**Returns:** `OES_texture_float` | `null`
+**Returns:** `OES_texture_float` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5911,7 +5912,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_standard_derivatives" |
 
-**Returns:** `OES_standard_derivatives` | `null`
+**Returns:** `OES_standard_derivatives` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5923,7 +5924,7 @@ ___
 | ------ | ------ |
 | extensionName | "OES_element_index_uint" |
 
-**Returns:** `OES_element_index_uint` | `null`
+**Returns:** `OES_element_index_uint` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5935,7 +5936,7 @@ ___
 | ------ | ------ |
 | extensionName | "ANGLE_instanced_arrays" |
 
-**Returns:** `ANGLE_instanced_arrays` | `null`
+**Returns:** `ANGLE_instanced_arrays` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getExtension*
 
@@ -5994,7 +5995,7 @@ ___
 
 ###  getProgramInfoLog
 
-▸ **getProgramInfoLog**(program: *`WebGLProgram`*): `string` | `null`
+▸ **getProgramInfoLog**(program: *`WebGLProgram`*): `string` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getProgramInfoLog*
 
@@ -6006,7 +6007,7 @@ ___
 | ------ | ------ |
 | program | `WebGLProgram` |
 
-**Returns:** `string` | `null`
+**Returns:** `string` \| `null`
 
 ___
 <a id="getprogramparameter"></a>
@@ -6053,7 +6054,7 @@ ___
 
 ###  getShaderInfoLog
 
-▸ **getShaderInfoLog**(shader: *`WebGLShader`*): `string` | `null`
+▸ **getShaderInfoLog**(shader: *`WebGLShader`*): `string` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getShaderInfoLog*
 
@@ -6065,7 +6066,7 @@ ___
 | ------ | ------ |
 | shader | `WebGLShader` |
 
-**Returns:** `string` | `null`
+**Returns:** `string` \| `null`
 
 ___
 <a id="getshaderparameter"></a>
@@ -6092,7 +6093,7 @@ ___
 
 ###  getShaderPrecisionFormat
 
-▸ **getShaderPrecisionFormat**(shadertype: *`GLenum`*, precisiontype: *`GLenum`*): `WebGLShaderPrecisionFormat` | `null`
+▸ **getShaderPrecisionFormat**(shadertype: *`GLenum`*, precisiontype: *`GLenum`*): `WebGLShaderPrecisionFormat` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getShaderPrecisionFormat*
 
@@ -6105,14 +6106,14 @@ ___
 | shadertype | `GLenum` |
 | precisiontype | `GLenum` |
 
-**Returns:** `WebGLShaderPrecisionFormat` | `null`
+**Returns:** `WebGLShaderPrecisionFormat` \| `null`
 
 ___
 <a id="getshadersource"></a>
 
 ###  getShaderSource
 
-▸ **getShaderSource**(shader: *`WebGLShader`*): `string` | `null`
+▸ **getShaderSource**(shader: *`WebGLShader`*): `string` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getShaderSource*
 
@@ -6124,20 +6125,20 @@ ___
 | ------ | ------ |
 | shader | `WebGLShader` |
 
-**Returns:** `string` | `null`
+**Returns:** `string` \| `null`
 
 ___
 <a id="getsupportedextensions"></a>
 
 ###  getSupportedExtensions
 
-▸ **getSupportedExtensions**(): `string`[] | `null`
+▸ **getSupportedExtensions**(): `string`[] \| `null`
 
 *Inherited from WebGLRenderingContextBase.getSupportedExtensions*
 
 *Defined in D:/Workarea/iota.eco/iota-pico/pow-webgl/node_modules/typedoc/node_modules/typescript/lib/lib.dom.d.ts:15742*
 
-**Returns:** `string`[] | `null`
+**Returns:** `string`[] \| `null`
 
 ___
 <a id="gettexparameter"></a>
@@ -6184,7 +6185,7 @@ ___
 
 ###  getUniformLocation
 
-▸ **getUniformLocation**(program: *`WebGLProgram`*, name: *`string`*): `WebGLUniformLocation` | `null`
+▸ **getUniformLocation**(program: *`WebGLProgram`*, name: *`string`*): `WebGLUniformLocation` \| `null`
 
 *Inherited from WebGLRenderingContextBase.getUniformLocation*
 
@@ -6197,7 +6198,7 @@ ___
 | program | `WebGLProgram` |
 | name | `string` |
 
-**Returns:** `WebGLUniformLocation` | `null`
+**Returns:** `WebGLUniformLocation` \| `null`
 
 ___
 <a id="getvertexattrib"></a>
@@ -6264,7 +6265,7 @@ ___
 
 ###  isBuffer
 
-▸ **isBuffer**(buffer: *`WebGLBuffer` | `null`*): `GLboolean`
+▸ **isBuffer**(buffer: *`WebGLBuffer` \| `null`*): `GLboolean`
 
 *Inherited from WebGLRenderingContextBase.isBuffer*
 
@@ -6274,7 +6275,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| buffer | `WebGLBuffer` | `null` |
+| buffer | `WebGLBuffer` \| `null` |
 
 **Returns:** `GLboolean`
 
@@ -6315,7 +6316,7 @@ ___
 
 ###  isFramebuffer
 
-▸ **isFramebuffer**(framebuffer: *`WebGLFramebuffer` | `null`*): `GLboolean`
+▸ **isFramebuffer**(framebuffer: *`WebGLFramebuffer` \| `null`*): `GLboolean`
 
 *Inherited from WebGLRenderingContextBase.isFramebuffer*
 
@@ -6325,7 +6326,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| framebuffer | `WebGLFramebuffer` | `null` |
+| framebuffer | `WebGLFramebuffer` \| `null` |
 
 **Returns:** `GLboolean`
 
@@ -6334,7 +6335,7 @@ ___
 
 ###  isProgram
 
-▸ **isProgram**(program: *`WebGLProgram` | `null`*): `GLboolean`
+▸ **isProgram**(program: *`WebGLProgram` \| `null`*): `GLboolean`
 
 *Inherited from WebGLRenderingContextBase.isProgram*
 
@@ -6344,7 +6345,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| program | `WebGLProgram` | `null` |
+| program | `WebGLProgram` \| `null` |
 
 **Returns:** `GLboolean`
 
@@ -6353,7 +6354,7 @@ ___
 
 ###  isRenderbuffer
 
-▸ **isRenderbuffer**(renderbuffer: *`WebGLRenderbuffer` | `null`*): `GLboolean`
+▸ **isRenderbuffer**(renderbuffer: *`WebGLRenderbuffer` \| `null`*): `GLboolean`
 
 *Inherited from WebGLRenderingContextBase.isRenderbuffer*
 
@@ -6363,7 +6364,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| renderbuffer | `WebGLRenderbuffer` | `null` |
+| renderbuffer | `WebGLRenderbuffer` \| `null` |
 
 **Returns:** `GLboolean`
 
@@ -6372,7 +6373,7 @@ ___
 
 ###  isShader
 
-▸ **isShader**(shader: *`WebGLShader` | `null`*): `GLboolean`
+▸ **isShader**(shader: *`WebGLShader` \| `null`*): `GLboolean`
 
 *Inherited from WebGLRenderingContextBase.isShader*
 
@@ -6382,7 +6383,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| shader | `WebGLShader` | `null` |
+| shader | `WebGLShader` \| `null` |
 
 **Returns:** `GLboolean`
 
@@ -6391,7 +6392,7 @@ ___
 
 ###  isTexture
 
-▸ **isTexture**(texture: *`WebGLTexture` | `null`*): `GLboolean`
+▸ **isTexture**(texture: *`WebGLTexture` \| `null`*): `GLboolean`
 
 *Inherited from WebGLRenderingContextBase.isTexture*
 
@@ -6401,7 +6402,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| texture | `WebGLTexture` | `null` |
+| texture | `WebGLTexture` \| `null` |
 
 **Returns:** `GLboolean`
 
@@ -6505,7 +6506,7 @@ ___
 
 ###  readPixels
 
-▸ **readPixels**(x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, type: *`GLenum`*, pixels: *`ArrayBufferView` | `null`*): `void`
+▸ **readPixels**(x: *`GLint`*, y: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, type: *`GLenum`*, pixels: *`ArrayBufferView` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.readPixels*
 
@@ -6521,7 +6522,7 @@ ___
 | height | `GLsizei` |
 | format | `GLenum` |
 | type | `GLenum` |
-| pixels | `ArrayBufferView` | `null` |
+| pixels | `ArrayBufferView` \| `null` |
 
 **Returns:** `void`
 
@@ -6739,7 +6740,7 @@ ___
 
 ###  texImage2D
 
-▸ **texImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, border: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, pixels: *`ArrayBufferView` | `null`*): `void`
+▸ **texImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, border: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, pixels: *`ArrayBufferView` \| `null`*): `void`
 
 ▸ **texImage2D**(target: *`GLenum`*, level: *`GLint`*, internalformat: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, source: *`TexImageSource`*): `void`
 
@@ -6759,7 +6760,7 @@ ___
 | border | `GLint` |
 | format | `GLenum` |
 | type | `GLenum` |
-| pixels | `ArrayBufferView` | `null` |
+| pixels | `ArrayBufferView` \| `null` |
 
 **Returns:** `void`
 
@@ -6827,7 +6828,7 @@ ___
 
 ###  texSubImage2D
 
-▸ **texSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, type: *`GLenum`*, pixels: *`ArrayBufferView` | `null`*): `void`
+▸ **texSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, width: *`GLsizei`*, height: *`GLsizei`*, format: *`GLenum`*, type: *`GLenum`*, pixels: *`ArrayBufferView` \| `null`*): `void`
 
 ▸ **texSubImage2D**(target: *`GLenum`*, level: *`GLint`*, xoffset: *`GLint`*, yoffset: *`GLint`*, format: *`GLenum`*, type: *`GLenum`*, source: *`TexImageSource`*): `void`
 
@@ -6847,7 +6848,7 @@ ___
 | height | `GLsizei` |
 | format | `GLenum` |
 | type | `GLenum` |
-| pixels | `ArrayBufferView` | `null` |
+| pixels | `ArrayBufferView` \| `null` |
 
 **Returns:** `void`
 
@@ -6874,7 +6875,7 @@ ___
 
 ###  uniform1f
 
-▸ **uniform1f**(location: *`WebGLUniformLocation` | `null`*, x: *`GLfloat`*): `void`
+▸ **uniform1f**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLfloat`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform1f*
 
@@ -6884,7 +6885,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLfloat` |
 
 **Returns:** `void`
@@ -6894,7 +6895,7 @@ ___
 
 ###  uniform1fv
 
-▸ **uniform1fv**(location: *`WebGLUniformLocation` | `null`*, v: *`Float32List`*): `void`
+▸ **uniform1fv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform1fv*
 
@@ -6904,7 +6905,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Float32List` |
 
 **Returns:** `void`
@@ -6914,7 +6915,7 @@ ___
 
 ###  uniform1i
 
-▸ **uniform1i**(location: *`WebGLUniformLocation` | `null`*, x: *`GLint`*): `void`
+▸ **uniform1i**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLint`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform1i*
 
@@ -6924,7 +6925,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLint` |
 
 **Returns:** `void`
@@ -6934,7 +6935,7 @@ ___
 
 ###  uniform1iv
 
-▸ **uniform1iv**(location: *`WebGLUniformLocation` | `null`*, v: *`Int32List`*): `void`
+▸ **uniform1iv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Int32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform1iv*
 
@@ -6944,7 +6945,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Int32List` |
 
 **Returns:** `void`
@@ -6954,7 +6955,7 @@ ___
 
 ###  uniform2f
 
-▸ **uniform2f**(location: *`WebGLUniformLocation` | `null`*, x: *`GLfloat`*, y: *`GLfloat`*): `void`
+▸ **uniform2f**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLfloat`*, y: *`GLfloat`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform2f*
 
@@ -6964,7 +6965,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLfloat` |
 | y | `GLfloat` |
 
@@ -6975,7 +6976,7 @@ ___
 
 ###  uniform2fv
 
-▸ **uniform2fv**(location: *`WebGLUniformLocation` | `null`*, v: *`Float32List`*): `void`
+▸ **uniform2fv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform2fv*
 
@@ -6985,7 +6986,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Float32List` |
 
 **Returns:** `void`
@@ -6995,7 +6996,7 @@ ___
 
 ###  uniform2i
 
-▸ **uniform2i**(location: *`WebGLUniformLocation` | `null`*, x: *`GLint`*, y: *`GLint`*): `void`
+▸ **uniform2i**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLint`*, y: *`GLint`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform2i*
 
@@ -7005,7 +7006,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLint` |
 | y | `GLint` |
 
@@ -7016,7 +7017,7 @@ ___
 
 ###  uniform2iv
 
-▸ **uniform2iv**(location: *`WebGLUniformLocation` | `null`*, v: *`Int32List`*): `void`
+▸ **uniform2iv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Int32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform2iv*
 
@@ -7026,7 +7027,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Int32List` |
 
 **Returns:** `void`
@@ -7036,7 +7037,7 @@ ___
 
 ###  uniform3f
 
-▸ **uniform3f**(location: *`WebGLUniformLocation` | `null`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*): `void`
+▸ **uniform3f**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform3f*
 
@@ -7046,7 +7047,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLfloat` |
 | y | `GLfloat` |
 | z | `GLfloat` |
@@ -7058,7 +7059,7 @@ ___
 
 ###  uniform3fv
 
-▸ **uniform3fv**(location: *`WebGLUniformLocation` | `null`*, v: *`Float32List`*): `void`
+▸ **uniform3fv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform3fv*
 
@@ -7068,7 +7069,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Float32List` |
 
 **Returns:** `void`
@@ -7078,7 +7079,7 @@ ___
 
 ###  uniform3i
 
-▸ **uniform3i**(location: *`WebGLUniformLocation` | `null`*, x: *`GLint`*, y: *`GLint`*, z: *`GLint`*): `void`
+▸ **uniform3i**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLint`*, y: *`GLint`*, z: *`GLint`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform3i*
 
@@ -7088,7 +7089,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLint` |
 | y | `GLint` |
 | z | `GLint` |
@@ -7100,7 +7101,7 @@ ___
 
 ###  uniform3iv
 
-▸ **uniform3iv**(location: *`WebGLUniformLocation` | `null`*, v: *`Int32List`*): `void`
+▸ **uniform3iv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Int32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform3iv*
 
@@ -7110,7 +7111,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Int32List` |
 
 **Returns:** `void`
@@ -7120,7 +7121,7 @@ ___
 
 ###  uniform4f
 
-▸ **uniform4f**(location: *`WebGLUniformLocation` | `null`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*, w: *`GLfloat`*): `void`
+▸ **uniform4f**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLfloat`*, y: *`GLfloat`*, z: *`GLfloat`*, w: *`GLfloat`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform4f*
 
@@ -7130,7 +7131,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLfloat` |
 | y | `GLfloat` |
 | z | `GLfloat` |
@@ -7143,7 +7144,7 @@ ___
 
 ###  uniform4fv
 
-▸ **uniform4fv**(location: *`WebGLUniformLocation` | `null`*, v: *`Float32List`*): `void`
+▸ **uniform4fv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform4fv*
 
@@ -7153,7 +7154,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Float32List` |
 
 **Returns:** `void`
@@ -7163,7 +7164,7 @@ ___
 
 ###  uniform4i
 
-▸ **uniform4i**(location: *`WebGLUniformLocation` | `null`*, x: *`GLint`*, y: *`GLint`*, z: *`GLint`*, w: *`GLint`*): `void`
+▸ **uniform4i**(location: *`WebGLUniformLocation` \| `null`*, x: *`GLint`*, y: *`GLint`*, z: *`GLint`*, w: *`GLint`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform4i*
 
@@ -7173,7 +7174,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | x | `GLint` |
 | y | `GLint` |
 | z | `GLint` |
@@ -7186,7 +7187,7 @@ ___
 
 ###  uniform4iv
 
-▸ **uniform4iv**(location: *`WebGLUniformLocation` | `null`*, v: *`Int32List`*): `void`
+▸ **uniform4iv**(location: *`WebGLUniformLocation` \| `null`*, v: *`Int32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniform4iv*
 
@@ -7196,7 +7197,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | v | `Int32List` |
 
 **Returns:** `void`
@@ -7206,7 +7207,7 @@ ___
 
 ###  uniformMatrix2fv
 
-▸ **uniformMatrix2fv**(location: *`WebGLUniformLocation` | `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
+▸ **uniformMatrix2fv**(location: *`WebGLUniformLocation` \| `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniformMatrix2fv*
 
@@ -7216,7 +7217,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | transpose | `GLboolean` |
 | value | `Float32List` |
 
@@ -7227,7 +7228,7 @@ ___
 
 ###  uniformMatrix3fv
 
-▸ **uniformMatrix3fv**(location: *`WebGLUniformLocation` | `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
+▸ **uniformMatrix3fv**(location: *`WebGLUniformLocation` \| `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniformMatrix3fv*
 
@@ -7237,7 +7238,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | transpose | `GLboolean` |
 | value | `Float32List` |
 
@@ -7248,7 +7249,7 @@ ___
 
 ###  uniformMatrix4fv
 
-▸ **uniformMatrix4fv**(location: *`WebGLUniformLocation` | `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
+▸ **uniformMatrix4fv**(location: *`WebGLUniformLocation` \| `null`*, transpose: *`GLboolean`*, value: *`Float32List`*): `void`
 
 *Inherited from WebGLRenderingContextBase.uniformMatrix4fv*
 
@@ -7258,7 +7259,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| location | `WebGLUniformLocation` | `null` |
+| location | `WebGLUniformLocation` \| `null` |
 | transpose | `GLboolean` |
 | value | `Float32List` |
 
@@ -7269,7 +7270,7 @@ ___
 
 ###  useProgram
 
-▸ **useProgram**(program: *`WebGLProgram` | `null`*): `void`
+▸ **useProgram**(program: *`WebGLProgram` \| `null`*): `void`
 
 *Inherited from WebGLRenderingContextBase.useProgram*
 
@@ -7279,7 +7280,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| program | `WebGLProgram` | `null` |
+| program | `WebGLProgram` \| `null` |
 
 **Returns:** `void`
 

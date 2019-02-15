@@ -3,6 +3,7 @@
 # Interface: WebGLVertexArrayObject
 
 Interface used by the current WebGLRenderingContextExt definition.
+
 *__interface__*: 
 
 ## Hierarchy
