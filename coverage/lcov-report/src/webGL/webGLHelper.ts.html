@@ -140,9 +140,7 @@
 95
 96
 97
-98
-99
-100</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
+98</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -174,14 +172,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">11×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -272,15 +268,13 @@ export class WebGLHelper {
                     }
 &nbsp;
                     return gl;
-                } else {
-                    throw new CryptoError("The HTML5 &lt;canvas&gt; element is not available in your browser.", { userAgent: window.navigator.userAgent });
                 }
-            } else {
-                throw new CryptoError("window.document is not available, you must be running in an environment with WebGL.");
+&nbsp;
+                throw new CryptoError("The HTML5 &lt;canvas&gt; element is not available in your browser.", { userAgent: window.navigator.userAgent });
             }
-        } else {
-            throw new CryptoError("window is not available, you must be running in an environment with WebGL.");
+            throw new CryptoError("window.document is not available, you must be running in an environment with WebGL.");
         }
+        throw new CryptoError("window is not available, you must be running in an environment with WebGL.");
     }
 &nbsp;
     /**

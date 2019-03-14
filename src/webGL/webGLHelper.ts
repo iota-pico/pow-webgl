@@ -29,15 +29,13 @@ export class WebGLHelper {
                     }
 
                     return gl;
-                } else {
-                    throw new CryptoError("The HTML5 <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
                 }
-            } else {
-                throw new CryptoError("window.document is not available, you must be running in an environment with WebGL.");
+
+                throw new CryptoError("The HTML5 <canvas> element is not available in your browser.", { userAgent: window.navigator.userAgent });
             }
-        } else {
-            throw new CryptoError("window is not available, you must be running in an environment with WebGL.");
+            throw new CryptoError("window.document is not available, you must be running in an environment with WebGL.");
         }
+        throw new CryptoError("window is not available, you must be running in an environment with WebGL.");
     }
 
     /**

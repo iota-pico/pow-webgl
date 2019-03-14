@@ -27,7 +27,7 @@ Helper functions for use with WebGL.
 
 ▸ **createBuffer**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, data: *`WebGLBuffer`*, arrayType?: *`any`*, target?: *`number`*): `WebGLBuffer`
 
-*Defined in [webGL/webGLHelper.ts:51](https://github.com/iota-pico/pow-webgl/tree/master/src/webGL/webGLHelper.ts#L51*
+*Defined in [webGL/webGLHelper.ts:49](https://github.com/iota-pico/pow-webgl/tree/master/src/webGL/webGLHelper.ts#L49*
 
 Create a new WebGL buffer.
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **createTexture**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, pixelData: *`ArrayBufferView`*, dimensions: *`object`*): `WebGLTexture`
 
-*Defined in [webGL/webGLHelper.ts:67](https://github.com/iota-pico/pow-webgl/tree/master/src/webGL/webGLHelper.ts#L67*
+*Defined in [webGL/webGLHelper.ts:65](https://github.com/iota-pico/pow-webgl/tree/master/src/webGL/webGLHelper.ts#L65*
 
 Transfer data onto clamped texture and turn off any filtering
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **frameBufferSetTexture**(gl: *[WebGLRenderingContextExt](../interfaces/webglrenderingcontextext.md)*, frameBuffer: *`WebGLFramebuffer`*, texture: *`WebGLTexture`*): `void`
 
-*Defined in [webGL/webGLHelper.ts:87](https://github.com/iota-pico/pow-webgl/tree/master/src/webGL/webGLHelper.ts#L87*
+*Defined in [webGL/webGLHelper.ts:85](https://github.com/iota-pico/pow-webgl/tree/master/src/webGL/webGLHelper.ts#L85*
 
 Set the texure into the framebuffer.
 
